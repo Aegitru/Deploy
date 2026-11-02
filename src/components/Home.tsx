@@ -9,7 +9,7 @@ export function Home() {
     <div className="home">
       <header className="setup-head">
         <div className="eyebrow">Warhammer 40,000 · 11e édition</div>
-        <h1>Deploy</h1>
+        <h1>Deploy5</h1>
       </header>
       <div className="home-actions">
         <button className="btn primary wide" onClick={newBattle}>Nouvelle bataille</button>

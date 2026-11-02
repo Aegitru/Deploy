@@ -40,7 +40,7 @@ export function Auth() {
     <div className="home">
       <header className="setup-head">
         <div className="eyebrow">Warhammer 40,000 · 11e édition</div>
-        <h1>Deploy</h1>
+        <h1>Deploy5</h1>
       </header>
       <form className="auth-form" onSubmit={submit}>
         {mode === 'forgot' ? (
@@ -96,7 +96,7 @@ export function NewPassword({ onDone }: { onDone: () => void }) {
     <div className="home">
       <header className="setup-head">
         <div className="eyebrow">Warhammer 40,000 · 11e édition</div>
-        <h1>Deploy</h1>
+        <h1>Deploy5</h1>
       </header>
       <form className="auth-form" onSubmit={submit}>
         <div className="auth-title">Nouveau mot de passe</div>

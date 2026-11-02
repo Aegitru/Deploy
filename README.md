@@ -1,4 +1,4 @@
-# Deploy (Warhammer 40,000 – 11e édition)
+# Deploy5 (Warhammer 40,000 – 11e édition)
 
 Entraînement au déploiement : choix des dispositions → mission principale et 3 cartes de bataille,
 import des listes (app officielle ou NewRecruit), socles à l'échelle à glisser sur la table 44"×60".
@@ -28,7 +28,7 @@ Usage personnel : ces visuels appartiennent à leurs auteurs.
 
 ## En ligne
 
-- App : https://deploy-five-kohl.vercel.app (Vercel, projet `deploy`, redéployé à chaque push sur `main`)
+- App : https://deployfive.vercel.app (Vercel, redéployé à chaque push sur `main`)
 - Code : https://github.com/Aegitru/Deploy
 - Comptes et batailles : Supabase, projet « Deploy » (organisation Aegitru's Org). Table `battles`
   (une ligne par bataille, `data` = JSON de la bataille), protégée par RLS : chaque joueur ne voit que les siennes.

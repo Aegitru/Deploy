@@ -23,7 +23,7 @@ export function SaveModal({ onClose }: { onClose: () => void }) {
     const title = name.trim() || mission;
     const subtitle = `${mission} · ${DISPO_ABBR[mine!]} vs ${DISPO_ABBR[opp!]} · ${layoutLabel(layout!)}`;
     try {
-      await downloadBoardCapture(svg, title, subtitle, `deploy-${slug(title)}.png`);
+      await downloadBoardCapture(svg, title, subtitle, `deploy5-${slug(title)}.png`);
     } finally {
       setCapturing(false);
     }
