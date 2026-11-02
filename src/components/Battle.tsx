@@ -20,10 +20,11 @@ function useWide() {
 }
 
 export function Battle() {
-  const { mine, opp, layout, armies, go, currentName, colors, placed, splits, modelDelta } = useStore();
+  const store = useStore();
+  const { mine, opp, layout, armies, go, currentName, colors, placed } = store;
   // Onglets repliés : unités restant à déployer / total
   const remaining = (s: Side) => {
-    const units = deployableUnits(armies[s]?.army, splits, modelDelta);
+    const units = deployableUnits(armies[s]?.army, store);
     return { left: units.filter((u) => !placed[u.id]).length, total: units.length };
   };
   const [lists, setLists] = useState(false);

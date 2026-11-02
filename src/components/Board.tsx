@@ -35,7 +35,8 @@ export function Board({ image }: { image: string }) {
   const pointers = useRef(new Map<number, Pt>());
   const gesture = useRef<Gesture>({ mode: 'none' });
 
-  const { armies, placed, unitOpts, modelDelta, selected, showLabels, toggleLabels, move, remove, select } = useStore();
+  const store = useStore();
+  const { placed, unitOpts, selected, showLabels, toggleLabels, move, remove, select } = store;
 
   const toSvg = (cx: number, cy: number): Pt => {
     const ctm = svgRef.current!.getScreenCTM()!.inverse();
@@ -161,7 +162,7 @@ export function Board({ image }: { image: string }) {
   const labelSize = 13 / pxPerIn;
 
   const units = Object.entries(placed)
-    .map(([id, ps]) => ({ id, ps: preview?.unitId === id ? preview.positions : ps, info: findUnit(armies, id, modelDelta) }))
+    .map(([id, ps]) => ({ id, ps: preview?.unitId === id ? preview.positions : ps, info: findUnit(store, id) }))
     .filter((u) => u.info);
 
   const dragging = preview && units.find((u) => u.id === preview.unitId);

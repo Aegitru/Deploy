@@ -336,3 +336,19 @@ textarea:focus { outline: 1px solid var(--gold); }
   paint-order: stroke; stroke: #0b0a08; stroke-linejoin: round;
 }
 .capture-btn { margin-right: auto; }
+
+/* Personnages : attacher (chaîne) / détacher (chaîne coupée) */
+.chain-btn {
+  flex: none; display: grid; place-items: center; width: 28px; height: 24px; padding: 0;
+  background: none; border: 1px solid var(--line); color: var(--muted);
+}
+.chain-btn:hover, .chain-btn.on { border-color: var(--gold); color: var(--gold-2); }
+.unit-list .chev { color: var(--muted); font-size: 12px; }
+.unit-list li.part-row { cursor: default; background: rgba(0, 0, 0, 0.18); }
+.unit-list li.attaching { background: #2a2210; }
+.unit-list li.attach-target { box-shadow: inset 2px 0 0 var(--gold); }
+.attach-hint {
+  display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 8px 12px;
+  background: #2a2210; border-bottom: 1px solid var(--gold); font-size: 14px;
+}
+.attach-hint b { color: var(--gold-2); }

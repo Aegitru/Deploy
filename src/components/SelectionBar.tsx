@@ -74,12 +74,13 @@ function useAnchor(selected: string | null, deps: string) {
 type Props = { singleModel: boolean; setSingleModel: (v: boolean) => void; viewKey: string };
 
 export function SelectionBar({ singleModel, setSingleModel, viewKey }: Props) {
-  const { selected, armies, placed, unitOpts, modelDelta, move, setUnitOpts, addModel, removeModel } = useStore();
+  const store = useStore();
+  const { selected, placed, unitOpts, move, setUnitOpts, addModel, removeModel } = store;
   const [tools, setTools] = useState(false);
   const ps = selected ? placed[selected] : undefined;
   const { ref, anchor } = useAnchor(selected, `${viewKey}|${tools}|${JSON.stringify(ps ?? null)}`);
   if (!selected || !ps) return null;
-  const info = findUnit(armies, selected, modelDelta);
+  const info = findUnit(store, selected);
   if (!info) return null;
   const { unit, side } = info;
   const multi = ps.length > 1;

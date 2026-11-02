@@ -4,11 +4,22 @@ import { baseFor, detectFaction, norm, variantKeys, type Base } from './bases';
 
 export type Model = { base: Base; unknown: boolean };
 
+/** Composante d'une unité : un personnage ou une escouade, dans l'ordre des figurines de l'unité */
+export type UnitPart = {
+  src: string; // origine : id de l'unité, ou "id#k" pour la k-ième composante d'une unité menée de la liste
+  name: string;
+  label: string;
+  count: number; // nombre de figurines
+  character: boolean;
+  attachedAs?: string; // personnage attaché à la main dans l'app : id de son unité d'origine
+};
+
 export type Unit = {
   id: string;
   name: string; // "Kâhl + Einhyr Hearthguard" pour une unité menée
   label: string; // initiales affichées sur les socles
   models: Model[];
+  parts?: UnitPart[]; // absent sur les listes importées avant l'attache / détache de personnages
 };
 
 export type Army = { name: string; faction: string | null; units: Unit[]; warnings: string[] };
@@ -20,11 +31,13 @@ type RawUnit = {
   group?: number; // app officielle : "Attached unit N"
   leading?: string; // NewRecruit : "Leading: X"
   leaders: string[]; // NewRecruit : "Leader: X"
+  character?: boolean; // section Personnages / Héros épiques, ou attaché comme meneur
 };
 
 const BULLET = /^(\s*)[•◦▪\-*]\s*(.*)$/;
 const COUNT = /^(\d+)\s*x\s+(.+)$/i;
 const CAPS_HEADER = /^[A-Z][A-Z &'’-]+$/;
+const CHARACTER_SECTION = /character|epic hero/i;
 
 // "Cthonian Beserks[1]", "10x Wyches", "Char4: Hyperadapted Raveners" → nom de l'unité seul
 const cleanName = (s: string) => s.replace(/\[\d+\]$/, '').replace(/^Char\d+:\s*/i, '').replace(/^\d+\s*x\s+/i, '').trim();
@@ -83,6 +96,7 @@ function parseOfficial(lines: string[], faction: string | null): RawUnit[] {
   let group: number | undefined;
   let cur: { unit: RawUnit; items: Item[] } | null = null;
   let first = true;
+  let section = '';
   for (const line of lines) {
     const t = line.trim();
     if (!t) continue;
@@ -91,6 +105,7 @@ function parseOfficial(lines: string[], faction: string | null): RawUnit[] {
     if (/^attached units:?$/i.test(t) || CAPS_HEADER.test(t) || /^[\p{L} ]+:$/u.test(t)) {
       group = undefined;
       cur = null;
+      section = t;
       continue;
     }
     const g = t.match(/^Attached unit (\d+)$/i);
@@ -99,12 +114,13 @@ function parseOfficial(lines: string[], faction: string | null): RawUnit[] {
     if (u) {
       // Le titre de la liste et le format de partie ("Strike Force (2000 points)") ne sont pas des unités.
       if (isTitle || /^(strike force|incursion|onslaught|combat patrol|battle size|force de frappe|fuerza de choque)\b/i.test(u[1])) { cur = null; continue; }
-      cur = { unit: { name: cleanName(u[1]), lines: [], group, leaders: [] }, items: [] };
+      cur = { unit: { name: cleanName(u[1]), lines: [], group, leaders: [], character: CHARACTER_SECTION.test(section) }, items: [] };
       units.push(cur);
       continue;
     }
     if (!cur) continue;
     const b = line.match(BULLET);
+    if (b && /^Attached as:\s*(Leader|Support)/i.test(b[2].trim())) cur.unit.character = true;
     const c = (b ? b[2] : t).match(COUNT);
     if (!c) continue;
     const kind = !b ? 'bare' : line.includes('◦') ? 'sub' : 'bullet';
@@ -121,14 +137,16 @@ function parseNewRecruit(lines: string[]): RawUnit[] {
   const units: RawUnit[] = [];
   let cur: RawUnit | null = null;
   let first = true;
+  let section = '';
   for (const line of lines) {
     const t = line.trim();
-    // Lignes vides et titres de section de l'export détaillé ("# ++ Army Roster ++", "## Epic Hero [455 pts]")
-    if (!t || t.startsWith('#')) continue;
+    if (!t) continue;
+    // Titres de section de l'export détaillé ("# ++ Army Roster ++", "## Epic Hero [455 pts]")
+    if (t.startsWith('#')) { section = t; continue; }
     const u = line.match(/^(\S.*?)\s*\[(\d[\d,]*)\s*pts\]:?\s*(.*)$/i);
     if (u) {
       if (first) { first = false; continue; } // titre de la liste
-      cur = { name: cleanName(u[1]), lines: [], leaders: [] };
+      cur = { name: cleanName(u[1]), lines: [], leaders: [], character: CHARACTER_SECTION.test(section) };
       units.push(cur);
       continue;
     }
@@ -137,7 +155,7 @@ function parseNewRecruit(lines: string[]): RawUnit[] {
     if (!b || !cur) continue;
     const text = b[2].trim();
     let m;
-    if ((m = text.match(/^Leading:\s*(.+)$/i))) { cur.leading = cleanName(m[1]); continue; }
+    if ((m = text.match(/^Leading:\s*(.+)$/i))) { cur.leading = cleanName(m[1]); cur.character = true; continue; }
     // "Leader: Kâhl", ou sans libellé dans certains exports : "• : Sorcerer[1]"
     if ((m = text.match(/^(?:Leaders?\s*)?:\s*(.+)$/i))) { cur.leaders.push(...m[1].split(',').map(cleanName)); continue; }
     const c = text.match(COUNT);
@@ -213,16 +231,27 @@ export function parseList(text: string, prefix: string): Army {
   // Ordre de la liste d'origine
   groups.sort((a, b) => raw.indexOf(a[a.length - 1]) - raw.indexOf(b[b.length - 1]));
 
+  // Sans aucune indication de rôle (export NewRecruit simple, sans sections), un personnage est deviné :
+  // une seule figurine sur un socle rond d'infanterie.
+  const roleKnown = raw.some((u) => u.character);
   const units: Unit[] = groups.map((g, i) => {
     const name = g.map((u) => u.name).join(' + ');
     const unknown = g.filter((u) => buildModels(faction, u).some((m) => m.unknown)).map((u) => u.name);
     if (unknown.length) warnings.push(`Socle inconnu (32mm par défaut) : ${unknown.join(', ')}`);
-    return {
-      id: `${prefix}-${i}`,
-      name,
-      label: initials(g[g.length - 1].name),
-      models: g.flatMap((u) => buildModels(faction, u)),
-    };
+    const id = `${prefix}-${i}`;
+    const built = g.map((u) => buildModels(faction, u));
+    const parts: UnitPart[] = g.map((u, k) => {
+      const only = built[k][0]?.base;
+      const guessed = built[k].length === 1 && only?.shape === 'circle' && only.d <= 60;
+      return {
+        src: g.length > 1 ? `${id}#${k}` : id,
+        name: u.name,
+        label: initials(u.name),
+        count: built[k].length,
+        character: roleKnown ? !!u.character || g.length > 1 && k < g.length - 1 : guessed,
+      };
+    });
+    return { id, name, label: initials(g[g.length - 1].name), models: built.flat(), parts };
   });
 
   // "Mercovenant v2 (2,000 Points)" ou "Xenos - Leagues of Votann - Mercovenant v2 - [2000 pts]"

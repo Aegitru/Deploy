@@ -1,5 +1,5 @@
 import { Fragment, useRef, useState } from 'react';
-import { adjust, ARMY_COLORS, deployableUnits, splitUnit, useStore, type ColorId, type Side } from '../store';
+import { adjust, ARMY_COLORS, deployableUnits, partsOf, resolvedUnits, splitUnit, useStore, type ColorId, type Side } from '../store';
 import type { Unit } from '../lib/parseList';
 import { boardApi } from './Board';
 
@@ -14,12 +14,13 @@ type Drag = { unit: Unit; x: number; y: number; startX: number; startY: number; 
 export function ArmyPanel({ side, onPlaced }: { side: Side; onPlaced?: () => void }) {
   const slot = useStore((s) => s.armies[side]);
   const placed = useStore((s) => s.placed);
-  const splits = useStore((s) => s.splits);
-  const delta = useStore((s) => s.modelDelta);
-  const { place, select, split, merge } = useStore();
+  const store = useStore();
+  const { splits, modelDelta: delta, place, select, split, merge, attach, detachPart } = store;
   const [drag, setDrag] = useState<Drag | null>(null);
   const dragRef = useRef<Drag | null>(null);
   const justDragged = useRef(false);
+  const [expanded, setExpanded] = useState<Set<string>>(new Set());
+  const [attaching, setAttaching] = useState<string | null>(null); // personnage en attente d'une unité à rejoindre
 
   if (!slot) return <p className="panel-empty">Aucune liste. Ajoute-la avec le bouton « Listes ».</p>;
 
@@ -46,28 +47,46 @@ export function ArmyPanel({ side, onPlaced }: { side: Side; onPlaced?: () => voi
     const p = boardApi.clientToBoard?.(e.clientX, e.clientY);
     if (p) { place(d.unit, p.x, p.y); onPlaced?.(); }
   };
+  const toggle = (id: string) => setExpanded((s) => { const n = new Set(s); if (n.has(id)) n.delete(id); else n.add(id); return n; });
+  const isGroup = (u: Unit) => !splits[u.id] && partsOf(u).length > 1;
+  const isLoneCharacter = (u: Unit) => !splits[u.id] && partsOf(u).length === 1 && partsOf(u)[0].character;
+
   const onTap = (unit: Unit) => {
     if (justDragged.current) { justDragged.current = false; return; }
+    // Mode « attacher » : l'unité touchée accueille le personnage
+    if (attaching) {
+      if (unit.id !== attaching && !splits[unit.id]) attach(attaching, unit.id);
+      setAttaching(null);
+      return;
+    }
+    // Unité menée : un appui la déplie (on la pose en la glissant)
+    if (isGroup(unit)) { toggle(unit.id); return; }
     if (placed[unit.id]) { select(unit.id); onPlaced?.(); return; }
     const c = boardApi.viewCenter?.();
     if (c) { place(unit, c.x, c.y); onPlaced?.(); }
   };
 
-  // Unités déployables : une unité coupée est remplacée par ses deux moitiés
-  // (avec les socles ajoutés ou retirés à la main)
-  const units = slot.army.units.map((u) => adjust(u, delta[u.id]));
+  // Unités jouées (personnages attachés / détachés, socles ajoutés ou retirés) ;
+  // une unité coupée est remplacée par ses deux moitiés
+  const units = resolvedUnits(slot.army, store);
   const halves = (u: Unit) => splitUnit(u).map((h) => adjust(h, delta[h.id]));
-  const deployable = deployableUnits(slot.army, splits, delta);
+  const deployable = deployableUnits(slot.army, store);
+  const attachingName = attaching && units.find((u) => u.id === attaching)?.name;
   const total = deployable.length;
   const done = deployable.filter((u) => placed[u.id]).length;
   // Les unités déjà sur la table descendent en bas de la liste (une unité coupée : quand ses deux moitiés y sont)
   const isDone = (u: Unit) => (splits[u.id] ? halves(u).every((h) => placed[h.id]) : !!placed[u.id]);
   const ordered = [...units.filter((u) => !isDone(u)), ...units.filter(isDone)];
 
+  const stop = (e: React.SyntheticEvent) => e.stopPropagation();
+
   const row = (u: Unit, child = false) => (
     <li
       key={u.id}
-      className={`${placed[u.id] ? 'placed' : ''}${child ? ' child' : ''}`}
+      className={[
+        placed[u.id] && 'placed', child && 'child',
+        attaching && (u.id === attaching ? 'attaching' : 'attach-target'),
+      ].filter(Boolean).join(' ')}
       onPointerDown={(e) => onDown(e, u)}
       onPointerMove={onMove}
       onPointerUp={onUp}
@@ -77,21 +96,51 @@ export function ArmyPanel({ side, onPlaced }: { side: Side; onPlaced?: () => voi
       <span className="grip" aria-hidden>{child ? '↳' : '⠿'}</span>
       <span className="count">{u.models.length}</span>
       <span className="uname">{u.name}</span>
+      {isGroup(u) && <span className="chev" aria-hidden>{expanded.has(u.id) ? '▾' : '▸'}</span>}
       {placed[u.id] && <span className="check">✓</span>}
       {u.models.some((m) => m.unknown) && <span className="warn" title="Socle inconnu : 32mm par défaut">?</span>}
+      {!child && isLoneCharacter(u) && (
+        <button
+          className={`chain-btn ${attaching === u.id ? 'on' : ''}`}
+          title="Attacher ce personnage à une unité"
+          aria-label={`Attacher ${u.name} à une unité`}
+          onPointerDown={stop}
+          onClick={(e) => { stop(e); setAttaching(attaching === u.id ? null : u.id); }}
+        >
+          <ChainIcon />
+        </button>
+      )}
       {!child && u.models.length > 1 && (
         <button
           className="split-btn"
           title="Couper l'unité en deux"
           aria-label={`Couper ${u.name} en deux`}
-          onPointerDown={(e) => e.stopPropagation()}
-          onClick={(e) => { e.stopPropagation(); split(u); }}
+          onPointerDown={stop}
+          onClick={(e) => { stop(e); split(u); }}
         >
           Split
         </button>
       )}
     </li>
   );
+
+  // Composantes d'une unité menée, chacune détachable
+  const partRows = (u: Unit) =>
+    partsOf(u).map((p, k) => (
+      <li key={`${u.id}/${k}`} className="child part-row">
+        <span className="grip" aria-hidden>↳</span>
+        <span className="count">{p.count}</span>
+        <span className="uname">{p.name}</span>
+        <button
+          className="chain-btn"
+          title="Détacher de l'unité"
+          aria-label={`Détacher ${p.name}`}
+          onClick={() => detachPart(u.id, k)}
+        >
+          <BrokenChainIcon />
+        </button>
+      </li>
+    ));
 
   return (
     <div className={`army-panel ${side}`}>
@@ -102,6 +151,12 @@ export function ArmyPanel({ side, onPlaced }: { side: Side; onPlaced?: () => voi
           <div className="army-sub">{slot.army.faction ?? 'Faction inconnue'} · {done}/{total} déployées</div>
         </div>
       </div>
+      {attaching && (
+        <div className="attach-hint">
+          <span>Touche l'unité que <b>{attachingName}</b> rejoint</span>
+          <button className="link-btn" onClick={() => setAttaching(null)}>Annuler</button>
+        </div>
+      )}
       <ul className="unit-list">
         {ordered.map((u) =>
           splits[u.id] ? (
@@ -115,7 +170,10 @@ export function ArmyPanel({ side, onPlaced }: { side: Side; onPlaced?: () => voi
               {halves(u).map((half) => row(half, true))}
             </Fragment>
           ) : (
-            row(u)
+            <Fragment key={u.id}>
+              {row(u)}
+              {isGroup(u) && expanded.has(u.id) && partRows(u)}
+            </Fragment>
           ),
         )}
       </ul>
@@ -151,5 +209,25 @@ function ColorPicker({ side }: { side: Side }) {
         </div>
       )}
     </div>
+  );
+}
+
+function ChainIcon() {
+  return (
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" aria-hidden>
+      <path d="M6.5 9.5l3-3" />
+      <path d="M7.2 4.6l1.1-1.1a2.6 2.6 0 0 1 3.7 3.7l-1.1 1.1" />
+      <path d="M8.8 11.4l-1.1 1.1a2.6 2.6 0 0 1-3.7-3.7l1.1-1.1" />
+    </svg>
+  );
+}
+
+function BrokenChainIcon() {
+  return (
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" aria-hidden>
+      <path d="M7.2 4.6l1.1-1.1a2.6 2.6 0 0 1 3.7 3.7l-1.1 1.1" />
+      <path d="M8.8 11.4l-1.1 1.1a2.6 2.6 0 0 1-3.7-3.7l1.1-1.1" />
+      <path d="M3 3l1.4 1.4M13 13l-1.4-1.4M6 1.5v1.6M10 14.5v-1.6" />
+    </svg>
   );
 }

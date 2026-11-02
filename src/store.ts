@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import missionsData from './data/missions.json';
-import { parseList, type Army, type Unit } from './lib/parseList';
+import { parseList, type Army, type Unit, type UnitPart } from './lib/parseList';
 import { baseSizeIn } from './lib/bases';
 import { supabase } from './lib/supabase';
 
@@ -57,6 +57,8 @@ type BattleData = {
   splits: Record<string, true>; // unités coupées en deux (ids des unités d'origine)
   colors: Record<Side, ColorId>;
   modelDelta: Record<string, number>; // socles ajoutés (+) ou retirés (-) à la main, par id d'unité
+  detached: Record<string, number[]>; // composantes détachées d'une unité menée de la liste (indices)
+  attached: Record<string, string>; // personnage attaché à la main → unité qu'il rejoint
 };
 
 export type SavedBattle = BattleData & { id: string; name: string; savedAt: number };
@@ -90,6 +92,8 @@ type State = BattleData & {
   setColor: (side: Side, color: ColorId) => void;
   addModel: (unitId: string) => void;
   removeModel: (unitId: string) => void;
+  detachPart: (unitId: string, partIndex: number) => void;
+  attach: (charId: string, targetId: string) => void;
   saveBattle: (name: string, asCopy?: boolean) => void;
   loadBattle: (id: string) => void;
   deleteBattle: (id: string) => void;
@@ -97,17 +101,23 @@ type State = BattleData & {
   pullBattles: () => Promise<void>;
 };
 
-const EMPTY: BattleData = { mine: null, opp: null, layout: null, armies: {}, placed: {}, unitOpts: {}, splits: {}, colors: { me: 'red', opp: 'blue' }, modelDelta: {} };
+const EMPTY: BattleData = { mine: null, opp: null, layout: null, armies: {}, placed: {}, unitOpts: {}, splits: {}, colors: { me: 'red', opp: 'blue' }, modelDelta: {}, detached: {}, attached: {} };
 
 /** Applique les socles ajoutés/retirés à la main : on ajoute la taille de socle la plus courante, on retire les derniers. */
 export function adjust(unit: Unit, delta = 0): Unit {
   if (!delta) return unit;
-  if (delta < 0) return { ...unit, models: unit.models.slice(0, Math.max(1, unit.models.length + delta)) };
+  // Les socles ajoutés / retirés comptent pour la dernière composante (l'escouade, pas le personnage)
+  const withCount = (models: Unit['models']): Unit => {
+    const parts = partsOf(unit);
+    const before = parts.slice(0, -1).reduce((n, p) => n + p.count, 0);
+    return { ...unit, models, parts: [...parts.slice(0, -1), { ...parts.at(-1)!, count: Math.max(1, models.length - before) }] };
+  };
+  if (delta < 0) return withCount(unit.models.slice(0, Math.max(1, unit.models.length + delta)));
   const count = new Map<string, number>();
   for (const m of unit.models) count.set(JSON.stringify(m.base), (count.get(JSON.stringify(m.base)) ?? 0) + 1);
   const common = [...count].sort((a, b) => b[1] - a[1])[0][0];
   const model = unit.models.find((m) => JSON.stringify(m.base) === common)!;
-  return { ...unit, models: [...unit.models, ...Array(delta).fill(model)] };
+  return withCount([...unit.models, ...Array(delta).fill(model)]);
 }
 
 /**
@@ -117,10 +127,11 @@ export function adjust(unit: Unit, delta = 0): Unit {
  */
 export function splitUnit(unit: Unit): [Unit, Unit] {
   const k = Math.ceil(unit.models.length / 2);
-  return [
-    { ...unit, id: unit.id + '.1', name: unit.name + ' 1', label: unit.label + '1', models: unit.models.slice(0, k) },
-    { ...unit, id: unit.id + '.2', name: unit.name + ' 2', label: unit.label + '2', models: unit.models.slice(k) },
-  ];
+  const half = (n: 1 | 2, models: Unit['models']): Unit => {
+    const id = `${unit.id}.${n}`, name = `${unit.name} ${n}`, label = unit.label + n;
+    return { ...unit, id, name, label, models, parts: [{ src: id, name, label, count: models.length, character: false }] };
+  };
+  return [half(1, unit.models.slice(0, k)), half(2, unit.models.slice(k))];
 }
 
 export function defaultOpts(unit: Unit): UnitOpts {
@@ -225,6 +236,7 @@ async function pushBattle(b: SavedBattle) {
 
 const battleData = (s: BattleData): BattleData => ({
   mine: s.mine, opp: s.opp, layout: s.layout, armies: s.armies, placed: s.placed, unitOpts: s.unitOpts, splits: s.splits ?? {}, colors: s.colors ?? EMPTY.colors, modelDelta: s.modelDelta ?? {},
+  detached: s.detached ?? {}, attached: s.attached ?? {},
 });
 
 const withoutSide = <T,>(rec: Record<string, T>, side: Side) =>
@@ -254,6 +266,8 @@ export const useStore = create<State>()(
           placed: withoutSide(get().placed, side),
           unitOpts: withoutSide(get().unitOpts, side),
           splits: withoutSide(get().splits, side),
+          detached: withoutSide(get().detached, side),
+          attached: withoutSide(get().attached, side),
           modelDelta: withoutSide(get().modelDelta, side),
           selected: null,
         });
@@ -262,7 +276,7 @@ export const useStore = create<State>()(
       clearList: (side) => {
         const armies = { ...get().armies };
         delete armies[side];
-        set({ armies, placed: withoutSide(get().placed, side), unitOpts: withoutSide(get().unitOpts, side), splits: withoutSide(get().splits, side), modelDelta: withoutSide(get().modelDelta, side), selected: null });
+        set({ armies, placed: withoutSide(get().placed, side), unitOpts: withoutSide(get().unitOpts, side), splits: withoutSide(get().splits, side), modelDelta: withoutSide(get().modelDelta, side), detached: withoutSide(get().detached, side), attached: withoutSide(get().attached, side), selected: null });
       },
       place: (unit, x, y) => {
         const opts = get().unitOpts[unit.id] ?? defaultOpts(unit);
@@ -329,7 +343,7 @@ export const useStore = create<State>()(
       },
       addModel: (unitId) => {
         const s = get();
-        const info = findUnit(s.armies, unitId, s.modelDelta);
+        const info = findUnit(s, unitId);
         if (!info) return;
         const modelDelta = { ...s.modelDelta, [unitId]: (s.modelDelta[unitId] ?? 0) + 1 };
         const ps = s.placed[unitId];
@@ -342,11 +356,39 @@ export const useStore = create<State>()(
       },
       removeModel: (unitId) => {
         const s = get();
-        const info = findUnit(s.armies, unitId, s.modelDelta);
+        const info = findUnit(s, unitId);
         if (!info || info.unit.models.length <= 1) return;
         const modelDelta = { ...s.modelDelta, [unitId]: (s.modelDelta[unitId] ?? 0) - 1 };
         const ps = s.placed[unitId];
         set({ modelDelta, ...(ps ? { placed: { ...s.placed, [unitId]: ps.slice(0, -1) } } : {}) });
+      },
+      detachPart: (unitId, partIndex) => {
+        const s = get();
+        const info = findUnit(s, unitId);
+        const part = info && partsOf(info.unit)[partIndex];
+        if (!info || !part || partsOf(info.unit).length < 2) return;
+        const next = { ...s };
+        if (part.attachedAs) {
+          // Personnage attaché dans l'app : il redevient indépendant
+          next.attached = { ...s.attached };
+          delete next.attached[part.attachedAs];
+        } else {
+          // Composante d'une unité menée de la liste : "me-3#1" → détacher l'indice 1 de "me-3"
+          const [gid, k] = part.src.split('#');
+          next.detached = { ...s.detached, [gid]: [...(s.detached[gid] ?? []), +k] };
+        }
+        const before = resolvedUnits(s.armies[info.side]?.army, s);
+        const after = resolvedUnits(s.armies[info.side]?.army, next);
+        set({ detached: next.detached, attached: next.attached, ...remapPlaced(before, after, s), selected: null });
+      },
+      attach: (charId, targetId) => {
+        const s = get();
+        const side = findUnit(s, charId)?.side;
+        if (!side || charId === targetId || findUnit(s, targetId)?.side !== side) return;
+        const attached = { ...s.attached, [charId]: targetId };
+        const before = resolvedUnits(s.armies[side]?.army, s);
+        const after = resolvedUnits(s.armies[side]?.army, { ...s, attached });
+        set({ attached, ...remapPlaced(before, after, s), selected: null });
       },
       setColor: (side, color) => set({ colors: { ...get().colors, [side]: color } }),
       saveBattle: (name, asCopy = false) => {
@@ -395,40 +437,111 @@ export const useStore = create<State>()(
       // v1 : pas de vue ni de batailles sauvegardées ; on reprend la bataille en cours si elle existait.
       migrate: (old) => {
         const s = old as Partial<State>;
-        return { ...s, unitOpts: s.unitOpts ?? {}, splits: s.splits ?? {}, colors: s.colors ?? EMPTY.colors, modelDelta: s.modelDelta ?? {}, battles: s.battles ?? [], view: s.layout != null ? 'battle' : 'home' } as State;
+        return { ...s, unitOpts: s.unitOpts ?? {}, splits: s.splits ?? {}, colors: s.colors ?? EMPTY.colors, modelDelta: s.modelDelta ?? {}, detached: s.detached ?? {}, attached: s.attached ?? {}, battles: s.battles ?? [], view: s.layout != null ? 'battle' : 'home' } as State;
       },
     },
   ),
 );
 
-export function findUnit(armies: BattleData['armies'], unitId: string, deltas: Record<string, number> = {}): { unit: Unit; side: Side } | null {
-  const found = findRaw(armies, unitId, deltas);
-  return found && { ...found, unit: adjust(found.unit, deltas[unitId]) };
+export const asset = (p: string) => `${import.meta.env.BASE_URL}assets/${p}`;
+
+/** Ce qui détermine les unités jouées à partir de la liste importée */
+export type Roster = Pick<BattleData, 'armies' | 'splits' | 'modelDelta' | 'detached' | 'attached'>;
+
+/** Composantes d'une unité (les listes importées avant cette fonctionnalité n'en ont pas) */
+export function partsOf(u: Unit): UnitPart[] {
+  if (u.parts) return u.parts;
+  // Liste importée avant : un personnage est deviné (une seule figurine sur socle rond d'infanterie)
+  const b = u.models[0]?.base;
+  const character = u.models.length === 1 && b?.shape === 'circle' && b.d <= 60;
+  return [{ src: u.id, name: u.name, label: u.label, count: u.models.length, character }];
 }
 
-function findRaw(armies: BattleData['armies'], unitId: string, deltas: Record<string, number>): { unit: Unit; side: Side } | null {
+/** Sous-unité faite de certaines composantes d'une unité (figurines dans le même ordre) */
+function subUnit(u: Unit, indices: number[], id: string): Unit {
+  const parts = partsOf(u);
+  const offsets = parts.map((_, k) => parts.slice(0, k).reduce((n, p) => n + p.count, 0));
+  const chosen = indices.map((k) => parts[k]);
+  return {
+    id,
+    name: chosen.map((p) => p.name).join(' + '),
+    label: chosen.at(-1)!.label,
+    models: indices.flatMap((k) => u.models.slice(offsets[k], offsets[k] + parts[k].count)),
+    parts: chosen,
+  };
+}
+
+/**
+ * Unités telles que jouées (avant split) : composantes détachées d'une unité menée de la liste,
+ * personnages attachés à la main, socles ajoutés ou retirés.
+ *   détachée : la k-ième composante de "me-3" devient l'unité "me-3~k"
+ *   attachée : le personnage disparaît de la liste et rejoint l'unité cible (il passe en tête)
+ */
+export function resolvedUnits(army: Army | undefined, r: Roster): Unit[] {
+  let units: Unit[] = [];
+  for (const u of army?.units ?? []) {
+    const parts = partsOf(u);
+    const off = (r.detached?.[u.id] ?? []).filter((k) => k < parts.length);
+    const keep = parts.map((_, k) => k).filter((k) => !off.includes(k));
+    if (!off.length || !keep.length) { units.push(u); continue; }
+    units.push(subUnit(u, keep, u.id), ...off.map((k) => subUnit(u, [k], `${u.id}~${k}`)));
+  }
+  for (const [charId, targetId] of Object.entries(r.attached ?? {})) {
+    const char = units.find((u) => u.id === charId), target = units.find((u) => u.id === targetId);
+    if (!char || !target || char === target) continue;
+    const merged: Unit = {
+      ...target,
+      name: `${char.name} + ${target.name}`,
+      models: [...char.models, ...target.models],
+      parts: [...partsOf(char).map((p) => ({ ...p, attachedAs: charId })), ...partsOf(target)],
+    };
+    units = units.filter((u) => u !== char).map((u) => (u === target ? merged : u));
+  }
+  return units.map((u) => adjust(u, r.modelDelta?.[u.id]));
+}
+
+/** Unités à déployer d'une armée : une unité coupée compte pour ses deux moitiés. */
+export function deployableUnits(army: Army | undefined, r: Roster): Unit[] {
+  return resolvedUnits(army, r).flatMap((u) => (r.splits?.[u.id] ? splitUnit(u).map((h) => adjust(h, r.modelDelta?.[h.id])) : [u]));
+}
+
+export function findUnit(r: Roster, unitId: string): { unit: Unit; side: Side } | null {
   for (const side of ['me', 'opp'] as const) {
-    const units = armies[side]?.army.units ?? [];
-    const unit = units.find((u) => u.id === unitId);
+    const unit = deployableUnits(r.armies[side]?.army, r).find((u) => u.id === unitId);
     if (unit) return { unit, side };
-    // Moitié d'une unité coupée : "me-3.2" → 2e moitié de "me-3"
-    const m = unitId.match(/^(.+)\.([12])$/);
-    const parent = m && units.find((u) => u.id === m[1]);
-    if (parent) return { unit: splitUnit(adjust(parent, deltas[parent.id]))[+m![2] - 1], side };
   }
   return null;
 }
 
-export const asset = (p: string) => `${import.meta.env.BASE_URL}assets/${p}`;
-
-/** Unités à déployer d'une armée : une unité coupée compte pour ses deux moitiés (socles ajoutés/retirés compris). */
-export function deployableUnits(
-  army: Army | undefined, splits: Record<string, true>, deltas: Record<string, number>,
-): Unit[] {
-  return (army?.units ?? []).flatMap((raw) => {
-    const u = adjust(raw, deltas[raw.id]);
-    return splits[u.id] ? splitUnit(u).map((h) => adjust(h, deltas[h.id])) : [u];
-  });
+/**
+ * Après un attache / détache : chaque nouvelle unité reprend les positions de ses composantes là où
+ * elles étaient sur la table. Une unité dont une partie seulement était posée est reformée autour de cette partie.
+ */
+function remapPlaced(before: Unit[], after: Unit[], s: BattleData): Pick<BattleData, 'placed' | 'unitOpts'> {
+  const bySrc = new Map<string, ModelPos[]>();
+  for (const u of before) {
+    const ps = s.placed[u.id];
+    if (!ps) continue;
+    let i = 0;
+    partsOf(u).forEach((p, k, all) => {
+      const n = k === all.length - 1 ? ps.length - i : p.count; // socles ajoutés à la main : sur la dernière composante
+      bySrc.set(p.src, ps.slice(i, i + n));
+      i += n;
+    });
+  }
+  const placed = { ...s.placed };
+  const unitOpts = { ...s.unitOpts };
+  for (const u of before) delete placed[u.id];
+  for (const u of after) {
+    const found = partsOf(u).map((p) => bySrc.get(p.src));
+    if (found.every((f) => !f)) continue;
+    if (found.every(Boolean) && found.flat().length === u.models.length) { placed[u.id] = found.flat() as ModelPos[]; continue; }
+    const ps = found.filter(Boolean).flat() as ModelPos[];
+    const cx = ps.reduce((t, p) => t + p.x, 0) / ps.length, cy = ps.reduce((t, p) => t + p.y, 0) / ps.length;
+    unitOpts[u.id] = defaultOpts(u);
+    placed[u.id] = formation(u, cx, cy, unitOpts[u.id], ps[0].rot);
+  }
+  return { placed, unitOpts };
 }
 
 export const layoutLabel = (layout: number) => `Carte ${layout + 1}`;
