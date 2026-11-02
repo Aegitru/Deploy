@@ -1,0 +1,161 @@
+Needgaard Covenant (2,000 Points)
+
+Leagues of Votann
+Hearthguard Covenant and Needgaârd Oathband (3 Detachment Points)
+Priority Assets
+Strike Force (2,000 Points)
+
+ATTACHED UNITS
+
+Attached unit 1
+
+Grimnyr (75 Points)
+• Attached as: Leader (Character)
+• 1x Grimnyr
+• Warlord
+◦ 1x Ancestral Wrath
+◦ 1x Ancestral ward stave
+◦ Enhancements: Dead Reckoning
+• 2x CORV
+◦ 2x Autoch-pattern bolter
+◦ 2x Close combat weapon
+
+Hearthkyn Warriors (90 Points)
+• Attached as: Bodyguard (Battleline)
+• 1x Theyn
+◦ 1x Autoch-pattern bolt pistol
+◦ 1x Autoch-pattern bolter
+◦ 1x Close combat weapon
+◦ 1x Weavefield crest
+• 9x Hearthkyn Warrior
+◦ 9x Autoch-pattern bolt pistol
+◦ 6x Autoch-pattern bolter
+◦ 9x Close combat weapon
+◦ 1x HYLas rotary cannon
+◦ 1x Magna-rail rifle
+◦ 1x Plasma knife
+
+Attached unit 2
+
+Kâhl (95 Points)
+• Attached as: Leader (Character)
+• 1x Mass gauntlet
+• 1x Rampart Crest
+• 1x Volkanite disintegrator
+• Enhancements: Oathbound Speculator
+
+Einhyr Hearthguard (270 Points)
+• Attached as: Bodyguard
+• 1x Hesyr
+◦ 1x EtaCarn plasma gun
+◦ 1x Exoarmour grenade launcher
+◦ 1x Graviton hammer
+◦ 1x Teleport Crest
+• 9x Einhyr Hearthguard
+◦ 9x Concussion gauntlet
+◦ 9x EtaCarn plasma gun
+◦ 9x Exoarmour grenade launcher
+
+CHARACTERS
+
+Buri Aegnirssen (85 Points)
+• 1x Autoch‑pattern bolt pistol
+• 1x Bane
+
+BATTLELINE
+
+Hearthkyn Warriors (90 Points)
+• 1x Theyn
+◦ 1x Autoch-pattern bolt pistol
+◦ 1x Autoch-pattern bolter
+◦ 1x Close combat weapon
+◦ 1x Weavefield crest
+• 9x Hearthkyn Warrior
+◦ 9x Autoch-pattern bolt pistol
+◦ 6x Autoch-pattern bolter
+◦ 9x Close combat weapon
+◦ 1x L7 missile launcher
+◦ 1x Magna-rail rifle
+◦ 1x Plasma knife
+
+DEDICATED TRANSPORTS
+
+Kapricus Carrier (70 Points)
+• 1x Armoured hull
+• 1x Magna-coil autocannon
+• 1x Twin magna‑coil autocannon
+
+Kapricus Carrier (70 Points)
+• 1x Armoured hull
+• 1x Magna-coil autocannon
+• 1x Twin magna‑coil autocannon
+
+Sagitaur (85 Points)
+• 1x Armoured wheels
+• 1x MATR autocannon
+• 1x Twin bolt cannon
+
+OTHER DATASHEETS
+
+Brôkhyr Thunderkyn (170 Points)
+• 6x Brôkhyr Thunderkyn
+◦ 6x Close combat weapon
+◦ 6x SP conversion beamer
+
+Hekaton Land Fortress (250 Points)
+• 1x Armoured wheels
+• 1x Cyclic ion cannon
+• 1x MATR autocannon
+• 1x Panspectral Scanner
+• 2x Twin bolt cannon
+
+Hernkyn Yaegirs (90 Points)
+• 1x Yaegir Theyn
+◦ 1x Bolt revolver
+◦ 1x Close combat weapon
+◦ 1x Plasma knife
+• 9x Hernkyn Yaegir
+◦ 1x APM launcher
+◦ 7x Bolt revolver
+◦ 9x Close combat weapon
+◦ 1x Magna-coil rifle
+◦ 7x Plasma knife
+
+Hernkyn Yaegirs (90 Points)
+• 1x Yaegir Theyn
+◦ 1x Bolt shotgun
+◦ 1x Close combat weapon
+• 9x Hernkyn Yaegir
+◦ 1x APM launcher
+◦ 7x Bolt shotgun
+◦ 9x Close combat weapon
+◦ 1x Magna-coil rifle
+
+Ironkin Steeljacks with Heavy Volkanite Disintegrators (170 Points)
+• 1x Steeljack Theyn
+◦ 1x Heavy volkanite disintegrator
+◦ 1x Plasma knife
+◦ 1x Preymark Crest
+• 5x Ironkin Steeljack
+◦ 5x Heavy volkanite disintegrator
+◦ 5x Plasma knife
+
+Ironkin Steeljacks with Melee Weapons (150 Points)
+• 1x Steeljack Theyn
+◦ 1x Autoch-pattern bolter
+◦ 1x Plasma sword
+◦ 1x Preymark Crest
+• 5x Ironkin Steeljack
+◦ 5x Autoch-pattern bolter
+◦ 5x Plasma sword
+
+Ironkin Steeljacks with Melee Weapons (150 Points)
+• 1x Steeljack Theyn
+◦ 1x Autoch-pattern bolter
+◦ 1x Plasma sword
+◦ 1x Preymark Crest
+• 5x Ironkin Steeljack
+◦ 5x Autoch-pattern bolter
+◦ 5x Plasma sword
+
+Exported with App Version: v2.7.1 (1), Data Version: v963

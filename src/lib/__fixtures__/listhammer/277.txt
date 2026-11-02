@@ -1,0 +1,50 @@
++++++++++++++++++++++++++++++++++++++++++++++++
++ PLAYER NAME: Minh
++ TEAM NAME: Fuseurs lorrains
++ FACTION KEYWORD: Imperium - Grey Knights
++ DETACHMENT: Warpbane Task Force (Hallowed Ground)
++ FORCE DISPOSITION: Take and Hold
++ TOTAL ARMY POINTS: 2000pts
++ WARLORD: Char1: Castellan Crowe
++ NUMBER OF UNITS: 10
++ SECONDARY: - Bring It Down: (2x2) - Assassination: 3 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Castellan Crowe (105 pts): Warlord, Black Blade of Antwyr, Purifying Flame, Storm bolter
+Leading Purifier Squad[1]
+Char2: 1x Grand Master in Nemesis Dreadknight (240 pts): Fragstorm grenade launcher, Nemesis daemon greathammer, Heavy psycannon, Sublimator
+Char3: 1x Grand Master in Nemesis Dreadknight (240 pts): Fragstorm grenade launcher, Nemesis daemon greathammer, Heavy psycannon, Sublimator
+
+4x Brotherhood Terminator Squad (150 pts)
+• 1x Justicar: Nemesis force weapon, Storm bolter
+• 1x Terminator: Nemesis force weapon, Storm bolter
+• 1x Terminator with Ancient's Banner: Ancient's Banner, Nemesis force weapon, Incinerator
+• 1x Terminator with Narthecium: Apothecary's narthecium, Nemesis force weapon
+5x Strike Squad (125 pts)
+• 1x Justicar: Nemesis force weapon, Storm bolter
+• 4x Grey Knight: 4 with Nemesis force weapon, Storm bolter
+5x Strike Squad (125 pts)
+• 1x Justicar: Nemesis force weapon, Storm bolter
+• 4x Grey Knight: 4 with Nemesis force weapon, Storm bolter
+
+5x Interceptor Squad (135 pts)
+• 1x Justicar: Nemesis force weapon, Storm bolter
+• 4x Interceptor: 4 with Nemesis force weapon, Storm bolter
+10x Purifier Squad (290 pts)
+• 9x Purifier
+    5 with Nemesis force weapon, Purifying Flame, Storm bolter
+    4 with Close combat weapon, Psycannon, Purifying Flame
+• 1x Knight of the Flame: Nemesis force weapon, Purifying Flame, Storm bolter
+  Attached to Castellan Crowe
+10x Purifier Squad (290 pts)
+• 9x Purifier
+    5 with Nemesis force weapon, Purifying Flame, Storm bolter
+    4 with Close combat weapon, Psycannon, Purifying Flame
+• 1x Knight of the Flame: Nemesis force weapon, Purifying Flame, Storm bolter
+10x Purifier Squad (300 pts)
+• 9x Purifier
+    5 with Nemesis force weapon, Purifying Flame, Storm bolter
+    4 with Close combat weapon, Psycannon, Purifying Flame
+• 1x Knight of the Flame: Nemesis force weapon, Purifying Flame, Storm bolter
+
+Created with newrecruit.eu v36.17

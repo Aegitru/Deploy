@@ -1,0 +1,72 @@
+++++++++++++++++++++++++++++++++++++++++++++
++ PLAYER NAME: Loonn
++ FACTION KEYWORD: Chaos - Thousand Sons
++ DETACHMENT: Hexwarp Thrallband (Flow of Magic)
++ FORCE DISPOSITION: Take and Hold
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char1: Magnus the Red
+
++ ENHANCEMENT: Arcane Might (on Char2: Daemon Prince of Tzeentch with wings)
+& Noctilith Mantle (on Char3: Daemon Prince of Tzeentch with wings)
+& Empyric Onslaught (on Char5: Sorcerer)
+
++ NUMBER OF UNITS: 14
+
++ SECONDARY: - Bring It Down: (5x2) + (1x4) - Assassination: 6 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char2: 1x Daemon Prince of Tzeentch with wings (190 pts): Dark Blessing, Hellforged weapons, Infernal cannon
+Enhancement: Arcane Might (+20 pts)
+
+Char3: 1x Daemon Prince of Tzeentch with wings (195 pts): Dark Blessing, Hellforged weapons, Infernal cannon
+Enhancement: Noctilith Mantle (+15 pts)
+
+Char4: 1x Daemon Prince of Tzeentch with wings (180 pts): Dark Blessing, Hellforged weapons, Infernal cannon
+
+Char1: 1x Magnus the Red (455 pts): Warlord, Blade of Magnus, Gaze of Magnus, Tzeentch's Firestorm
+
+Char5: 1x Sorcerer (120 pts): Force weapon, Inferno bolt pistol, Pandaemonic Delusion
+Enhancement: Empyric Onslaught (+25 pts)
+Leading Rubric Marines[1]
+
+Char6: 1x Sorcerer (95 pts): Force weapon, Inferno bolt pistol, Pandaemonic Delusion
+Leading Rubric Marines[2]
+
+5x Rubric Marines (100 pts)
+• 4x Rubric Marine
+1 with Icon of Flame, Close combat weapon, Soulreaper cannon
+3 with Close combat weapon, Warpflamer
+• 1x Aspiring Sorcerer: Force weapon, Malefic Curse, Warpflame pistol
+Attached to Sorcerer[1]
+
+5x Rubric Marines (100 pts)
+• 4x Rubric Marine
+1 with Icon of Flame, Close combat weapon, Soulreaper
+cannon
+3 with Close combat weapon, Warpflamer
+• 1x Aspiring Sorcerer: Force weapon, Malefic Curse, Warpflame pistol
+Attached to Sorcerer[2]
+
+1x Mutalith Vortex Beast (170 pts): Betentacled maw, Mutalith claws, Warp vortex
+
+1x Mutalith Vortex Beast (170 pts): Betentacled maw, Mutalith claws, Warp vortex
+
+3x Tzaangor Enlightened (50 pts)
+• 1x Aviarch: Divining spear
+• 2x Divining spear Enlightened: 2 with Divining spear
+
+3x Tzaangor Enlightened (50 pts)
+• 1x Aviarch: Divining spear
+• 2x Divining spear Enlightened: 2 with Divining spear
+
+3x Tzaangor Enlightened (50 pts)
+• 1x Aviarch: Divining spear
+• 2x Divining spear Enlightened: 2 with Divining spear
+
+10x Tzaangors (75 pts)
+• 9x Tzaangor
+7 with Autopistol, Chainsword
+1 with Herd banner, Autopistol, Chainsword
+1 with Brayhorn, Autopistol, Chainsword
+• 1x Twistbray: Autopistol, Chainsword

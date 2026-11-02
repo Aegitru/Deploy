@@ -1,0 +1,92 @@
+Nurgle (2000 points)
+
+Chaos Daemons
+Plague Legion and Warptide (3 Detachment Points)
+Take and Hold
+Strike Force (2000 points)
+
+Attached Units
+Attached Unit 1
+
+Epidemius (80 points)
+• Attached as: Leader (Character)
+• 1x Balesword and Nurgling attendants
+
+Plaguebearers (130 points)
+• Attached as: Bodyguard (Battleline)
+• Enhancement: Bane-forged Weapons (Upgrade)
+• 1x Plagueridden
+• 1x Plaguesword
+• 9x Plaguebearer
+• 9x Plaguesword
+
+Attached Unit 2
+
+Sloppity Bilepiper (70 points)
+• Attached as: Leader (Character)
+• 1x Marotter
+• Enhancement: Cankerblight (Aura)
+
+Plaguebearers (115 points)
+• Attached as: Bodyguard (Battleline)
+• 1x Plagueridden
+• 1x Plaguesword
+• 9x Plaguebearer
+• 9x Plaguesword
+
+
+CHARACTERS
+
+Be’lakor (390 points)
+• Warlord
+• 1x Betraying Shades
+1x The Blade of Shadows
+
+Great Unclean One (285 points)
+• 1x Bilesword
+1x Plague flail
+1x Putrid vomit
+• Enhancement: Font of Spores (Aura)
+
+Rotigus (280 points)
+• 1x Gnarlrod
+1x Streams of brackish filth
+
+
+BATTLELINE
+
+Nurglings (45 points)
+• 3x Nurgling Swarm
+• 3x Diseased claws and teeth
+
+Nurglings (45 points)
+• 3x Nurgling Swarm
+• 3x Diseased claws and teeth
+
+Plaguebearers (115 points)
+• 1x Plagueridden
+• 1x Plaguesword
+• 9x Plaguebearer
+• 9x Plaguesword
+
+Plaguebearers (115 points)
+• 1x Plagueridden
+• 1x Plaguesword
+• 9x Plaguebearer
+• 9x Plaguesword
+
+
+OTHER DATASHEETS
+
+Beasts of Nurgle (150 points)
+• 2x Beast of Nurgle
+• 2x Putrid appendages
+
+Soul Grinder (180 points)
+• Daemonic Allegiance: Tzeentch
+• 1x Harvester cannon
+1x Iron claw
+1x Warp gaze
+1x Warpsword
+
+Exported with App Version: v2.7.1 (146), Data Version: v972

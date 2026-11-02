@@ -1,0 +1,140 @@
+0-6 Needguard HG (1,995 Points)
+
+Leagues of Votann
+Hearthguard Covenant and Needgaârd Oathband (3 Detachment Points)
+Priority Assets
+Strike Force (2,000 Points)
+
+ATTACHED UNITS
+
+Attached unit 1
+
+Ûthar the Destined (90 Points)
+• Attached as: Leader (Character)
+• Warlord
+• 1x Blade of the Ancestors
+• 1x Rampart Crest
+• 1x Volkanite disintegrator
+
+Einhyr Hearthguard (130 Points)
+• Attached as: Bodyguard
+• 1x Hesyr
+◦ 1x EtaCarn plasma gun
+◦ 1x Exoarmour grenade launcher
+◦ 1x Graviton hammer
+◦ 1x Teleport Crest
+• 4x Einhyr Hearthguard
+◦ 4x Concussion gauntlet
+◦ 4x EtaCarn plasma gun
+◦ 4x Exoarmour grenade launcher
+
+Attached unit 2
+
+Kâhl (80 Points)
+• Attached as: Leader (Character)
+• 1x Mass gauntlet
+• 1x Rampart Crest
+• 1x Volkanite disintegrator
+• Enhancements: Ancestral Crest
+
+Einhyr Hearthguard (270 Points)
+• Attached as: Bodyguard
+• 1x Hesyr
+◦ 1x EtaCarn plasma gun
+◦ 1x Exoarmour grenade launcher
+◦ 1x Graviton hammer
+◦ 1x Teleport Crest
+• 9x Einhyr Hearthguard
+◦ 9x Concussion gauntlet
+◦ 9x EtaCarn plasma gun
+◦ 9x Exoarmour grenade launcher
+
+Attached unit 3
+
+Memnyr Strategist (75 Points)
+• Attached as: Leader (Character)
+• 1x Autoch-pattern bolt pistol
+• 1x Close combat weapon
+• Enhancements: Oathbound Speculator
+
+Ironkin Steeljacks with Heavy Volkanite Disintegrators (170 Points)
+• Attached as: Bodyguard
+• 1x Steeljack Theyn
+◦ 1x Heavy volkanite disintegrator
+◦ 1x Plasma knife
+◦ 1x Preymark Crest
+• 5x Ironkin Steeljack
+◦ 5x Heavy volkanite disintegrator
+◦ 5x Plasma knife
+
+CHARACTERS
+
+Buri Aegnirssen (85 Points)
+• 1x Autoch‑pattern bolt pistol
+• 1x Bane
+
+DEDICATED TRANSPORTS
+
+Kapricus Carrier (70 Points)
+• 1x Armoured hull
+• 1x Magna-coil autocannon
+• 1x Smoke Launcher
+• 1x Twin magna‑coil autocannon
+
+OTHER DATASHEETS
+
+Brôkhyr Thunderkyn (80 Points)
+• 3x Brôkhyr Thunderkyn
+◦ 3x Close combat weapon
+◦ 3x Graviton blast cannon
+
+Brôkhyr Thunderkyn (80 Points)
+• 3x Brôkhyr Thunderkyn
+◦ 3x Close combat weapon
+◦ 3x Graviton blast cannon
+
+Brôkhyr Thunderkyn (90 Points)
+• 3x Brôkhyr Thunderkyn
+◦ 3x Close combat weapon
+◦ 3x Graviton blast cannon
+
+Cthonian Beserks (95 Points)
+• 5x Cthonian Beserk
+◦ 5x Concussion maul
+
+Hekaton Land Fortress (250 Points)
+• 1x Armoured wheels
+• 1x MATR autocannon
+• 1x Panspectral Scanner
+• 1x SP heavy conversion beamer
+• 2x Twin bolt cannon
+
+Hekaton Land Fortress (265 Points)
+• 1x Armoured wheels
+• 1x MATR autocannon
+• 1x Panspectral Scanner
+• 1x SP heavy conversion beamer
+• 2x Twin bolt cannon
+
+Hernkyn Yaegirs (90 Points)
+• 1x Yaegir Theyn
+◦ 1x Bolt revolver
+◦ 1x Close combat weapon
+◦ 1x Plasma knife
+• 9x Hernkyn Yaegir
+◦ 1x APM launcher
+◦ 7x Bolt revolver
+◦ 9x Close combat weapon
+◦ 1x Magna-coil rifle
+◦ 7x Plasma knife
+
+Ironkin Steeljacks with Melee Weapons (75 Points)
+• 1x Steeljack Theyn
+◦ 1x Autoch-pattern bolter
+◦ 1x Plasma sword
+◦ 1x Preymark Crest
+• 2x Ironkin Steeljack
+◦ 2x Autoch-pattern bolter
+◦ 2x Plasma sword
+
+Exported with App Version: v2.6.0 (3), Data Version: v946

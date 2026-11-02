@@ -1,0 +1,108 @@
+Mercovenant v2 (2,000 Points)
+
+Leagues of Votann
+Hearthguard Covenant and Mercenary Oathband (3 Detachment Points)
+Priority Assets
+Strike Force (2,000 Points)
+
+ATTACHED UNITS
+
+Attached unit 1
+
+Brôkhyr Iron-master (85 Points)
+  • Attached as: Leader (Character)
+  • 1x Etacarn SB9 Targeting Implant
+
+Brôkhyr Thunderkyn (170 Points)
+  • Attached as: Bodyguard
+  • 6x Brôkhyr Thunderkyn
+     ◦ 6x SP conversion beamer
+
+Attached unit 2
+
+Berehk Stornbröw (85 Points)
+  • Attached as: Leader (Character)
+
+Cthonian Beserks (90 Points)
+  • Attached as: Bodyguard
+  • 5x Beserk
+     ◦ 5x Concussion maul
+
+Attached unit 3
+
+Kâhl (65 Points)
+  • Attached as: Leader (Character)
+  • Warlord
+  • 1x Mass gauntlet
+  • 1x Teleport crest
+  • 1x Volkanite disintegrator
+
+Einhyr Hearthguard (270 Points)
+  • Attached as: Bodyguard
+  • 1x Hesyr
+     ◦ 1x Weavefield crest
+  • 9x Einhyr Hearthguard
+     ◦ 9x Concussion gauntlet
+     ◦ 9x EtaCarn plasma gun
+
+CHARACTERS
+
+Buri Aegnirssen (85 Points)
+
+Memnyr Strategist (45 Points)
+
+BATTLELINE
+
+Hearthkyn Warriors (90 Points)
+  • 1x Theyn
+     ◦ 1x Theyn's melee weapon
+     ◦ 1x Theyn's pistol
+  • 9x Hearthkyn Warrior
+     ◦ 9x Autoch-pattern bolt pistol
+     ◦ 9x Close combat weapon
+     ◦ 7x Ion blaster
+     ◦ 1x L7 missile launcher
+     ◦ 1x Magna-rail rifle
+
+DEDICATED TRANSPORTS
+
+Kapricus Carrier (70 Points)
+  • 1x Smoke launcher
+
+Sagitaur (85 Points)
+  • 1x MATR autocannon
+
+OTHER DATASHEETS
+
+Brôkhyr Thunderkyn (170 Points)
+  • 6x Brôkhyr Thunderkyn
+     ◦ 6x Graviton blast cannon
+
+Cthonian Beserks (180 Points)
+  • 10x Beserk
+     ◦ 7x Heavy plasma axe
+     ◦ 1x Mole grenade launcher
+     ◦ 2x Twin concussion gauntlets
+
+Hekaton Land Fortress (250 Points)
+  • 1x Heavy magna-rail cannon
+  • 1x Pan spectral scanner
+  • 2x Twin bolt cannon
+
+Hernkyn Pioneers (85 Points)
+  • 3x Hernkyn Pioneer
+     ◦ 1x Comms array
+     ◦ 1x HYLas rotary cannon
+     ◦ 1x Pan-spectral scanner
+
+Hernkyn Pioneers (85 Points)
+  • 3x Hernkyn Pioneer
+     ◦ 1x Comms array
+     ◦ 1x HYLas rotary cannon
+     ◦ 1x Pan-spectral scanner
+
+Hernkyn Yaegirs (90 Points)
+  • 9x Hernkyn Yaegir
+     ◦ 1x APM launcher
+     ◦ 7x Bolt shotgun
+     ◦ 1x Magna-coil rifle

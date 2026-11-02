@@ -1,0 +1,41 @@
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Xenos - Necrons
++ DETACHMENT: Cursed Legion, Skyshroud Spearhead (Cold Fervour)
++ FORCE DISPOSITION: Purge the Foe
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char2: Nekrosor Ammentar
++ ENHANCEMENT: Mark of the Nekrosor (on Char3: Lokhust Lord)
+& Destroyer Ankh (on Char4: Overlord)
+& Cursed Circlet (on Char5: Skorpekh Lord)
++ NUMBER OF UNITS: 13
++ SECONDARY: - Bring It Down: (2x2) + (1x4) - Assassination: 5 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x C'tan Shard of the Nightbringer (360 pts): Gaze of death, Scythe of the Nightbringer
+Char3: 1x Lokhust Lord (100 pts): Resurrection orb, Lord's blade
+Enhancement: Mark of the Nekrosor (+20 pts)
+Leading Lokhust Destroyers
+Char2: 1x Nekrosor Ammentar (195 pts): Warlord, Nullstone field generator, Blade tail and whip coils, Enmitic disintegrators, Unmaker gauntlet
+Char4: 1x Overlord (110 pts): Resurrection orb, Voidscythe
+Enhancement: Destroyer Ankh (+20 pts)
+Leading Lychguard
+Char5: 1x Skorpekh Lord (120 pts): Enmitic annihilator, Flensing claw, Hyperphase harvester
+Enhancement: Cursed Circlet (+25 pts)
+Leading Skorpekh Destroyers
+
+1x Doomsday Ark (200 pts): Armoured bulk, Doomsday cannon, 2x Gauss flayer array
+1x Doomsday Ark (200 pts): Armoured bulk, Doomsday cannon, 2x Gauss flayer array
+6x Lokhust Destroyers (190 pts): 6 with Close combat weapon, Gauss cannon
+Attached to Lokhust Lord
+2x Lokhust Heavy Destroyers (100 pts): 2 with Close combat weapon, Enmitic exterminator
+2x Lokhust Heavy Destroyers (100 pts)
+1 with Close combat weapon, Enmitic exterminator
+1 with Close combat weapon, Gauss destructor
+10x Lychguard (160 pts): 10 with Dispersion shield, Hyperphase sword
+Attached to Overlord
+3x Ophydian Destroyers (80 pts): Plasmacyte, 3 with Ophydian hyperphase weapons
+3x Skorpekh Destroyers (85 pts): Plasmacyte, 3 with Skorpekh hyperphase weapons
+Attached to Skorpekh Lord
+
+Created with newrecruit.eu v36.47

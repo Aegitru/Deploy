@@ -1,0 +1,41 @@
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Xenos - Necrons
++ DETACHMENT: Awakened Dynasty (Command Protocols)
++ FORCE DISPOSITION: Take and Hold
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char6: Overlord
++ ENHANCEMENT: Veil of Darkness (on Char5: Lokhust Lord)
+& Enaegic Dermal Bond (on Char8: Skorpekh Lord)
++ NUMBER OF UNITS: 14
++ SECONDARY: - Bring It Down: (2x4) - Assassination: 9 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x C'tan Shard of the Deceiver (330 pts): Cosmic insanity, Golden fists
+Char2: 1x C'tan Shard of the Void Dragon (345 pts): Canoptek tail blades, Spear of the Void Dragon, Voltaic storm
+Char3: 1x Illuminor Szeras (175 pts): Eldritch lance, Impaling legs
+Char5: 1x Lokhust Lord (100 pts): Resurrection orb, Lord's blade
+Enhancement: Veil of Darkness (+20 pts)
+Leading Lokhust Destroyers
+Char4: 1x Nekrosor Ammentar (195 pts): Nullstone field generator, Blade tail and whip coils, Enmitic disintegrators, Unmaker gauntlet
+Char6: 1x Overlord (90 pts): Warlord, Resurrection orb, Voidscythe
+Leading Necron Warriors
+Char7: 1x Psychomancer (65 pts): Abyssal lance
+Supporting Necron Warriors
+Char8: 1x Skorpekh Lord (125 pts): Enmitic annihilator, Flensing claw, Hyperphase harvester
+Enhancement: Enaegic Dermal Bond (+30 pts)
+Char9: 1x Skorpekh Lord (95 pts): Enmitic annihilator, Flensing claw, Hyperphase harvester
+Leading Skorpekh Destroyers
+
+10x Necron Warriors (85 pts): 10 with Close combat weapon, Gauss reaper
+Attached to Overlord
+Attached to Psychomancer
+
+3x Canoptek Scarab Swarms (40 pts): 3 with Feeder mandibles
+6x Lokhust Destroyers (190 pts): 6 with Close combat weapon, Gauss cannon
+Attached to Lokhust Lord
+3x Ophydian Destroyers (80 pts): Plasmacyte, 3 with Ophydian hyperphase weapons
+3x Skorpekh Destroyers (85 pts): Plasmacyte, 3 with Skorpekh hyperphase weapons
+Attached to Skorpekh Lord[2]
+
+Created with newrecruit.eu v36.44

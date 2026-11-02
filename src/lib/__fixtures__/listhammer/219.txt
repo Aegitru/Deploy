@@ -1,0 +1,90 @@
+House Rosecairn (2000 points)
+
+Imperial Knights
+Freeblade Company (3 Detachment Points)
+Priority Assets
+Strike Force (2000 points)
+
+Attached Units
+Attached Unit 1
+
+Ministorum Priest (40 points)
+• Attached as: Support
+• 1x Zealot’s vindictor
+
+Sanctifiers (100 points)
+• Attached as: Bodyguard
+• 1x Miraculist
+• 1x Burning hands
+1x Holy fire
+• 1x Salvationist
+• 1x Close combat weapon
+1x Salvationist Medikit
+• 1x Death Cult Assassin
+• 1x Death Cult blades
+• 2x Missionary
+• 1x Holy fire
+1x Ministorum flamer
+1x Plasma gun
+2x Sanctifier melee weapon
+• 4x Sanctifier
+• 2x Close combat weapon
+5x Ministorum hand flamer
+2x Sanctifier melee weapon
+1x Simulacrum Imperialis
+
+
+CHARACTERS
+
+Cerastus Knight Lancer (445 points)
+• Warlord
+• 1x Cerastus shock lance
+• Enhancement: Bringer of Justice
+
+Knight Destrier (285 points)
+• 1x Chastiser gatling cannon
+1x Frag bombard
+1x Questoris heavy stubber
+1x Titanic feet
+• Enhancement: Sanctuary
+
+Knight Errant (390 points)
+• 1x Meltagun
+1x Reaper chainsword
+1x Stormspear rocket pod
+1x Thermal cannon
+• Enhancement: Mysterious Guardian
+
+Knight Paladin (400 points)
+• 2x Questoris heavy stubber
+1x Rapid-fire battle cannon
+1x Stormspear rocket pod
+1x Thunderstrike gauntlet
+• Enhancement: Hunter’s Eye
+
+
+OTHER DATASHEETS
+
+Armiger Warglaive (140 points)
+• 1x Meltagun
+1x Reaper chain-cleaver
+1x Thermal spear
+
+Armiger Warglaive (140 points)
+• 1x Meltagun
+1x Reaper chain-cleaver
+1x Thermal spear
+
+
+ALLIED UNITS
+
+Inquisitorial Agents (60 points)
+• 5x Inquisitorial Agent
+• 5x Agent firearm
+5x Agent melee weapon
+1x Plasma pistol
+• 1x Gun Servitor
+• 1x Agent melee weapon
+1x Plasma cannon
+
+Exported with App Version: v2.6.0 (144), Data Version: v946

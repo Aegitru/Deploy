@@ -1,0 +1,21 @@
++++++++++++++++++++++++++++++++++++++++++++++++
++ PLAYER : Corentin
++ FACTION KEYWORD: Imperium - Imperial Knights
++ DETACHMENT: Dominus Foebreakers, Valourstrike Lance (Rain of Devastation)
++ FORCE DISPOSITION: Purge the Foe
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char2: Knight Castellan
++ NUMBER OF UNITS: 5
++ SECONDARY: - Bring It Down: (5x6) - Assassination: 5 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Cerastus Knight Lancer (415 pts): Cerastus shock lance
+
+Char2: 1x Knight Castellan (425 pts): Warlord, Plasma decimator, Titanic feet, 2x Twin meltagun, Volcano lance, 2x Shieldbreaker missile launcher, Twin siegebreaker cannon
+
+Char3: 1x Knight Crusader (410 pts): Avenger gatling cannon, Heavy flamer, Titanic feet, Stormspear rocket pod, Questoris heavy stubber, Questoris heavy stubber, Rapid-fire battle cannon
+
+Char4: 1x Knight Paladin (375 pts): Questoris heavy stubber, Rapid-fire battle cannon, Stormspear rocket pod, Questoris heavy stubber, Reaper chainsword
+
+Char5: 1x Knight Paladin (375 pts): Questoris heavy stubber, Rapid-fire battle cannon, Stormspear rocket pod, Questoris heavy stubber, Reaper chainsword

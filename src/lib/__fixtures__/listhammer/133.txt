@@ -1,0 +1,78 @@
+want to see my harlequin’s blade
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Xenos - Drukhari
++ DETACHMENT: Reaper's Wager (Callous Competition)
++ FORCE DISPOSITION: Priority Assets
++ TOTAL ARMY POINTS: 1995pts
++
++ ENHANCEMENT: Archraider (on Char4: Archon)
+& Webway walker (on Char5: Troupe Master)
++ NUMBER OF UNITS: 20
++ SECONDARY: - Bring It Down: (5x2) - Assassination: 5 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char4: 1x Archon (95 pts): Shadowfield, Soul Trap, Huskblade
+Enhancement: Archraider (+15 pts)
+Leading Kabalite Warriors
+Char1: 1x Drazhar (85 pts): The Executioner's demiklaives
+Leading Incubi
+Char2: 1x Lady Malys (100 pts): Melee Weapons
+Leading Hand of the Archon
+Char3: 1x Lelith Hesperax (80 pts): Lelith's blades
+Leading Wyches
+Char5: 1x Troupe Master (90 pts): Harlequin's Special Weapon, Shuriken Pistol
+Enhancement: Webway walker (+15 pts)
+Leading Troupe
+
+10x Kabalite Warriors (110 pts)
+• 1x Sybarite: Phantasm Grenade Launcher, Power Weapon, Blast Pistol
+• 5x Kabalite Warrior: 5 with Close Combat Weapon, Splinter rifle
+• 1x Kabalite Warrior with Blaster: Blaster, Close Combat Weapon
+• 1x Kabalite Warrior with Dark Lance: Close Combat Weapon, Dark lance
+• 1x Kabalite Warrior with Shredder: Close Combat Weapon, Shredder
+• 1x Kabalite Warrior with Splinter Cannon: Close Combat Weapon, Splinter cannon
+Attached to Archon
+10x Wyches (90 pts)
+• 9x Wych
+6 with Hekatarii Blade, Splinter Pistol
+3 with Gladiatorial weapons
+• 1x Hekatrix: Power weapon, Blast Pistol
+Attached to Lelith Hesperax
+
+1x Cronos (55 pts): Spirit Syphon, Spirit-leech Tentacles
+10x Hand of the Archon (115 pts)
+• 1x Kabalite Archsybarite: Close Combat Weapon, Splinter Rifle
+• 9x Kabalite Agent: 9 with Close Combat Weapon, Splinter rifle
+Attached to Lady Malys
+10x Hellions (180 pts)
+• 1x Heliarch: Phantasm Grenade Launcher, Splinter Pods, Hellglaive, Splinter Pistol, Stunclaw
+• 9x Hellion: 9 with Hellglaive, Splinter Pods
+5x Hellions (90 pts)
+• 1x Heliarch: Phantasm Grenade Launcher, Splinter Pods, Hellglaive, Splinter Pistol, Stunclaw
+• 4x Hellion: 4 with Hellglaive, Splinter Pods
+5x Incubi (90 pts): Incubi Shrine Token
+• 1x Klaivex: Demiklaives
+• 4x Incubi: 4 with Klaive
+Attached to Drazhar
+5x Mandrakes (80 pts)
+• 1x Nightfiend: Baleblast, Glimmersteel Blade
+• 4x Mandrake: 4 with Baleblast, Glimmersteel Blade
+1x Raider (75 pts): Bladevanes and chainsnares, Dark Lance
+5x Scourges with Heavy Weapons (130 pts)
+• 1x Solarite: Close combat weapon, Shardcarbine
+• 4x Scourge with Heavy Weapon: 4 with Close combat weapon, Dark Lance
+5x Scourges with Heavy Weapons (130 pts)
+• 1x Solarite: Close combat weapon, Shardcarbine
+• 4x Scourge with Heavy Weapon: 4 with Close combat weapon, Dark Lance
+12x Troupe (205 pts)
+• 1x Lead Player: Power sword, Fusion Pistol
+• 4x Player with Harlequin's Blade: 4 with Harlequin's Blade, Shuriken Pistol
+• 4x Player with Neuro Disruptor: 4 with Neuro Disruptor, Harlequin's Blade
+• 3x Player with Fusion Pistol: 3 with Fusion Pistol, Harlequin's Blade
+Attached to Troupe Master
+1x Venom (65 pts): Bladevanes, Splinter Cannon, Twin Splinter Rifle
+1x Venom (65 pts): Bladevanes, Splinter Cannon, Twin Splinter Rifle
+1x Venom (65 pts): Bladevanes, Splinter Cannon, Twin Splinter Rifle
+
+Created with newrecruit.eu v36.36

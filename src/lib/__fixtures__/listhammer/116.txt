@@ -1,0 +1,60 @@
+Iron Hands
+──────────────────────────────
+Faction: Space Marines
+Detachment: Medusa's Wrath, Deathwatch Support
+Battle Size: Strike Force (2000 pts)
+Total: 2000 / 2000 pts · 3/3 DP · ✓ Legal
+Disposition: Purge the Foe
+
+EPIC HERO
+Iron Father Feirros (85 pts) · Warlord
+   · Bolt Pistol, Gorgon's Wrath, Harrowhand, Medusan Manipuli
+
+CHARACTER
+Techmarine (80 pts)
+   · Forge Bolter, Grav-Pistol, Omnissian Power Axe and Servo-Arm
+   · Enhancement: Adept of the Omnissiah (+25 pts)
+
+Librarian in Phobos Armour (100 pts)
+   · Bolt Pistol, Smite, Force Weapon
+   · Enhancement: Master of the Machine War (+25 pts)
+
+INFANTRY
+Eradicator Squad with Melta Rifles ×3 (100 pts)
+   · 3× Bolt Pistol, 2× Melta Rifle, Multi-Melta, 3× Ceramite Fists
+
+Eradicator Squad with Melta Rifles ×3 (100 pts)
+   · 3× Bolt Pistol, 2× Melta Rifle, Multi-Melta, 3× Ceramite Fists
+
+Scout Squad ×5 (65 pts)
+   · 5× Bolt Pistol, Missile Launcher, 3× Shotgun, Sniper Rifle, Chainsword, 4× Combat Knife
+
+VEHICLE
+Repulsor Executioner (270 pts)
+   · Defensive Array, Heavy Laser Destroyer, Heavy Onslaught Gatling Cannon, Twin Heavy Bolter, Armoured Hull
+
+Repulsor (190 pts)
+   · Defensive Array, Heavy Onslaught Gatling Cannon, Hunter-Slayer Missile, Twin Lascannon, Armoured Hull
+
+Repulsor (190 pts)
+   · Defensive Array, Heavy Onslaught Gatling Cannon, Hunter-Slayer Missile, Twin Lascannon, Armoured Hull
+
+Storm Speeder Thunderstrike (140 pts)
+   · Stormfury Missile Launcher, Thunderstrike Icarus Rocket Pod, Thunderstrike Las-Talon, Armoured Impact
+
+Storm Speeder Thunderstrike (140 pts)
+   · Stormfury Missile Launcher, Thunderstrike Icarus Rocket Pod, Thunderstrike Las-Talon, Armoured Impact
+
+DEDICATED TRANSPORT
+Impulsor (70 pts)
+   · Ironhail Heavy Stubber, Ironhail Skytalon Array, Storm Bolters, Armoured Hull
+
+Impulsor (70 pts)
+   · Ironhail Heavy Stubber, Ironhail Skytalon Array, Storm Bolters, Armoured Hull
+
+ALLIED
+Deathwatch Terminator Squad ×5 (200 pts) · Allied
+   · 3× Plasma Cannon, 3× Chainfist, 2× Thunder Hammer and Storm Shield
+
+Deathwatch Terminator Squad ×5 (200 pts) · Allied
+   · 3× Plasma Cannon, 3× Chainfist, 2× Thunder Hammer and Storm Shield

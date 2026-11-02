@@ -1,0 +1,102 @@
+Grey Knights (1,995 Points)
+
+Grey Knights
+Warpbane Task Force (3 Detachment Points)
+Purge the Foe
+Strike Force (2,000 Points)
+
+ATTACHED UNITS
+
+Attached unit 1
+
+Grand Master Voldus (130 Points)
+• Attached as: Leader (Character)
+• Warlord
+• 1x Malleus Argyrum
+• 1x Searing Purity
+• 1x Storm Bolter
+
+Paladin Squad (400 Points)
+• Attached as: Bodyguard
+• 1x Paragon
+◦ 1x Nemesis force weapon
+◦ 1x Storm Bolter
+• 1x Paladin Ancient
+◦ 1x Ancient’s Banner
+◦ 1x Nemesis force weapon
+◦ 1x Psycannon
+• 6x Paladin
+◦ 1x Apothecary’s Narthecium
+◦ 6x Nemesis force weapon
+◦ 2x Psycannon
+◦ 3x Storm Bolter
+
+Attached unit 2
+
+Castellan Crowe (105 Points)
+• Attached as: Leader (Character)
+• 1x Black Blade of Antwyr
+• 1x Purifying Flame
+• 1x Storm Bolter
+
+Purifier Squad (290 Points)
+• Attached as: Bodyguard
+• 1x Knight of the Flame
+◦ 1x Nemesis force weapon
+◦ 1x Purifying Flame
+◦ 1x Storm Bolter
+• 9x Purifier
+◦ 9x Nemesis force weapon
+◦ 9x Purifying Flame
+◦ 9x Storm Bolter
+
+CHARACTERS
+
+Grand Master in Nemesis Dreadknight (235 Points)
+• 1x Fragstorm grenade launcher
+• 1x Gatling psilencer
+• 1x Heavy psycannon
+• 1x Nemesis daemon greathammer
+• Enhancements: Paragon of Sanctity
+
+BATTLELINE
+
+Strike Squad (125 Points)
+• 1x Justicar
+◦ 1x Nemesis force weapon
+◦ 1x Storm Bolter
+• 4x Grey Knight
+◦ 4x Nemesis force weapon
+◦ 4x Storm Bolter
+
+Strike Squad (125 Points)
+• 1x Justicar
+◦ 1x Nemesis force weapon
+◦ 1x Storm Bolter
+• 4x Grey Knight
+◦ 4x Nemesis force weapon
+◦ 4x Storm Bolter
+
+OTHER DATASHEETS
+
+Nemesis Dreadknight (220 Points)
+• 1x Gatling psilencer
+• 1x Heavy psycannon
+• 1x Nemesis daemon greathammer
+
+Nemesis Dreadknight (220 Points)
+• 1x Heavy incinerator
+• 1x Heavy psycannon
+• 1x Nemesis daemon greathammer
+
+Purifier Squad (145 Points)
+• 1x Knight of the Flame
+◦ 1x Nemesis force weapon
+◦ 1x Purifying Flame
+◦ 1x Storm Bolter
+• 4x Purifier
+◦ 4x Nemesis force weapon
+◦ 4x Purifying Flame
+◦ 4x Storm Bolter
+
+Exported with App Version: v2.7.2 (2), Data Version: v972

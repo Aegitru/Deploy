@@ -1,0 +1,79 @@
+Shatter (2.000 Points)
+
+Necrons
+Starshatter Arsenal (3 Detachment Points)
+Priority Assets
+Strike Force (2.000 Points)
+
+ATTACHED UNITS
+
+Attached unit 1
+
+Technomancer (105 Points)
+• Attached as: Support (Character)
+• 1x Staff of light
+• Enhancements: Chrono-impedance Fields
+
+Canoptek Wraiths (220 Points)
+• Attached as: Bodyguard
+• 6x Canoptek Wraith
+◦ 6x Particle caster
+◦ 6x Vicious claws
+
+CHARACTERS
+
+C’tan Shard of the Nightbringer (360 Points)
+• 1x Gaze of death
+• 1x Scythe of the Nightbringer
+
+Nekrosor Ammentar (195 Points)
+• 1x Blade tail and whip coils
+• 1x Enmitic disintegrators
+• 1x Nullstone Field Generator (Aura)
+• 1x Unmaker Gauntlet
+
+The Silent King (420 Points)
+• 1x Szarekh
+• Warlord
+◦ 1x Sceptre of Eternal Glory
+◦ 1x Staff of Stars
+◦ 1x Weapons of the Final Triarch
+• 2x Triarchal Menhir
+◦ 2x Annihilator beam
+◦ 2x Armoured bulk
+
+OTHER DATASHEETS
+
+Canoptek Scarab Swarms (40 Points)
+• 3x Canoptek Scarab Swarm
+◦ 3x Feeder mandibles
+
+Canoptek Scarab Swarms (40 Points)
+• 3x Canoptek Scarab Swarm
+◦ 3x Feeder mandibles
+
+Canoptek Tomb Crawlers (60 Points)
+• 2x Canoptek Tomb Crawlers
+◦ 2x Claws
+◦ 1x Transdimensional isolator
+◦ 1x Twin gauss reaper
+
+Doomsday Ark (200 Points)
+• 1x Armoured bulk
+• 1x Doomsday cannon
+• 2x Gauss flayer array
+
+Doomsday Ark (200 Points)
+• 1x Armoured bulk
+• 1x Doomsday cannon
+• 2x Gauss flayer array
+
+Ophydian Destroyers (80 Points)
+• 3x Ophydian Destroyer
+◦ 3x Ophydian hyperphase weapons
+
+Triarch Praetorians (80 Points)
+• 5x Triarch Praetorian
+◦ 5x Rod of covenant
+
+Exported with App Version: v2.8.0 (2), Data Version: v981

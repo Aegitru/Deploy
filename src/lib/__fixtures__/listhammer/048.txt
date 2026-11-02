@@ -1,0 +1,90 @@
+Hive fleet nexus (2,000 Points)
+
+Tyranids
+Invasion Fleet (3 Detachment Points)
+Take and Hold
+Strike Force (2,000 Points)
+
+ATTACHED UNITS
+
+Attached unit 1
+
+The Swarmlord (210 Points)
+• Attached as: Leader (Character)
+• Warlord
+• 1x Bone sabres
+• 1x Synaptic pulse
+
+Tyrant Guard (170 Points)
+• Attached as: Bodyguard
+• 6x Tyrant Guard
+◦ 6x Scything talons and rending claws
+
+Attached unit 2
+
+Tyranid Prime with Lash Whip (105 Points)
+• Attached as: Leader (Character)
+• 1x Lash whip
+• 1x Rending claw
+• 1x Scything talons
+• Enhancements: Alien Cunning
+
+Hormagaunts (120 Points)
+• Attached as: Bodyguard (Battleline)
+• 20x Hormagaunt
+◦ 20x Hormagaunt talons
+
+Attached unit 3
+
+Tyranid Prime with Lash Whip (75 Points)
+• Attached as: Leader (Character)
+• 1x Lash whip
+• 1x Rending claw
+• 1x Scything talons
+
+Termagants (110 Points)
+• Attached as: Bodyguard (Battleline)
+• 20x Termagant
+◦ 20x Chitinous claws and teeth
+◦ 2x Strangleweb
+◦ 18x Termagant spinefists
+
+Attached unit 4
+
+Hive Tyrant (210 Points)
+• Attached as: Leader (Character)
+• 1x Monstrous bonesword and lash whip
+• 1x Monstrous scything talons
+• Enhancements: Perfectly Adapted
+
+Tyrant Guard (170 Points)
+• Attached as: Bodyguard
+• 6x Tyrant Guard
+◦ 6x Scything talons and rending claws
+
+OTHER DATASHEETS
+
+Biovores (60 Points)
+• 1x Chitin-barbed limbs
+• 1x Spore Mine launcher
+
+Maleceptor (180 Points)
+• 1x Massive scything talons
+• 1x Psychic overload
+
+Maleceptor (180 Points)
+• 1x Massive scything talons
+• 1x Psychic overload
+
+Neurolictor (80 Points)
+• 1x Piercing claws and talons
+
+Neurolictor (80 Points)
+• 1x Piercing claws and talons
+
+Norn Emissary (250 Points)
+• 1x Monstrous rending claws
+• 1x Monstrous scything talons
+• 1x Psychic Tendril
+
+Exported with App Version: v2.7.2 (2), Data Version: v972

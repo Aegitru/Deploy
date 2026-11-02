@@ -1,0 +1,109 @@
+Hive Fleet Tunnels (1,990 Points)
+
+Tyranids
+Subterranean Assault (3 Detachment Points)
+Reconnaissance
+Strike Force (2,000 Points)
+
+ATTACHED UNITS
+
+Attached unit 1
+
+Tyranid Prime with Lash Whip (95 Points)
+• Attached as: Leader (Character)
+• 1x Lash whip
+• 1x Rending claw
+• 1x Scything talons
+• Enhancements: Tremor Senses
+
+Hormagaunts (70 Points)
+• Attached as: Bodyguard (Battleline)
+• 10x Hormagaunt
+◦ 10x Hormagaunt talons
+
+Attached unit 2
+
+Tyranid Prime with Lash Whip (75 Points)
+• Attached as: Leader (Character)
+• 1x Lash whip
+• 1x Rending claw
+• 1x Scything talons
+
+Hormagaunts (70 Points)
+• Attached as: Bodyguard (Battleline)
+• 10x Hormagaunt
+◦ 10x Hormagaunt talons
+
+CHARACTERS
+
+Hyperadapted Raveners (180 Points)
+• 1x Ravener Prime
+◦ 1x Prime claws and talons
+◦ Enhancements: Vanguard Intellect
+• 4x Raveners
+◦ 4x Ravener heavy claws and talons
+◦ 1x Venom bolt
+
+Old One Eye (130 Points)
+• 1x Old One Eye’s claws and talons
+
+The Red Terror (120 Points)
+• 1x Gaping maw
+• 1x Scything talons
+
+The Swarmlord (210 Points)
+• 1x Bone sabres
+• 1x Synaptic pulse
+
+Trygon (155 Points)
+• Warlord
+• Subterranean Assault Keywords: Character
+• 1x Bio-electric pulse
+• 1x Trygon scything talons
+• Enhancements: Trygon Prime
+
+OTHER DATASHEETS
+
+Biovores (60 Points)
+• 1x Chitin-barbed limbs
+• 1x Spore Mine launcher
+
+Haruspex (125 Points)
+• 1x Grasping tongue
+• 1x Ravenous maw
+• 1x Shovelling claws
+
+Hive Guard (160 Points)
+• 6x Hive Guard
+◦ 6x Chitinous claws and teeth
+◦ 6x Shockcannon
+
+Maleceptor (180 Points)
+• 1x Massive scything talons
+• 1x Psychic overload
+
+Raveners (125 Points)
+• 5x Ravener
+◦ 5x Ravener claws and talons
+
+Von Ryan’s Leapers (55 Points)
+• 3x Von Ryan’s Leaper
+◦ 3x Leaper’s talons
+
+Zoanthropes (90 Points)
+• 1x Neurothrope
+◦ 1x Chitinous claws and teeth
+◦ 1x Warp Blast
+• 2x Zoanthrope
+◦ 2x Chitinous claws and teeth
+◦ 2x Warp Blast
+
+Zoanthropes (90 Points)
+• 1x Neurothrope
+◦ 1x Chitinous claws and teeth
+◦ 1x Warp Blast
+• 2x Zoanthrope
+◦ 2x Chitinous claws and teeth
+◦ 2x Warp Blast
+
+Exported with App Version: v2.7.2 (2), Data Version: v972

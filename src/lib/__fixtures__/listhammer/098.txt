@@ -1,0 +1,129 @@
+Well russes are back (1995 points)
+
+Astra Militarum
+Designation Force and Steel Hammer (3 Detachment Points)
+Purge the Foe
+Strike Force (2000 points)
+
+Attached Units
+Attached Unit 1
+
+Cadian Command Squad (60 points)
+• Attached as: Leader (Character)
+• 1x Cadian Commander
+• 1x Plasma pistol
+1x Power fist
+• 1x Cadian Veteran Guardsman
+• 1x Close combat weapon
+1x Plasma gun
+1x Plasma pistol
+• 1x Cadian Veteran Guardsman
+• 1x Close combat weapon
+1x Lasgun
+1x Master Vox
+• 1x Cadian Veteran Guardsman
+• 1x Close combat weapon
+1x Lasgun
+1x Medi-pack
+• 1x Cadian Veteran Guardsman
+• 1x Close combat weapon
+1x Lasgun
+1x Regimental Standard
+
+Lord Solar Leontus (130 points)
+• Attached as: Leader (Character)
+• Warlord
+• 1x Conquest
+1x Konstantin’s hooves
+1x Sol’s Righteous Gaze
+
+Cadian Shock Troops (70 points)
+• Attached as: Bodyguard (Battleline)
+• 1x Shock Trooper Sergeant
+• 1x Bolt pistol
+1x Chainsword
+• 9x Shock Trooper
+• 9x Close combat weapon
+1x Grenade launcher
+7x Lasgun
+1x Plasma gun
+1x Vox-caster
+
+
+CHARACTERS
+
+Banesword (445 points)
+• Steel Hammer Keywords: Character
+• 1x Armoured tracks
+4x Lascannon
+1x Quake cannon
+5x Twin heavy bolter
+• Enhancement: Battalion Commander
+
+Stormsword (450 points)
+• Steel Hammer Keywords: Character
+• 1x Armoured tracks
+4x Lascannon
+1x Stormsword siege cannon
+5x Twin heavy bolter
+• Enhancement: Titan Killer
+
+Tech-Priest Enginseer (60 points)
+• 1x Enginseer axe
+1x Mechanicus pistol
+1x Servo-arm
+• Enhancement: Engine Speaker
+
+Tech-Priest Enginseer (45 points)
+• 1x Enginseer axe
+1x Mechanicus pistol
+1x Servo-arm
+
+Tech-Priest Enginseer (45 points)
+• 1x Enginseer axe
+1x Mechanicus pistol
+1x Servo-arm
+
+
+OTHER DATASHEETS
+
+Hippogriff AFV (70 points)
+• 1x Armoured hull
+1x Heavy stubber
+1x Vigilator cannon
+
+Hippogriff AFV (70 points)
+• 1x Armoured hull
+1x Heavy stubber
+1x Vigilator cannon
+
+Leman Russ Battle Tank (160 points)
+• 1x Armoured tracks
+3x Heavy bolter
+1x Heavy stubber
+1x Hunter-killer missile
+1x Leman Russ battle cannon
+
+Leman Russ Battle Tank (160 points)
+• 1x Armoured tracks
+3x Heavy bolter
+1x Heavy stubber
+1x Hunter-killer missile
+1x Leman Russ battle cannon
+
+Leman Russ Exterminator (165 points)
+• 1x Armoured tracks
+1x Exterminator autocannon
+2x Heavy bolter
+1x Heavy stubber
+1x Hunter-killer missile
+1x Lascannon
+
+Scout Sentinels (65 points)
+• 1x Close combat weapon
+1x Hunter-killer missile
+1x Missile launcher
+1x Sentinel chainsaw
+• Enhancement: Long-range Scout (Upgrade)
+
+Exported with App Version: v2.5.0 (140), Data Version: v931

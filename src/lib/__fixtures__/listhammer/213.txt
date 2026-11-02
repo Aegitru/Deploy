@@ -1,0 +1,28 @@
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Imperial Knights
++ DETACHMENT: Dominus Foebreakers, Valourstrike Lance (Rain of Devastation)
++ FORCE DISPOSITION: Priority Assets
++ TOTAL ARMY POINTS: 1945pts
++
++ WARLORD: Char2: Cerastus Knight Castigator
++ ENHANCEMENT: Bearer of the Iron Chalice (on Char2: Cerastus Knight Castigator)
+& Archeotech Autoloaders (on Char3: Knight Castellan)
+& Bearer of the Judicant's Helm (on Char4: Knight Paladin)
++ NUMBER OF UNITS: 6
++ SECONDARY: - Bring It Down: (2x2) + (4x6) - Assassination: 4 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 2x Canis Rex (415 pts)
+• 1x Canis Rex: Freedom's Hand, Las-impulsor, Questoris multi-laser
+• 1x Sir Hekhtur: Close combat weapon, Hekhtur's pistol
+Char2: 1x Cerastus Knight Castigator (400 pts): Warlord, Castigator bolt cannon, Tempest warblade
+Enhancement: Bearer of the Iron Chalice (+20 pts)
+Char3: 1x Knight Castellan (450 pts): Plasma decimator, Titanic feet, 2x Twin meltagun, Volcano lance, 2x Shieldbreaker missile launcher, Twin siegebreaker cannon
+Enhancement: Archeotech Autoloaders (+25 pts)
+Char4: 1x Knight Paladin (400 pts): Questoris heavy stubber, Rapid-fire battle cannon, Stormspear rocket pod, Meltagun, Reaper chainsword
+Enhancement: Bearer of the Judicant's Helm (+25 pts)
+
+1x Armiger Helverin (140 pts): 2x Armiger autocannon, Armoured feet, Questoris heavy stubber
+1x Armiger Helverin (140 pts): 2x Armiger autocannon, Armoured feet, Questoris heavy stubber
+
+Created with newrecruit.eu v36.20

@@ -1,0 +1,146 @@
++++++++++++++++++++++++++++++++++++++++++++++++
++ PLAYER NAME: Wigmard
++ TEAM NAME: Pusher Rangers
++ FACTION KEYWORD: Xenos - Leagues of Votann
++ DETACHMENT: Farseekers, Mercenary Oathband (Eye of the Hunt)
++ FORCE DISPOSITION: Reconnaissance
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char2: Kâhl
++ ENHANCEMENT: Etacarn SB9 Targeting Implant (on Char2: Kâhl)
+& Pan-spectral Lockons (on Moun3: Hernkyn Pioneers)
+& Pan-spectral Lockons (on Moun3: Hernkyn Pioneers)
++ NUMBER OF UNITS: 17
++ SECONDARY: - Bring It Down: (3x2) + (1x4) - Assassination: 3 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Attached Units
+Attached Unit 1
+
+Kâhl (80 pts)
+• Attached as: Leader (Character)
+• 1x Mass gauntlet
+• 1x Autoch-pattern combi-bolter
+• Warlord, Rampart crest
+• Etacarn SB9 Targeting Implant (+15 pts)
+
+Einhyr Hearthguard (270 pts)
+• Attached as: Bodyguard
+• 1x Hesyr
+• 1x Graviton hammer
+• 1x EtaCarn plasma gun
+• 1x Exo-armour grenade launcher
+• Teleport crest
+• 9x Einhyr Hearthguard
+• 9x Concussion gauntlet
+• 9x EtaCarn plasma gun
+• 9x Exo-armour grenade launcher
+
+CHARACTER
+
+Buri Aegnirssen (85 pts)
+• 1x Autoch-pattern bolt pistol
+• 1x Bane
+
+Memnyr Strategist (45 pts)
+• 1x Autoch-pattern bolt pistol
+• 1x Close combat weapon
+
+OTHER DATASHEETS
+
+Brôkhyr Thunderkyn (170 pts)
+• 6x Brôkhyr Thunderkyn
+• 6x Close combat weapon
+• 6x Graviton blast cannon
+
+Brôkhyr Thunderkyn (170 pts)
+• 6x Brôkhyr Thunderkyn
+• 6x Close combat weapon
+• 6x Graviton blast cannon
+
+Cthonian Beserks (95 pts)
+• 5x Beserk
+• 5x Concussion maul
+• 1x Mole grenade launcher
+• Subterranean Explosives
+
+Cthonian Earthshakers (100 pts)
+• 2x Cthonian Earthshaker
+• 4x Autoch-pattern bolt pistol
+• 2x Plasma picks
+• 2x Tremor shells
+
+Hekaton Land Fortress (250 pts)
+• 1x Armoured wheels
+• 1x MATR autocannon
+• 1x Heavy magna-rail cannon
+• 2x Twin bolt cannon
+• Pan spectral scanner
+
+Hernkyn Pioneers (90 pts)
+• 3x Hernkyn Pioneer
+• 3x Bolt revolver
+• 3x Bolt shotgun
+• 3x Magna-coil autocannon
+• 3x Plasma knife
+• 1x HYLas rotary cannon
+• Pan-spectral scanner, Rollbar searchlight
+• Pan-spectral Lockons (+10 pts)
+
+Hernkyn Pioneers (90 pts)
+• 3x Hernkyn Pioneer
+• 3x Bolt revolver
+• 3x Bolt shotgun
+• 3x Magna-coil autocannon
+• 3x Plasma knife
+• 1x HYLas rotary cannon
+• Pan-spectral scanner, Rollbar searchlight
+• Pan-spectral Lockons (+10 pts)
+
+Hernkyn Yaegirs (90 pts)
+• 1x Yaegir Theyn
+• 1x Close combat weapon
+• 1x Bolt shotgun
+• 9x Hernkyn Yaegir
+• 7x Bolt shotgun
+• 9x Close combat weapon
+• 1x APM launcher
+• 1x Magna-coil rifle
+
+Hernkyn Yaegirs (90 pts)
+• 1x Yaegir Theyn
+• 1x Close combat weapon
+• 1x Bolt revolver
+• 1x Plasma knife
+• 9x Hernkyn Yaegir
+• 7x Bolt revolver
+• 7x Plasma knife
+• 9x Close combat weapon
+• 1x APM launcher
+• 1x Magna-coil rifle
+
+Ironkin Steeljacks with Melee Weapons (150 pts)
+• 1x Steeljack Theyn
+• 1x Autoch-pattern bolter
+• 1x Plasma sword
+• Preymark crest
+• 5x Ironkin Steeljack
+• 5x Autoch-pattern bolter
+• 5x Plasma sword
+
+Kapricus Carrier (70 pts)
+• 1x Armoured hull
+• 1x Magna-coil autocannon
+• 1x Twin magna-coil autocannon
+• Smoke launcher
+
+Kapricus Carrier (70 pts)
+• 1x Armoured hull
+• 1x Magna-coil autocannon
+• 1x Twin magna-coil autocannon
+• Smoke launcher
+
+Sagitaur (85 pts)
+• 1x Armoured wheels
+• 1x Twin bolt cannon
+• 1x MATR autocannon

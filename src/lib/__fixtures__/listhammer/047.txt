@@ -1,0 +1,83 @@
+League list (2,000 Points)
+
+Tyranids
+Assimilation Swarm and Talons of the Norn Queen (3 Detachment Points)
+Priority Assets
+Strike Force (2,000 Points)
+
+ATTACHED UNITS
+
+Attached unit 1
+
+Tyranid Prime with Lash Whip (100 Points)
+• Attached as: Leader (Character)
+• 1x Lash whip
+• 1x Rending claw
+• 1x Scything talons
+• Enhancements: Parasitic Biomorphology
+
+Hormagaunts (120 Points)
+• Attached as: Bodyguard (Battleline)
+• 20x Hormagaunt
+◦ 20x Hormagaunt talons
+
+CHARACTERS
+
+Hive Tyrant (195 Points)
+• Warlord
+• 1x Monstrous bonesword and lash whip
+• 1x Monstrous scything talons
+
+OTHER DATASHEETS
+
+Biovores (60 Points)
+• 1x Chitin-barbed limbs
+• 1x Spore Mine launcher
+
+Haruspex (125 Points)
+• 1x Grasping tongue
+• 1x Ravenous maw
+• 1x Shovelling claws
+
+Maleceptor (180 Points)
+• 1x Massive scything talons
+• 1x Psychic overload
+
+Norn Assimilator (280 Points)
+• 1x Monstrous scything talons
+• 1x Toxinjector Harpoon
+• Enhancements: Synaptoprescience (Upgrade)
+
+Norn Assimilator (300 Points)
+• 1x Monstrous scything talons
+• 1x Toxinjector Harpoon
+• Enhancements: Synaptoprescience (Upgrade)
+
+Norn Emissary (250 Points)
+• 1x Monstrous rending claws
+• 1x Monstrous scything talons
+• 1x Psychic Tendril
+
+Psychophage (110 Points)
+• 1x Psychoclastic torrent
+• 1x Talons and betentacled maw
+
+Pyrovores (70 Points)
+• 2x Pyrovore
+◦ 2x Chitin-barbed limbs
+◦ 2x Flamespurt
+
+Pyrovores (100 Points)
+• 3x Pyrovore
+◦ 3x Chitin-barbed limbs
+◦ 3x Flamespurt
+
+Von Ryan’s Leapers (55 Points)
+• 3x Von Ryan’s Leaper
+◦ 3x Leaper’s talons
+
+Von Ryan’s Leapers (55 Points)
+• 3x Von Ryan’s Leaper
+◦ 3x Leaper’s talons
+
+Exported with App Version: v2.7.2 (2), Data Version: v972

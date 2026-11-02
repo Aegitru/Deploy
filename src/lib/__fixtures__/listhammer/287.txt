@@ -1,0 +1,101 @@
+ArC_AnGe
+Grey Knights
+Immaterial Interdiction and Sanctic Spearhead (3 Detachment Points)
+Reconnaissance
+Strike Force (2000 points)
+
+
+CHARACTERS
+
+Brotherhood Techmarine (70 points)
+• Warlord
+• 1x Forge bolter
+1x Grav-pistol
+1x Omnissian power axe
+1x Servo-arm
+
+Grand Master in Nemesis Dreadknight (230 points)
+• 1x Fragstorm grenade launcher
+1x Heavy psycannon
+1x Nemesis daemon greathammer
+1x Sublimator
+
+Grand Master in Nemesis Dreadknight (230 points)
+• 1x Fragstorm grenade launcher
+1x Heavy psycannon
+1x Nemesis daemon greathammer
+1x Sublimator
+
+
+DEDICATED TRANSPORTS
+
+Razorback (75 points)
+• 1x Armoured tracks
+1x Hunter-killer missile
+1x Storm bolter
+1x Twin lascannon
+
+Rhino (70 points)
+• 1x Armoured tracks
+1x Hunter-killer missile
+2x Storm bolter
+
+
+OTHER DATASHEETS
+
+Interceptor Squad (125 points)
+• 1x Interceptor Justicar
+• 1x Nemesis force weapon
+1x Storm bolter
+• 4x Interceptor
+• 4x Nemesis force weapon
+4x Storm bolter
+
+Interceptor Squad (125 points)
+• 1x Interceptor Justicar
+• 1x Nemesis force weapon
+1x Storm bolter
+• 4x Interceptor
+• 4x Nemesis force weapon
+4x Storm bolter
+
+Land Raider (220 points)
+• 1x Armoured tracks
+2x Godhammer lascannon
+1x Hunter-killer missile
+1x Multi-melta
+1x Storm bolter
+1x Twin heavy bolter
+
+Nemesis Dreadknight (210 points)
+• 1x Heavy incinerator
+1x Heavy psycannon
+1x Nemesis greatsword
+
+Nemesis Dreadknight (210 points)
+• 1x Heavy incinerator
+1x Heavy psycannon
+1x Nemesis greatsword
+
+Nemesis Dreadknight (225 points)
+• 1x Heavy incinerator
+1x Heavy psycannon
+1x Nemesis greatsword
+
+Purgation Squad (105 points)
+• 1x Purgator Justicar
+• 1x Nemesis force weapon
+1x Storm bolter
+• 4x Purgator
+• 4x Close combat weapon
+4x Psilencer
+
+Purgation Squad (105 points)
+• 1x Purgator Justicar
+• 1x Nemesis force weapon
+1x Storm bolter
+• 4x Purgator
+• 4x Close combat weapon
+4x Psilencer
+
+Exported with App Version: v2.6.0 (144), Data Version: v946

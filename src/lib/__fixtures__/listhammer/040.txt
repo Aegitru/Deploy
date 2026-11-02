@@ -1,0 +1,52 @@
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Xenos - Tyranids
++ DETACHMENT: Subterranean Assault (Keywords)
++ FORCE DISPOSITION: Disruption
++ TOTAL ARMY POINTS: 1995pts
++
++ WARLORD: Char3: The Swarmlord
++ NUMBER OF UNITS: 19
++ SECONDARY: - Bring It Down: (4x2) - Assassination: 8 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char4: 5x Hyperadapted Raveners (165 pts)
+• 4x Ravener
+3 with Ravener heavy claws and talons
+1 with Ravener heavy claws and talons, Venom bolt
+• 1x Ravener Prime: Prime claws and talons
+Char5: 5x Hyperadapted Raveners (165 pts)
+• 4x Ravener
+3 with Ravener heavy claws and talons
+1 with Ravener heavy claws and talons, Venom bolt
+• 1x Ravener Prime: Prime claws and talons
+Char1: 1x Old One Eye (130 pts): Old One Eye’s claws and talons
+Char2: 1x The Red Terror (120 pts): Gaping maw, Scything talons
+Char3: 1x The Swarmlord (210 pts): Warlord, Bone Sabres, Synaptic Pulse
+Char6: 1x Tyranid Prime with Lash Whip (75 pts): Lash whip, Rending claw, Scything talons
+Leading Hormagaunts[1]
+Char7: 1x Tyranid Prime with Lash Whip (75 pts): Lash whip, Rending claw, Scything talons
+Leading Hormagaunts[2]
+Char8: 1x Tyranid Prime with Lash Whip (75 pts): Lash whip, Rending claw, Scything talons
+Leading Hormagaunts[3]
+
+10x Hormagaunts (70 pts): 10 with Hormagaunt talons
+Attached to Tyranid Prime with Lash Whip[1]
+10x Hormagaunts (70 pts): 10 with Hormagaunt talons
+Attached to Tyranid Prime with Lash Whip[2]
+10x Hormagaunts (70 pts): 10 with Hormagaunt talons
+Attached to Tyranid Prime with Lash Whip[3]
+
+1x Biovores (60 pts): Chitin-barbed limbs, Spore mine launcher
+6x Hive Guard (160 pts): 6 with Chitinous claws and teeth, Shockcannon
+1x Maleceptor (180 pts): Massive scything talons, Psychic overload
+1x Neurolictor (80 pts): Piercing claws and talons
+3x Von Ryan's Leapers (55 pts): 3 with Leaper's talons
+3x Von Ryan's Leapers (55 pts): 3 with Leaper's talons
+3x Zoanthropes (90 pts)
+• 1x Neurothrope: Chitinous claws and teeth, Warp blast
+• 2x Zoanthrope: 2 with Chitinous claws and teeth, Warp blast
+3x Zoanthropes (90 pts)
+• 1x Neurothrope: Chitinous claws and teeth, Warp blast
+• 2x Zoanthrope: 2 with Chitinous claws and teeth, Warp blast
+
+Created with newrecruit.eu v36.31

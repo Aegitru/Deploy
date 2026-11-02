@@ -1,0 +1,146 @@
+** Power fists or bust, that’s what Durante told me to do!!” (1,995 Points)
+
+Leagues of Votann
+Dêlve Assault Shift and Hearthguard Covenant (3 Detachment Points)
+Priority Assets
+Strike Force (2,000 Points)
+
+ATTACHED UNITS
+
+Attached unit 1
+
+Berehk Stornbröw (85 Points)
+• Attached as: Leader (Character)
+• 1x Kromlôk’s Revenge
+• 1x Warforge Gauntlets
+
+Cthonian Beserks (190 Points)
+• Attached as: Bodyguard
+• 10x Cthonian Beserk
+◦ 8x Heavy plasma axe
+◦ 1x Mole grenade launcher
+◦ 2x Twin concussion gauntlet
+
+Attached unit 2
+
+Kâhl (90 Points)
+• Attached as: Leader (Character)
+• 1x Autoch-pattern combi-bolter
+• 1x Forgewrought plasma axe
+• 1x Rampart Crest
+• Enhancements: Dêlvewerke Navigator
+
+Einhyr Hearthguard (270 Points)
+• Attached as: Bodyguard
+• 1x Hesyr
+◦ 1x Concussion gauntlet
+◦ 1x EtaCarn plasma gun
+◦ 1x Exoarmour grenade launcher
+◦ 1x Weavefield crest
+• 9x Einhyr Hearthguard
+◦ 9x Concussion gauntlet
+◦ 9x EtaCarn plasma gun
+◦ 9x Exoarmour grenade launcher
+
+Attached unit 3
+
+Memnyr Strategist (55 Points)
+• Attached as: Leader (Character)
+• 1x Autoch-pattern bolt pistol
+• 1x Close combat weapon
+• Enhancements: Multiwave System Jammer
+
+Ironkin Steeljacks with Heavy Volkanite Disintegrators (170 Points)
+• Attached as: Bodyguard
+• 1x Steeljack Theyn
+◦ 1x Heavy volkanite disintegrator
+◦ 1x Plasma knife
+◦ 1x Preymark Crest
+• 5x Ironkin Steeljack
+◦ 5x Heavy volkanite disintegrator
+◦ 5x Plasma knife
+
+CHARACTERS
+
+Arkanyst Evaluator (70 Points)
+• 1x Close combat weapon
+• 1x Transmatter inverter
+
+Buri Aegnirssen (85 Points)
+• 1x Autoch‑pattern bolt pistol
+• 1x Bane
+
+Ûthar the Destined (90 Points)
+• Warlord
+• 1x Blade of the Ancestors
+• 1x Rampart Crest
+• 1x Volkanite disintegrator
+
+BATTLELINE
+
+Cthonian Beserks (190 Points)
+• 10x Cthonian Beserk
+◦ 8x Concussion maul
+◦ 1x Mole grenade launcher
+◦ 2x Twin concussion gauntlet
+
+Cthonian Beserks (190 Points)
+• 10x Cthonian Beserk
+◦ 8x Concussion maul
+◦ 1x Mole grenade launcher
+◦ 2x Twin concussion gauntlet
+
+Cthonian Beserks (95 Points)
+• 5x Cthonian Beserk
+◦ 4x Heavy plasma axe
+◦ 1x Mole grenade launcher
+◦ 1x Twin concussion gauntlet
+
+Cthonian Beserks (95 Points)
+• 5x Cthonian Beserk
+◦ 4x Heavy plasma axe
+◦ 1x Mole grenade launcher
+◦ 1x Twin concussion gauntlet
+
+DEDICATED TRANSPORTS
+
+Kapricus Carrier (70 Points)
+• 1x Armoured hull
+• 1x Magna-coil autocannon
+• 1x Twin magna‑coil autocannon
+
+OTHER DATASHEETS
+
+Hernkyn Pioneers (80 Points)
+• 3x Hernkyn Pioneer
+◦ 3x Bolt revolver
+◦ 3x Bolt shotgun
+◦ 1x HYLas rotary cannon
+◦ 3x Magna-coil autocannon
+◦ 1x Panspectral Scanner
+◦ 3x Plasma knife
+◦ 1x Rollbar Searchlight
+
+Hernkyn Pioneers (80 Points)
+• 3x Hernkyn Pioneer
+◦ 3x Bolt revolver
+◦ 3x Bolt shotgun
+◦ 1x HYLas rotary cannon
+◦ 3x Magna-coil autocannon
+◦ 1x Panspectral Scanner
+◦ 3x Plasma knife
+◦ 1x Rollbar Searchlight
+
+Hernkyn Yaegirs (90 Points)
+• 1x Yaegir Theyn
+◦ 1x Bolt revolver
+◦ 1x Close combat weapon
+◦ 1x Plasma knife
+• 9x Hernkyn Yaegir
+◦ 1x APM launcher
+◦ 7x Bolt revolver
+◦ 9x Close combat weapon
+◦ 1x Magna-coil rifle
+◦ 7x Plasma knife
+
+Exported with App Version: v2.6.0 (3), Data Version: v946

@@ -1,0 +1,86 @@
++++++++++++++++++++++++++++++++++++++++++++++++
++ PLAYER NAME: Kanjuu
++ TEAM NAME: KickASSoulet
++ FACTION KEYWORD: Imperium - Astra Militarum
++ DETACHMENT: Bridgehead Strike, Combined Arms (Fire Zone Purge)
++ FORCE DISPOSITION: Take and Hold
++ TOTAL ARMY POINTS: 2000pts
++
++ ENHANCEMENT: Grand Strategist (on Char5: Rogal Dorn Commander)
++ NUMBER OF UNITS: 16
++ SECONDARY: - Bring It Down: (9x2) + (1x4) - Assassination: 5 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+--Just kill them™: The Musical--
+
+https://imgur.com/a/cX0E3sP
+
+Char3: 5x Cadian Command Squad (60 pts)
+• 4x Cadian Veteran Guardsman
+1 with Close combat weapon, Plasma gun, Plasma pistol
+1 with Master vox, Close combat weapon, Lasgun
+1 with Medi-pack, Close combat weapon, Lasgun
+1 with Close combat weapon, Plasma gun
+• 1x Cadian Commander: Power fist, Plasma pistol
+Leading Cadian Shock Troops
+
+Char1: 6x Gaunt’s Ghosts (95 pts)
+• 5x Tanith Ghost
+1 with Bragg's autocannon, Straight silver knife
+1 with Corbec's hot-shot lascarbine, Straight silver knife
+1 with Larkin's long-las, Straight silver knife
+1 with Lascarbine, Mkoll's straight silver knife
+1 with Rawne's lascarbine, Straight silver knife
+• 1x Ibram Gaunt: Bolt pistol, Gaunt's chainsword
+
+Char4: 5x Militarum Tempestus Command Squad (85 pts)
+• 4x Tempestus Scion
+1 with Close combat weapon, Hot-shot volley gun
+1 with Close combat weapon, Plasma gun
+1 with Medi-pack, Close combat weapon, Hot-shot lasgun, Hot-shot laspistol
+1 with Regimental standard, Close combat weapon, Hot-shot lasgun
+• 1x Tempestor Prime: Command rod, Tempestus dagger
+Leading Tempestus Scions
+
+Char5: 1x Rogal Dorn Commander (305 pts): Armoured tracks, Heavy stubber, Pulveriser cannon, 2x Heavy stubber, 2x Multi-melta, Coaxial autocannon, Oppressor cannon
+Enhancement: Grand Strategist (+15 pts)
+
+Char2: 1x Ursula Creed (85 pts): Duty and Vengeance, Power weapon
+Leading Cadian Shock Troops
+
+10x Cadian Shock Troops (70 pts)
+• 9x Shock Trooper
+6 with Close combat weapon, Lasgun
+1 with Vox-caster, Close combat weapon, Lasgun
+1 with Close combat weapon, Meltagun
+1 with Close combat weapon, Plasma gun
+• 1x Shock Trooper Sergeant: Close combat weapon, Sergeant's autogun
+Attached to Ursula Creed
+Attached to Cadian Command Squad
+
+1x Hellhound (115 pts): Hunter-killer missile, Inferno cannon, Multi-melta, Armoured tracks
+
+1x Leman Russ Battle Tank (175 pts): Armoured tracks, Leman Russ battle cannon, Hunter-killer missile, Lascannon, 2x Multi-melta, Heavy stubber
+
+1x Leman Russ Battle Tank (175 pts): Armoured tracks, Leman Russ battle cannon, Hunter-killer missile, Lascannon, 2x Multi-melta, Heavy stubber
+
+1x Leman Russ Eradicator (145 pts): Armoured tracks, Eradicator nova cannon, Hunter-killer missile, Heavy flamer, 2x Heavy flamer, Heavy stubber
+
+1x Leman Russ Exterminator (170 pts): Armoured tracks, Exterminator autocannon, Hunter-killer missile, Heavy bolter, 2x Multi-melta, Heavy stubber
+
+1x Leman Russ Vanquisher (130 pts): Armoured tracks, Vanquisher battle cannon, Hunter-killer missile, Heavy bolter, 2x Heavy bolter, Heavy stubber
+
+1x Leman Russ Vanquisher (130 pts): Armoured tracks, Vanquisher battle cannon, Hunter-killer missile, Heavy bolter, 2x Heavy bolter, Heavy stubber
+
+1x Scout Sentinels (55 pts): Close combat weapon, Hunter-killer missile, Sentinel chainsaw, Lascannon
+
+1x Scout Sentinels (55 pts): Close combat weapon, Hunter-killer missile, Sentinel chainsaw, Lascannon
+
+10x Tempestus Scions (150 pts)
+• 9x Tempestus Scion
+4 with Close combat weapon, Hot-shot lasgun
+1 with Vox-caster, Close combat weapon, Hot-shot laspistol
+2 with Close combat weapon, Hot-shot volley gun
+2 with Close combat weapon, Plasma gun
+• 1x Tempestor: Power fist, Plasma pistol
+Attached to Militarum Tempestus Command Squad

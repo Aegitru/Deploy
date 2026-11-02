@@ -1,0 +1,55 @@
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Imperial Knights
++ DETACHMENT: Dominus Foebreakers, Valourstrike Lance (Rain of Devastation)
++ FORCE DISPOSITION: Priority Assets
++ TOTAL ARMY POINTS: 1995pts
++
++ WARLORD: Char2: Knight Castellan
++ ENHANCEMENT: Archeotech Autoloaders (on Char2: Knight Castellan)
+& Bearer of the Judicant's Helm (on Char5: Knight Errant)
++ NUMBER OF UNITS: 6
++ SECONDARY: - Bring It Down: (1x4) + (4x6) - Assassination: 6 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+CHARACTER
+
+Cerastus Knight Lancer (415 pts)
+• 1x Cerastus shock lance
+
+Knight Castellan (450 pts)
+• 1x Plasma decimator
+• 1x Titanic feet
+• 2x Twin meltagun
+• 1x Volcano lance
+• 2x Shieldbreaker missile launcher
+• 1x Twin siegebreaker cannon
+• Warlord
+• Archeotech Autoloaders (+25 pts)
+
+Knight Crusader (410 pts)
+• 1x Avenger gatling cannon
+• 1x Heavy flamer
+• 1x Titanic feet
+• 1x Stormspear rocket pod
+• 1x Questoris heavy stubber
+• 1x Questoris heavy stubber
+• 1x Rapid-fire battle cannon
+
+Knight Destrier (265 pts)
+• 1x Questoris heavy stubber
+• 1x Titanic feet
+• 1x Chastiser gatling cannon
+• 1x Frag bombard
+
+Knight Errant (380 pts)
+• 1x Thermal cannon
+• 1x Stormspear rocket pod
+• 1x Meltagun
+• 1x Thunderstrike gauntlet
+• Bearer of the Judicant's Helm (+25 pts)
+
+OTHER DATASHEETS
+
+Navigator (75 pts)
+• 1x Force-orb cane
+• 1x Laspistol

@@ -1,0 +1,96 @@
+STARSHATTER (2000 points)
+
+Necrons
+Starshatter Arsenal (3 Detachment Points)
+Priority Assets
+Strike Force (2000 points)
+
+Attached Units
+Attached Unit 1
+
+Technomancer (80 points)
+• Attached as: Support (Character)
+• 1x Staff of light
+
+Canoptek Wraiths (220 points)
+• Attached as: Bodyguard
+• 6x Canoptek Wraith
+• 6x Particle caster
+6x Vicious claws
+
+Attached Unit 2
+
+Lokhust Lord (90 points)
+• Attached as: Leader (Character)
+• 1x Lord’s blade
+1x Resurrection Orb
+• Enhancement: Demanding Leader
+
+Lokhust Destroyers (190 points)
+• Attached as: Bodyguard
+• 6x Lokhust Destroyer
+• 6x Close combat weapon
+6x Gauss cannon
+
+
+CHARACTERS
+
+Hexmark Destroyer (100 points)
+• 1x Close combat weapon
+1x Enmitic disintegrator pistols
+• Enhancement: Chrono-impedance Fields
+
+Hexmark Destroyer (75 points)
+• 1x Close combat weapon
+1x Enmitic disintegrator pistols
+
+Imotekh the Stormlord (100 points)
+• 1x Gauntlet of Fire
+1x Staff of the Destroyer
+
+The Silent King (420 points)
+• 1x Szarekh
+• Warlord
+• 1x Sceptre of Eternal Glory
+1x Staff of Stars
+1x Weapons of the Final Triarch
+• 2x Triarchal Menhir
+• 2x Annihilator beam
+2x Armoured bulk
+
+
+OTHER DATASHEETS
+
+Canoptek Reanimator (75 points)
+• 2x Atomiser beam
+1x Reanimator’s claws
+
+Deathmarks (60 points)
+• 5x Deathmark
+• 5x Close combat weapon
+5x Synaptic disintegrator
+
+Doomsday Ark (200 points)
+• 1x Armoured bulk
+1x Doomsday cannon
+2x Gauss flayer array
+
+Doomsday Ark (200 points)
+• 1x Armoured bulk
+1x Doomsday cannon
+2x Gauss flayer array
+
+Flayed Ones (55 points)
+• 5x Flayed One
+• 5x Flayer claws
+
+Flayed Ones (55 points)
+• 5x Flayed One
+• 5x Flayer claws
+
+Ophydian Destroyers (80 points)
+• 3x Ophydian Destroyer
+• 3x Ophydian hyperphase weapons
+1x Plasmacyte
+
+Exported with App Version: v2.7.1 (146), Data Version: v972

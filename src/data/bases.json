@@ -1,0 +1,6650 @@
+{
+ "Adepta Sororitas": {
+  "Aestred Thurga and Agathae Dolan": {
+   "models": {
+    "Aestred Thurga": {
+     "shape": "circle",
+     "d": 32
+    },
+    "Agathae Dolan": {
+     "shape": "circle",
+     "d": 25
+    }
+   }
+  },
+  "Arco-flagellants": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Battle Sisters Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Canoness": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Canoness with Jump Pack": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Castigator": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Celestian Insidiants": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Celestian Sacresants": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Daemonifuge": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Dialogus": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Dogmata": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Dominion Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Exorcist": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Hospitaller": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Imagifier": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Immolator [Adepta_Sororitas]": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Junith Eruita": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Intranzia Fraye": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Ministorum Priest": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Mortifiers": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Morvenn Vahl": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Palatine": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Paragon Warsuits": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Penitent Engines": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Repentia Squad": {
+   "models": {
+    "Repentia Superior": {
+     "shape": "circle",
+     "d": 32
+    },
+    "Sister Repentia": {
+     "shape": "circle",
+     "d": 28.5
+    }
+   }
+  },
+  "Retributor Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Saint Celestine": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   },
+   "models": {
+    "Geminae Superia": {
+     "shape": "circle",
+     "d": 32
+    }
+   }
+  },
+  "Sanctifiers": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Seraphim Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Sisters Novitiate Squad": {
+   "models": {
+    "Novitiate Superior": {
+     "shape": "circle",
+     "d": 32
+    },
+    "Sister Novitiate": {
+     "shape": "circle",
+     "d": 28.5
+    }
+   }
+  },
+  "Sororitas Rhino": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Triumph of Saint Katherine": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Zephyrim Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  }
+ },
+ "Adeptus Custodes": {
+  "Aleya": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Allarus Custodians": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Anathema Psykana Rhino": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Blade Champion": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Custodian Guard": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Custodian Wardens": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Knight-Centura": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Prosecutors": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Shield-Captain": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Shield-Captain in Allarus Terminator Armour": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Shield-Captain on Dawneagle Jetbike": {
+   "default": {
+    "shape": "oval",
+    "w": 75,
+    "h": 42
+   }
+  },
+  "Trajann Valoris": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Valerian": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Venerable Contemptor Dreadnought": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Venerable Land Raider": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Vertus Praetors": {
+   "default": {
+    "shape": "oval",
+    "w": 75,
+    "h": 42
+   }
+  },
+  "Vigilators": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Witchseekers": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Agamatus Custodians": {
+   "default": {
+    "shape": "oval",
+    "w": 75,
+    "h": 42
+   }
+  },
+  "Aquilon Custodians": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Ares Gunship": {
+   "default": {
+    "shape": "circle",
+    "d": 160
+   }
+  },
+  "Caladius Grav-tank": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "Contemptor-Achillus Dreadnought": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Contemptor-Galatus Dreadnought": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Coronus Grav-carrier": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "Custodian Guard with Adrasite and Pyrithite Spears": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Orion Assault Dropship": {
+   "default": {
+    "shape": "circle",
+    "d": 160
+   }
+  },
+  "Pallas Grav-attack": {
+   "default": {
+    "shape": "oval",
+    "w": 105,
+    "h": 70
+   }
+  },
+  "Sagittarum Custodians": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Telemon Heavy Dreadnought": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "Venatari Custodians": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  }
+ },
+ "Adeptus Mechanicus": {
+  "Archaeopter Fusilave": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "Archaeopter Stratoraptor": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "Archaeopter Transvector": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "Belisarius Cawl": {
+   "default": {
+    "shape": "oval",
+    "w": 105,
+    "h": 70
+   }
+  },
+  "Corpuscarii Electro-Priests": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Cybernetica Datasmith": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Fulgurite Electro-Priests": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Hastarii Exterminators": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Hastarii Fusiliers": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Ironstrider Ballistarii": {
+   "default": {
+    "shape": "oval",
+    "w": 105,
+    "h": 70
+   }
+  },
+  "Kastelan Robots": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Kataphron Breachers": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Kataphron Destroyers": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Onager Dunecrawler": {
+   "default": {
+    "shape": "circle",
+    "d": 130
+   }
+  },
+  "Pteraxii Skystalkers": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Pteraxii Sterylizors": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Serberys Raiders": {
+   "default": {
+    "shape": "oval",
+    "w": 60,
+    "h": 35.5
+   }
+  },
+  "Serberys Sulphurhounds": {
+   "default": {
+    "shape": "oval",
+    "w": 60,
+    "h": 35.5
+   }
+  },
+  "Servitor Battleclade": {
+   "models": {
+    "Servitor Underseer / Gun Servitors": {
+     "shape": "circle",
+     "d": 32
+    },
+    "Combat Servitors": {
+     "shape": "circle",
+     "d": 25
+    }
+   }
+  },
+  "Sicarian Infiltrators": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Sicarian Ruststalkers": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Skitarii Marshal": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Skitarii Rangers": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Skitarii Rangers/Skitarii Vanguard": {
+   "models": {
+    "Transuranic Arquebus": {
+     "shape": "oval",
+     "w": 60,
+     "h": 35.5
+    }
+   }
+  },
+  "Skitarii Vanguard": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Skorpius Disintegrator": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Skorpius Dunerider": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Sydonian Dragoons with Radium Jezzails": {
+   "default": {
+    "shape": "oval",
+    "w": 105,
+    "h": 70
+   }
+  },
+  "Sydonian Dragoons with Taser Lances": {
+   "default": {
+    "shape": "oval",
+    "w": 105,
+    "h": 70
+   }
+  },
+  "Sydonian Skatros": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Tech-Priest Dominus": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Tech-Priest Enginseer": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Tech-Priest Manipulus": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Technoarcheologist": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Thulia Ghuld": {
+   "default": {
+    "shape": "circle",
+    "d": 80
+   }
+  }
+ },
+ "Adeptus Titanicus": {
+  "Reaver Titan": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Warbringer Nemesis Titan": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Warhound Titan": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Warlord Titan": {
+   "default": {
+    "shape": "hull"
+   }
+  }
+ },
+ "Aeldari": {
+  "Asurmen": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Autarch": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Autarch wayleaper": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Avatar of Khaine": {
+   "default": {
+    "shape": "circle",
+    "d": 80
+   }
+  },
+  "Baharroth": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Corsair Skyreavers": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   }
+  },
+  "Corsair Voidreavers": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   }
+  },
+  "Corsair Voidscarred": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   }
+  },
+  "Crimson Hunter": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "D-cannon Platform": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Dark Reapers": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   }
+  },
+  "Death Jester": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Dire Avengers": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   }
+  },
+  "Eldrad Ulthran": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Falcon": {
+   "default": {
+    "shape": "flying",
+    "size": "large"
+   }
+  },
+  "Farseer": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Farseer Skyrunner": {
+   "default": {
+    "shape": "flying",
+    "size": "small"
+   }
+  },
+  "Fire Dragons": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   }
+  },
+  "Fire Prism": {
+   "default": {
+    "shape": "flying",
+    "size": "large"
+   }
+  },
+  "Fuegan": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Guardian Defenders": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   },
+   "models": {
+    "Heavy Weapon Platform": {
+     "shape": "circle",
+     "d": 40
+    }
+   }
+  },
+  "Hemlock Wraithfighter": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Howling Banshees": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   }
+  },
+  "Jain Zar": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Kharseth": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Lhykhis": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Maugan Ra": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Night Spinner": {
+   "default": {
+    "shape": "flying",
+    "size": "large"
+   }
+  },
+  "Prince Yriel": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Rangers": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   }
+  },
+  "Shadow Weaver Platform": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Shadowseer": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Shining Spears": {
+   "default": {
+    "shape": "flying",
+    "size": "large"
+   }
+  },
+  "Shroud Runners": {
+   "default": {
+    "shape": "flying",
+    "size": "large"
+   }
+  },
+  "Skyweavers": {
+   "default": {
+    "shape": "flying",
+    "size": "large"
+   }
+  },
+  "Solitaire": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Spiritseer": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Starfang": {
+   "default": {
+    "shape": "oval",
+    "w": 105,
+    "h": 70
+   }
+  },
+  "Starweaver": {
+   "default": {
+    "shape": "flying",
+    "size": "large"
+   }
+  },
+  "Storm Guardians": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   },
+   "models": {
+    "Serpent’s Scale Platform": {
+     "shape": "circle",
+     "d": 40
+    }
+   }
+  },
+  "Striking Scorpions": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   }
+  },
+  "Swooping Hawks": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "The Visarch": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "The Yncarne": {
+   "default": {
+    "shape": "circle",
+    "d": 80
+   }
+  },
+  "Troupe": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Troupe Master": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Vibro Cannon Platform": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Voidweaver": {
+   "default": {
+    "shape": "flying",
+    "size": "large"
+   }
+  },
+  "Vyper": {
+   "default": {
+    "shape": "oval",
+    "w": 105,
+    "h": 70
+   }
+  },
+  "War Walker": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Warlock": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Warlock Conclave": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Warlock Skyrunners": {
+   "default": {
+    "shape": "flying",
+    "size": "small"
+   }
+  },
+  "Warp Spiders": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   }
+  },
+  "Wave Serpent": {
+   "default": {
+    "shape": "flying",
+    "size": "large"
+   }
+  },
+  "Windriders": {
+   "default": {
+    "shape": "flying",
+    "size": "small"
+   }
+  },
+  "Wraithblades": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Wraithguard": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Wraithknight": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Wraithknight with Ghostglaive": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Wraithlord": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Ynnari Archon": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Ynnari Incubi": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   }
+  },
+  "Ynnari Kabalite Warriors": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Ynnari Raider": {
+   "default": {
+    "shape": "flying",
+    "size": "large"
+   }
+  },
+  "Ynnari Reavers": {
+   "default": {
+    "shape": "flying",
+    "size": "small"
+   }
+  },
+  "Ynnari Succubus": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Ynnari Venom": {
+   "default": {
+    "shape": "flying",
+    "size": "large"
+   }
+  },
+  "Ynnari Wyches": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Yvraine": {
+   "default": {
+    "shape": "oval",
+    "w": 75,
+    "h": 42
+   }
+  },
+  "Phantom Titan": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Revenant Titan": {
+   "default": {
+    "shape": "hull"
+   }
+  }
+ },
+ "Astra Militarum": {
+  "Aegis Defence Line": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Armoured Sentinels": {
+   "default": {
+    "shape": "circle",
+    "d": 80
+   }
+  },
+  "Artillery Team": {
+   "default": {
+    "shape": "circle",
+    "d": 130
+   }
+  },
+  "Attilan Rough Riders": {
+   "default": {
+    "shape": "oval",
+    "w": 60,
+    "h": 35.5
+   }
+  },
+  "Baneblade": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Banehammer": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Banesword": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Basilisk": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Bullgryn squad": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Cadian Castellan": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   }
+  },
+  "Cadian Command Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   }
+  },
+  "Cadian Heavy Weapons Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Cadian Recon Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   }
+  },
+  "Cadian Shock Troops": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Catachan Command Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Catachan Heavy Weapons Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Catachan Jungle Fighters": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Centaur RSV": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Chimera": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Commissar": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   }
+  },
+  "Commissar Graves": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Commissar Graves on Foot": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Commissar Yarrick": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Death Korps of Krieg": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Death Riders": {
+   "default": {
+    "shape": "oval",
+    "w": 60,
+    "h": 35.5
+   }
+  },
+  "Deathstrike": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Doomhammer": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Field Ordnance Battery": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "Gaunt’s Ghosts": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   }
+  },
+  "Hellhammer": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Hellhound": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Hippogriff AFV": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Hydra": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Kasrkin": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   }
+  },
+  "Krieg Combat Engineers": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Krieg Command Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   },
+   "models": {
+    "Lord Commissar": {
+     "shape": "circle",
+     "d": 32
+    }
+   }
+  },
+  "Krieg Heavy Weapons Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   },
+   "models": {
+    "Fire Coordinator": {
+     "shape": "circle",
+     "d": 25
+    }
+   }
+  },
+  "Leman Russ Battle Tank": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Leman Russ Commander": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Leman Russ Demolisher": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Leman Russ Eradicator": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Leman Russ Executioner": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Leman Russ Exterminator": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Leman Russ Punisher": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Leman Russ Vanquisher": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Lord Marshal Dreir": {
+   "default": {
+    "shape": "oval",
+    "w": 75,
+    "h": 42
+   }
+  },
+  "Lord Solar Leontus": {
+   "default": {
+    "shape": "circle",
+    "d": 80
+   }
+  },
+  "Manticore": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Militarum Tempestus Command Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Ministorum Priest": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Nork Deddog": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Ogryn Bodyguard": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Ogryn squad": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Primaris Psyker": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Ratlings": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   },
+   "models": {
+    "Tankstopper Rifle": {
+     "shape": "circle",
+     "d": 28.5
+    }
+   }
+  },
+  "Rogal Dorn Battle Tank": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Rogal Dorn Commander": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Scout Sentinels": {
+   "default": {
+    "shape": "circle",
+    "d": 80
+   }
+  },
+  "Shadowsword": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Sly Marbo": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Stormlord": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Stormsword": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Taurox": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Taurox Prime": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Tech-Priest Enginseer": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Tempestus Aquilons": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   }
+  },
+  "Tempestus Scions": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Ursula Creed": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Valkyrie": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Wyvern": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Avenger Strike Fighter": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Cyclops Demolition Vehicle": {
+   "default": {
+    "shape": "hull"
+   }
+  }
+ },
+ "Black Templars": {
+  "Castellan": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Chaplain Grimaldus": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   },
+   "models": {
+    "Cenobyte Servitors": {
+     "shape": "circle",
+     "d": 28.5
+    }
+   }
+  },
+  "Crusade Ancient": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Crusader Squad": {
+   "models": {
+    "Initiates": {
+     "shape": "circle",
+     "d": 32
+    },
+    "Neophytes": {
+     "shape": "circle",
+     "d": 28.5
+    },
+    "Sword Brother": {
+     "shape": "circle",
+     "d": 40
+    }
+   }
+  },
+  "Execrator": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Gladiator Lancer": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "Gladiator Reaper": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "Gladiator Valiant": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "High Marshal Helbrecht": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Impulsor": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "Land Raider Crusader": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Marshal": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Repulsor": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "Repulsor Executioner": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "Sternguard Veteran Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Sword Brethren": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Terminator Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "The Emperor’s Champion": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  }
+ },
+ "Blood Angels": {
+  "Astorath": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Baal Predator": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Blood Angels Captain": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Chief Librarian Mephiston": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Commander Dante": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Death Company Captain": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Death Company Captain with Jump Pack": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Death Company Dreadnought": {
+   "default": {
+    "shape": "circle",
+    "d": 90
+   }
+  },
+  "Death Company Marines": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Death Company Marines with Bolt Rifles": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Death Company Marines with Jump Packs": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Lemartes": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Sanguinary Guard": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Sanguinary Priest": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "The Sanguinor": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  }
+ },
+ "Chaos Daemons": {
+  "Be’lakor": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "Beasts of Nurgle": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Bloodcrushers": {
+   "default": {
+    "shape": "oval",
+    "w": 90,
+    "h": 52.5
+   }
+  },
+  "Bloodletters": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Bloodmaster": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Bloodthirster": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Blue Horrors": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Burning Chariot": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Changecaster": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Contorted Epitome": {
+   "default": {
+    "shape": "oval",
+    "w": 75,
+    "h": 42
+   }
+  },
+  "Daemon Prince of Chaos": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Daemon Prince of Chaos with Wings": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Daemonettes": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Epidemius": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Exalted Flamer": {
+   "default": {
+    "shape": "oval",
+    "w": 75,
+    "h": 42
+   }
+  },
+  "Fateskimmer": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Feculent Gnarlmaw": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Fiends": {
+   "default": {
+    "shape": "oval",
+    "w": 75,
+    "h": 42
+   }
+  },
+  "Flamers": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Flesh Hounds": {
+   "default": {
+    "shape": "oval",
+    "w": 60,
+    "h": 35.5
+   }
+  },
+  "Fluxmaster": {
+   "default": {
+    "shape": "flying",
+    "size": "large"
+   }
+  },
+  "Great Unclean One": {
+   "default": {
+    "shape": "circle",
+    "d": 130
+   }
+  },
+  "Hellflayers": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Horticulous Slimux": {
+   "default": {
+    "shape": "oval",
+    "w": 105,
+    "h": 70
+   }
+  },
+  "Infernal Enrapturess": {
+   "default": {
+    "shape": "oval",
+    "w": 60,
+    "h": 35.5
+   }
+  },
+  "Kairos Fateweaver": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "Karanak": {
+   "default": {
+    "shape": "oval",
+    "w": 75,
+    "h": 42
+   }
+  },
+  "Keeper of Secrets": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "Lord of Change": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "Nurglings": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Pink Horrors": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Plague Drones": {
+   "default": {
+    "shape": "flying",
+    "size": "large"
+   }
+  },
+  "Plaguebearers": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Poxbringer": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Rendmaster on Blood Throne": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Rotigus": {
+   "default": {
+    "shape": "circle",
+    "d": 130
+   }
+  },
+  "Screamers": {
+   "default": {
+    "shape": "flying",
+    "size": "small"
+   }
+  },
+  "Seekers": {
+   "default": {
+    "shape": "oval",
+    "w": 60,
+    "h": 35.5
+   }
+  },
+  "Shalaxi Helbane": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "Skarbrand": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "Skull Altar": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Skull Cannon": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Skullmaster": {
+   "default": {
+    "shape": "oval",
+    "w": 90,
+    "h": 52.5
+   }
+  },
+  "Skulltaker": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Sloppity Bilepiper": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Soul Grinder": {
+   "default": {
+    "shape": "circle",
+    "d": 160
+   }
+  },
+  "Spoilpox Scrivener": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Syll’esske": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "The Blue Scribes": {
+   "default": {
+    "shape": "flying",
+    "size": "large"
+   }
+  },
+  "The Changeling": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "The Masque of Slaanesh": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Tormentbringer": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Tranceweaver": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  }
+ },
+ "Chaos Knights": {
+  "Knight Abominant": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "Knight Desecrator": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "Knight Despoiler": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "Knight Rampager": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "Knight Ruinator": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "Knight Tyrant": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "War Dog Brigand": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "War Dog Executioner": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "War Dog Huntsman": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "War Dog Karnivore": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "War Dog Stalker": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "Chaos Acastus Knight Asterius": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Chaos Acastus Knight Porphyrion": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Chaos Cerastus Knight Acheron": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "Chaos Cerastus Knight Atrapos": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "Chaos Cerastus Knight Castigator": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "Chaos Cerastus Knight Lancer": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "Chaos Questoris Knight Magaera": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "Chaos Questoris Knight Styrix": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "War Dog Moirax": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  }
+ },
+ "Chaos Space Marines": {
+  "Abaddon the Despoiler": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Accursed Cultists": {
+   "models": {
+    "Mutant": {
+     "shape": "circle",
+     "d": 25
+    },
+    "Torment": {
+     "shape": "circle",
+     "d": 40
+    }
+   }
+  },
+  "Chaos Bikers": {
+   "default": {
+    "shape": "oval",
+    "w": 75,
+    "h": 42
+   }
+  },
+  "Chaos Land Raider": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Chaos Lord": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Chaos Lord in Terminator Armour": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Chaos Lord with Jump Pack": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Chaos Predator Annihilator": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Chaos Predator Destructor": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Chaos Rhino": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Chaos Spawn": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Chaos Terminator Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Chaos Vindicator": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Chosen": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Cultist Firebrand": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Cultist Mob": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Cypher": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Dark Apostle": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   },
+   "models": {
+    "Dark Disciple": {
+     "shape": "circle",
+     "d": 25
+    }
+   }
+  },
+  "Dark Commune": {
+   "models": {
+    "Blessed Blade": {
+     "shape": "circle",
+     "d": 28.5
+    },
+    "Cult Demagogue": {
+     "shape": "circle",
+     "d": 32
+    },
+    "Mindwitch": {
+     "shape": "circle",
+     "d": 32
+    },
+    "Iconarch": {
+     "shape": "circle",
+     "d": 32
+    }
+   }
+  },
+  "Defiler": {
+   "default": {
+    "shape": "circle",
+    "d": 160
+   }
+  },
+  "Fabius Bile": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   },
+   "models": {
+    "Surgeon Acolyte": {
+     "shape": "circle",
+     "d": 32
+    }
+   }
+  },
+  "Fellgor beastmen": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Forgefiend": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Haarken Worldclaimer": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Havocs": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Helbrute": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Heldrake": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Heretic Astartes Daemon Prince": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Heretic Astartes Daemon Prince with Wings": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Huron Blackheart": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Khorne Lord of Skulls": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Kravek Morne": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Legionaries": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Lord Discordant on Helstalker": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Master of Executions": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Master of Possession": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Masters of the Maelstrom": {
+   "models": {
+    "Garlon Souleater": {
+     "shape": "circle",
+     "d": 40
+    },
+    "Garreon the Corpsemaster": {
+     "shape": "circle",
+     "d": 40
+    },
+    "Katar Garrix": {
+     "shape": "circle",
+     "d": 40
+    },
+    "Captain Sargotta": {
+     "shape": "circle",
+     "d": 40
+    },
+    "The Enforcer": {
+     "shape": "circle",
+     "d": 32
+    }
+   }
+  },
+  "Maulerfiend": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Mutilators": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Nemesis Claw": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Noctilith Crown": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Obliterators": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Possessed": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Raptors": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Red Corsairs Raiders": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Red Corsairs Reave-Captain": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Sorcerer": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Sorcerer in Terminator Armour": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Traitor Enforcer": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   },
+   "models": {
+    "Traitor Ogryn": {
+     "shape": "circle",
+     "d": 40
+    }
+   }
+  },
+  "Traitor Guardsmen Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Vashtorr the Arkifane": {
+   "default": {
+    "shape": "circle",
+    "d": 80
+   }
+  },
+  "Venomcrawler": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "Warp Talons": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Warpsmith": {
+   "default": {
+    "shape": "oval",
+    "w": 60,
+    "h": 35.5
+   }
+  }
+ },
+ "Dark Angels": {
+  "Asmodai": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Azrael": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Belial": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Deathwing Knights": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Deathwing Terminator Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Ezekiel": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Inner Circle Companions": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Land Speeder Vengeance": {
+   "default": {
+    "shape": "flying",
+    "size": "large"
+   }
+  },
+  "Lazarus": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Lion El’Jonson": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Nephilim Jetfighter": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Ravenwing Black Knights": {
+   "default": {
+    "shape": "oval",
+    "w": 75,
+    "h": 42
+   }
+  },
+  "Ravenwing Command Squad": {
+   "default": {
+    "shape": "oval",
+    "w": 75,
+    "h": 42
+   }
+  },
+  "Ravenwing Dark Talon": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Ravenwing Darkshroud": {
+   "default": {
+    "shape": "flying",
+    "size": "large"
+   }
+  },
+  "Sammael": {
+   "default": {
+    "shape": "flying",
+    "size": "large"
+   }
+  }
+ },
+ "Death Guard": {
+  "Biologus Putrifier": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Blightlord Terminators": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Chaos Land Raider": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Chaos Predator Annihilator": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Chaos Predator Destructor": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Chaos Rhino": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Chaos Spawn": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Daemon Prince of Nurgle": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Daemon Prince of Nurgle with Wings": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Deathshroud Terminators": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Defiler": {
+   "default": {
+    "shape": "circle",
+    "d": 160
+   }
+  },
+  "Foetid Bloat-Drone": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Foetid Bloat-drone with Heavy Blight Launcher": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Foul Blightspawn": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Helbrute": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Icon Bearer": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Lord of Contagion": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Lord of Poxes": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Lord of Virulence": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Malignant Plaguecaster": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Miasmic Malignifier": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Mortarion": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "Myphitic Blight-Haulers": {
+   "default": {
+    "shape": "circle",
+    "d": 80
+   }
+  },
+  "Noxious Blightbringer": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Plague Marines": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Plague Surgeon": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Plagueburst Crawler": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Poxwalkers": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Tallyman": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Typhus": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Beasts of Nurgle": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Great Unclean One": {
+   "default": {
+    "shape": "circle",
+    "d": 130
+   }
+  },
+  "Nurglings": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Plague Drones": {
+   "default": {
+    "shape": "flying",
+    "size": "large"
+   }
+  },
+  "Plaguebearers": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Rotigus": {
+   "default": {
+    "shape": "circle",
+    "d": 130
+   }
+  }
+ },
+ "Deathwatch": {
+  "Corvus Blackstar": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Deathwatch Terminator Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Deathwatch Veterans": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Decimus Kill Team": {
+   "models": {
+    "Kill Team Sergeant and Deathwatch Veterans": {
+     "shape": "circle",
+     "d": 32
+    },
+    "Gravis Veterans": {
+     "shape": "circle",
+     "d": 40
+    }
+   }
+  },
+  "Fortis Kill Team": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Indomitor Kill Team": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Spectrus Kill Team": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   },
+   "models": {
+    "Kill Team Infiltrators with bolt sniper rifles": {
+     "shape": "circle",
+     "d": 40
+    }
+   }
+  },
+  "Talonstrike Kill Team": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   },
+   "models": {
+    "Kill Team Heavy Intercessors with Jump Packs": {
+     "shape": "circle",
+     "d": 40
+    }
+   }
+  },
+  "Watch Captain Artemis": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Watch Master": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  }
+ },
+ "Drukhari": {
+  "Archon": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Cronos": {
+   "default": {
+    "shape": "flying",
+    "size": "large"
+   }
+  },
+  "Drazhar": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Haemonculus": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Hand of the Archon": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Hellions": {
+   "default": {
+    "shape": "flying",
+    "size": "small"
+   }
+  },
+  "Incubi": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   }
+  },
+  "Kabalite Warriors": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Lady Malys": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Lelith Hesperax": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Mandrakes": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   }
+  },
+  "Raider": {
+   "default": {
+    "shape": "flying",
+    "size": "large"
+   }
+  },
+  "Ravager": {
+   "default": {
+    "shape": "flying",
+    "size": "large"
+   }
+  },
+  "Razorwing Jetfighter": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Reavers": {
+   "default": {
+    "shape": "flying",
+    "size": "small"
+   }
+  },
+  "Scourges with Heavy Weapons": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Scourges with Shardcarbines": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Succubus": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Talos": {
+   "default": {
+    "shape": "flying",
+    "size": "large"
+   }
+  },
+  "Venom": {
+   "default": {
+    "shape": "flying",
+    "size": "large"
+   }
+  },
+  "Voidraven Bomber": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Wracks": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Wyches": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  }
+ },
+ "Emperor’s Children": {
+  "Chaos Land Raider": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Chaos Rhino": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Chaos Spawn": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Chaos Terminators": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Daemon Prince of Slaanesh": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Daemon Prince of Slaanesh with Wings": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Defiler": {
+   "default": {
+    "shape": "circle",
+    "d": 160
+   }
+  },
+  "Flawless Blades": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Fulgrim": {
+   "default": {
+    "shape": "circle",
+    "d": 130
+   }
+  },
+  "Heldrake": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Infractors": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Lord Exultant": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Lord Kakophonist": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Lucius the Eternal": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Maulerfiend": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Noise Marines": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Sorcerer": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Tormentors": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Daemonettes": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Fiends": {
+   "default": {
+    "shape": "oval",
+    "w": 75,
+    "h": 42
+   }
+  },
+  "Keeper of Secrets": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "Seekers": {
+   "default": {
+    "shape": "oval",
+    "w": 60,
+    "h": 35.5
+   }
+  },
+  "Shalaxi Helbane": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  }
+ },
+ "Genestealer Cults": {
+  "Aberrants": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Abominant": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Achilles Ridgerunners": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Acolyte Hybrids with Autopistols": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Acolyte Hybrids with Hand Flamers": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Acolyte Iconward": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Atalan Jackals": {
+   "default": {
+    "shape": "oval",
+    "w": 60,
+    "h": 35.5
+   },
+   "models": {
+    "Wolfquad": {
+     "shape": "circle",
+     "d": 60
+    }
+   }
+  },
+  "Benefictus": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Biophagus": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Clamavus": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Goliath Rockgrinder": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Goliath Truck": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Hybrid Metamorphs": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Jackal Alphus": {
+   "default": {
+    "shape": "oval",
+    "w": 60,
+    "h": 35.5
+   }
+  },
+  "Kelermorph": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Locus": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Magus": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Neophyte Hybrids": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   },
+   "models": {
+    "Heavy stubber": {
+     "shape": "circle",
+     "d": 32
+    },
+    "Mining laser": {
+     "shape": "circle",
+     "d": 32
+    },
+    "Seismic cannon": {
+     "shape": "circle",
+     "d": 32
+    }
+   }
+  },
+  "Nexos": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Patriarch": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Primus": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Purestrain Genestealers": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Reductus Saboteur": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Sanctus": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  }
+ },
+ "Grey Knights": {
+  "Brother-Captain": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Brotherhood Champion": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Brotherhood Chaplain": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Brotherhood Librarian": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Brotherhood Techmarine": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Brotherhood Terminator Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Castellan Crowe": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Grand Master": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Grand Master in Nemesis Dreadknight": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Grand Master Voldus": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Interceptor Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Land Raider": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Land Raider Crusader": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Land Raider Redeemer": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Nemesis Dreadknight": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Paladin Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Purgation Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Purifier Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Razorback": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Rhino": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Stormhawk Interceptor": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Stormraven Gunship": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Stormtalon Gunship": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Strike Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Venerable Dreadnought": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Grey Knights Thunderhawk Gunship": {
+   "default": {
+    "shape": "hull"
+   }
+  }
+ },
+ "Imperial Agents": {
+  "Aquila Kill Team": {
+   "models": {
+    "Kill Team Sergeant and Deathwatch Veterans": {
+     "shape": "circle",
+     "d": 32
+    },
+    "Gravis Veterans": {
+     "shape": "circle",
+     "d": 40
+    }
+   }
+  },
+  "Callidus Assassin": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Corvus Blackstar": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Culexus Assassin": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Deathwatch Kill Team": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Eversor Assassin": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Exaction Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   },
+   "models": {
+    "Cyber-mastiff": {
+     "shape": "circle",
+     "d": 25
+    }
+   }
+  },
+  "Grey Knights Terminator Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Imperial Navy Breachers": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   },
+   "models": {
+    "Navis las-volley": {
+     "shape": "circle",
+     "d": 28.5
+    },
+    "endurant shield": {
+     "shape": "circle",
+     "d": 28.5
+    }
+   }
+  },
+  "Imperial Rhino": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Inquisitor": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Inquisitor Coteaz": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Inquisitor Draxus": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Inquisitor Greyfax": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Inquisitor Kroyle": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Inquisitorial Agents": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   },
+   "models": {
+    "Gun Servitors": {
+     "shape": "circle",
+     "d": 32
+    }
+   }
+  },
+  "Inquisitorial Chimera": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Ministorum Priest": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Navigator": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Rogue Trader entourage": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Sanctifiers": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Sisters of Battle Immolator": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Sisters of Battle Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Subductor Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   },
+   "models": {
+    "Cyber-mastiff": {
+     "shape": "circle",
+     "d": 25
+    }
+   }
+  },
+  "Vigilant Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   },
+   "models": {
+    "Cyber-mastiff": {
+     "shape": "circle",
+     "d": 25
+    }
+   }
+  },
+  "Vindicare Assassin": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Voidsmen-at-Arms": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Watch Captain Artemis": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Watch Master": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  }
+ },
+ "Imperial Knights": {
+  "Armiger Helverin": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "Armiger Warglaive": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "Canis Rex": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "Sir Hekhtur": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Knight Castellan": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "Knight Crusader": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "Knight Defender": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "Knight Destrier": {
+   "default": {
+    "shape": "oval",
+    "w": 150,
+    "h": 95
+   }
+  },
+  "Knight Errant": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "Knight Gallant": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "Knight Paladin": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "Knight Preceptor": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "Knight Valiant": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "Knight Warden": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "Acastus Knight Asterius": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Acastus Knight Porphyrion": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Armiger Moirax": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "Cerastus Knight Acheron": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "Cerastus Knight Atrapos": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "Cerastus Knight Castigator": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "Cerastus Knight Lancer": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "Questoris Knight Magaera": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "Questoris Knight Styrix": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  }
+ },
+ "Leagues of Votann": {
+  "Arkanyst Evaluator": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Berehk Stornbröw": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Brôkhyr Iron-master": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   },
+   "models": {
+    "E-COG": {
+     "shape": "circle",
+     "d": 25
+    },
+    "Ironkin Assistant": {
+     "shape": "circle",
+     "d": 28.5
+    }
+   }
+  },
+  "Brôkhyr Thunderkyn": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Buri Aegnirssen": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Cthonian Beserks": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   },
+   "models": {
+    "Mole grenade launcher": {
+     "shape": "circle",
+     "d": 50
+    }
+   }
+  },
+  "Cthonian Earthshakers": {
+   "default": {
+    "shape": "circle",
+    "d": 80
+   }
+  },
+  "Einhyr Champion": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Einhyr Hearthguard": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Grimnyr": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   },
+   "models": {
+    "CORV": {
+     "shape": "circle",
+     "d": 25
+    }
+   }
+  },
+  "Hearthkyn Warriors": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   }
+  },
+  "Hekaton Land Fortress": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Hernkyn Pioneers": {
+   "default": {
+    "shape": "oval",
+    "w": 90,
+    "h": 52.5
+   }
+  },
+  "Hernkyn Yaegirs": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   }
+  },
+  "Ironkin Steeljacks with Heavy Volkanite Disintegrators": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Ironkin Steeljacks with Melee Weapons": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Kâhl": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Kapricus Carrier": {
+   "default": {
+    "shape": "oval",
+    "w": 105,
+    "h": 70
+   }
+  },
+  "Kapricus Defenders": {
+   "default": {
+    "shape": "oval",
+    "w": 105,
+    "h": 70
+   }
+  },
+  "Memnyr Strategist": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Sagitaur": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Ûthar the Destined": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  }
+ },
+ "Necrons": {
+  "Annihilation Barge": {
+   "default": {
+    "shape": "flying",
+    "size": "large"
+   }
+  },
+  "C’tan Shard of the Deceiver": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "C’tan Shard of the Nightbringer": {
+   "default": {
+    "shape": "circle",
+    "d": 90
+   }
+  },
+  "C’tan Shard of the Void Dragon": {
+   "default": {
+    "shape": "circle",
+    "d": 80
+   }
+  },
+  "Canoptek Doomstalker": {
+   "default": {
+    "shape": "circle",
+    "d": 90
+   }
+  },
+  "Canoptek Macrocytes": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   }
+  },
+  "Canoptek Reanimator": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Canoptek Scarab Swarms": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Canoptek Spyders": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Canoptek Tomb Crawlers": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Canoptek Wraiths": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Catacomb Command Barge": {
+   "default": {
+    "shape": "flying",
+    "size": "large"
+   }
+  },
+  "Chronomancer": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Convergence of Dominion": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Cryptothralls": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Deathmarks": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Doom Scythe": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Doomsday Ark": {
+   "default": {
+    "shape": "flying",
+    "size": "large"
+   }
+  },
+  "Flayed Ones": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   }
+  },
+  "Geomancer": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Ghost Ark": {
+   "default": {
+    "shape": "flying",
+    "size": "large"
+   }
+  },
+  "Hexmark Destroyer": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Illuminor Szeras": {
+   "default": {
+    "shape": "circle",
+    "d": 80
+   }
+  },
+  "Immortals": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Imotekh the Stormlord": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Lokhust Destroyers": {
+   "default": {
+    "shape": "flying",
+    "size": "large"
+   }
+  },
+  "Lokhust Heavy Destroyers": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Lokhust Lord": {
+   "default": {
+    "shape": "flying",
+    "size": "large"
+   }
+  },
+  "Lychguard": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Monolith": {
+   "default": {
+    "shape": "circle",
+    "d": 160
+   }
+  },
+  "Necron Warriors": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Nekrosor Ammentar": {
+   "default": {
+    "shape": "circle",
+    "d": 80
+   }
+  },
+  "Night Scythe": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Obelisk": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Ophydian Destroyers": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Orikan the Diviner": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Overlord": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Overlord with Translocation Shroud": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Plasmancer": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Psychomancer": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Royal Warden": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Skorpekh Destroyers": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Skorpekh Lord": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Technomancer": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Tesseract Vault": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "The Silent King": {
+   "models": {
+    "Szarekh": {
+     "shape": "circle",
+     "d": 100
+    },
+    "Triarchal Menhir": {
+     "shape": "circle",
+     "d": 50
+    }
+   }
+  },
+  "Tomb Blades": {
+   "default": {
+    "shape": "flying",
+    "size": "small"
+   }
+  },
+  "Transcendent C’tan": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Trazyn the Infinite": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Triarch Praetorians": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Triarch Stalker": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Seraptek Heavy Construct": {
+   "default": {
+    "shape": "hull"
+   }
+  }
+ },
+ "Orks": {
+  "Bannernob": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Battlewagon": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Beast Snagga Boyz": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Beastboss": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Beastboss on Squigosaur": {
+   "default": {
+    "shape": "circle",
+    "d": 80
+   }
+  },
+  "Bigboss": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Big Mek": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Big Mek Dakkarig": {
+   "default": {
+    "shape": "circle",
+    "d": 90
+   }
+  },
+  "Big Mek in Mega Armour": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Big Mek with Shokk Attack Gun": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Big’ed Bossbunka": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Blitza-bommer": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Boomdakka Snazzwagon": {
+   "default": {
+    "shape": "oval",
+    "w": 150,
+    "h": 95
+   }
+  },
+  "Boss Snikrot": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Boyz": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   },
+   "models": {
+    "Boss Nob (Armageddon)": {
+     "shape": "circle",
+     "d": 40
+    }
+   }
+  },
+  "Breaka Boyz": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   },
+   "models": {
+    "Boss Nob": {
+     "shape": "circle",
+     "d": 40
+    }
+   }
+  },
+  "Burna Boyz": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Burna-bommer": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Dakkajet": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Deff Dread": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Deffkilla Wartrike": {
+   "default": {
+    "shape": "oval",
+    "w": 150,
+    "h": 95
+   }
+  },
+  "Deffkoptas": {
+   "default": {
+    "shape": "oval",
+    "w": 75,
+    "h": 42
+   }
+  },
+  "Flash Gitz": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Ghazghkull Thraka": {
+   "default": {
+    "shape": "circle",
+    "d": 80
+   },
+   "models": {
+    "Makari": {
+     "shape": "circle",
+     "d": 25
+    }
+   }
+  },
+  "Gorkanaut": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "Gretchin": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   },
+   "models": {
+    "Runtherd": {
+     "shape": "circle",
+     "d": 32
+    }
+   }
+  },
+  "Hunta Rig": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "Kill Rig": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "Killa Kans": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Kommandos": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Kustom Boosta-blasta": {
+   "default": {
+    "shape": "oval",
+    "w": 150,
+    "h": 95
+   }
+  },
+  "Lootas": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Meganobz": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Megatrakk Scrapjet": {
+   "default": {
+    "shape": "oval",
+    "w": 150,
+    "h": 95
+   }
+  },
+  "Mek": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Mek Gunz": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Morkanaut": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "Mozrog Skragbad": {
+   "default": {
+    "shape": "circle",
+    "d": 80
+   }
+  },
+  "Nobz": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Painboss": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Painboy": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Rukkatrukk Squigbuggy": {
+   "default": {
+    "shape": "oval",
+    "w": 150,
+    "h": 95
+   }
+  },
+  "Shokkjump Dragsta": {
+   "default": {
+    "shape": "oval",
+    "w": 150,
+    "h": 95
+   }
+  },
+  "Squighog Boyz": {
+   "default": {
+    "shape": "oval",
+    "w": 75,
+    "h": 42
+   },
+   "models": {
+    "Nob on Smasha Squig": {
+     "shape": "oval",
+     "w": 90,
+     "h": 52.5
+    }
+   }
+  },
+  "Stompa": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Stormboyz": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Tankbustas": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   },
+   "models": {
+    "Boss Nob": {
+     "shape": "circle",
+     "d": 40
+    }
+   }
+  },
+  "Trukk": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Warbikers": {
+   "default": {
+    "shape": "oval",
+    "w": 75,
+    "h": 42
+   }
+  },
+  "Warboss": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Warboss (Armageddon)": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Warboss in Mega Armour": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Wartrakk": {
+   "default": {
+    "shape": "oval",
+    "w": 105,
+    "h": 70
+   }
+  },
+  "Wazdakka Gutsmek": {
+   "default": {
+    "shape": "circle",
+    "d": 120
+   }
+  },
+  "Wazbom Blastajet": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Weirdboy": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Weirdboy (Armageddon)": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Wurrboy": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Zodgrod Wortsnagga": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Gargantuan Squiggoth": {
+   "default": {
+    "shape": "hull"
+   }
+  }
+ },
+ "Space Marines": {
+  "Adrax Agatone": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Aethon Shaan": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Aggressor Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Ancient": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Ancient in Terminator Armour": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Apothecary": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Apothecary Biologis": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Assault Intercessor Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Assault Intercessors with Jump Packs": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Ballistus Dreadnought": {
+   "default": {
+    "shape": "circle",
+    "d": 90
+   }
+  },
+  "Bladeguard Ancient": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Bladeguard Veteran Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Brutalis Dreadnought": {
+   "default": {
+    "shape": "circle",
+    "d": 90
+   }
+  },
+  "Caanok Var": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Captain": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Captain in Gravis Armour": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Captain in Phobos Armour": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Captain in Terminator Armour": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Captain Titus": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Captain with Jump Pack": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Cato Sicarius": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Centurion Assault Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Centurion Devastator Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Chaplain": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Chaplain in Terminator Armour": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Chaplain on Bike": {
+   "default": {
+    "shape": "oval",
+    "w": 90,
+    "h": 52.5
+   }
+  },
+  "Chaplain with Jump Pack": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Chaplain with Jump Pack (Armageddon)": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Chief Librarian Tigurius": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Company Heroes": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Darnath Lysander": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Desolation Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Devastator Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Dreadnought": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Drop Pod": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Eliminator Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Eradicator Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Eradicator Squad with Heavy Bolters": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Firestrike Servo-turrets": {
+   "default": {
+    "shape": "circle",
+    "d": 80
+   }
+  },
+  "Gladiator Lancer": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "Gladiator Reaper": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "Gladiator Valiant": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "Hammerfall Bunker": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Heavy Intercessor Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Hellblaster Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Impulsor": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "Inceptor Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Incursor Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Infernus Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Infiltrator Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Intercessor Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Invader ATV": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Invictor Tactical Warsuit": {
+   "default": {
+    "shape": "circle",
+    "d": 90
+   }
+  },
+  "Iron Father Feirros": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Judiciar": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Kayvaan Shrike": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Kor’sarro Khan": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Land Raider": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Land Raider Crusader": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Land Raider Redeemer": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Land Speeder": {
+   "default": {
+    "shape": "oval",
+    "w": 105,
+    "h": 70
+   }
+  },
+  "Librarian": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Librarian in Phobos Armour": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Librarian in Terminator Armour": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Lieutenant": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Lieutenant in Phobos Armour": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Lieutenant in Reiver Armour": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Lieutenant with Combi-weapon": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Marneus Calgar in Armour of Antilochus": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Outrider Squad": {
+   "default": {
+    "shape": "oval",
+    "w": 90,
+    "h": 52.5
+   }
+  },
+  "Pedro Kantor": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Predator Annihilator": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Predator Destructor": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Razorback": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Redemptor Dreadnought": {
+   "default": {
+    "shape": "circle",
+    "d": 90
+   }
+  },
+  "Reiver Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Repulsor": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "Repulsor Executioner": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "Rhino": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Roboute Guilliman": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Scout Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   }
+  },
+  "Sternguard Veteran Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Storm Speeder Hailstrike": {
+   "default": {
+    "shape": "circle",
+    "d": 90
+   }
+  },
+  "Storm Speeder Hammerstrike": {
+   "default": {
+    "shape": "circle",
+    "d": 90
+   }
+  },
+  "Storm Speeder Thunderstrike": {
+   "default": {
+    "shape": "circle",
+    "d": 90
+   }
+  },
+  "Stormhawk Interceptor": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Stormraven Gunship": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Stormtalon Gunship": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Suboden Khan": {
+   "default": {
+    "shape": "oval",
+    "w": 90,
+    "h": 52.5
+   }
+  },
+  "Suppressor Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Tactical Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Techmarine": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Terminator Assault Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Terminator Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Tor Garadon": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Uriel Ventris": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Vanguard Veteran Squad with Jump Packs": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Victrix Honour Guard": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Vindicator": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Vulkan He’stan": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Wardens of Ultramar": {
+   "models": {
+    "Ancient Gadriel": {
+     "shape": "circle",
+     "d": 40
+    },
+    "Veteran Sergeant Metaurus": {
+     "shape": "circle",
+     "d": 40
+    },
+    "Gaius Silva": {
+     "shape": "circle",
+     "d": 28.5
+    },
+    "Aemelia Minervas": {
+     "shape": "circle",
+     "d": 28.5
+    },
+    "Dainal Kornelius": {
+     "shape": "circle",
+     "d": 28.5
+    },
+    "Lucia Vestha": {
+     "shape": "circle",
+     "d": 28.5
+    }
+   }
+  },
+  "Whirlwind": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Astraeus": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Thunderhawk Gunship": {
+   "default": {
+    "shape": "hull"
+   }
+  }
+ },
+ "Space Wolves": {
+  "Arjac Rockfist": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Bjorn the Fell-handed": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Blood Claws": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Fenrisian Wolves": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Grey Hunters": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Iron Priest": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Logan Grimnar": {
+   "default": {
+    "shape": "circle",
+    "d": 80
+   }
+  },
+  "Murderfang": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Njal Stormcaller": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Ragnar Blackmane": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Thunderwolf Cavalry": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Ulrik the Slayer": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Venerable Dreadnought": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Wolf Guard Battle Leader": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Wolf Guard Headtakers": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   },
+   "models": {
+    "Hunting Wolves": {
+     "shape": "oval",
+     "w": 60,
+     "h": 35.5
+    }
+   }
+  },
+  "Wolf Guard Terminators": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Wolf Priest": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Wolf Scouts": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   },
+   "models": {
+    "Hunting Wolves": {
+     "shape": "oval",
+     "w": 60,
+     "h": 35.5
+    }
+   }
+  },
+  "Wulfen": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Wulfen Dreadnought": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Wulfen with Storm Shields": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  }
+ },
+ "T’au Empire": {
+  "Breacher Team": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Broadside Battlesuits": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Cadre Fireblade": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Commander Farsight": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Commander in Coldstar Battlesuit": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Commander in Enforcer Battlesuit": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Commander Shadowsun": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Crisis Fireknife Battlesuits": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Crisis Starscythe Battlesuits": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Crisis Sunforge Battlesuits": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Darkstrider": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Devilfish": {
+   "default": {
+    "shape": "flying",
+    "size": "large"
+   }
+  },
+  "Ethereal": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Firesight Team": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Ghostkeel Battlesuit": {
+   "default": {
+    "shape": "oval",
+    "w": 105,
+    "h": 70
+   }
+  },
+  "Hammerhead Gunship": {
+   "default": {
+    "shape": "flying",
+    "size": "large"
+   }
+  },
+  "Kroot Carnivores": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   }
+  },
+  "Kroot Farstalkers": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   },
+   "models": {
+    "Kroot Kill-broker": {
+     "shape": "circle",
+     "d": 32
+    }
+   }
+  },
+  "Kroot Flesh Shaper": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Kroot Hounds": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   }
+  },
+  "Kroot Lone-spear": {
+   "default": {
+    "shape": "oval",
+    "w": 90,
+    "h": 52.5
+   }
+  },
+  "Kroot Trail Shaper": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Kroot War Shaper": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Krootox Rampagers": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Krootox Riders": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Pathfinder Team": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Piranhas": {
+   "default": {
+    "shape": "flying",
+    "size": "large"
+   }
+  },
+  "Razorshark Strike Fighter": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Riptide Battlesuit": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Sky Ray Gunship": {
+   "default": {
+    "shape": "flying",
+    "size": "large"
+   }
+  },
+  "Stealth Battlesuits": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Stormsurge": {
+   "default": {
+    "shape": "oval",
+    "w": 170,
+    "h": 109
+   }
+  },
+  "Strike Team": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Sun Shark Bomber": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "The Twin Lance": {
+   "models": {
+    "Ri’Lantar / Ri’Locai": {
+     "shape": "circle",
+     "d": 60
+    },
+    "MV15 Gun Drone": {
+     "shape": "circle",
+     "d": 32
+    }
+   }
+  },
+  "Tidewall Droneport": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Tidewall Gunrig": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Tidewall Shieldline": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Vespid Stingwings": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   }
+  },
+  "AX-1-0 Tiger Shark": {
+   "default": {
+    "shape": "circle",
+    "d": 160
+   }
+  },
+  "Manta": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Ta’unar Supremacy Armour": {
+   "default": {
+    "shape": "circle",
+    "d": 160
+   }
+  },
+  "Tiger Shark": {
+   "default": {
+    "shape": "circle",
+    "d": 160
+   }
+  }
+ },
+ "Thousand Sons": {
+  "Ahriman": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Chaos Land Raider": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Chaos Predator Annihilator": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Chaos Predator Destructor": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Chaos Rhino": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Chaos Spawn": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Chaos Vindicator": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Daemon Prince of Tzeentch": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Daemon Prince of Tzeentch with Wings": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Defiler": {
+   "default": {
+    "shape": "circle",
+    "d": 160
+   }
+  },
+  "Exalted Sorcerer": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Exalted Sorcerer on Disc of Tzeentch": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Forgefiend": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Helbrute": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Heldrake": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Infernal Master": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Magnus the Red": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "Maulerfiend": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Mutalith Vortex Beast": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Rubric Marines": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Scarab Occult Terminators": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Sekhetar Robots": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Sorcerer": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Sorcerer in Terminator Armour": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Tzaangor Enlightened": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Tzaangor Enlightened with Fatecaster Greatbows": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Tzaangor Shaman": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Tzaangors": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Blue Horrors": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Flamers": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Kairos Fateweaver": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "Lord of Change": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "Pink Horrors": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Screamers": {
+   "default": {
+    "shape": "flying",
+    "size": "small"
+   }
+  }
+ },
+ "Tyranids": {
+  "Barbgaunts": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Biovores": {
+   "default": {
+    "shape": "circle",
+    "d": 80
+   }
+  },
+  "Broodlord": {
+   "default": {
+    "shape": "oval",
+    "w": 75,
+    "h": 42
+   }
+  },
+  "Carnifexes": {
+   "default": {
+    "shape": "oval",
+    "w": 105,
+    "h": 70
+   }
+  },
+  "Deathleaper": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Exocrine": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Gargoyles": {
+   "default": {
+    "shape": "flying",
+    "size": "small"
+   }
+  },
+  "Genestealers": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Harpy": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Haruspex": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Hive Crone": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Hive Guard": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Hive Tyrant": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Hormagaunts": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   }
+  },
+  "Hyperadapted Raveners": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Lictor": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Maleceptor": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Mawloc": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Mucolid Spores": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Neurogaunts": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   },
+   "models": {
+    "Nodebeasts": {
+     "shape": "circle",
+     "d": 28.5
+    }
+   }
+  },
+  "Neurolictor": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Neurotyrant": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Norn Assimilator": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "Norn Emissary": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "Old One Eye": {
+   "default": {
+    "shape": "oval",
+    "w": 105,
+    "h": 70
+   }
+  },
+  "Parasite of Mortrex": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Psychophage": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Pyrovores": {
+   "default": {
+    "shape": "circle",
+    "d": 80
+   }
+  },
+  "Raveners": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Ripper Swarms": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Screamer-killer": {
+   "default": {
+    "shape": "circle",
+    "d": 90
+   }
+  },
+  "Spore MInes": {
+   "default": {
+    "shape": "circle",
+    "d": 25
+   }
+  },
+  "Sporocyst": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Termagants": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   }
+  },
+  "Tervigon": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "The Red Terror": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "The Swarmlord": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Toxicrene": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Trygon": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Tyranid Prime with Lash Whip": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Tyranid Warriors with Melee Bio-weapons": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Tyranid Warriors with Ranged Bio-weapons": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Tyrannocyte": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "Tyrannofex": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Tyrant Guard": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Venomthropes": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Von Ryan’s Leapers": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Winged Hive Tyrant": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Winged Tyranid Prime": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Zoanthropes": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Harridan": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Hierophant": {
+   "default": {
+    "shape": "hull"
+   }
+  }
+ },
+ "World Eaters": {
+  "Angron": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  },
+  "Chaos Land Raider": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Chaos Predator Annihilator": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Chaos Predator Destructor": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Chaos Rhino": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Chaos Spawn": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Daemon Prince of Khorne": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Daemon Prince of Khorne with Wings": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Defiler": {
+   "default": {
+    "shape": "circle",
+    "d": 160
+   }
+  },
+  "Eightbound": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Exalted Eightbound": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Forgefiend": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Goremongers": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Helbrute": {
+   "default": {
+    "shape": "circle",
+    "d": 60
+   }
+  },
+  "Heldrake": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Jakhals": {
+   "default": {
+    "shape": "circle",
+    "d": 28.5
+   },
+   "models": {
+    "Dishonoured": {
+     "shape": "circle",
+     "d": 40
+    }
+   }
+  },
+  "Khârn the Betrayer": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Khorne Berzerkers": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Khorne Lord of Skulls": {
+   "default": {
+    "shape": "hull"
+   }
+  },
+  "Lord Invocatus": {
+   "default": {
+    "shape": "oval",
+    "w": 90,
+    "h": 52.5
+   }
+  },
+  "Lord on Juggernaut": {
+   "default": {
+    "shape": "oval",
+    "w": 90,
+    "h": 52.5
+   }
+  },
+  "Master of Executions": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Maulerfiend": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Slaughterbound": {
+   "default": {
+    "shape": "circle",
+    "d": 50
+   }
+  },
+  "Terminator Squad": {
+   "default": {
+    "shape": "circle",
+    "d": 40
+   }
+  },
+  "Bloodcrushers": {
+   "default": {
+    "shape": "oval",
+    "w": 90,
+    "h": 52.5
+   }
+  },
+  "Bloodletters": {
+   "default": {
+    "shape": "circle",
+    "d": 32
+   }
+  },
+  "Bloodthirster": {
+   "default": {
+    "shape": "oval",
+    "w": 120,
+    "h": 92
+   }
+  },
+  "Flesh Hounds": {
+   "default": {
+    "shape": "oval",
+    "w": 60,
+    "h": 35.5
+   }
+  },
+  "Skarbrand": {
+   "default": {
+    "shape": "circle",
+    "d": 100
+   }
+  }
+ }
+}

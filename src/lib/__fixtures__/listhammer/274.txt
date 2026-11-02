@@ -1,0 +1,46 @@
+MWW
+──────────────────────────────
+Faction: Grey Knights
+Detachment: Warpbane Task Force
+Battle Size: Strike Force (2000 pts)
+Total: 2000 / 2000 pts · 3/3 DP · ✓ Legal
+Disposition: Take and Hold
+
+CHARACTER
+Grand Master in Nemesis Dreadknight — 240 pts
+   · Heavy Psycannon, Sublimator, Nemesis Daemon Greathammer
+
+Grand Master in Nemesis Dreadknight — 240 pts
+   · Heavy Psycannon, Sublimator, Nemesis Daemon Greathammer
+
+BATTLELINE
+Strike Squad ×5 — 125 pts
+   · 5× Storm Bolter, 5× Nemesis Force Weapon
+
+Strike Squad ×5 — 125 pts
+   · 5× Storm Bolter, 5× Nemesis Force Weapon
+
+INFANTRY
+Interceptor Squad ×5 — 135 pts
+   · 5× Storm Bolter, 5× Nemesis Force Weapon
+
+Castellan Crowe — 105 pts · Warlord
+   · Purifying Flame, Storm Bolter, Black Blade of Antwyr
+   └ Leads: Purifier Squad ×10 — 290 pts
+      · 10× Purifying Flame, 10× Storm Bolter, 10× Nemesis Force Weapon
+
+Purifier Squad ×5 — 145 pts
+   · 5× Purifying Flame, 5× Storm Bolter, 5× Nemesis Force Weapon
+
+Purifier Squad ×5 — 155 pts
+   · Incinerator, 5× Purifying Flame, 4× Storm Bolter, Close Combat Weapon, 4× Nemesis Force Weapon
+
+VEHICLE
+Nemesis Dreadknight — 220 pts
+   · Gatling Psilencer, Heavy Psycannon, Nemesis Daemon Greathammer
+
+Nemesis Dreadknight — 220 pts
+   · Gatling Psilencer, Heavy Psycannon, Nemesis Daemon Greathammer
+
+──────────────────────────────
+2000 / 2000 pts · 11 units · Strike Force

@@ -1,0 +1,60 @@
+Liberty prime(2000 puntos)
+
+Caballeros Imperiales
+Freeblade Company (3 puntos de destacamento)
+Purgar al enemigo
+Fuerza de Choque (2000 Points)
+
+PERSONAJE
+
+Knight Castellan (450 Points)
+• Señor de la guerra
+• 1x Plasma decimator
+• 2x Shieldbreaker missile launcher
+• 1x Titanic feet
+• 2x Twin meltagun
+• 1x Twin siegebreaker cannon
+• 1x Volcano lance
+• Mejoras: Hunter’s Eye
+
+Knight Errant (390 Points)
+• 1x Meltagun
+• 1x Stormspear rocket pod
+• 1x Thermal cannon
+• 1x Thunderstrike gauntlet
+• Mejoras: Mysterious Guardian
+
+Knight Gallant (375 Points)
+• 1x Meltagun
+• 1x Reaper chainsword
+• 1x Stormspear rocket pod
+• 1x Thunderstrike gauntlet
+• Mejoras: Sanctuary
+
+Knight Paladin (405 Points)
+• 1x Questoris heavy stubber
+• 1x Questoris heavy stubber
+• 1x Rapid-fire battle cannon
+• 1x Reaper chainsword
+• 1x Stormspear rocket pod
+• Mejoras: Bringer of Justice
+
+OTRAS HOJAS DE DATOS
+
+Armiger Warglaive (140 Points)
+• 1x Meltagun
+• 1x Reaper chain-cleaver
+• 1x Thermal spear
+
+Armiger Warglaive (140 Points)
+• 1x Meltagun
+• 1x Reaper chain-cleaver
+• 1x Thermal spear
+
+UNIDADES ALIADAS
+
+Callidus Assassin (100 Points)
+• 1x Neural shredder
+• 1x Phase sword and poison blades
+
+Exportada con la versión de la app: v2.8.0 (2), versión de los datos v981

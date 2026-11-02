@@ -1,0 +1,121 @@
+Bear Force One (1995 points)
+
+Astra Militarum
+Abhuman Auxiliaries and Steel Hammer (3 Detachment Points)
+Take and Hold
+Strike Force (2000 points)
+
+Attached Units
+Attached Unit 1
+
+Commissar (40 points)
+• Attached as: Leader (Character)
+• 1x Plasma pistol
+1x Power weapon
+• Enhancement: Exemplar of Duty (Upgrade)
+
+Bullgryn Squad (200 points)
+• Attached as: Bodyguard
+• 1x Bullgryn Bone ’ead
+• 1x Brute Shield
+1x Bullgryn maul
+1x Close combat weapon
+• 5x Bullgryn
+• 5x Brute Shield
+5x Bullgryn maul
+5x Close combat weapon
+
+Attached Unit 2
+
+Commissar (40 points)
+• Attached as: Leader (Character)
+• 1x Plasma pistol
+1x Power weapon
+• Enhancement: Exemplar of Duty (Upgrade)
+
+Bullgryn Squad (200 points)
+• Attached as: Bodyguard
+• 1x Bullgryn Bone ’ead
+• 1x Brute Shield
+1x Bullgryn maul
+1x Close combat weapon
+• 5x Bullgryn
+• 5x Brute Shield
+5x Bullgryn maul
+5x Close combat weapon
+
+Attached Unit 3
+
+Commissar (40 points)
+• Attached as: Leader (Character)
+• 1x Plasma pistol
+1x Power weapon
+• Enhancement: Exemplar of Duty (Upgrade)
+
+Bullgryn Squad (230 points)
+• Attached as: Bodyguard
+• 1x Bullgryn Bone ’ead
+• 1x Brute Shield
+1x Bullgryn maul
+1x Close combat weapon
+• 5x Bullgryn
+• 5x Brute Shield
+5x Bullgryn maul
+5x Close combat weapon
+
+
+CHARACTERS
+
+Doomhammer (405 points)
+• Steel Hammer Keywords: Character
+• 1x Armoured tracks
+4x Lascannon
+1x Magma cannon
+5x Twin heavy bolter
+• Enhancement: Assault Hatches
+
+Ministorum Priest (35 points)
+• 1x Zealot’s vindictor
+
+Stormsword (460 points)
+• Steel Hammer Keywords: Character
+• Warlord
+• 1x Armoured tracks
+4x Lascannon
+1x Stormsword siege cannon
+5x Twin heavy bolter
+• Enhancement: Battalion Commander
+
+Tech-Priest Enginseer (60 points)
+• 1x Enginseer axe
+1x Mechanicus pistol
+1x Servo-arm
+• Enhancement: Engine Speaker
+
+Tech-Priest Enginseer (45 points)
+• 1x Enginseer axe
+1x Mechanicus pistol
+1x Servo-arm
+
+
+OTHER DATASHEETS
+
+Ogryn Squad (120 points)
+• 1x Ogryn Bone ’ead
+• 1x Ripper gun
+• 5x Ogryn
+• 5x Ripper gun
+
+Ogryn Squad (60 points)
+• 1x Ogryn Bone ’ead
+• 1x Ripper gun
+• 2x Ogryn
+• 2x Ripper gun
+
+Ogryn Squad (60 points)
+• 1x Ogryn Bone ’ead
+• 1x Ripper gun
+• 2x Ogryn
+• 2x Ripper gun
+
+Exported with App Version: v2.7.1 (146), Data Version: v972

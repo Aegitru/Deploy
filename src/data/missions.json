@@ -1,0 +1,451 @@
+{
+  "dispositions": [
+    {
+      "id": "take-and-hold",
+      "name": "Take and Hold"
+    },
+    {
+      "id": "purge-the-foe",
+      "name": "Purge the Foe"
+    },
+    {
+      "id": "disruption",
+      "name": "Disruption"
+    },
+    {
+      "id": "reconnaissance",
+      "name": "Reconnaissance"
+    },
+    {
+      "id": "priority-assets",
+      "name": "Priority Assets"
+    }
+  ],
+  "missions": [
+    {
+      "mine": "take-and-hold",
+      "opponent": "take-and-hold",
+      "name": "Battlefield Dominance",
+      "image": "missions/take-and-hold/battlefield-dominance.png",
+      "back": null,
+      "layouts": [
+        "layouts/take-and-hold-mirror-1.png",
+        "layouts/take-and-hold-mirror-2-portrait.png",
+        "layouts/take-and-hold-mirror-3.png"
+      ],
+      "boards": [
+        "boards/take-and-hold-mirror-1.webp",
+        "boards/take-and-hold-mirror-2-portrait.webp",
+        "boards/take-and-hold-mirror-3.webp"
+      ]
+    },
+    {
+      "mine": "take-and-hold",
+      "opponent": "purge-the-foe",
+      "name": "Immovable Object",
+      "image": "missions/take-and-hold/immovable-object.png",
+      "back": null,
+      "layouts": [
+        "layouts/take-and-hold-vs-purge-the-foe-1-portrait.png",
+        "layouts/take-and-hold-vs-purge-the-foe-2.png",
+        "layouts/take-and-hold-vs-purge-the-foe-3.png"
+      ],
+      "boards": [
+        "boards/take-and-hold-vs-purge-the-foe-1-portrait.webp",
+        "boards/take-and-hold-vs-purge-the-foe-2.webp",
+        "boards/take-and-hold-vs-purge-the-foe-3.webp"
+      ]
+    },
+    {
+      "mine": "take-and-hold",
+      "opponent": "disruption",
+      "name": "Determined Acquisition",
+      "image": "missions/take-and-hold/determined-acquisition.png",
+      "back": null,
+      "layouts": [
+        "layouts/take-and-hold-vs-disruption-1-portrait.png",
+        "layouts/take-and-hold-vs-disruption-2.png",
+        "layouts/take-and-hold-vs-disruption-3.png"
+      ],
+      "boards": [
+        "boards/take-and-hold-vs-disruption-1-portrait.webp",
+        "boards/take-and-hold-vs-disruption-2.webp",
+        "boards/take-and-hold-vs-disruption-3.webp"
+      ]
+    },
+    {
+      "mine": "take-and-hold",
+      "opponent": "reconnaissance",
+      "name": "Purge and Secure",
+      "image": "missions/take-and-hold/purge-and-secure.png",
+      "back": null,
+      "layouts": [
+        "layouts/take-and-hold-vs-reconnaissance-1.png",
+        "layouts/take-and-hold-vs-reconnaissance-2-portrait.png",
+        "layouts/take-and-hold-vs-reconnaissance-3.png"
+      ],
+      "boards": [
+        "boards/take-and-hold-vs-reconnaissance-1.webp",
+        "boards/take-and-hold-vs-reconnaissance-2-portrait.webp",
+        "boards/take-and-hold-vs-reconnaissance-3.webp"
+      ]
+    },
+    {
+      "mine": "take-and-hold",
+      "opponent": "priority-assets",
+      "name": "Inescapable Dominion",
+      "image": "missions/take-and-hold/inescapable-dominion.png",
+      "back": null,
+      "layouts": [
+        "layouts/take-and-hold-vs-priority-assets-1.png",
+        "layouts/take-and-hold-vs-priority-assets-2.png",
+        "layouts/take-and-hold-vs-priority-assets-3-portrait.png"
+      ],
+      "boards": [
+        "boards/take-and-hold-vs-priority-assets-1.webp",
+        "boards/take-and-hold-vs-priority-assets-2.webp",
+        "boards/take-and-hold-vs-priority-assets-3-portrait.webp"
+      ]
+    },
+    {
+      "mine": "purge-the-foe",
+      "opponent": "take-and-hold",
+      "name": "Unstoppable Force",
+      "image": "missions/purge-the-foe/unstoppable-force.png",
+      "back": null,
+      "layouts": [
+        "layouts/take-and-hold-vs-purge-the-foe-1-portrait.png",
+        "layouts/take-and-hold-vs-purge-the-foe-2.png",
+        "layouts/take-and-hold-vs-purge-the-foe-3.png"
+      ],
+      "boards": [
+        "boards/take-and-hold-vs-purge-the-foe-1-portrait.webp",
+        "boards/take-and-hold-vs-purge-the-foe-2.webp",
+        "boards/take-and-hold-vs-purge-the-foe-3.webp"
+      ]
+    },
+    {
+      "mine": "purge-the-foe",
+      "opponent": "purge-the-foe",
+      "name": "Meatgrinder",
+      "image": "missions/purge-the-foe/meatgrinder.png",
+      "back": null,
+      "layouts": [
+        "layouts/purge-the-foe-mirror-1.png",
+        "layouts/purge-the-foe-mirror-2.png",
+        "layouts/purge-the-foe-mirror-3-portrait.png"
+      ],
+      "boards": [
+        "boards/purge-the-foe-mirror-1.webp",
+        "boards/purge-the-foe-mirror-2.webp",
+        "boards/purge-the-foe-mirror-3-portrait.webp"
+      ]
+    },
+    {
+      "mine": "purge-the-foe",
+      "opponent": "disruption",
+      "name": "Punishment",
+      "image": "missions/purge-the-foe/punishment.png",
+      "back": null,
+      "layouts": [
+        "layouts/disruption-vs-purge-the-foe-1.png",
+        "layouts/disruption-vs-purge-the-foe-2.png",
+        "layouts/disruption-vs-purge-the-foe-3-portrait.png"
+      ],
+      "boards": [
+        "boards/disruption-vs-purge-the-foe-1.webp",
+        "boards/disruption-vs-purge-the-foe-2.webp",
+        "boards/disruption-vs-purge-the-foe-3-portrait.webp"
+      ]
+    },
+    {
+      "mine": "purge-the-foe",
+      "opponent": "reconnaissance",
+      "name": "Consecrate",
+      "image": "missions/purge-the-foe/consecrate.png",
+      "back": null,
+      "layouts": [
+        "layouts/purge-the-foe-vs-reconnaissance-1.png",
+        "layouts/purge-the-foe-vs-reconnaissance-2-portrait.png",
+        "layouts/purge-the-foe-vs-reconnaissance-3.png"
+      ],
+      "boards": [
+        "boards/purge-the-foe-vs-reconnaissance-1.webp",
+        "boards/purge-the-foe-vs-reconnaissance-2-portrait.webp",
+        "boards/purge-the-foe-vs-reconnaissance-3.webp"
+      ]
+    },
+    {
+      "mine": "purge-the-foe",
+      "opponent": "priority-assets",
+      "name": "Destroyer's Wrath",
+      "image": "missions/purge-the-foe/destroyers-wrath.png",
+      "back": null,
+      "layouts": [
+        "layouts/purge-the-foe-vs-priority-assets-1-portrait.png",
+        "layouts/purge-the-foe-vs-priority-assets-2.png",
+        "layouts/purge-the-foe-vs-priority-assets-3.png"
+      ],
+      "boards": [
+        "boards/purge-the-foe-vs-priority-assets-1-portrait.webp",
+        "boards/purge-the-foe-vs-priority-assets-2.webp",
+        "boards/purge-the-foe-vs-priority-assets-3.webp"
+      ]
+    },
+    {
+      "mine": "disruption",
+      "opponent": "take-and-hold",
+      "name": "Death Trap",
+      "image": "missions/disruption/death-trap.png",
+      "back": "missions/disruption/death-trap-back.png",
+      "layouts": [
+        "layouts/take-and-hold-vs-disruption-1-portrait.png",
+        "layouts/take-and-hold-vs-disruption-2.png",
+        "layouts/take-and-hold-vs-disruption-3.png"
+      ],
+      "boards": [
+        "boards/take-and-hold-vs-disruption-1-portrait.webp",
+        "boards/take-and-hold-vs-disruption-2.webp",
+        "boards/take-and-hold-vs-disruption-3.webp"
+      ]
+    },
+    {
+      "mine": "disruption",
+      "opponent": "purge-the-foe",
+      "name": "Delaying Action",
+      "image": "missions/disruption/delaying-action.png",
+      "back": null,
+      "layouts": [
+        "layouts/disruption-vs-purge-the-foe-1.png",
+        "layouts/disruption-vs-purge-the-foe-2.png",
+        "layouts/disruption-vs-purge-the-foe-3-portrait.png"
+      ],
+      "boards": [
+        "boards/disruption-vs-purge-the-foe-1.webp",
+        "boards/disruption-vs-purge-the-foe-2.webp",
+        "boards/disruption-vs-purge-the-foe-3-portrait.webp"
+      ]
+    },
+    {
+      "mine": "disruption",
+      "opponent": "disruption",
+      "name": "Outmanoeuvre",
+      "image": "missions/disruption/outmanoeuvre.png",
+      "back": null,
+      "layouts": [
+        "layouts/disruption-mirror-1.png",
+        "layouts/disruption-mirror-2.png",
+        "layouts/disruption-mirror-3-portrait.png"
+      ],
+      "boards": [
+        "boards/disruption-mirror-1.webp",
+        "boards/disruption-mirror-2.webp",
+        "boards/disruption-mirror-3-portrait.webp"
+      ]
+    },
+    {
+      "mine": "disruption",
+      "opponent": "reconnaissance",
+      "name": "Smoke and Mirrors",
+      "image": "missions/disruption/smoke-and-mirrors.png",
+      "back": "missions/disruption/smoke-and-mirrors-back.png",
+      "layouts": [
+        "layouts/disruption-vs-reconnaissance-1.png",
+        "layouts/disruption-vs-reconnaissance-2-portrait.png",
+        "layouts/disruption-vs-reconnaissance-3.png"
+      ],
+      "boards": [
+        "boards/disruption-vs-reconnaissance-1.webp",
+        "boards/disruption-vs-reconnaissance-2-portrait.webp",
+        "boards/disruption-vs-reconnaissance-3.webp"
+      ]
+    },
+    {
+      "mine": "disruption",
+      "opponent": "priority-assets",
+      "name": "Locate and Deny",
+      "image": "missions/disruption/locate-and-deny.png",
+      "back": "missions/disruption/locate-and-deny-back.png",
+      "layouts": [
+        "layouts/disruption-vs-priority-assets-1-portrait.png",
+        "layouts/disruption-vs-priority-assets-2.png",
+        "layouts/disruption-vs-priority-assets-3.png"
+      ],
+      "boards": [
+        "boards/disruption-vs-priority-assets-1-portrait.webp",
+        "boards/disruption-vs-priority-assets-2.webp",
+        "boards/disruption-vs-priority-assets-3.webp"
+      ]
+    },
+    {
+      "mine": "reconnaissance",
+      "opponent": "take-and-hold",
+      "name": "Reconnaissance Sweep",
+      "image": "missions/reconnaissance/reconnaissance-sweep.png",
+      "back": null,
+      "layouts": [
+        "layouts/take-and-hold-vs-reconnaissance-1.png",
+        "layouts/take-and-hold-vs-reconnaissance-2-portrait.png",
+        "layouts/take-and-hold-vs-reconnaissance-3.png"
+      ],
+      "boards": [
+        "boards/take-and-hold-vs-reconnaissance-1.webp",
+        "boards/take-and-hold-vs-reconnaissance-2-portrait.webp",
+        "boards/take-and-hold-vs-reconnaissance-3.webp"
+      ]
+    },
+    {
+      "mine": "reconnaissance",
+      "opponent": "purge-the-foe",
+      "name": "Triangulation",
+      "image": "missions/reconnaissance/triangulation.png",
+      "back": "missions/reconnaissance/triangulation-back.png",
+      "layouts": [
+        "layouts/purge-the-foe-vs-reconnaissance-1.png",
+        "layouts/purge-the-foe-vs-reconnaissance-2-portrait.png",
+        "layouts/purge-the-foe-vs-reconnaissance-3.png"
+      ],
+      "boards": [
+        "boards/purge-the-foe-vs-reconnaissance-1.webp",
+        "boards/purge-the-foe-vs-reconnaissance-2-portrait.webp",
+        "boards/purge-the-foe-vs-reconnaissance-3.webp"
+      ]
+    },
+    {
+      "mine": "reconnaissance",
+      "opponent": "disruption",
+      "name": "Surveil the Foe",
+      "image": "missions/reconnaissance/surveil-the-foe.png",
+      "back": "missions/reconnaissance/surveil-the-foe-back.png",
+      "layouts": [
+        "layouts/disruption-vs-reconnaissance-1.png",
+        "layouts/disruption-vs-reconnaissance-2-portrait.png",
+        "layouts/disruption-vs-reconnaissance-3.png"
+      ],
+      "boards": [
+        "boards/disruption-vs-reconnaissance-1.webp",
+        "boards/disruption-vs-reconnaissance-2-portrait.webp",
+        "boards/disruption-vs-reconnaissance-3.webp"
+      ]
+    },
+    {
+      "mine": "reconnaissance",
+      "opponent": "reconnaissance",
+      "name": "Gather Intel",
+      "image": "missions/reconnaissance/gather-intel.png",
+      "back": "missions/reconnaissance/gather-intel-back.png",
+      "layouts": [
+        "layouts/reconnaissance-mirror-1-portrait.png",
+        "layouts/reconnaissance-mirror-2.png",
+        "layouts/reconnaissance-mirror-3.png"
+      ],
+      "boards": [
+        "boards/reconnaissance-mirror-1-portrait.webp",
+        "boards/reconnaissance-mirror-2.webp",
+        "boards/reconnaissance-mirror-3.webp"
+      ]
+    },
+    {
+      "mine": "reconnaissance",
+      "opponent": "priority-assets",
+      "name": "Search and Scour",
+      "image": "missions/reconnaissance/search-and-scour.png",
+      "back": null,
+      "layouts": [
+        "layouts/priority-assets-vs-reconnaissance-1.png",
+        "layouts/priority-assets-vs-reconnaissance-2.png",
+        "layouts/priority-assets-vs-reconnaissance-3-portrait.png"
+      ],
+      "boards": [
+        "boards/priority-assets-vs-reconnaissance-1.webp",
+        "boards/priority-assets-vs-reconnaissance-2.webp",
+        "boards/priority-assets-vs-reconnaissance-3-portrait.webp"
+      ]
+    },
+    {
+      "mine": "priority-assets",
+      "opponent": "take-and-hold",
+      "name": "Secure Asset",
+      "image": "missions/priority-assets/secure-asset.png",
+      "back": "missions/priority-assets/secure-asset-back.png",
+      "layouts": [
+        "layouts/take-and-hold-vs-priority-assets-1.png",
+        "layouts/take-and-hold-vs-priority-assets-2.png",
+        "layouts/take-and-hold-vs-priority-assets-3-portrait.png"
+      ],
+      "boards": [
+        "boards/take-and-hold-vs-priority-assets-1.webp",
+        "boards/take-and-hold-vs-priority-assets-2.webp",
+        "boards/take-and-hold-vs-priority-assets-3-portrait.webp"
+      ]
+    },
+    {
+      "mine": "priority-assets",
+      "opponent": "purge-the-foe",
+      "name": "Vital Link",
+      "image": "missions/priority-assets/vital-link.png",
+      "back": "missions/priority-assets/vital-link-back.png",
+      "layouts": [
+        "layouts/purge-the-foe-vs-priority-assets-1-portrait.png",
+        "layouts/purge-the-foe-vs-priority-assets-2.png",
+        "layouts/purge-the-foe-vs-priority-assets-3.png"
+      ],
+      "boards": [
+        "boards/purge-the-foe-vs-priority-assets-1-portrait.webp",
+        "boards/purge-the-foe-vs-priority-assets-2.webp",
+        "boards/purge-the-foe-vs-priority-assets-3.webp"
+      ]
+    },
+    {
+      "mine": "priority-assets",
+      "opponent": "disruption",
+      "name": "Extract Relic",
+      "image": "missions/priority-assets/extract-relic.png",
+      "back": "missions/priority-assets/extract-relic-back.png",
+      "layouts": [
+        "layouts/disruption-vs-priority-assets-1-portrait.png",
+        "layouts/disruption-vs-priority-assets-2.png",
+        "layouts/disruption-vs-priority-assets-3.png"
+      ],
+      "boards": [
+        "boards/disruption-vs-priority-assets-1-portrait.webp",
+        "boards/disruption-vs-priority-assets-2.webp",
+        "boards/disruption-vs-priority-assets-3.webp"
+      ]
+    },
+    {
+      "mine": "priority-assets",
+      "opponent": "reconnaissance",
+      "name": "Vanguard Operation",
+      "image": "missions/priority-assets/vanguard-operation.png",
+      "back": "missions/priority-assets/vanguard-operation-back.png",
+      "layouts": [
+        "layouts/priority-assets-vs-reconnaissance-1.png",
+        "layouts/priority-assets-vs-reconnaissance-2.png",
+        "layouts/priority-assets-vs-reconnaissance-3-portrait.png"
+      ],
+      "boards": [
+        "boards/priority-assets-vs-reconnaissance-1.webp",
+        "boards/priority-assets-vs-reconnaissance-2.webp",
+        "boards/priority-assets-vs-reconnaissance-3-portrait.webp"
+      ]
+    },
+    {
+      "mine": "priority-assets",
+      "opponent": "priority-assets",
+      "name": "Sabotage",
+      "image": "missions/priority-assets/sabotage.png",
+      "back": "missions/priority-assets/sabotage-back.png",
+      "layouts": [
+        "layouts/priority-assets-mirror-1-portrait.png",
+        "layouts/priority-assets-mirror-2.png",
+        "layouts/priority-assets-mirror-3.png"
+      ],
+      "boards": [
+        "boards/priority-assets-mirror-1-portrait.webp",
+        "boards/priority-assets-mirror-2.webp",
+        "boards/priority-assets-mirror-3.webp"
+      ]
+    }
+  ]
+}

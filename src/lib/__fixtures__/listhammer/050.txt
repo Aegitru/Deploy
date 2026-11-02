@@ -1,0 +1,105 @@
+Scheune (1,990 Points)
+
+Tyranids
+Invasion Fleet (3 Detachment Points)
+Priority Assets
+Strike Force (2,000 Points)
+
+ATTACHED UNITS
+
+Attached unit 1
+
+Tyranid Prime with Lash Whip (75 Points)
+  • Attached as: Leader (Character)
+  • 1x Lash whip
+  • 1x Rending claw
+  • 1x Scything talons
+
+Hormagaunts (70 Points)
+  • Attached as: Bodyguard (Battleline)
+  • 10x Hormagaunts
+     ◦ 10x Hormagaunt talons
+
+Attached unit 2
+
+Tyranid Prime with Lash Whip (75 Points)
+  • Attached as: Leader (Character)
+  • 1x Lash whip
+  • 1x Rending claw
+  • 1x Scything talons
+
+Hormagaunts (70 Points)
+  • Attached as: Bodyguard (Battleline)
+  • 10x Hormagaunts
+     ◦ 10x Hormagaunt talons
+
+Attached unit 3
+
+Tyranid Prime with Lash Whip (75 Points)
+  • Attached as: Leader (Character)
+  • 1x Lash whip
+  • 1x Rending claw
+  • 1x Scything talons
+
+Hormagaunts (70 Points)
+  • Attached as: Bodyguard (Battleline)
+  • 10x Hormagaunts
+     ◦ 10x Hormagaunt talons
+
+CHARACTERS
+
+Hive Tyrant (220 Points)
+  • Warlord
+  • 1x Monstrous bonesword and lash whip
+  • 1x Monstrous scything talons
+  • Enhancements: Adaptive Biology
+
+Hyperadapted Raveners (180 Points)
+  • 1x Ravener Prime
+     ◦ 1x Perfectly Adapted
+     ◦ 1x Prime claws and talons
+  • 4x Ravener
+     ◦ 4x Ravener heavy claws and talons
+     ◦ 1x Venom bolt
+
+The Red Terror (120 Points)
+  • 1x Gaping maw
+  • 1x Scything talons
+
+OTHER DATASHEETS
+
+Biovores (60 Points)
+  • 1x Chitin-barbed limbs
+  • 1x Spore mine launcher
+
+Exocrine (135 Points)
+  • 1x Bio-plasmic cannon
+  • 1x Powerful limbs
+
+Maleceptor (180 Points)
+  • 1x Massive scything talons
+  • 1x Psychic overload
+
+Maleceptor (180 Points)
+  • 1x Massive scything talons
+  • 1x Psychic overload
+
+Tyrannofex (190 Points)
+  • 1x Powerful limbs
+  • 1x Rupture cannon
+  • 1x Stinger salvoes
+
+Tyrannofex (180 Points)
+  • 1x Acid spray
+  • 1x Powerful limbs
+  • 1x Stinger salvoes
+
+Von Ryan's Leapers (55 Points)
+  • 3x Von Ryan's Leaper
+     ◦ 3x Leaper's talons
+
+Von Ryan's Leapers (55 Points)
+  • 3x Von Ryan's Leaper
+     ◦ 3x Leaper's talons
+
+Exported with New Recruit v36.43, Data Version: v3

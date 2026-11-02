@@ -1,0 +1,122 @@
+What happens in the warp stays in the warp (1995 points)
+
+Grey Knights
+Warpbane Task Force (3 Detachment Points)
+Take and Hold
+Strike Force (2000 points)
+
+Attached Units
+Attached Unit 1
+
+Castellan Crowe (100 points)
+• Attached as: Leader (Character)
+• Warlord
+• 1x Black Blade of Antwyr
+1x Purifying Flame
+1x Storm bolter
+
+Purifier Squad (260 points)
+• Attached as: Bodyguard
+• 1x Knight of the Flame
+• 1x Nemesis force weapon
+1x Purifying Flame
+1x Storm bolter
+• 9x Purifier
+• 4x Close combat weapon
+5x Nemesis force weapon
+4x Psycannon
+9x Purifying Flame
+5x Storm bolter
+
+
+CHARACTERS
+
+Brotherhood Librarian (90 points)
+• 1x Combi-weapon
+1x Nemesis force weapon
+1x Vortex of Doom
+
+
+BATTLELINE
+
+Strike Squad (115 points)
+• 1x Justicar
+• 1x Nemesis force weapon
+1x Storm bolter
+• 4x Grey Knight
+• 4x Nemesis force weapon
+4x Storm bolter
+
+
+DEDICATED TRANSPORTS
+
+Rhino (70 points)
+• 1x Armoured tracks
+1x Hunter-killer missile
+2x Storm bolter
+
+
+OTHER DATASHEETS
+
+Interceptor Squad (250 points)
+• 1x Interceptor Justicar
+• 1x Nemesis force weapon
+1x Storm bolter
+• 9x Interceptor
+• 2x Close combat weapon
+7x Nemesis force weapon
+2x Psycannon
+7x Storm bolter
+
+Interceptor Squad (125 points)
+• 1x Interceptor Justicar
+• 1x Nemesis force weapon
+1x Storm bolter
+• 4x Interceptor
+• 4x Nemesis force weapon
+4x Storm bolter
+
+Purgation Squad (105 points)
+• 1x Purgator Justicar
+• 1x Nemesis force weapon
+1x Storm bolter
+• 4x Purgator
+• 4x Close combat weapon
+4x Psilencer
+
+Purifier Squad (260 points)
+• 1x Knight of the Flame
+• 1x Nemesis force weapon
+1x Purifying Flame
+1x Storm bolter
+• 9x Purifier
+• 4x Close combat weapon
+5x Nemesis force weapon
+4x Psycannon
+9x Purifying Flame
+5x Storm bolter
+
+Purifier Squad (140 points)
+• 1x Knight of the Flame
+• 1x Nemesis force weapon
+1x Purifying Flame
+1x Storm bolter
+• 4x Purifier
+• 2x Close combat weapon
+2x Nemesis force weapon
+2x Psycannon
+4x Purifying Flame
+2x Storm bolter
+
+
+ALLIED UNITS
+
+Cerastus Knight Atrapos (405 points)
+• 1x Atrapos lascutter
+1x Graviton singularity cannon
+
+Navigator (75 points)
+• 1x Force-orb cane
+1x Laspistol
+
+Exported with App Version: v2.6.0 (144), Data Version: v946

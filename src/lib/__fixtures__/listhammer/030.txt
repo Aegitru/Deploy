@@ -1,0 +1,58 @@
+Xenos - Tyranids - Ninja bugs from outer spaceee - [2000 pts]
+
+Detachments: Vanguard Onslaught + Ambush Predators
+Disposition: Reconnaissance
+
+Deathleaper [80 pts]
+
+The Red Terror [120 pts]
+
+The Swarmlord [210 pts]
+
+Broodlord [80 pts]:
+• Leading: Genestealers[1]
+
+Broodlord [80 pts]:
+• Leading: Genestealers[2]
+
+Hyperadapted Raveners [180 pts]:
+• Chameleonic [15 pts]
+• Leading: Raveners
+
+Neurotyrant [120 pts]
+
+Tyranid Prime with Lash Whip [75 pts]:
+• Leading: Hormagaunts
+
+Hormagaunts [70 pts]:
+• 10x Hormagaunts
+• Leader: Tyranid Prime with Lash Whip
+
+Biovores [60 pts]:
+• 1x Biovore
+
+Genestealers [140 pts]:
+• 10x Genestealer
+• Leader: Broodlord[1]
+
+Genestealers [140 pts]:
+• 10x Genestealer
+• Leader: Broodlord[2]
+
+Lictor [60 pts]
+
+Neurolictor [100 pts]
+• Encircling Horrors
+
+Neurolictor [100 pts]
+• Encircling Horrors
+
+Raveners [125 pts]:
+• Leader: Hyperadapted Raveners
+
+Von Ryan's Leapers [70 pts]:
+• 3x Von Ryan's Leaper
+•Cryptophotaic Camouflage
+
+Zoanthropes [190 pts]:
+• 5x Zoanthrope

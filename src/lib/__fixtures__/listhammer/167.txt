@@ -1,0 +1,110 @@
+gsc triple dp [2000 points]
+Genestealer Cults
+Battle Size: Strike Force (2000 point limit)
+
+Detachments: Heroes of The Uprising, Xenocult Masses, Purestrain Broodswarm (3/3 Detachment Points)
+Force Dispositions: Disruption
+
+Chunky Aberrants Horde
+
+Aberrants (280 points)
+• 1 Aberrant Hypermorph with Aberrant weapons
+• 9 Aberrants with Aberrant weapons
+
+Abominant (85 points)
+• power sledgehammer
+
+Biophagus (50 points)
+• Alchemicus familiar, Autopistol, Chemical vials and Injector goad
+
+Fancy Benefictus Conclave
+
+Benefictus (75 points)
+• Close combat weapon and Psionic cascade
+
+Neophyte Hybrids (135 points)
+• 1 Neophyte Leader with Autopistol, Close combat weapon and Hybrid firearm
+• 10 Neophyte Hybrids with Autopistol, Close combat weapon and Hybrid firearm
+• 2 Neophyte Hybrids with Autopistol, Close combat weapon and Mining laser
+• 2 Neophyte Hybrids with Autopistol, Close combat weapon and Seismic cannon
+• 2 Neophyte Hybrids with Autopistol, Close combat weapon and Grenade launcher
+• 2 Neophyte Hybrids with Autopistol, Close combat weapon and Webber
+• 1 Neophyte Hybrids with Autopistol, Close combat weapon and Hybrid firearm and cult icon
+
+Hybrid Primus Patrol
+
+Neophyte Hybrids (135 points)
+• 1 Neophyte Leader with Autopistol, Close combat weapon and Hybrid firearm
+• 10 Neophyte Hybrids with Autopistol, Close combat weapon and Hybrid firearm
+• 2 Neophyte Hybrids with Autopistol, Close combat weapon and Mining laser
+• 2 Neophyte Hybrids with Autopistol, Close combat weapon and Seismic cannon
+• 2 Neophyte Hybrids with Autopistol, Close combat weapon and Webber
+• 1 Neophyte Hybrids with Autopistol, Close combat weapon and Hybrid firearm and cult icon
+• 2 Neophyte Hybrids with Autopistol, Close combat weapon and Grenade launcher
+
+Primus (85 points)
+• Cult bonesword, Scoped needle pistol and Toxin injector claw
+• Inspired to Greatness [+15 points]
+
+Patriarch Knot
+
+Patriarch (80 points)
+• Warlord
+• Patriarch’s claws
+
+Purestrain Genestealers (170 points)
+• 10 Purestrain Genestealers with cult claws & talons
+• Mark of the Star Children [+30 points]
+
+Character
+
+Reductus Saboteur (70 points)
+• Autopistol, Close combat weapon, Demolition charges and Remote explosives
+
+Sanctus (100 points)
+• Sanctus bio-dagger
+• Gene-tailored Toxins [+35 points]
+
+Sanctus (65 points)
+• Sanctus bio-dagger
+
+Battleline
+
+Acolyte Hybrids With Hand Flamers (75 points)
+• 1 Acolyte Leader with Hand flamer and Leader's bio-weapons
+• 2 Acolyte Hybrids with Cult claws & knife and Demolition charges
+• 2 Acolyte Hybrids with Cult claws & knife and Hand flamer
+
+Acolyte Hybrids With Hand Flamers (75 points)
+• 1 Acolyte Leader with Hand flamer and Leader's bio-weapons
+• 2 Acolyte Hybrids with Cult claws & knife and Hand flamer
+• 2 Acolyte Hybrids with Cult claws & knife and Demolition charges
+
+Acolyte Hybrids With Hand Flamers (75 points)
+• 1 Acolyte Leader with Hand flamer and Leader's bio-weapons
+• 2 Acolyte Hybrids with Cult claws & knife and Hand flamer
+• 2 Acolyte Hybrids with Cult claws & knife and Demolition charges
+
+Acolyte Hybrids With Hand Flamers (75 points)
+• 1 Acolyte Leader with Hand flamer and Leader's bio-weapons
+• 2 Acolyte Hybrids with Cult claws & knife and Hand flamer
+• 2 Acolyte Hybrids with Cult claws & knife and Demolition charges
+
+Acolyte Hybrids With Hand Flamers (75 points)
+• 1 Acolyte Leader with Hand flamer and Leader's bio-weapons
+• 2 Acolyte Hybrids with Cult claws & knife and Hand flamer
+• 2 Acolyte Hybrids with Cult claws & knife and Demolition charges
+
+Vehicle
+
+Achilles Ridgerunners (95 points)
+• Heavy mortar, Ridgerunner wheels, Survey augur and Twin heavy stubbers
+
+Achilles Ridgerunners (95 points)
+• Heavy mortar, Ridgerunner wheels, Survey augur and Twin heavy stubbers
+
+Other
+
+Purestrain Genestealers (105 points)
+• 5 Purestrain Genestealers with cult claws & talons
+• Mark of the Star Children [+30 points]

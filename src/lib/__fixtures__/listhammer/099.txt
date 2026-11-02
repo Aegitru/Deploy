@@ -1,0 +1,118 @@
+More Terminators (2,000 Points)
+
+Space Marines
+Ultramarines
+Assault Brethren, Ironstorm Spearhead and Terminator Storm Force (3 Detachment Points)
+Purge the Foe
+Strike Force (2,000 Points)
+
+ATTACHED UNITS
+
+Attached unit 1
+
+Marneus Calgar (180 Points)
+• Attached as: Leader (Character)
+• Warlord
+• 1x Gauntlets of Ultramar
+
+Ancient in Terminator Armour (75 Points)
+• Attached as: Support (Character)
+• 1x Master-crafted Power Weapon
+• 1x Storm Bolter
+
+Terminator Squad (390 Points)
+• Attached as: Bodyguard
+• Enhancements: Furious Assault (Upgrade)
+• 9x Terminator
+◦ 2x Assault Cannon
+◦ 9x Power Fist
+◦ 7x Storm Bolter
+• 1x Terminator Sergeant
+◦ 1x Power Fist
+◦ 1x Storm Bolter
+
+Attached unit 2
+
+Captain in Terminator Armour (90 Points)
+• Attached as: Leader (Character)
+• 1x Relic Fist
+• 1x Storm Bolter
+
+Terminator Assault Squad (400 Points)
+• Attached as: Bodyguard
+• Enhancements: Furious Assault (Upgrade)
+• 1x Terminator Sergeant
+◦ 1x Storm Shield
+◦ 1x Thunder Hammer
+• 9x Terminator
+◦ 9x Storm Shield
+◦ 9x Thunder Hammer
+
+Attached unit 3
+
+Captain in Terminator Armour (90 Points)
+• Attached as: Leader (Character)
+• 1x Relic Weapon
+• 1x Storm Bolter
+
+Ancient in Terminator Armour (75 Points)
+• Attached as: Support (Character)
+• 1x Master-crafted Power Weapon
+• 1x Storm Bolter
+
+Terminator Squad (410 Points)
+• Attached as: Bodyguard
+• Enhancements: Furious Assault (Upgrade)
+• 9x Terminator
+◦ 2x Cyclone Missile Launcher
+◦ 9x Power Fist
+◦ 9x Storm Bolter
+• 1x Terminator Sergeant
+◦ 1x Power Fist
+◦ 1x Storm Bolter
+
+CHARACTERS
+
+Company Heroes (145 Points)
+• 1x Company Champion
+◦ 1x Master-crafted Bolt Pistol
+◦ 1x Master-crafted Power Weapon
+• 1x Company veteran with bolt rifle
+◦ 1x Combat Knife
+◦ 1x Master-crafted Bolt Pistol
+◦ 1x Master-crafted Bolt Rifle
+• 1x Ancient
+◦ 1x Combat Knife
+◦ 1x Master-crafted Bolt Pistol
+◦ 1x Master-crafted Bolt Rifle
+◦ Enhancements: Imperium’s Sword
+• 1x Company Veteran with heavy bolter
+◦ 1x Combat Knife
+◦ 1x Master-crafted Bolt Pistol
+◦ 1x Master-crafted Heavy Bolter
+
+OTHER DATASHEETS
+
+Outrider Squad (80 Points)
+• 2x Outrider
+◦ 2x Chainsword
+◦ 2x Heavy Bolt Pistol
+◦ 2x Twin Bolt Rifle
+• 1x Outrider Sergeant
+◦ 1x Chainsword
+◦ 1x Heavy Bolt Pistol
+◦ 1x Twin Bolt Rifle
+
+Scout Squad (65 Points)
+• 1x Scout Sergeant
+◦ 1x Bolt Pistol
+◦ 1x Boltgun
+◦ 1x Chainsword
+• 4x Scout
+◦ 4x Bolt Pistol
+◦ 2x Boltgun
+◦ 4x Combat Knife
+◦ 1x Missile Launcher
+◦ 1x Sniper Rifle
+
+Exported with App Version: v2.8.1 (1), Data Version: v995

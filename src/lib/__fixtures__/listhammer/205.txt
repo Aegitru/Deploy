@@ -1,0 +1,85 @@
+Armored Core (2000 points)
+
+Imperial Knights
+Dominus Foebreakers and Valourstrike Lance (3 Detachment Points)
+Priority Assets
+Strike Force (2000 points)
+
+
+CHARACTERS
+
+Knight Castellan (450 points)
+• Warlord
+• 1x Plasma decimator
+2x Shieldbreaker missile launcher
+1x Titanic feet
+2x Twin meltagun
+1x Twin siegebreaker cannon
+1x Volcano lance
+• Enhancement: Archeotech Autoloaders
+
+Knight Crusader (410 points)
+• 1x Avenger gatling cannon
+1x Heavy flamer
+2x Questoris heavy stubber
+1x Rapid-fire battle cannon
+1x Stormspear rocket pod
+1x Titanic feet
+
+Knight Defender (385 points)
+• 1x Conversion beam obliterator
+1x Phosphor blaster
+1x Plasma executor
+1x Titanic feet
+1x Twin incendine combustor
+
+
+OTHER DATASHEETS
+
+Armiger Helverin (140 points)
+• 2x Armiger autocannon
+1x Armoured feet
+1x Questoris heavy stubber
+
+Armiger Warglaive (140 points)
+• 1x Meltagun
+1x Reaper chain-cleaver
+1x Thermal spear
+
+Armiger Warglaive (140 points)
+• 1x Meltagun
+1x Reaper chain-cleaver
+1x Thermal spear
+
+
+ALLIED UNITS
+
+Imperial Rhino (65 points)
+• 1x Armoured tracks
+1x Hunter-killer missile
+1x Storm Bolter
+
+Inquisitorial Agents (60 points)
+• 5x Inquisitorial Agent
+• 5x Agent firearm
+5x Agent melee weapon
+• 1x Gun Servitor
+• 1x Agent melee weapon
+1x Multi-melta
+
+Inquisitorial Chimera (60 points)
+• 1x Armoured tracks
+2x Heavy flamer
+1x Heavy stubber
+1x Hunter-killer missile
+1x Lasgun array
+
+Navigator (75 points)
+• 1x Force-orb cane
+1x Laspistol
+
+Navigator (75 points)
+• 1x Force-orb cane
+1x Laspistol
+
+Exported with App Version: v2.8.0 (148), Data Version: v981

@@ -1,0 +1,104 @@
+2 fat men and the guy she told you not to worry about (1,995 Points)
+
+Chaos Daemons
+Plague Legion and Warptide (3 Detachment Points)
+Take and Hold
+Strike Force (2,000 Points)
+
+ATTACHED UNITS
+
+Attached unit 1
+
+Epidemius (80 Points)
+• Attached as: Leader (Character)
+• 1x Balesword and Nurgling attendants
+
+Plaguebearers (115 Points)
+• Attached as: Bodyguard (Battleline)
+• 1x Plagueridden
+◦ 1x Plaguesword
+• 9x Plaguebearer
+◦ 9x Plaguesword
+
+Attached unit 2
+
+Poxbringer (60 Points)
+• Attached as: Leader (Character)
+• 1x Foul balesword
+
+Plaguebearers (130 Points)
+• Attached as: Bodyguard (Battleline)
+• Enhancements: Bane-forged Weapons (Upgrade)
+• 1x Plagueridden
+◦ 1x Plaguesword
+• 9x Plaguebearer
+◦ 9x Plaguesword
+
+Attached unit 3
+
+Sloppity Bilepiper (55 Points)
+• Attached as: Leader (Character)
+• 1x Marotter
+
+Plaguebearers (130 Points)
+• Attached as: Bodyguard (Battleline)
+• Enhancements: Bane-forged Weapons (Upgrade)
+• 1x Plagueridden
+◦ 1x Plaguesword
+• 9x Plaguebearer
+◦ 9x Plaguesword
+
+CHARACTERS
+
+Great Unclean One (285 Points)
+• 1x Bileblade
+• 1x Bilesword
+• 1x Putrid vomit
+• Enhancements: Font of Spores (Aura)
+
+Rotigus (280 Points)
+• Warlord
+• 1x Gnarlrod
+• 1x Streams of brackish filth
+
+BATTLELINE
+
+Bloodletters (125 Points)
+• Enhancements: Bane-forged Weapons (Upgrade)
+• 1x Bloodreaper
+◦ 1x Hellblade
+• 9x Bloodletter
+◦ 9x Hellblade
+
+Nurglings (45 Points)
+• 3x Nurgling Swarm
+◦ 3x Diseased claws and teeth
+
+OTHER DATASHEETS
+
+Beasts of Nurgle (80 Points)
+• 1x Putrid appendages
+
+Beasts of Nurgle (150 Points)
+• 2x Beast of Nurgle
+◦ 2x Putrid appendages
+
+Plague Drones (110 Points)
+• 1x Plaguebringer
+◦ 1x Death’s heads
+◦ 1x Foul mouthparts
+◦ 1x Plaguesword
+• 2x Plague Drone
+◦ 2x Death’s heads
+◦ 2x Foul mouthparts
+◦ 2x Plaguesword
+
+ALLIED UNITS
+
+Knight Abominant (350 Points)
+• 1x Balemace
+• 1x Diabolus heavy stubber
+• 1x Electroscourge
+• 1x Volkite combustor
+
+Exported with App Version: v2.8.1 (1), Data Version: v995

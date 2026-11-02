@@ -1,0 +1,102 @@
+Wrath Band - Banners (2,000 Points)
+
+World Eaters
+Berzerker Warband and Vessels of Wrath (3 Detachment Points)
+Priority Assets
+Strike Force (2,000 Points)
+
+ATTACHED UNITS
+
+Attached unit 1
+
+Ruler of Executions (95 Points)
+• Enhancement: Bigger Axe (+1 A, +1 D)
+• Leader of Black Team
+
+Khorne Berzerkers (170 Points)
+• Black Team
+• 10x Khorne Berzerkers
+◦ 7x Bolt pistol
+◦ 8x Chainblade
+◦ 2x Khornate eviscerator
+◦ 3x Plasma pistol
+• 1x Icon of Khorne
+
+Attached unit 2
+
+Khârn the Betrayer (115 Points)
+• Goat
+
+Khorne Berzerkers (170 Points)
+• Attached to Goat
+• 10x Khorne Berzerkers
+◦ 7x Bolt pistol
+◦ 8x Chainblade
+◦ 2x Khornate eviscerator
+◦ 3x Plasma pistol
+• 1x Icon of Khorne
+
+Attached unit 3
+
+Slaughterbound (120 Points)
+• Leader of Red Team
+• Enhancement: Archslaughterer (All Blessings for UNIT for 1 Battleround)
+
+Exalted Eightbound (130 Points)
+• Red Team
+• 1x Exalted Eightbound Champion
+• 2x Exalted Eightbound
+
+CHARACTERS
+
+Angron (330 Points)
+• Milk
+
+Expert of Executions (80 Points)
+• Marneus Calgar's Head
+• Enhancement: Battle-lust (Reroll Charges [+1 Charge])
+
+Boss of Executions (60 Points)
+• Logan Grimnars Skull
+
+White Slaughterbound (90 Points)
+
+DEDICATED TRANSPORTS
+
+Chaos Rhino (75 Points)
+• 1x Combi-bolter
+• 1x Combi-bolter
+• 1x Havoc launcher
+
+Chaos Rhino (75 Points)
+• 1x Combi-bolter
+• 1x Combi-bolter
+• 1x Havoc launcher
+
+OTHER DATASHEETS
+
+Forgefiend (145 Points)
+• 1x 2 Hades autocannons
+• 1x Ectoplasma cannon and claws
+
+Forgefiend (145 Points)
+• 1x 2 Hades autocannons
+• 1x Ectoplasma cannon and claws
+
+Goremongers (70 Points)
+• 1x Blood Herald
+• 7x Goremonger
+
+Jakhals (65 Points)
+• 1x Jakhal Pack Leader
+• 1x Dishonoured
+• 8x Jakhal
+◦ 7x Chainblades
+◦ 1x Mauler chainblade
+
+Jakhals (65 Points)
+• 1x Jakhal Pack Leader
+• 1x Dishonoured
+• 8x Jakhal
+
+Exported with New Recruit v37.3, Data Version: v15

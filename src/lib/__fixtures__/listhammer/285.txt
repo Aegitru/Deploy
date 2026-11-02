@@ -1,0 +1,104 @@
+Beetlejuice, Redeemer, Redeemer (2,000 Points)
+
+Grey Knights
+Banishers and Immaterial Interdiction (3 Detachment Points)
+Reconnaissance
+Strike Force (2,000 Points)
+
+ATTACHED UNITS
+
+Attached unit 1
+
+Brotherhood Chaplain (65 Points)
+• Attached as: Leader (Character)
+• 1x Crozius arcanum
+• 1x Storm bolter
+
+Paladin Squad (365 Points)
+• Attached as: Bodyguard
+• 1x Paragon
+◦ 1x Nemesis force weapon
+◦ 1x Storm bolter
+• 3x Paladin
+◦ 3x Nemesis force weapon
+◦ 3x Storm bolter
+• 1x Paladin with Ancient's Banner
+◦ 1x Ancient's Banner
+◦ 1x Nemesis force weapon
+◦ 1x Psycannon
+• 2x Paladin with Heavy Weapon
+◦ 2x Incinerator
+◦ 2x Nemesis force weapon
+• 1x Paladin with Narthecium
+◦ 1x Apothecary's narthecium
+◦ 1x Nemesis force weapon
+
+Attached unit 2
+
+Castellan Crowe (100 Points)
+• Attached as: Leader (Character)
+• Warlord
+• 1x Black Blade of Antwyr
+• 1x Purifying Flame
+• 1x Storm bolter
+
+Purifier Squad (260 Points)
+• Attached as: Bodyguard
+• 1x Knight of the Flame
+◦ 1x Nemesis force weapon
+◦ 1x Purifying Flame
+◦ 1x Storm bolter
+• 9x Purifier
+◦ 4x Close combat weapon
+◦ 4x Incinerator
+◦ 5x Nemesis force weapon
+◦ 9x Purifying Flame
+◦ 5x Storm bolter
+
+CHARACTERS
+
+Brotherhood Librarian (90 Points)
+• 1x Nemesis force weapon
+• 1x Vortex of Doom
+
+OTHER DATASHEETS
+
+Interceptor Squad (250 Points)
+• 1x Justicar
+◦ 1x Nemesis force weapon
+◦ 1x Storm bolter
+• 9x Interceptor
+◦ 9x Nemesis force weapon
+◦ 9x Storm bolter
+
+Interceptor Squad (250 Points)
+• 1x Justicar
+◦ 1x Nemesis force weapon
+◦ 1x Storm bolter
+• 9x Interceptor
+◦ 9x Nemesis force weapon
+◦ 9x Storm bolter
+
+Land Raider Redeemer (260 Points)
+• 1x Armoured tracks
+• 2x Flamestorm cannon
+• 1x Hunter-killer missile
+• 1x Multi-melta
+• 1x Storm bolter
+• 1x Twin assault cannon
+
+Land Raider Redeemer (260 Points)
+• 1x Armoured tracks
+• 2x Flamestorm cannon
+• 1x Hunter-killer missile
+• 1x Multi-melta
+• 1x Storm bolter
+• 1x Twin assault cannon
+
+ALLIED UNITS
+
+Callidus Assassin (100 Points)
+• 1x Neural shredder
+• 1x Phase sword and poison blades
+
+Exported with New Recruit v36.17, Data Version: v2

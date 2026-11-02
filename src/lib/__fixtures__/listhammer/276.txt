@@ -1,0 +1,121 @@
+Bolters Go BRR (2,000 Points)
+
+Grey Knights
+Warpbane Task Force (3 Detachment Points)
+Purge the Foe
+Strike Force (2,000 Points)
+
+ATTACHED UNITS
+
+Attached unit 1
+
+Castellan Crowe (105 Points)
+• Attached as: Leader (Character)
+• Warlord
+• 1x Black Blade of Antwyr
+• 1x Purifying Flame
+• 1x Storm Bolter
+
+Purifier Squad (290 Points)
+• Attached as: Bodyguard
+• 1x Knight of the Flame
+◦ 1x Nemesis force weapon
+◦ 1x Purifying Flame
+◦ 1x Storm Bolter
+• 9x Purifier
+◦ 4x Close combat weapon
+◦ 5x Nemesis force weapon
+◦ 4x Psycannon
+◦ 9x Purifying Flame
+◦ 5x Storm Bolter
+
+CHARACTERS
+
+Grand Master in Nemesis Dreadknight (250 Points)
+• 1x Fragstorm grenade launcher
+• 1x Heavy psycannon
+• 1x Nemesis daemon greathammer
+• 1x Sublimator
+• Enhancements: Paragon of Sanctity
+
+Grand Master in Nemesis Dreadknight (240 Points)
+• 1x Fragstorm grenade launcher
+• 1x Heavy psycannon
+• 1x Nemesis daemon greathammer
+• 1x Sublimator
+
+BATTLELINE
+
+Strike Squad (125 Points)
+• 1x Justicar
+◦ 1x Nemesis force weapon
+◦ 1x Storm Bolter
+• 4x Grey Knight
+◦ 4x Nemesis force weapon
+◦ 4x Storm Bolter
+
+Strike Squad (125 Points)
+• 1x Justicar
+◦ 1x Nemesis force weapon
+◦ 1x Storm Bolter
+• 4x Grey Knight
+◦ 4x Nemesis force weapon
+◦ 4x Storm Bolter
+
+DEDICATED TRANSPORTS
+
+Razorback (75 Points)
+• 1x Armoured tracks
+• 1x Hunter-killer missile
+• 1x Storm Bolter
+• 1x Twin lascannon
+
+Razorback (75 Points)
+• 1x Armoured tracks
+• 1x Hunter-killer missile
+• 1x Storm Bolter
+• 1x Twin lascannon
+
+OTHER DATASHEETS
+
+Interceptor Squad (135 Points)
+• 1x Interceptor Justicar
+◦ 1x Nemesis force weapon
+◦ 1x Storm Bolter
+• 4x Interceptor
+◦ 1x Close Combat Weapon
+◦ 3x Nemesis force weapon
+◦ 1x Psycannon
+◦ 3x Storm Bolter
+
+Interceptor Squad (135 Points)
+• 1x Interceptor Justicar
+◦ 1x Nemesis force weapon
+◦ 1x Storm Bolter
+• 4x Interceptor
+◦ 4x Nemesis force weapon
+◦ 4x Storm Bolter
+
+Purifier Squad (290 Points)
+• 1x Knight of the Flame
+◦ 1x Nemesis force weapon
+◦ 1x Purifying Flame
+◦ 1x Storm Bolter
+• 9x Purifier
+◦ 9x Nemesis force weapon
+◦ 9x Purifying Flame
+◦ 9x Storm Bolter
+
+Purifier Squad (155 Points)
+• 1x Knight of the Flame
+◦ 1x Nemesis force weapon
+◦ 1x Purifying Flame
+◦ 1x Storm Bolter
+• 4x Purifier
+◦ 2x Close combat weapon
+◦ 2x Nemesis force weapon
+◦ 2x Psycannon
+◦ 4x Purifying Flame
+◦ 2x Storm Bolter
+
+Exported with App Version: v2.7.2 (2), Data Version: v972

@@ -1,0 +1,48 @@
+++++++++++++++++++++++++++++++++++++++++++++++
++ PLAYER NAME: tzantukal
++ TEAM NAME: FTA
++ FACTION KEYWORD: Xenos - Leagues of Votann
++ DETACHMENT: Dêlve Assault Shift, Farseekers (Fury from the Dêlve)
++ FORCE DISPOSITION: Reconnaissance
++ TOTAL ARMY POINTS: 2000pts
++ WARLORD: Char2: Ûthar the Destined
++ ENHANCEMENT: Dêlvwerke Navigator (on Char3: Einhyr Champion)
+& Shroudwërke Talismans (on Infa3: Hernkyn Yaegirs)
++ NUMBER OF UNITS: 16
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Berehk Stornbröw (85 pts): Kromlôk's Revenge, Warforge gauntlets
+Leading Cthonian Beserks[3]
+Char3: 1x Einhyr Champion (90 pts): Weavefield Crest, Autoch-pattern combi-bolter, Mass hammer
+Enhancement: Dêlvwerke Navigator (+25 pts)
+Char2: 1x Ûthar the Destined (100 pts): Rampart crest, Warlord, Blade of the Ancestors, Volkanite disintegrator
+
+5x Cthonian Beserks (90 pts): 5 with Concussion maul
+5x Cthonian Beserks (90 pts): 5 with Heavy plasma axe
+10x Cthonian Beserks (180 pts): 10 with Heavy plasma axe
+Attached to Berehk Stornbröw
+10x Cthonian Beserks (180 pts): 10 with Heavy plasma axe
+10x Cthonian Beserks (180 pts): 10 with Concussion maul
+
+2x Cthonian Earthshakers (100 pts): 2 with 2x Autoch-pattern bolt pistol, Plasma picks, Tremor shells
+1x Hekaton Land Fortress (250 pts): Pan spectral scanner, Armoured wheels, MATR autocannon, SP heavy conversion beamer, 2x Twin bolt cannon
+3x Hernkyn Pioneers (85 pts)
+1 with Bolt revolver, Bolt shotgun, Magna-coil autocannon, Plasma knife
+1 with Pan-spectral scanner, Bolt revolver, Bolt shotgun, Magna-coil autocannon, Plasma knife
+1 with Bolt revolver, Bolt shotgun, HYLas rotary cannon, Magna-coil autocannon, Plasma knife
+6x Hernkyn Pioneers (170 pts)
+1 with Bolt revolver, Bolt shotgun, Magna-coil autocannon, Plasma knife
+1 with Comms array, Bolt revolver, Bolt shotgun, Magna-coil autocannon, Plasma knife
+1 with Pan-spectral scanner, Bolt revolver, Bolt shotgun, Magna-coil autocannon, Plasma knife
+1 with Rollbar searchlight, Bolt revolver, Bolt shotgun, Magna-coil autocannon, Plasma knife
+2 with Bolt revolver, Bolt shotgun, HYLas rotary cannon, Magna-coil autocannon, Plasma knife
+10x Hernkyn Yaegirs (105 pts)
+• 9x Hernkyn Yaegir
+7 with Bolt revolver, Plasma knife, Close combat weapon
+1 with APM launcher, Close combat weapon
+1 with Close combat weapon, Magna-coil rifle
+• 1x Yaegir Theyn: Close combat weapon, Bolt revolver, Plasma knife
+Enhancement: Shroudwërke Talismans (+15 pts)
+1x Kapricus Carrier (70 pts): Smoke launcher, Armoured hull, Magna-coil autocannon, Twin magna-coil autocannon
+2x Kapricus Defenders (150 pts): 2 with Smoke launcher, Armoured hull, Twin magna-coil autocannon, HYLas rotary cannon
+1x Kapricus Defenders (75 pts): Smoke launcher, Armoured hull, Twin magna-coil autocannon, HYLas rotary cannon

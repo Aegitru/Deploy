@@ -1,0 +1,76 @@
+Immortal Shards (1,995 Points)
+
+Necrons
+Hand of the Dynasty and Pantheon of Woe (3 Detachment Points)
+Disruption
+Strike Force (2,000 Points)
+
+ATTACHED UNITS
+
+Attached unit 1
+
+Overlord with Translocation Shroud (90 Points)
+• Attached as: Leader (Character)
+• 1x Overlord’s blade
+• 1x Resurrection Orb
+
+Plasmancer (60 Points)
+• Attached as: Support (Character)
+• 1x Plasmic lance
+
+Immortals (145 Points)
+• Attached as: Bodyguard (Battleline)
+• Enhancements: Tools of Dominion (Upgrade)
+• 10x Immortal
+◦ 10x Close combat weapon
+◦ 10x Tesla carbine
+
+Attached unit 2
+
+Skorpekh Lord (95 Points)
+• Attached as: Leader (Character)
+• 1x Enmitic annihilator
+• 1x Flensing claw
+• 1x Hyperphase harvester
+
+Skorpekh Destroyers (85 Points)
+• Attached as: Bodyguard
+• 3x Skorpekh Destroyer
+◦ 3x Skorpekh hyperphase weapons
+
+CHARACTERS
+
+C’tan Shard of the Nightbringer (405 Points)
+• 1x Gaze of death
+• 1x Scythe of the Nightbringer
+
+C’tan Shard of the Void Dragon (380 Points)
+• 1x Canoptek tail blades
+• 1x Spear of the Void Dragon
+• 1x Voltaic storm
+
+Illuminor Szeras (175 Points)
+• Warlord
+• 1x Eldritch Lance
+• 1x Impaling legs
+
+Transcendent C’tan (380 Points)
+• 1x Crackling tendrils
+• 1x Seismic assault
+
+OTHER DATASHEETS
+
+Canoptek Tomb Crawlers (60 Points)
+• 2x Canoptek Tomb Crawlers
+◦ 2x Claws
+◦ 2x Twin gauss reaper
+
+Lokhust Destroyers (40 Points)
+• 1x Close combat weapon
+• 1x Gauss cannon
+
+Ophydian Destroyers (80 Points)
+• 3x Ophydian Destroyer
+◦ 3x Ophydian hyperphase weapons
+
+Exported with App Version: v2.8.0 (2), Data Version: v981

@@ -1,0 +1,101 @@
+Cursed (2,000 Points)
+
+Necrons
+Cursed Legion and Skyshroud Spearhead (3 Detachment Points)
+Purge the Foe
+Strike Force (2,000 Points)
+
+ATTACHED UNITS
+
+Attached unit 1
+
+Plasmancer (75 Points)
+• Attached as: Support (Character)
+• 1x Plasmic lance
+• Enhancements: Murdermind
+
+Lokhust Destroyers (190 Points)
+• Attached as: Bodyguard
+• 6x Lokhust Destroyer
+◦ 6x Close combat weapon
+◦ 6x Gauss cannon
+
+Attached unit 2
+
+Lokhust Lord (80 Points)
+• Attached as: Leader (Character)
+• 1x Lord’s blade
+• 1x Resurrection Orb
+
+Lokhust Destroyers (190 Points)
+• Attached as: Bodyguard
+• 6x Lokhust Destroyer
+◦ 6x Close combat weapon
+◦ 6x Gauss cannon
+
+Attached unit 3
+
+Lokhust Lord (80 Points)
+• Attached as: Leader (Character)
+• 1x Lord’s blade
+• 1x Resurrection Orb
+
+Lokhust Heavy Destroyers (165 Points)
+• Attached as: Bodyguard
+• 3x Lokhust Heavy Destroyer
+◦ 3x Close combat weapon
+◦ 3x Gauss destructor
+
+Attached unit 4
+
+Overlord with Translocation Shroud (110 Points)
+• Attached as: Leader (Character)
+• 1x Overlord’s blade
+• 1x Resurrection Orb
+• Enhancements: Destroyer Ankh
+
+Lychguard (160 Points)
+• Attached as: Bodyguard
+• 10x Lychguard
+◦ 10x Dispersion Shield
+◦ 10x Hyperphase sword
+
+CHARACTERS
+
+C’tan Shard of the Deceiver (330 Points)
+• 1x Cosmic insanity
+• 1x Golden fists
+
+Imotekh the Stormlord (100 Points)
+• 1x Gauntlet of Fire
+• 1x Staff of the Destroyer
+
+Nekrosor Ammentar (195 Points)
+• Warlord
+• 1x Blade tail and whip coils
+• 1x Enmitic disintegrators
+• 1x Nullstone Field Generator (Aura)
+• 1x Unmaker Gauntlet
+
+OTHER DATASHEETS
+
+Canoptek Reanimator (75 Points)
+• 2x Atomiser beam
+• 1x Reanimator’s claws
+
+Flayed Ones (55 Points)
+• 5x Flayed One
+◦ 5x Flayer claws
+
+Night Scythe (125 Points)
+• 1x Armoured bulk
+• 1x Twin tesla destructor
+
+Tomb Blades (70 Points)
+• 3x Tomb Blade
+◦ 3x Close combat weapon
+◦ 3x Shadowloom
+◦ 3x Shieldvanes
+◦ 3x Twin tesla carbine
+
+Exported with App Version: v2.8.1 (1), Data Version: v995

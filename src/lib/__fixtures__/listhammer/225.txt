@@ -1,0 +1,156 @@
+Nurgle (1,995 Points)
+
+Chaos Daemons
+Plague Legion and Warptide (3 Detachment Points)
+Take and Hold
+Strike Force (2,000 Points)
+
+ATTACHED UNITS
+
+Attached unit 1
+
+Changecaster (60 Points)
+  • Attached as: Leader (Character)
+  • 1x Arcane Fireball
+  • 1x Herald combat weapon
+
+Blue Horrors (125 Points)
+  • Attached as: Bodyguard (Battleline)
+  • 10x Blue Horror
+     ◦ 10x Blue claws
+     ◦ 10x Coruscating Blue flames
+
+Attached unit 2
+
+Poxbringer (60 Points)
+  • Attached as: Leader (Character)
+  • 1x Foul balesword
+
+Plaguebearers (115 Points)
+  • Attached as: Bodyguard (Battleline)
+  • 1x Plagueridden
+     ◦ 1x Plaguesword
+  • 9x Plaguebearer
+     ◦ 9x Plaguesword
+  • 1x Daemonic Icon
+  • 1x Instrument of Chaos
+
+Attached unit 3
+
+Poxbringer (70 Points)
+  • Attached as: Leader (Character)
+  • 1x Foul balesword
+
+Plaguebearers (115 Points)
+  • Attached as: Bodyguard (Battleline)
+  • 1x Plagueridden
+     ◦ 1x Plaguesword
+  • 9x Plaguebearer
+     ◦ 9x Plaguesword
+  • 1x Daemonic Icon
+  • 1x Instrument of Chaos
+
+Attached unit 4
+
+Poxbringer (60 Points)
+  • Attached as: Leader (Character)
+  • 1x Foul balesword
+
+Plaguebearers (115 Points)
+  • Attached as: Bodyguard (Battleline)
+  • 1x Plagueridden
+     ◦ 1x Plaguesword
+  • 9x Plaguebearer
+     ◦ 9x Plaguesword
+  • 1x Daemonic Icon
+  • 1x Instrument of Chaos
+
+Attached unit 5
+
+Sloppity Bilepiper (70 Points)
+  • Attached as: Leader (Character)
+  • 1x Marotter
+  • Enhancements: Cankerblight (Aura)
+
+Plaguebearers (115 Points)
+  • Attached as: Bodyguard (Battleline)
+  • 1x Plagueridden
+     ◦ 1x Plaguesword
+  • 9x Plaguebearer
+     ◦ 9x Plaguesword
+  • 1x Daemonic Icon
+  • 1x Instrument of Chaos
+
+Attached unit 6
+
+Epidemius (80 Points)
+  • Attached as: Leader (Character)
+  • Warlord
+  • 1x Balesword and nurgling attendants
+
+Plaguebearers (115 Points)
+  • Attached as: Bodyguard (Battleline)
+  • 1x Plagueridden
+     ◦ 1x Plaguesword
+  • 9x Plaguebearer
+     ◦ 9x Plaguesword
+  • 1x Daemonic Icon
+  • 1x Instrument of Chaos
+
+CHARACTERS
+
+Changecaster (60 Points)
+  • 1x Arcane Fireball
+  • 1x Herald combat weapon
+
+BATTLELINE
+
+Blue Horrors (125 Points)
+  • 10x Blue Horror
+     ◦ 10x Blue claws
+     ◦ 10x Coruscating Blue flames
+
+Blue Horrors (125 Points)
+  • 10x Blue Horror
+     ◦ 10x Blue claws
+     ◦ 10x Coruscating Blue flames
+
+Nurglings (90 Points)
+  • 6x Nurgling Swarm
+     ◦ 6x Diseased claws and teeth
+
+Plaguebearers (115 Points)
+  • 1x Plagueridden
+     ◦ 1x Plaguesword
+  • 9x Plaguebearer
+     ◦ 9x Plaguesword
+  • 1x Daemonic Icon
+  • 1x Instrument of Chaos
+
+OTHER DATASHEETS
+
+Flesh Hounds (80 Points)
+  • 1x Gore Hound
+     ◦ 1x Burning roar
+     ◦ 1x Collar of Khorne
+     ◦ 1x Gore-drenched fangs
+  • 4x Flesh Hound
+     ◦ 4x Collar of Khorne
+     ◦ 4x Gore-drenched fangs
+
+Skull Cannon (100 Points)
+  • 1x Attendant's hellblades
+  • 1x Biting maw
+  • 1x Skull cannon
+
+Skull Cannon (100 Points)
+  • 1x Attendant's hellblades
+  • 1x Biting maw
+  • 1x Skull cannon
+
+Skull Cannon (100 Points)
+  • 1x Attendant's hellblades
+  • 1x Biting maw
+  • 1x Skull cannon
+
+Exported with New Recruit v36.44, Data Version: v2

@@ -1,0 +1,147 @@
+Big Black D(readnought)s (2,000 Points)
+
+Space Marines
+Blood Angels
+Assault Brethren, Ironclad Champions, and Tacticus Attack Force (3 Detachment Points)
+Take and Hold
+Strike Force (2,000 Points)
+
+ATTACHED UNITS
+
+Attached unit 1
+
+Commander Dante (140 Points)
+• Attached as: Leader (Character)
+• Warlord
+• 1x Perdition Pistol
+• 1x The Axe Mortalis
+
+Sanguinary Guard (300 Points)
+• Attached as: Bodyguard
+• Enhancements: Furious Assault (Upgrade)
+• 6x Sanguinary Guard
+◦ 4x Angelus Boltgun
+◦ 6x Encarmine Weapon
+◦ 2x Inferno Pistol
+
+Attached unit 2
+
+Captain with Jump Pack (110 Points)
+• Attached as: Leader (Character)
+• 1x Relic Shield
+• 1x Thunder Hammer
+• Enhancements: Imperium’s Sword
+
+Sanguinary Guard (135 Points)
+• Attached as: Bodyguard
+• 3x Sanguinary Guard
+◦ 2x Angelus Boltgun
+◦ 3x Encarmine Weapon
+◦ 1x Inferno Pistol
+
+Attached unit 3
+
+Captain with Jump Pack (90 Points)
+• Attached as: Leader (Character)
+• 1x Relic Shield
+• 1x Thunder Hammer
+
+Sanguinary Guard (285 Points)
+• Attached as: Bodyguard
+• Enhancements: Furious Assault (Upgrade)
+• 6x Sanguinary Guard
+◦ 4x Angelus Boltgun
+◦ 6x Encarmine Weapon
+◦ 2x Inferno Pistol
+
+CHARACTERS
+
+Company Heroes (125 Points)
+• 1x Company Champion
+◦ 1x Master-crafted Bolt Pistol
+◦ 1x Master-crafted Power Weapon
+• 1x Company veteran with bolt rifle
+◦ 1x Combat Knife
+◦ 1x Master-crafted Bolt Pistol
+◦ 1x Master-crafted Bolt Rifle
+• 1x Ancient
+◦ 1x Combat Knife
+◦ 1x Master-crafted Bolt Pistol
+◦ 1x Master-crafted Bolt Rifle
+• 1x Company Veteran with heavy bolter
+◦ 1x Combat Knife
+◦ 1x Master-crafted Bolt Pistol
+◦ 1x Master-crafted Heavy Bolter
+
+BATTLELINE
+
+Intercessor Squad (85 Points)
+• 4x Intercessor
+◦ 4x Bolt Pistol
+◦ 4x Bolt Rifle
+◦ 1x Grenade Launcher
+◦ 4x Knives and Fists
+• 1x Intercessor Sergeant
+◦ 1x Bolt Pistol
+◦ 1x Bolt Rifle
+◦ 1x Thunder Hammer
+
+DEDICATED TRANSPORTS
+
+Impulsor (70 Points)
+• 1x Armoured Hull
+• 1x Bellicatus Missile Array
+• 1x Ironhail Heavy Stubber
+• 1x Storm Bolters
+
+OTHER DATASHEETS
+
+Death Company Dreadnought (205 Points)
+• 1x Blood Fist Bolt Rifles
+• 1x Blood Fists
+• 1x Twin Icarus Ironhail Heavy Stubber
+• 1x Twin Multi-melta
+• Enhancements: Artificer Sarcophagus (Upgrade)
+
+Death Company Dreadnought (205 Points)
+• 1x Blood Fist Bolt Rifles
+• 1x Blood Fists
+• 1x Twin Icarus Ironhail Heavy Stubber
+• 1x Twin Multi-melta
+• Enhancements: Artificer Sarcophagus (Upgrade)
+
+Eradicator Squad with melta rifles (100 Points)
+• 1x Eradicator Sergeant
+◦ 1x Bolt Pistol
+◦ 1x Ceramite Fists
+◦ 1x Melta Rifle
+• 2x Eradicator
+◦ 2x Bolt Pistol
+◦ 2x Ceramite Fists
+◦ 2x Melta Rifle
+
+Reiver Squad (85 Points)
+• 1x Grapnel Launchers
+• 1x Grav-chutes
+• 1x Reiver Sergeant
+◦ 1x Bolt Carbine
+◦ 1x Monomolecular Combat Knife
+◦ 1x Special-issue Bolt Pistol
+• 4x Reiver
+◦ 4x Bolt Carbine
+◦ 4x Monomolecular Combat Knife
+◦ 4x Special-issue Bolt Pistol
+
+Scout Squad (65 Points)
+• 1x Scout Sergeant
+◦ 1x Bolt Pistol
+◦ 1x Chainsword
+◦ 1x Shotgun
+• 4x Scout
+◦ 4x Bolt Pistol
+◦ 4x Combat Knife
+◦ 1x Missile Launcher
+◦ 2x Shotgun
+◦ 1x Sniper Rifle
+
+Exported with App Version: v2.8.1 (1), Data Version: v995

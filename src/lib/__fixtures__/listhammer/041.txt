@@ -1,0 +1,50 @@
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Xenos - Tyranids
++ DETACHMENT: Subterranean Assault (Keywords)
++ FORCE DISPOSITION: Reconnaissance
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char4: Hyperadapted Raveners
++ ENHANCEMENT: Tremor Senses (on Char4: Hyperadapted Raveners - Ravener Prime)
+& Trygon Prime (on Char7: Trygon)
++ NUMBER OF UNITS: 16
++ SECONDARY: - Bring It Down: (4x2) - Assassination: 7 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char3: 1x Broodlord (80 pts): Broodlord Claws and Talons
+Char4: 5x Hyperadapted Raveners (185 pts)
+• 4x Ravener
+3 with Ravener heavy claws and talons
+1 with Ravener heavy claws and talons, Venom bolt
+• 1x Ravener Prime: Warlord, Prime claws and talons
+Enhancement: Tremor Senses (+20 pts)
+Leading Raveners[1]
+Char5: 5x Hyperadapted Raveners (165 pts)
+• 4x Ravener
+3 with Ravener heavy claws and talons
+1 with Ravener heavy claws and talons, Venom bolt
+• 1x Ravener Prime: Prime claws and talons
+Leading Raveners[2]
+Char6: 1x Neurotyrant (120 pts): Neurotyrant claws and lashes, Psychic scream
+Leading Zoanthropes[1]
+Char1: 1x The Red Terror (120 pts): Gaping maw, Scything talons
+Char2: 1x The Swarmlord (210 pts): Bone Sabres, Synaptic Pulse
+Char7: 1x Trygon (155 pts): Trygon Character upgrade, Bio-electric pulse, Trygon scything talons
+Enhancement: Trygon Prime (+20 pts)
+
+1x Biovores (60 pts): Chitin-barbed limbs, Spore mine launcher
+6x Hive Guard (160 pts): 6 with Chitinous claws and teeth, Shockcannon
+1x Neurolictor (80 pts): Piercing claws and talons
+1x Neurolictor (80 pts): Piercing claws and talons
+5x Raveners (125 pts): 5 with Ravener claws and talons
+Attached to Hyperadapted Raveners[1]
+5x Raveners (125 pts): 5 with Ravener claws and talons
+Attached to Hyperadapted Raveners[2]
+3x Von Ryan's Leapers (55 pts): 3 with Leaper's talons
+6x Zoanthropes (190 pts)
+• 1x Neurothrope: Chitinous claws and teeth, Warp blast
+• 5x Zoanthrope: 5 with Chitinous claws and teeth, Warp blast
+Attached to Neurotyrant
+3x Zoanthropes (90 pts)
+• 1x Neurothrope: Chitinous claws and teeth, Warp blast
+• 2x Zoanthrope: 2 with Chitinous claws and teeth, Warp blast

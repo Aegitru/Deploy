@@ -1,0 +1,207 @@
+She breached my lone-spear now it stingwings (2,000 Points)
+
+T'au Empire
+Mont'ka (3 Detachment Points)
+Take and Hold
+Strike Force (2,000 Points)
+
+ATTACHED UNITS
+
+Attached unit 1
+
+Cadre Fireblade (50 Points)
+• Attached as: Leader (Character)
+• 1x Close combat weapon
+• 1x Fireblade pulse rifle
+• 2x Gun Drone
+
+Breacher Team (80 Points)
+• Attached as: Bodyguard (Battleline)
+• 1x Breacher Fire Warrior Shas'ui
+◦ 1x Close combat weapon
+◦ 1x Guardian Drone
+◦ 1x Pulse blaster
+◦ 1x Pulse pistol
+◦ 1x Shield Drone
+◦ 1x Support turret
+• 9x Breacher Fire Warriors
+◦ 9x Close combat weapon
+◦ 9x Pulse blaster
+◦ 9x Pulse pistol
+
+Attached unit 2
+
+Commander in Enforcer Battlesuit (90 Points)
+• Attached as: Leader (Character)
+• 1x Battlesuit fists
+• 1x Cyclic ion blaster
+• 1x Marker Drone
+• 3x Missile pod
+• 1x Shield Drone
+• Enhancements: Exemplar of the Mont'ka
+
+Crisis Fireknife Battlesuits (130 Points)
+• Attached as: Bodyguard
+• 1x Crisis Fireknife Shas’vre
+◦ 1x Battlesuit fists
+◦ 1x Gun Drone
+◦ 2x Missile pod
+◦ 1x Shield Drone
+• 2x Crisis Fireknife Shas’ui
+◦ 2x Battlesuit fists
+◦ 2x Gun Drone
+◦ 4x Missile pod
+◦ 2x Shield Drone
+
+CHARACTERS
+
+Ethereal (95 Points)
+• Warlord
+• 1x Honour stave
+• 1x Hover Drone
+• 1x Marker Drone
+• 1x Shield Drone
+• Enhancements: Strike Swiftly
+
+The Twin Lance (240 Points)
+• 1x Ri'Lantar
+◦ 1x Fusion eliminator
+◦ 1x MV15 Gun Drone
+◦ 1x Shardstorm burst system
+◦ 1x Twin pulse blaster
+◦ 1x XV pulse pistol
+• 1x Ri'Locai
+◦ 1x Ion scattercannon
+◦ 1x MV15 Gun Drone
+◦ 1x Shardstorm burst system
+◦ 1x Twin pulse blaster
+◦ 1x XV pulse pistol
+
+DEDICATED TRANSPORTS
+
+Devilfish (75 Points)
+• 1x Accelerator burst cannon
+• 1x Armoured hull
+• 2x Seeker missile
+• 2x Smart missile system
+
+OTHER DATASHEETS
+
+Broadside Battlesuits (160 Points)
+• 1x Broadside Shas’vre
+◦ 1x Crushing bulk
+◦ 1x High-yield missile pods
+◦ 2x Missile Drone
+◦ 1x Seeker missile
+◦ 1x Twin smart missile system
+• 1x Broadside Shas’ui
+◦ 1x Crushing bulk
+◦ 1x High-yield missile pods
+◦ 2x Missile Drone
+◦ 1x Seeker missile
+◦ 1x Twin smart missile system
+
+Broadside Battlesuits (150 Points)
+• 1x Broadside Shas’vre
+◦ 1x Crushing bulk
+◦ 1x Heavy rail rifle
+◦ 2x Missile Drone
+◦ 1x Seeker missile
+◦ 1x Twin smart missile system
+• 1x Broadside Shas’ui
+◦ 1x Crushing bulk
+◦ 1x Heavy rail rifle
+◦ 2x Missile Drone
+◦ 1x Seeker missile
+◦ 1x Twin smart missile system
+
+Crisis Starscythe Battlesuits (100 Points)
+• 1x Crisis Starscythe Shas’vre
+◦ 1x Battlesuit fists
+◦ 2x Burst cannon
+◦ 1x Marker Drone
+◦ 1x Shield Drone
+• 2x Crisis Starscythe Shas’ui
+◦ 2x Battlesuit fists
+◦ 4x Burst cannon
+◦ 2x Gun Drone
+◦ 2x Shield Drone
+
+Ghostkeel Battlesuit (165 Points)
+• 1x Battlesuit support system
+• 1x Cyclic ion raker
+• 1x Ghostkeel fists
+• 1x Twin fusion blaster
+
+Kroot Carnivores (65 Points)
+• 1x Long-quill
+◦ 1x Close combat weapon
+◦ 1x Kroot pistol
+◦ 1x Kroot rifle
+• 9x Kroot Carnivore
+◦ 9x Close combat weapon
+◦ 8x Kroot rifle
+◦ 1x Tanglebomb launcher
+
+Pathfinder Team (100 Points)
+• 1x Pathfinder Shas'ui
+◦ 1x Close combat weapon
+◦ 1x Drone burst cannon
+◦ 1x Pulse carbine
+◦ 1x Pulse pistol
+◦ 1x Recon drone
+◦ 1x Semi-automatic grenade launcher
+◦ 2x Shield Drone
+• 9x Pathfinders
+◦ 9x Close combat weapon
+◦ 3x Ion rifle
+◦ 6x Pulse carbine
+◦ 9x Pulse pistol
+
+Pathfinder Team (85 Points)
+• 1x Pathfinder Shas'ui
+◦ 1x Close combat weapon
+◦ 1x Grav-inhibitor drone
+◦ 1x Pulse carbine
+◦ 1x Pulse pistol
+◦ 1x Semi-automatic grenade launcher
+◦ 2x Shield Drone
+• 9x Pathfinders
+◦ 9x Close combat weapon
+◦ 6x Pulse carbine
+◦ 9x Pulse pistol
+◦ 3x Rail rifle
+
+Riptide Battlesuit (215 Points)
+• 1x Ion accelerator
+• 2x Missile pod
+• 1x Riptide fists
+• 1x Twin smart missile system
+
+Stealth Battlesuits (100 Points)
+• 1x Stealth Shas'vre
+◦ 1x Battlesuit fists
+◦ 1x Fusion blaster
+◦ 1x Gun Drone
+◦ 1x Marker Drone
+◦ 1x Pulse pistol
+• 4x Stealth Shas'ui
+◦ 4x Battlesuit fists
+◦ 3x Burst cannon
+◦ 1x Fusion blaster
+◦ 1x Homing beacon
+
+Stealth Battlesuits (100 Points)
+• 1x Stealth Shas'vre
+◦ 1x Battlesuit fists
+◦ 1x Fusion blaster
+◦ 1x Gun Drone
+◦ 1x Marker Drone
+◦ 1x Pulse pistol
+• 4x Stealth Shas'ui
+◦ 4x Battlesuit fists
+◦ 3x Burst cannon
+◦ 1x Fusion blaster
+◦ 1x Homing beacon
+
+Exported with New Recruit v36.48, Data Version: v6

@@ -1,0 +1,110 @@
+Lets change the world (1995 points)
+
+Necrons
+Cryptek Conclave and Hand of the Dynasty (3 Detachment Points)
+Priority Assets
+Strike Force (2000 points)
+
+Attached Units
+Attached Unit 1
+
+Technomancer (80 points)
+• Attached as: Support (Character)
+• 1x Staff of light
+
+Canoptek Wraiths (220 points)
+• Attached as: Bodyguard
+• 6x Canoptek Wraith
+• 6x Particle caster
+6x Vicious claws
+
+Attached Unit 2
+
+Overlord with Translocation Shroud (90 points)
+• Attached as: Leader (Character)
+• 1x Overlord’s blade
+1x Resurrection Orb
+
+Plasmancer (60 points)
+• Attached as: Support (Character)
+• 1x Plasmic lance
+
+Immortals (145 points)
+• Attached as: Bodyguard (Battleline)
+• 10x Immortal
+• 10x Close combat weapon
+10x Gauss blaster
+• Enhancement: Tools of Dominion (Upgrade)
+
+Attached Unit 3
+
+Plasmancer (60 points)
+• Attached as: Support (Character)
+• 1x Plasmic lance
+
+Immortals (80 points)
+• Attached as: Bodyguard (Battleline)
+• 5x Immortal
+• 5x Close combat weapon
+5x Tesla carbine
+• Enhancement: Tools of Dominion (Upgrade)
+
+Attached Unit 4
+
+Plasmancer (60 points)
+• Attached as: Support (Character)
+• 1x Plasmic lance
+
+Immortals (65 points)
+• Attached as: Bodyguard (Battleline)
+• 5x Immortal
+• 5x Close combat weapon
+5x Tesla carbine
+
+
+CHARACTERS
+
+C’tan Shard of the Void Dragon (345 points)
+• 1x Canoptek tail blades
+1x Spear of the Void Dragon
+1x Voltaic storm
+
+Illuminor Szeras (175 points)
+• Warlord
+• 1x Eldritch Lance
+1x Impaling legs
+
+Nekrosor Ammentar (195 points)
+• 1x Blade tail and whip coils
+1x Enmitic disintegrators
+1x Nullstone Field Generator (Aura)
+1x Unmaker Gauntlet
+
+
+BATTLELINE
+
+Immortals (65 points)
+• 5x Immortal
+• 5x Close combat weapon
+5x Tesla carbine
+
+
+OTHER DATASHEETS
+
+Canoptek Reanimator (75 points)
+• 2x Atomiser beam
+1x Reanimator’s claws
+
+Tomb Blades (140 points)
+• 6x Tomb Blade
+• 6x Close combat weapon
+6x Nebuloscope
+6x Particle beamer
+
+Tomb Blades (140 points)
+• 6x Tomb Blade
+• 6x Close combat weapon
+6x Nebuloscope
+6x Particle beamer
+
+Exported with App Version: v2.7.1 (146), Data Version: v972

@@ -1,0 +1,54 @@
+Xenos - Leagues of Votann - Mercovenant v2 - [2000 pts]
+
+Berehk Stornbröw [85 pts]:
+  • Leading: Cthonian Beserks[1]
+Buri Aegnirssen [85 pts]
+
+Brôkhyr Iron-master [85 pts]:
+  • Leading: Brôkhyr Thunderkyn[1]
+Kâhl [65 pts]:
+  • Leading: Einhyr Hearthguard
+Memnyr Strategist [45 pts]
+
+Hearthkyn Warriors [90 pts]:
+• 1x Theyn
+• 7x Hearthkyn Warrior w/ ion blaster
+• 1x Hearthkyn Warrior w/ L7 missile launcher
+• 1x Hearthkyn Warrior w/ magna-rail rifle
+
+Brôkhyr Thunderkyn [170 pts]:
+• 6x Brôkhyr Thunderkyn
+  • Leader: Brôkhyr Iron-master
+Brôkhyr Thunderkyn [170 pts]:
+• 6x Brôkhyr Thunderkyn
+Cthonian Beserks [90 pts]:
+• 5x Beserk
+  • Leader: Berehk Stornbröw
+Cthonian Beserks [180 pts]:
+• 7x Beserk
+• 1x Beserk w/ mole grenade launcher
+• 2x Beserk w/ twin concussion gauntlets
+Einhyr Hearthguard [270 pts]:
+• 1x Hesyr
+• 9x Einhyr Hearthguard
+  • Leader: Kâhl
+Hernkyn Yaegirs [90 pts]:
+• 7x Hernkyn Yaegir w/ bolt shotgun
+• 1x Hernkyn Yaegir w/ APM launcher
+• 1x Hernkyn Yaegir w/ magna-coil rifle
+
+Hernkyn Pioneers [85 pts]:
+• 1x Hernkyn Pioneer w/ comms array
+• 1x Hernkyn Pioneer w/ pan-spectral scanner
+• 1x Hernkyn Pioneer w/ HYLas rotary cannon
+Hernkyn Pioneers [85 pts]:
+• 1x Hernkyn Pioneer w/ comms array
+• 1x Hernkyn Pioneer w/ pan-spectral scanner
+• 1x Hernkyn Pioneer w/ HYLas rotary cannon
+
+Hekaton Land Fortress [250 pts]
+
+Kapricus Carrier [70 pts]
+Sagitaur [85 pts]
+
+Created with newrecruit.eu v37.11

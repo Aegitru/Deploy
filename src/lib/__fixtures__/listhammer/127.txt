@@ -1,0 +1,77 @@
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Xenos - Drukhari
++ DETACHMENT: Exhibition of Slaughter, Spectacle of Spite (Exacting Cruelty)
++ FORCE DISPOSITION: Purge the Foe
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char2: Lelith Hesperax
++ ENHANCEMENT: Morghenna's Curse (on Char3: Succubus)
+& Periapt of Torments (on Char4: Succubus)
+& Pharmacophex (on Char5: Succubus)
++ NUMBER OF UNITS: 20
++ SECONDARY: - Bring It Down: (5x2) - Assassination: 5 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Kharseth (80 pts): Dread of the Deep Void, Waystave
+Char2: 1x Lelith Hesperax (80 pts): Warlord, Lelith's blades
+Leading Wyches[1]
+Char3: 1x Succubus (70 pts): Archite glaive and agoniser
+Enhancement: Morghenna's Curse (+20 pts)
+Leading Wyches[2]
+Char4: 1x Succubus (70 pts): Archite glaive and agoniser
+Enhancement: Periapt of Torments (+20 pts)
+Leading Wyches[3]
+Char5: 1x Succubus (65 pts): Archite glaive and agoniser
+Enhancement: Pharmacophex (+15 pts)
+Leading Wyches[4]
+
+10x Wyches (90 pts)
+• 9x Wych
+6 with Hekatarii Blade, Splinter Pistol
+3 with Gladiatorial weapons
+• 1x Hekatrix: Power weapon, Blast Pistol
+Attached to Lelith Hesperax
+10x Wyches (90 pts)
+• 9x Wych
+6 with Hekatarii Blade, Splinter Pistol
+3 with Gladiatorial weapons
+• 1x Hekatrix: Power weapon, Blast Pistol
+Attached to Succubus[1]
+10x Wyches (90 pts)
+• 9x Wych
+6 with Hekatarii Blade, Splinter Pistol
+3 with Gladiatorial weapons
+• 1x Hekatrix: Power weapon, Blast Pistol
+Attached to Succubus[2]
+10x Wyches (90 pts)
+• 9x Wych
+6 with Hekatarii Blade, Splinter Pistol
+3 with Gladiatorial weapons
+• 1x Hekatrix: Power weapon, Blast Pistol
+Attached to Succubus[3]
+
+1x Cronos (55 pts): Spirit Syphon, Spirit-leech Tentacles
+10x Hellions (180 pts)
+• 1x Heliarch: Phantasm Grenade Launcher, Splinter Pods, Hellglaive, Splinter Pistol, Stunclaw
+• 9x Hellion: 9 with Hellglaive, Splinter Pods
+10x Hellions (180 pts)
+• 1x Heliarch: Phantasm Grenade Launcher, Splinter Pods, Hellglaive, Splinter Pistol, Stunclaw
+• 9x Hellion: 9 with Hellglaive, Splinter Pods
+10x Hellions (190 pts)
+• 1x Heliarch: Phantasm Grenade Launcher, Splinter Pods, Hellglaive, Splinter Pistol, Stunclaw
+• 9x Hellion: 9 with Hellglaive, Splinter Pods
+5x Mandrakes (80 pts)
+• 1x Nightfiend: Baleblast, Glimmersteel Blade
+• 4x Mandrake: 4 with Baleblast, Glimmersteel Blade
+1x Raider (75 pts): Bladevanes and chainsnares, Dark Lance
+1x Ravager (125 pts): Bladevanes, 3x Dark Lance
+5x Scourges with Heavy Weapons (130 pts)
+• 1x Solarite: Close combat weapon, Shardcarbine
+• 4x Scourge with Heavy Weapon: 4 with Close combat weapon, Dark Lance
+5x Scourges with Heavy Weapons (130 pts)
+• 1x Solarite: Close combat weapon, Shardcarbine
+• 4x Scourge with Heavy Weapon: 4 with Close combat weapon, Dark Lance
+1x Venom (65 pts): Bladevanes, Splinter Cannon, Splinter Cannon
+1x Venom (65 pts): Bladevanes, Splinter Cannon, Splinter Cannon
+
+Created with newrecruit.eu v36.50

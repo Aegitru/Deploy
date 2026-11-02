@@ -1,0 +1,140 @@
+The Monstrous Anger of the Guns (1995 points)
+(Description at the bottom)
+
+Astra Militarum
+Abhuman Auxiliaries and Steel Hammer (3 Detachment Points)
+Purge the Foe
+Strike Force (2000 points)
+
+
+What passing-bells for these who die as cattle?
+— Only the monstrous anger of the guns
+Only the stuttering rifles' rapid rattle
+
+No mockeries now for them; no prayers nor bells;
+Nor any voice of mourning save the choirs,—
+The shrill, demented choirs of wailing shells
+
+
++++
+
+
+CHARACTERS
+
+Banesword (445 points)
+  • Steel Hammer Keywords: Character
+  • 1x Armoured tracks
+    4x Lascannon
+    1x Quake cannon
+    1x Twin heavy bolter
+    4x Twin heavy flamer
+  • Enhancement: Battalion Commander
+
+Commissar (30 points)
+  • 1x Bolt pistol
+    1x Chainsword
+
+Doomhammer (405 points)
+  • Steel Hammer Keywords: Character
+  • 1x Armoured tracks
+    4x Lascannon
+    1x Magma cannon
+    1x Twin heavy bolter
+    4x Twin heavy flamer
+  • Enhancement: Assault Hatches
+
+Lord Solar Leontus (130 points)
+  • Warlord
+  • 1x Conquest
+    1x Konstantin’s hooves
+    1x Sol’s Righteous Gaze
+
+Sly Marbo (55 points)
+  • 1x Envenomed blade
+    1x Ripper pistol
+
+Stormsword (450 points)
+  • Steel Hammer Keywords: Character
+  • 1x Armoured tracks
+    4x Lascannon
+    1x Stormsword siege cannon
+    1x Twin heavy bolter
+    4x Twin heavy flamer
+  • Enhancement: Titan Killer
+
+Tech-Priest Enginseer (60 points)
+  • 1x Enginseer axe
+    1x Mechanicus pistol
+    1x Servo-arm
+  • Enhancement: Engine Speaker
+
+Tech-Priest Enginseer (45 points)
+  • 1x Enginseer axe
+    1x Mechanicus pistol
+    1x Servo-arm
+
+Tech-Priest Enginseer (45 points)
+  • 1x Enginseer axe
+    1x Mechanicus pistol
+    1x Servo-arm
+
+
+
+OTHER DATASHEETS
+
+Bullgryn Squad (200 points)
+  • 1x Bullgryn Bone ’ead
+    • 1x Brute Shield
+      1x Bullgryn maul
+      1x Close combat weapon
+  • 5x Bullgryn
+    • 5x Brute Shield
+      5x Bullgryn maul
+      5x Close combat weapon
+
+Krieg Combat Engineers (65 points)
+  • 1x Krieg Engineer Watchmaster
+    • 1x Hand flamer
+      1x Trench club
+  • 4x Krieg Combat Engineer
+    • 3x Autopistol
+      2x Close combat weapon
+      1x Flamer
+      1x Remote Mine
+      2x Trench club
+
+Krieg Combat Engineers (65 points)
+  • 1x Krieg Engineer Watchmaster
+    • 1x Hand flamer
+      1x Trench club
+  • 4x Krieg Combat Engineer
+    • 3x Autopistol
+      2x Close combat weapon
+      1x Flamer
+      1x Remote Mine
+      2x Trench club
+
+
++++
+
+So, you're facing three baneblade chassis.
+It's pretty tanky, T13 with 4+ invuln from the Enginseers.
+The Doomhammer has 6 bullgryns in it, and the Doomhammer can zoom 18", dump them out, and then let them charge.
+All the big tanks can do actions and shoot, and can do actions even if they're in melee. But as they're titanic, they can't use overwatch.
+
+The tanks ignore penalties for shooting into close combat, and can fire blast weapons, assuming the target unit is only engaged with the unit I'm trying to fire with.
+
+The bullgryns are really tanky, and can surge move if shot at by something with a strat (Up to d6")
+
+I have THREE redeploys after we're both fully deployed, and that does let me put stuff in strat reserves.
+
+Important strats;
+Strip cover from a target, AFTER a titanic tank has shot and hit it
+Full re-rolls for a titanic tank
+Drive through walls in move/charge phase
++6 attacks, and 2 ap to the close combat (Still hits on 4's)
+
+Bullgryn d6" blood surge move after being shot at
+Bullgryn AoC
+
+It's a list built to require zero skills to pilot it, no thinking just big gun.

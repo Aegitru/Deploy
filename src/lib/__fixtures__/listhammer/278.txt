@@ -1,0 +1,140 @@
+Grey Knights
+Warpbane Task Force (3 Detachment Points)
+Take and Hold
+1995 Points Total
+
+Army Rule - I can uppy downy 3 units end of your fight phase.
+
+Yes, I can deep strike turn 1 if I go second.
+
+The Reroll Detachment (Warpbane) - Reroll 1s all the time to hit, all the hits wholly in my hallowed ground.
+
+My deployment is always hallowed, middle and yours checked at the start of each phase as well as given off each purifier model.
+
+Most weapons are psychic (combat and all special weapons) so no hit penalties there. Storm Bolters are the only thing that’s not and I need to take a penalty for those on my infantry and walkers. The weapons on tanks need penalties as well.
+
+Strats are 6” deepstrike in hallowed (and I can charge), reactive mortals within 8”, - to your charge, more rerolls to wound, mortals end of the fight phase with purifiers, invuln in shooting for any infantry.
+
+All infantry models with a blue nemesis weapon are - (S6/-2/2D)
+
+I have 3 units that can scout 6” and 0 infiltrator units.
+
+
+CHARACTERS
+
+Brotherhood Techmarine (75 Points) - follows the land raider for +1 to hit
+• Warlord
+• 1x Forge bolter
+• 1x Grav-pistol
+• 1x Omnissian power axe
+• 1x Servo-arm
+
+Grand Master in Nemesis Dreadknight (240 Points) - (T9/2+/4++/13W/4 OC) - full rerolls against Mon/Veh
+• 1x Fragstorm grenade launcher (nipple bolters)
+• 1x Heavy psycannon (S10/-2/3D)
+• 1x Nemesis daemon greathammer (S14/-3/D6+1)
+• 1x Sublimator (Melta 4)
+
+Grand Master in Nemesis Dreadknight (240 Points) (T9/2+/4++/13W/4 OC) - full rerolls against Mon/Veh
+• 1x Fragstorm grenade launcher
+• 1x Heavy psycannon
+• 1x Nemesis daemon greathammer
+• 1x Sublimator
+
+BATTLELINE
+
+Strike Squad (125 Points) (scout / 2 OC)
+• 1x Justicar
+◦ 1x Nemesis force weapon
+◦ 1x Storm Bolter
+• 4x Grey Knight
+◦ 4x Nemesis force weapon
+◦ 4x Storm Bolter
+
+Strike Squad (125 Points) (scout / 2OC)
+• 1x Justicar
+◦ 1x Nemesis force weapon
+◦ 1x Storm Bolter
+• 4x Grey Knight
+◦ 4x Nemesis force weapon
+◦ 4x Storm Bolter
+
+DEDICATED TRANSPORTS
+
+Razorback (75 Points) (T9/3+/10W/2OC)
+• 1x Armoured tracks
+• 1x Hunter-killer missile
+• 1x Storm Bolter
+• 1x Twin lascannon
+
+Razorback (75 Points) (T9/3+/10W/2OC)
+• 1x Armoured tracks
+• 1x Hunter-killer missile
+• 1x Storm Bolter
+• 1x Twin lascannon
+
+OTHER DATASHEETS
+
+Land Raider (220 Points) (T12/2+/16W/5OC)
+• 1x Armoured tracks
+• 2x Godhammer lascannon
+• 1x Hunter-killer missile
+• 1x Multi-melta
+• 1x Storm Bolter
+• 1x Twin heavy bolter
+
+Nemesis Dreadknight (220 Points) - advance/fall back and shoot/charge (T9/2+/4++/13W/4OC)
+• 1x Heavy incinerator
+• 1x Heavy psycannon
+• 1x Nemesis daemon greathammer
+
+Purifier Squad (290 Points) - rerolls to wound and give off hallowed zone
+• 1x Knight of the Flame
+◦ 1x Nemesis force weapon
+◦ 1x Purifying Flame
+◦ 1x Storm Bolter
+• 9x Purifier
+◦ 4x Close combat weapon
+◦ 5x Nemesis force weapon
+◦ 4x Psycannon
+◦ 9x Purifying Flame
+◦ 5x Storm Bolter
+
+Purifier Squad (145 Points) - rerolls to wound and give off hallowed zone
+• 1x Knight of the Flame
+◦ 1x Nemesis force weapon
+◦ 1x Purifying Flame
+◦ 1x Storm Bolter
+• 4x Purifier
+◦ 2x Close combat weapon
+◦ 2x Nemesis force weapon
+◦ 2x Psilencer
+◦ 4x Purifying Flame
+◦ 2x Storm Bolter
+
+ALLIED UNITS
+
+Imperial Rhino (65 Points) (scout / 2 OC)
+• 1x Armoured tracks
+• 1x Hunter-killer missile
+• 1x Storm Bolter
+
+Sanctifiers (100 Points) (T3/6+/5++/regen models/1OC) - lots of flamers and scout
+• 1x Miraculist
+◦ 1x Burning hands
+◦ 1x Holy fire
+• 1x Salvationist
+◦ 1x Close combat weapon
+◦ 1x Salvationist Medikit
+• 1x Death Cult Assassin
+◦ 1x Death Cult blades
+• 2x Missionary
+◦ 1x Holy fire
+◦ 1x Ministorum flamer
+◦ 1x Plasma gun
+◦ 2x Sanctifier melee weapon
+• 4x Sanctifier
+◦ 2x Close combat weapon
+◦ 5x Ministorum hand flamer
+◦ 2x Sanctifier melee weapon
+◦ 1x Simulacrum Imperialis

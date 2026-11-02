@@ -1,0 +1,53 @@
+Gaspaccio - Imperium - Astra Militarum - [2000 pts]
+
+One Leman, Two lemans, 3 lemans....... 8 Lemans... Thank GW for making me paint all my old Lemans Russ :D
+
+# ++ Army Roster ++ [2000 pts, 3 Detachment Points]
+## Configuration
+Battle Size: Strike Force (2000 Point limit)
+Detachment [3 Detachment Points]: Bridgehead Strike [1 Detachment Points], Combined Arms [2 Detachment Points]
+Force Disposition: Priority Assets
+Show/Hide Options
+
+## Epic Hero [225 pts]
+Gaunt’s Ghosts [95 pts]:
+• 1x Ibram Gaunt
+Lord Solar Leontus [130 pts]
+
+## Character [450 pts]
+Leman Russ Commander [210 pts]: Grand Strategist [15 pts], Hunter-killer missile, Heavy bolter, Exterminator autocannon, Heavy stubber, 2 Heavy bolters
+Leman Russ Commander [195 pts]: Hunter-killer missile, Heavy bolter, Exterminator autocannon, Heavy stubber, 2 Heavy bolters
+Tech-Priest Enginseer [45 pts]
+
+## Battleline [70 pts]
+Death Korps of Krieg [70 pts]: 1 Death Korps Watchmaster and 9 Death Korps Troopers
+• 1x Death Korps Watchmaster: Laspistol and chainsword (Power weapon, Plasma pistol)
+• 5x Death Korps Trooper
+• 1x Death Korps Trooper w/ Death Korps medi-pack
+• 1x Death Korps Trooper w/ Vox-caster
+• 1x Death Korps Trooper w/ Meltagun
+• 1x Death Korps Trooper w/ Plasma gun
+
+## Infantry [160 pts]
+Krieg Combat Engineers [65 pts]:
+• 1x Krieg Engineer Watchmaster: Autopistol and trench club (Hand flamer, Power weapon)
+• 2x Krieg Combat Engineer
+• 1x Krieg Combat Engineer w/ Flamer
+• 1x Krieg Combat Engineer w/ Remote mine
+Tempestus Aquilons [95 pts]:
+• 1x Tempestor Aquilon: Power weapon, Hot-shot laspistol, Sentry hot-shot volley gun
+• 6x Tempestus Aquilon
+• 1x Tempestus Aquilon w/ 2 Hot-shot laspistols
+• 1x Tempestus Aquilon w/ Hot-shot long-las
+• 1x Tempestus Aquilon w/ Special weapon: Plasma carbine
+
+## Vehicle [1095 pts]
+Hellhound [125 pts]: Hunter-killer missile, Inferno cannon, Heavy bolter
+Leman Russ Battle Tank [175 pts]: Hunter-killer missile, Lascannon [5 pts], 2 Multi-meltas [10 pts], Heavy stubber
+Leman Russ Battle Tank [160 pts]: Hunter-killer missile, Heavy bolter, 2 Heavy Bolters, Heavy stubber
+Leman Russ Exterminator [160 pts]: Hunter-killer missile, Heavy bolter, 2 Heavy Bolters, Heavy stubber
+Leman Russ Exterminator [160 pts]: Hunter-killer missile, Heavy bolter, 2 Heavy Bolters, Heavy stubber
+Leman Russ Vanquisher [130 pts]: Hunter-killer missile, Heavy bolter, 2 Heavy Flamers, Heavy stubber
+Leman Russ Vanquisher [130 pts]: Hunter-killer missile, Heavy bolter, 2 Heavy Flamers, Heavy stubber
+Scout Sentinels [55 pts]:
+• 1x Scout Sentinel: Hunter-killer missile, Sentinel chainsaw, Lascannon

@@ -1,0 +1,85 @@
+Big Bug (2000 points)
+
+Tyranids
+Crusher Stampede and Talons of the Norn Queen (3 Detachment Points)
+Purge the Foe
+Strike Force (2000 points)
+
+Attached Units
+Attached Unit 1
+
+Old One Eye (130 points)
+• Attached as: Leader (Character)
+• 1x Old One Eye’s claws and talons
+
+Carnifexes (180 points)
+• Attached as: Bodyguard
+• 2x Carnifex
+• 2x Bio-plasma
+2x Carnifex crushing claws
+2x Chitinous claws and teeth
+2x Heavy venom cannon
+2x Spine banks
+
+Attached Unit 2
+
+Neurotyrant (120 points)
+• Attached as: Leader (Character)
+• 1x Neurotyrant claws and lashes
+1x Psychic scream
+
+Zoanthropes (190 points)
+• Attached as: Bodyguard
+• 1x Neurothrope
+• 1x Chitinous claws and teeth
+1x Warp Blast
+• 5x Zoanthrope
+• 5x Chitinous claws and teeth
+5x Warp Blast
+
+
+CHARACTERS
+
+The Swarmlord (210 points)
+• Warlord
+• 1x Bone sabres
+1x Synaptic pulse
+
+
+OTHER DATASHEETS
+
+Biovores (60 points)
+• 1x Chitin-barbed limbs
+1x Spore Mine launcher
+
+Exocrine (135 points)
+• 1x Bio-plasmic cannon
+1x Powerful limbs
+
+Maleceptor (180 points)
+• 1x Massive scything talons
+1x Psychic overload
+
+Neurolictor (80 points)
+• 1x Piercing claws and talons
+
+Norn Assimilator (280 points)
+• 1x Monstrous scything talons
+1x Toxinjector Harpoon
+• Enhancement: Synaptoprescience (Upgrade)
+
+Norn Emissary (270 points)
+• 1x Monstrous rending claws
+1x Monstrous scything talons
+1x Psychic Tendril
+• Enhancement: Destabilising Predation (Upgrade)
+
+Pyrovores (40 points)
+• 1x Chitin-barbed limbs
+1x Flamespurt
+
+Screamer-Killer (125 points)
+• 1x Bio-plasmic scream
+1x Screamer-Killer talons
+
+Exported with App Version: v2.8.0 (148), Data Version: v981

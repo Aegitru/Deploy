@@ -1,0 +1,117 @@
+This is a blunting army (Copy) (1990 points)
+
+Necrons
+Cursed Legion and Skyshroud Spearhead (3 Detachment Points)
+Purge the Foe
+Strike Force (2000 points)
+
+Attached Units
+Attached Unit 1
+
+Lokhust Lord (80 points)
+• Attached as: Leader (Character)
+• Warlord
+• 1x Lord’s blade
+1x Resurrection Orb
+
+Lokhust Destroyers (210 points)
+• Attached as: Bodyguard
+• 6x Lokhust Destroyer
+• 6x Close combat weapon
+6x Gauss cannon
+• Enhancement: Deepening Madness (Upgrade)
+
+Attached Unit 2
+
+Lokhust Lord (80 points)
+• Attached as: Leader (Character)
+• 1x Lord’s blade
+1x Resurrection Orb
+
+Lokhust Destroyers (210 points)
+• Attached as: Bodyguard
+• 6x Lokhust Destroyer
+• 6x Close combat weapon
+6x Gauss cannon
+• Enhancement: Deepening Madness (Upgrade)
+
+Attached Unit 3
+
+Plasmancer (75 points)
+• Attached as: Support (Character)
+• 1x Plasmic lance
+• Enhancement: Murdermind
+
+Lokhust Heavy Destroyers (165 points)
+• Attached as: Bodyguard
+• 3x Lokhust Heavy Destroyer
+• 3x Close combat weapon
+3x Enmitic exterminator
+
+Attached Unit 4
+
+Overlord (110 points)
+• Attached as: Leader (Character)
+• 1x Resurrection Orb
+1x Voidscythe
+• Enhancement: Destroyer Ankh
+
+Lychguard (160 points)
+• Attached as: Bodyguard
+• 10x Lychguard
+• 10x Dispersion Shield
+10x Hyperphase sword
+
+Attached Unit 5
+
+Skorpekh Lord (95 points)
+• Attached as: Leader (Character)
+• 1x Enmitic annihilator
+1x Flensing claw
+1x Hyperphase harvester
+
+Skorpekh Destroyers (85 points)
+• Attached as: Bodyguard
+• 3x Skorpekh Destroyer
+• 1x Plasmacyte
+3x Skorpekh hyperphase weapons
+
+
+CHARACTERS
+
+Nekrosor Ammentar (195 points)
+• 1x Blade tail and whip coils
+1x Enmitic disintegrators
+1x Nullstone Field Generator (Aura)
+1x Unmaker Gauntlet
+
+
+OTHER DATASHEETS
+
+Canoptek Reanimator (75 points)
+• 2x Atomiser beam
+1x Reanimator’s claws
+
+Canoptek Scarab Swarms (40 points)
+• 3x Canoptek Scarab Swarm
+• 3x Feeder mandibles
+
+Flayed Ones (55 points)
+• 5x Flayed One
+• 5x Flayer claws
+
+Night Scythe (125 points)
+• 1x Armoured bulk
+1x Twin tesla destructor
+
+Ophydian Destroyers (150 points)
+• 6x Ophydian Destroyer
+• 6x Ophydian hyperphase weapons
+2x Plasmacyte
+
+Ophydian Destroyers (80 points)
+• 3x Ophydian Destroyer
+• 3x Ophydian hyperphase weapons
+1x Plasmacyte
+
+Exported with App Version: v2.7.1 (146), Data Version: v972

@@ -1,0 +1,126 @@
+Warpstrike Cabal (Halloween Havoc) (2,000 Points)
+
+Chaos Space Marines
+Cabal of Chaos and Warpstrike Champions (3 Detachment Points)
+Disruption
+Strike Force (2,000 Points)
+
+ATTACHED UNITS
+
+Attached unit 1
+
+Kravek Morne (130 Points)
+• Attached as: Leader (Character)
+• Warlord
+• 1x Baleflamer
+• 1x Combi-bolter
+• 1x Last Argument and power fist
+• 1x Servo-harness
+
+Chaos Terminator Squad (400 Points)
+• Attached as: Bodyguard
+• 1x Terminator Champion
+◦ 1x Accursed weapon
+◦ 1x Combi-bolter
+• 9x Chaos Terminator
+◦ 3x Accursed weapon
+◦ 7x Combi-bolter
+◦ 2x Heavy flamer
+◦ 6x Power fist
+
+Attached unit 2
+
+Sorcerer in Terminator Armour (105 Points)
+• Attached as: Leader (Character)
+• 1x Combi-bolter
+• 1x Force weapon
+• 1x Infernal Gaze
+• Enhancements: Akshur’s Binding Runes
+
+Chaos Terminator Squad (370 Points)
+• Attached as: Bodyguard
+• 1x Terminator Champion
+◦ 1x Chainfist
+◦ 1x Combi-weapon
+• 9x Chaos Terminator
+◦ 1x Chainfist
+◦ 5x Combi-weapon
+◦ 2x Paired accursed weapons
+◦ 6x Power fist
+◦ 2x Reaper autocannon
+
+Attached unit 3
+
+Sorcerer in Terminator Armour (110 Points)
+• Attached as: Leader (Character)
+• 1x Combi-bolter
+• 1x Force weapon
+• 1x Infernal Gaze
+• Enhancements: Tzagulla
+
+Chaos Terminator Squad (370 Points)
+• Attached as: Bodyguard
+• 1x Terminator Champion
+◦ 1x Chainfist
+◦ 1x Combi-weapon
+• 9x Chaos Terminator
+◦ 1x Chainfist
+◦ 5x Combi-weapon
+◦ 2x Paired accursed weapons
+◦ 6x Power fist
+◦ 2x Reaper autocannon
+
+CHARACTERS
+
+Chaos Lord in Terminator Armour (90 Points)
+• 1x Paired accursed weapons
+
+BATTLELINE
+
+Cultist Mob (50 Points)
+• 1x Cultist Champion
+◦ 1x Autopistol
+◦ 1x Brutal assault weapon
+• 9x Chaos Cultist
+◦ 9x Autopistol
+◦ 9x Brutal assault weapon
+
+Cultist Mob (50 Points)
+• 1x Cultist Champion
+◦ 1x Autopistol
+◦ 1x Brutal assault weapon
+• 9x Chaos Cultist
+◦ 9x Autopistol
+◦ 9x Brutal assault weapon
+
+OTHER DATASHEETS
+
+Chaos Bikers (80 Points)
+• 1x Biker Champion
+◦ 1x Chaos Icon
+◦ 1x Close Combat Weapon
+◦ 1x Combi-bolter
+◦ 1x Power fist
+• 2x Chaos Biker
+◦ 2x Astartes chainsword
+◦ 2x Close Combat Weapon
+◦ 2x Combi-bolter
+◦ 2x Plasma gun
+
+Chaos Bikers (80 Points)
+• 1x Biker Champion
+◦ 1x Chaos Icon
+◦ 1x Close Combat Weapon
+◦ 1x Combi-bolter
+◦ 1x Power fist
+• 2x Chaos Biker
+◦ 2x Astartes chainsword
+◦ 2x Close Combat Weapon
+◦ 2x Combi-bolter
+◦ 2x Plasma gun
+
+Mutilators (165 Points)
+• 3x Mutilator
+◦ 3x Fleshmetal weapons
+
+Exported with App Version: v2.8.1 (1), Data Version: v995

@@ -1,0 +1,44 @@
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Imperial Knights
++ DETACHMENT: Dominus Foebreakers, Valourstrike Lance (Rain of Devastation)
++ FORCE DISPOSITION: Priority Assets
++ TOTAL ARMY POINTS: 2000pts
++
++ WARLORD: Char1: Knight Castellan
++ ENHANCEMENT: Archeotech Autoloaders (on Char1: Knight Castellan)
++ NUMBER OF UNITS: 12
++ SECONDARY: - Bring It Down: (6x2) + (2x6) - Assassination: 4 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x Knight Castellan (450 pts): Warlord, Plasma decimator, Titanic feet, 2x Twin meltagun, Volcano lance, Shieldbreaker missile launcher, 2x Twin siegebreaker cannon
+Enhancement: Archeotech Autoloaders (+25 pts)
+Char2: 1x Knight Castellan (450 pts): Plasma decimator, Titanic feet, 2x Twin meltagun, Volcano lance, Shieldbreaker missile launcher, 2x Twin siegebreaker cannon
+
+1x Armiger Helverin (140 pts): 2x Armiger autocannon, Armoured feet, Questoris heavy stubber
+1x Armiger Helverin (140 pts): 2x Armiger autocannon, Armoured feet, Questoris heavy stubber
+1x Armiger Warglaive (140 pts): Reaper chain-cleaver, Thermal spear, Meltagun
+1x Armiger Warglaive (140 pts): Reaper chain-cleaver, Thermal spear, Meltagun
+1x Armiger Warglaive (140 pts): Reaper chain-cleaver, Thermal spear, Meltagun
+Char3: 1x Callidus Assassin (100 pts): Neural shredder, Phase sword and poison blades
+1x Imperial Rhino (65 pts): Armoured tracks, Hunter-killer missile, Storm bolter
+6x Inquisitorial Agents (60 pts): Tome-skull
+• 5x Agent
+    2 with Agent firearm, Agent melee weapon
+    1 with Agent firearm, Agent melee weapon, Eviscerator
+    1 with Agent firearm, Agent melee weapon, Mystic stave
+    1 with Agent firearm, Agent melee weapon, Plasma pistol
+• 1x Servitor: Agent melee weapon, Plasma cannon
+9x Sanctifiers (100 pts)
+• 4x Sanctifier
+    1 with Simulacrum Imperialis, Close combat weapon, Ministorum hand flamer
+    1 with Close combat weapon, 2x Ministorum hand flamer
+    2 with Ministorum hand flamer, Sanctifier melee weapon
+• 2x Missionary
+    1 with Holy fire, Sanctifier melee weapon, Plasma gun
+    1 with Ministorum flamer, Sanctifier melee weapon
+• 1x Miraculist: Burning hands, Holy fire
+• 1x Death Cult Assassin: Death Cult blades
+• 1x Salvationist: Salvationist Medikit, Close combat weapon
+Char4: 1x Watch Captain Artemis (75 pts): Hellfire Extremis, Master-crafted power weapon
+
+Created with newrecruit.eu v36.43

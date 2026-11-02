@@ -1,0 +1,68 @@
+markus - Stomping Time(2000 points)
+
+Imperial Knights
+Dominus Foebreakers and Valourstrike Lance (3 Detachment Points)
+Purge the Foe
+Strike Force (2000 points)
+
+
+CHARACTERS
+
+Cerastus Knight Lancer (415 points)
+• 1x Cerastus shock lance
+
+Knight Castellan (425 points)
+• Warlord
+• 1x Plasma decimator
+2x Shieldbreaker missile launcher
+1x Titanic feet
+2x Twin meltagun
+1x Twin siegebreaker cannon
+1x Volcano lance
+
+Knight Crusader (420 points)
+• 1x Avenger gatling cannon
+1x Heavy flamer
+1x Questoris heavy stubber
+1x Stormspear rocket pod
+1x Thermal cannon
+1x Titanic feet
+• Enhancement: Bearer of the Judicant’s Helm
+
+Knight Destrier (265 points)
+• 1x Chastiser gatling cannon
+1x Frag bombard
+1x Questoris heavy stubber
+1x Titanic feet
+
+Knight Destrier (265 points)
+• 1x Chastiser gatling cannon
+1x Frag bombard
+1x Questoris heavy stubber
+1x Titanic feet
+
+
+OTHER DATASHEETS
+
+Armiger Helverin (140 points)
+• 2x Armiger autocannon
+1x Armoured feet
+1x Questoris heavy stubber
+
+
+ALLIED UNITS
+
+Voidsmen-at-Arms (70 points)
+• 1x Voidmaster
+• 1x Artificer shotgun
+1x Close combat weapon
+1x Laspistol
+• 4x Voidsman
+• 4x Close combat weapon
+3x Lasgun
+4x Laspistol
+1x Voidsman rotor cannon
+• 1x Canid
+• 1x Vicious bite
+
+Exported with App Version: v2.7.1 (146), Data Version: v972

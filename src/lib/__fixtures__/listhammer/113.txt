@@ -1,0 +1,144 @@
+DW DB TS (2,000 Points)
+
+Space Marines
+Ultramarines
+Deathwatch Support, Devastator Brethren, and Terminator Storm Force (3 Detachment Points)
+Priority Assets
+Strike Force (2,000 Points)
+
+ATTACHED UNITS
+
+Attached unit 1
+
+Ancient in Terminator Armour (75 Points)
+• Attached as: Support (Character)
+• 1x Master-crafted Power Weapon
+• 1x Storm Bolter
+
+Terminator Squad (400 Points)
+• Attached as: Bodyguard
+• 9x Terminator
+◦ 4x Chainfist
+◦ 2x Cyclone Missile Launcher
+◦ 5x Power Fist
+◦ 9x Storm Bolter
+• 1x Terminator Sergeant
+◦ 1x Power Fist
+◦ 1x Storm Bolter
+
+CHARACTERS
+
+Librarian in Phobos Armour (75 Points)
+• 1x Bolt Pistol
+• 1x Force Weapon
+• 1x Smite
+
+Roboute Guilliman (415 Points)
+• Warlord
+• 1x Emperor’s Sword
+• 1x Hand of Dominion
+
+DEDICATED TRANSPORTS
+
+Impulsor (70 Points)
+• 1x Armoured Hull
+• 1x Ironhail Heavy Stubber
+• 1x Shield Dome
+• 1x Storm Bolters
+
+Impulsor (70 Points)
+• 1x Armoured Hull
+• 1x Ironhail Heavy Stubber
+• 1x Shield Dome
+• 1x Storm Bolters
+
+OTHER DATASHEETS
+
+Eradicator Squad with melta rifles (100 Points)
+• 1x Eradicator Sergeant
+◦ 1x Bolt Pistol
+◦ 1x Ceramite Fists
+◦ 1x Melta Rifle
+• 2x Eradicator
+◦ 2x Bolt Pistol
+◦ 2x Ceramite Fists
+◦ 1x Melta Rifle
+◦ 1x Multi-melta
+
+Eradicator Squad with melta rifles (100 Points)
+• 1x Eradicator Sergeant
+◦ 1x Bolt Pistol
+◦ 1x Ceramite Fists
+◦ 1x Melta Rifle
+• 2x Eradicator
+◦ 2x Bolt Pistol
+◦ 2x Ceramite Fists
+◦ 1x Melta Rifle
+◦ 1x Multi-melta
+
+Reiver Squad (85 Points)
+• 1x Grapnel Launchers
+• 1x Grav-chutes
+• 1x Reiver Sergeant
+◦ 1x Bolt Carbine
+◦ 1x Monomolecular Combat Knife
+◦ 1x Special-issue Bolt Pistol
+• 4x Reiver
+◦ 4x Bolt Carbine
+◦ 4x Monomolecular Combat Knife
+◦ 4x Special-issue Bolt Pistol
+
+Reiver Squad (85 Points)
+• 1x Grapnel Launchers
+• 1x Grav-chutes
+• 1x Reiver Sergeant
+◦ 1x Bolt Carbine
+◦ 1x Monomolecular Combat Knife
+◦ 1x Special-issue Bolt Pistol
+• 4x Reiver
+◦ 4x Bolt Carbine
+◦ 4x Monomolecular Combat Knife
+◦ 4x Special-issue Bolt Pistol
+
+Scout Squad (65 Points)
+• 1x Scout Sergeant
+◦ 1x Bolt Pistol
+◦ 1x Boltgun
+◦ 1x Combat Knife
+• 4x Scout
+◦ 4x Bolt Pistol
+◦ 4x Boltgun
+◦ 4x Combat Knife
+
+Scout Squad (65 Points)
+• 1x Scout Sergeant
+◦ 1x Bolt Pistol
+◦ 1x Boltgun
+◦ 1x Combat Knife
+• 4x Scout
+◦ 4x Bolt Pistol
+◦ 4x Boltgun
+◦ 4x Combat Knife
+
+ALLIED UNITS
+
+Deathwatch Terminator Squad (195 Points)
+• 1x Deathwatch Terminator Sergeant
+◦ 1x Storm Shield
+◦ 1x Thunder Hammer
+• 4x Deathwatch Terminator
+◦ 3x Plasma Cannon
+◦ 4x Power Fist
+◦ 1x Storm Bolter
+
+Deathwatch Terminator Squad (200 Points)
+• 1x Deathwatch Terminator Sergeant
+◦ 1x Storm Shield
+◦ 1x Thunder Hammer
+• 4x Deathwatch Terminator
+◦ 3x Plasma Cannon
+◦ 3x Power Fist
+◦ 1x Storm Shield
+◦ 1x Thunder Hammer
+
+Exported with App Version: v2.8.1 (1), Data Version: v995

@@ -1,0 +1,182 @@
+“I hate they incentivized you to take heavy bolters”
+
+Astra Militarum
+Grizzled Company (3 Detachment Points)
+Priority Assets
+Strike Force (2,000 Points)
+
+ATTACHED UNITS
+
+Attached unit 1
+
+Commissar (50 Points)
+• Attached as: Leader (Character)
+• 1x Plasma pistol
+• 1x Power weapon
+• Enhancements: Abhuman Detail
+
+Bullgryn Squad (200 Points)
+• Attached as: Bodyguard
+• 1x Bullgryn Bone ’ead
+◦ 1x Brute Shield
+◦ 1x Bullgryn maul
+◦ 1x Close combat weapon
+• 5x Bullgryn
+◦ 5x Brute Shield
+◦ 5x Bullgryn maul
+◦ 5x Close combat weapon
+
+Attached unit 2
+
+Militarum Tempestus Command Squad (85 Points)
+• Attached as: Leader (Character)
+• 4x Tempestus Scion
+◦ 4x Close combat weapon
+◦ 1x Hot-shot lasgun
+◦ 1x Hot-shot laspistol
+◦ 1x Medi-pack
+◦ 1x Meltagun
+◦ 1x Plasma gun
+• 1x Tempestor Prime
+◦ 1x Command Rod
+◦ 1x Tempestus dagger
+
+Tempestus Scions (150 Points)
+• Attached as: Bodyguard
+• 1x Tempestor
+◦ 1x Plasma pistol
+◦ 1x Power fist
+• 9x Tempestus Scion
+◦ 9x Close combat weapon
+◦ 5x Hot-shot lasgun
+◦ 2x Meltagun
+◦ 2x Plasma gun
+
+CHARACTERS
+
+Cadian Command Squad (60 Points)
+• 1x Cadian Commander
+◦ 1x Plasma pistol
+◦ 1x Power fist
+• 1x Cadian Veteran Guardsman
+◦ 1x Plasma pistol
+◦ 1x Power fist
+• 1x Cadian Veteran Guardsman
+◦ 1x Close combat weapon
+◦ 1x Lasgun
+◦ 1x Master Vox
+• 1x Cadian Veteran Guardsman
+◦ 1x Close combat weapon
+◦ 1x Lasgun
+◦ 1x Medi-pack
+• 1x Cadian Veteran Guardsman
+◦ 1x Close combat weapon
+◦ 1x Lasgun
+◦ 1x Regimental Standard
+
+Gaunt’s Ghosts (95 Points)
+• 1x Ibram Gaunt
+• Warlord
+◦ 1x Bolt Pistol
+◦ 1x Gaunt’s chainsword
+• 1x Colm Corbec
+◦ 1x Corbec’s hot-shot lascarbine
+◦ 1x Straight silver knife
+• 1x Elim Rawne
+◦ 1x Rawne’s lascarbine
+◦ 1x Straight silver knife
+• 1x Hlaine Larkin
+◦ 1x Larkin’s long-las
+◦ 1x Straight silver knife
+• 1x ’Try Again’ Bragg
+◦ 1x Bragg’s autocannon
+◦ 1x Straight silver knife
+• 1x Oan Mkoll
+◦ 1x Lascarbine
+◦ 1x Mkoll’s straight silver knife
+
+Leman Russ Commander (195 Points)
+• 1x Armoured tracks
+• 1x Exterminator autocannon
+• 1x Heavy bolter
+• 2x Heavy bolter
+• 1x Heavy stubber
+• 1x Hunter-killer missile
+
+Leman Russ Commander (195 Points)
+• 1x Armoured tracks
+• 1x Exterminator autocannon
+• 1x Heavy bolter
+• 2x Heavy bolter
+• 1x Heavy stubber
+• 1x Hunter-killer missile
+
+OTHER DATASHEETS
+
+Bullgryn Squad (215 Points)
+• 1x Bullgryn Bone ’ead
+◦ 1x Brute Shield
+◦ 1x Bullgryn maul
+◦ 1x Close combat weapon
+• 5x Bullgryn
+◦ 5x Brute Shield
+◦ 5x Bullgryn maul
+◦ 5x Close combat weapon
+
+Hippogriff AFV (70 Points)
+• 1x Armoured hull
+• 1x Melta cannon
+• 1x Meltagun
+
+Hippogriff AFV (70 Points)
+• 1x Armoured hull
+• 1x Melta cannon
+• 1x Meltagun
+
+Krieg Combat Engineers (65 Points)
+• 1x Krieg Engineer Watchmaster
+◦ 1x Hand flamer
+◦ 1x Power weapon
+• 4x Krieg Combat Engineer
+◦ 1x Autopistol
+◦ 4x Close combat weapon
+◦ 2x Combat shotgun
+◦ 1x Flamer
+◦ 1x Remote Mine
+
+Krieg Combat Engineers (65 Points)
+• 1x Krieg Engineer Watchmaster
+◦ 1x Hand flamer
+◦ 1x Power weapon
+• 4x Krieg Combat Engineer
+◦ 1x Autopistol
+◦ 4x Close combat weapon
+◦ 2x Combat shotgun
+◦ 1x Flamer
+◦ 1x Remote Mine
+
+Leman Russ Battle Tank (165 Points)
+• 1x Armoured tracks
+• 2x Heavy bolter
+• 1x Heavy stubber
+• 1x Hunter-killer missile
+• 1x Lascannon
+• 1x Leman Russ battle cannon
+
+Leman Russ Exterminator (160 Points)
+• 1x Armoured tracks
+• 1x Exterminator autocannon
+• 1x Heavy bolter
+• 2x Heavy bolter
+• 1x Heavy stubber
+• 1x Hunter-killer missile
+
+Leman Russ Exterminator (160 Points)
+• 1x Armoured tracks
+• 1x Exterminator autocannon
+• 1x Heavy bolter
+• 2x Heavy bolter
+• 1x Heavy stubber
+• 1x Hunter-killer missile
+
+Exported with App Version: v2.6.0 (3), Data Version: v946

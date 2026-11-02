@@ -1,0 +1,22 @@
+Imperium - Astra Militarum - I don't know what I'm doing but can you kill this? - [2000 pts]
+
+# ++ Army Roster ++ [2000 pts, 2 Detachment Points]
+Hammer of the Emperor [2 Detachment Points]
+Force Disposition: Purge the Foe
+
+## Character [590 pts]
+Leman Russ Commander [195 pts]: Hunter-killer missile, Heavy bolter, Leman Russ battle cannon, Heavy stubber, 2 Heavy bolters
+Rogal Dorn Commander [305 pts]: Warlord, Calm Under Fire [15 pts], Pulveriser cannon, 2 Meltaguns, 2 Multi-meltas, Oppressor cannon and coaxial autocannon
+Tech-Priest Enginseer [45 pts]
+Tech-Priest Enginseer [45 pts]
+
+## Vehicle [1410 pts]
+Hellhound [125 pts]: Hunter-killer missile, Inferno cannon, Multi-melta
+Hellhound [125 pts]: Hunter-killer missile, Inferno cannon, Multi-melta
+Leman Russ Battle Tank [160 pts]: Hunter-killer missile, Heavy flamer, 2 Heavy Flamers, Heavy stubber
+Leman Russ Battle Tank [160 pts]: Hunter-killer missile, Heavy flamer, 2 Heavy Flamers, Heavy stubber
+Leman Russ Exterminator [160 pts]: Hunter-killer missile, Heavy flamer, 2 Heavy Flamers, Heavy stubber
+Leman Russ Exterminator [160 pts]: Hunter-killer missile, Heavy flamer, 2 Heavy Flamers, Heavy stubber
+Leman Russ Vanquisher [130 pts]: Hunter-killer missile, Heavy bolter, 2 Heavy Bolters, Heavy stubber
+Leman Russ Vanquisher [130 pts]: Hunter-killer missile, Heavy bolter, 2 Heavy Bolters, Heavy stubber
+Rogal Dorn Battle Tank [260 pts]: Pulveriser cannon, 2 Meltaguns, 2 Multi-meltas, Oppressor cannon and coaxial autocannon

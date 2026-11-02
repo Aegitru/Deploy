@@ -1,0 +1,35 @@
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Xenos - Necrons
++ DETACHMENT: Awakened Dynasty (Command Protocols)
++ FORCE DISPOSITION: Take and Hold
++ TOTAL ARMY POINTS: 1990pts
++
++ WARLORD: Char3: Nekrosor Ammentar
++ ENHANCEMENT: Enaegic Dermal Bond (on Char4: Skorpekh Lord)
++ NUMBER OF UNITS: 13
++ SECONDARY: - Bring It Down: (1x2) + (2x4) - Assassination: 6 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+Char1: 1x C'tan Shard of the Nightbringer (360 pts): Gaze of death, Scythe of the Nightbringer
+Char2: 1x C'tan Shard of the Void Dragon (345 pts): Canoptek tail blades, Spear of the Void Dragon, Voltaic storm
+Char3: 1x Nekrosor Ammentar (195 pts): Warlord, Nullstone field generator, Blade tail and whip coils, Enmitic disintegrators, Unmaker gauntlet
+Char4: 1x Skorpekh Lord (125 pts): Enmitic annihilator, Flensing claw, Hyperphase harvester
+Enhancement: Enaegic Dermal Bond (+30 pts)
+Leading Skorpekh Destroyers
+Char5: 1x Technomancer (80 pts): Staff of light
+Supporting Canoptek Wraiths[2]
+Char6: 1x Technomancer (90 pts): Staff of light
+Supporting Canoptek Wraiths[1]
+
+1x Canoptek Reanimator (75 pts): 2x Atomiser beam, Reanimator's claws
+3x Canoptek Scarab Swarms (40 pts): 3 with Feeder mandibles
+6x Canoptek Wraiths (220 pts): 6 with Particle caster, Vicious claws
+Attached to Technomancer[2]
+6x Canoptek Wraiths (240 pts): 6 with Particle caster, Vicious claws
+Attached to Technomancer[1]
+5x Flayed Ones (55 pts): 5 with Flayer claws
+3x Ophydian Destroyers (80 pts): Plasmacyte, 3 with Ophydian hyperphase weapons
+3x Skorpekh Destroyers (85 pts): Plasmacyte, 3 with Skorpekh hyperphase weapons
+Attached to Skorpekh Lord
+
+Created with newrecruit.eu v36.17

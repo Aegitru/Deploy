@@ -1,0 +1,59 @@
+Knights lower Winrate than Agents where Buffs? when actually good 1 Dp ?
+
+
++++++++++++++++++++++++++++++++++++++++++++++++
++ FACTION KEYWORD: Imperium - Imperial Knights
++ DETACHMENT: Questoris Companions (Heroes of Legend)
++ FORCE DISPOSITION: Take and Hold
++ TOTAL ARMY POINTS: 2000pts
++ TEAM: Zugzwang
++ WARLORD: Char1: Canis Rex
++ ENHANCEMENT: Pennant of Silvered Fury (on Char3: Cerastus Knight Lancer)
+& Wyrmslayer Divination (on Char4: Knight Crusader)
++ NUMBER OF UNITS: 6
++ SECONDARY: - Bring It Down: (1x4) + (4x6) - Assassination: 6 Characters
++++++++++++++++++++++++++++++++++++++++++++++++
+
+CHARACTER
+
+Canis Rex (415 pts)
+• 1x Canis Rex
+• 1x Freedom's Hand
+• 1x Las-impulsor
+• 1x Questoris multi-laser
+• Chainbreaker, Legendary Freeblade, Invulnerable Save (5+*), Damaged: 1-9 Wounds Remaining
+• 1x Sir Hekhtur
+• 1x Close combat weapon
+• 1x Hekhtur's pistol
+• Using Sir Hekhtur, Warlord
+
+Cerastus Knight Atrapos (405 pts)
+• 1x Atrapos lascutter
+• 1x Graviton singularity cannon
+
+Cerastus Knight Lancer (430 pts)
+• 1x Cerastus shock lance
+• Pennant of Silvered Fury (+15 pts)
+
+Knight Crusader (420 pts)
+• 1x Avenger gatling cannon
+• 1x Heavy flamer
+• 1x Titanic feet
+• 1x Questoris heavy stubber
+• 1x Questoris heavy stubber
+• 1x Rapid-fire battle cannon
+• Wyrmslayer Divination (+10 pts)
+
+Knight Destrier (265 pts)
+• 1x Questoris heavy stubber
+• 1x Titanic feet
+• 1x Chastiser gatling cannon
+• 1x Frag bombard
+
+OTHER DATASHEETS
+
+Watch Captain Artemis (65 pts)
+• 1x Hellfire Extremis
+• 1x Master-crafted power weapon
+
+Created with newrecruit.eu v35.80

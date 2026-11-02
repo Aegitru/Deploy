@@ -1,0 +1,97 @@
+GK (2,000 Points)
+
+Grey Knights
+Fires of Purgation and Sanctic Spearhead (3 Detachment Points)
+Disruption
+Strike Force (2,000 Points)
+
+ATTACHED UNITS
+
+Attached unit 1
+
+Brotherhood Chaplain (95 Points)
+• Attached as: Leader (Character)
+• Warlord
+• 1x Crozius arcanum
+• 1x Storm bolter
+• Enhancements: Sigil of Exigence
+
+Paladin Squad (370 Points)
+• Attached as: Bodyguard
+• 1x Paragon
+◦ 1x Nemesis force weapon
+◦ 1x Storm bolter
+• 1x Paladin Ancient
+◦ 1x Ancient’s Banner
+◦ 1x Nemesis force weapon
+◦ 1x Psycannon
+• 6x Paladin
+◦ 1x Apothecary’s Narthecium
+◦ 6x Nemesis force weapon
+◦ 1x Psycannon
+◦ 4x Storm bolter
+
+CHARACTERS
+
+Grand Master in Nemesis Dreadknight (230 Points)
+• 1x Fragstorm grenade launcher
+• 1x Heavy psycannon
+• 1x Nemesis daemon greathammer
+• 1x Sublimator
+
+Grand Master in Nemesis Dreadknight (230 Points)
+• 1x Fragstorm grenade launcher
+• 1x Heavy psycannon
+• 1x Nemesis daemon greathammer
+• 1x Sublimator
+
+DEDICATED TRANSPORTS
+
+Rhino (70 Points)
+• 1x Armoured tracks
+• 1x Hunter-killer missile
+• 1x Storm bolter
+• 1x Storm bolter
+
+Rhino (70 Points)
+• 1x Armoured tracks
+• 1x Hunter-killer missile
+• 1x Storm bolter
+• 1x Storm bolter
+
+OTHER DATASHEETS
+
+Nemesis Dreadknight (210 Points)
+• 1x Gatling psilencer
+• 1x Heavy psycannon
+• 1x Nemesis daemon greathammer
+
+Nemesis Dreadknight (210 Points)
+• 1x Gatling psilencer
+• 1x Heavy psycannon
+• 1x Nemesis daemon greathammer
+
+Nemesis Dreadknight (225 Points)
+• 1x Gatling psilencer
+• 1x Heavy psycannon
+• 1x Nemesis daemon greathammer
+
+Purgation Squad (145 Points)
+• Enhancements: Boons of Deimos (Upgrade)
+• 1x Purgator Justicar
+◦ 1x Nemesis force weapon
+◦ 1x Storm bolter
+• 4x Purgator
+◦ 4x Close combat weapon
+◦ 4x Psycannon
+
+Purgation Squad (145 Points)
+• Enhancements: Boons of Deimos (Upgrade)
+• 1x Purgator Justicar
+◦ 1x Nemesis force weapon
+◦ 1x Storm bolter
+• 4x Purgator
+◦ 4x Close combat weapon
+◦ 4x Psycannon
+
+Exported with App Version: v2.6.0 (3), Data Version: v946

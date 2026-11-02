@@ -1,0 +1,105 @@
+Life is the misery we endure between disappointing dataslates (2,000 Points)
+
+Tyranids
+Ambush Predators and Vanguard Onslaught (3 Detachment Points)
+Reconnaissance
+Strike Force (2,000 Points)
+
+ATTACHED UNITS
+
+Attached unit 1
+
+Broodlord (80 Points)
+• Attached as: Leader (Character)
+• 1x Broodlord Claws and Talons
+
+Genestealers (140 Points)
+• Attached as: Bodyguard
+• 10x Genestealer
+◦ 10x Genestealers claws and talons
+
+Attached unit 2
+
+Broodlord (80 Points)
+• Attached as: Leader (Character)
+• 1x Broodlord Claws and Talons
+
+Genestealers (140 Points)
+• Attached as: Bodyguard
+• 10x Genestealer
+◦ 10x Genestealers claws and talons
+
+Attached unit 3
+
+Hyperadapted Raveners (165 Points)
+• Attached as: Leader (Character)
+• 1x Ravener Prime
+◦ 1x Prime claws and talons
+• 4x Ravener
+◦ 4x Ravener heavy claws and talons
+◦ 1x Venom bolt
+
+Raveners (125 Points)
+• Attached as: Bodyguard
+• 5x Ravener
+◦ 5x Ravener claws and talons
+
+Attached unit 4
+
+Neurotyrant (120 Points)
+• Attached as: Leader (Character)
+• 1x Neurotyrant claws and lashes
+• 1x Psychic scream
+
+Zoanthropes (190 Points)
+• Attached as: Bodyguard
+• 1x Neurothrope
+◦ 1x Chitinous claws and teeth
+◦ 1x Warp blast
+• 5x Zoanthrope
+◦ 5x Chitinous claws and teeth
+◦ 5x Warp blast
+
+CHARACTERS
+
+Deathleaper (80 Points)
+• 1x Lictor claws and talons
+
+The Red Terror (120 Points)
+• 1x Gaping maw
+• 1x Scything talons
+
+Winged Hive Tyrant (185 Points)
+• 1x Monstrous bonesword and lash whip
+• 1x Tyrant talons
+
+OTHER DATASHEETS
+
+Biovores (60 Points)
+• 1x Chitin-barbed limbs
+• 1x Spore mine launcher
+
+Genestealers (150 Points)
+• 10x Genestealer
+◦ 10x Genestealers claws and talons
+
+Neurogaunts (45 Points)
+• 1x Neurogaunt Nodebeast
+◦ 1x Chitinous claws and teeth
+• 10x Neurogaunt
+◦ 10x Chitinous claws and teeth
+
+Neurolictor (100 Points)
+• 1x Piercing claws and talons
+• Enhancements: Encircling Horrors (Upgrade)
+
+Neurolictor (100 Points)
+• 1x Piercing claws and talons
+• Enhancements: Encircling Horrors (Upgrade)
+
+Von Ryan's Leapers (120 Points)
+• 6x Von Ryan's Leaper
+◦ 6x Leaper's talons
+• Enhancements: Cryptophotaic Camouflage (Upgrade)
+
+Exported with New Recruit v36.47, Data Version: v3
