@@ -28,6 +28,7 @@ export function Battle() {
     return { left: units.filter((u) => !placed[u.id]).length, total: units.length };
   };
   const [lists, setLists] = useState(false);
+  const [hintClosed, setHintClosed] = useState(false); // bulle « Importe ta liste » refermée
   const [mission, setMission] = useState(false);
   const [saving, setSaving] = useState(false);
   const [sheet, setSheet] = useState<Side | null>(null);
@@ -54,9 +55,17 @@ export function Battle() {
     <div className={`battle ${wide ? 'wide' : 'narrow'}`} style={palette}>
       <header className="topbar">
         <button className="icon-btn" onClick={() => go('home')} aria-label="Accueil" title="Accueil">‹</button>
-        <button className="btn ghost" onClick={() => setLists(true)}>
-          ☰ <span className="hide-xs">Listes</span>
-        </button>
+        <span className="lists-anchor">
+          <button className="btn ghost" onClick={() => setLists(true)}>
+            ☰ <span className="hide-xs">Listes</span>
+          </button>
+          {/* Aucune liste chargée : bulle qui pointe vers le bouton ; un appui la referme */}
+          {!armies.me && !armies.opp && !hintClosed && !lists && (
+            <button className="lists-hint" onClick={() => setHintClosed(true)} title="Fermer">
+              Importe ta liste pour commencer
+            </button>
+          )}
+        </span>
         <button className="title-btn" onClick={() => go('setup')} title="Changer de disposition ou de carte">
           <span className="t1">{currentName || m.name}</span>
           <span className="t2">

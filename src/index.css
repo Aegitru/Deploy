@@ -388,3 +388,17 @@ textarea:focus { outline: 1px solid var(--gold); }
 .auth-intro { margin: 0; text-align: center; color: var(--muted); font-size: 15px; }
 .auth-form .guest-btn { margin-bottom: 4px; }
 .account .guest-note { flex-basis: 100%; text-align: center; }
+
+/* Bulle d'aide « Importe ta liste pour commencer », sous le bouton Listes */
+.lists-anchor { position: relative; flex: none; }
+.lists-hint {
+  position: absolute; z-index: 60; top: calc(100% + 12px); left: 0; width: max-content; max-width: 220px;
+  padding: 9px 12px; background: linear-gradient(180deg, #e6c86f, #b8923a); color: #1a1205; border: 0;
+  font-weight: 700; font-size: 14px; letter-spacing: 0.04em; text-align: left; cursor: pointer;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6); animation: hint-in 0.35s ease-out;
+}
+.lists-hint::before {
+  content: ''; position: absolute; top: -7px; left: 18px; border: 7px solid transparent;
+  border-top: 0; border-bottom-color: #e6c86f;
+}
+@keyframes hint-in { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
