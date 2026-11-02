@@ -46,7 +46,12 @@ export function Auth() {
       </header>
       <form className="auth-form" onSubmit={submit}>
         {mode !== 'forgot' && (
-          <p className="auth-intro">Optionnel : crée un compte pour conserver tes déploiements d'un appareil à l'autre.</p>
+          <>
+            <button type="button" className="btn primary wide guest-btn" onClick={() => setGuest(true)}>
+              Continuer sans compte
+            </button>
+            <p className="auth-intro">Optionnel : crée un compte pour conserver tes déploiements d'un appareil à l'autre.</p>
+          </>
         )}
         {mode === 'forgot' ? (
           <div className="auth-title">Mot de passe oublié</div>
@@ -72,16 +77,11 @@ export function Auth() {
         )}
         {error && <p className="warning">{error}</p>}
         {info && <p className="note left">{info}</p>}
-        <button className="btn primary wide" disabled={busy}>
+        <button className="btn wide" disabled={busy}>
           {busy ? '…' : mode === 'login' ? 'Se connecter' : mode === 'signup' ? 'Créer mon compte' : 'Envoyer le lien'}
         </button>
         {mode === 'login' && <button type="button" className="link-btn" onClick={() => switchTo('forgot')}>Mot de passe oublié ?</button>}
         {mode === 'forgot' && <button type="button" className="link-btn" onClick={() => switchTo('login')}>‹ Retour à la connexion</button>}
-        {mode !== 'forgot' && (
-          <button type="button" className="btn wide guest-btn" onClick={() => setGuest(true)}>
-            Continuer sans compte
-          </button>
-        )}
       </form>
     </div>
   );
@@ -115,7 +115,7 @@ export function NewPassword({ onDone }: { onDone: () => void }) {
           <input type="password" required minLength={6} autoComplete="new-password" value={password} onChange={(e) => setPassword(e.target.value)} />
         </label>
         {error && <p className="warning">{error}</p>}
-        <button className="btn primary wide" disabled={busy}>{busy ? '…' : 'Enregistrer'}</button>
+        <button className="btn wide" disabled={busy}>{busy ? '…' : 'Enregistrer'}</button>
       </form>
     </div>
   );

@@ -386,5 +386,5 @@ textarea:focus { outline: 1px solid var(--gold); }
 
 /* Connexion facultative */
 .auth-intro { margin: 0; text-align: center; color: var(--muted); font-size: 15px; }
-.auth-form .guest-btn { margin-top: 6px; }
+.auth-form .guest-btn { margin-bottom: 4px; }
 .account .guest-note { flex-basis: 100%; text-align: center; }
