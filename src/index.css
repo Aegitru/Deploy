@@ -318,3 +318,8 @@ textarea:focus { outline: 1px solid var(--gold); }
 /* Liste plus compacte sur téléphone (≈ 5 unités visibles) */
 .sheet .army-head { padding: 8px 12px; }
 .sheet .unit-list li { padding-top: 6px; padding-bottom: 6px; }
+
+/* Compte */
+.auth-form { display: flex; flex-direction: column; gap: 14px; }
+.account { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 4px 10px; color: var(--muted); font-size: 14px; border-top: 1px solid var(--line); padding-top: 14px; }
+.account .warning { flex-basis: 100%; text-align: center; }

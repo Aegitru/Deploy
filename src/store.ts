@@ -3,6 +3,7 @@ import { persist } from 'zustand/middleware';
 import missionsData from './data/missions.json';
 import { parseList, type Army, type Unit } from './lib/parseList';
 import { baseSizeIn } from './lib/bases';
+import { supabase } from './lib/supabase';
 
 export type Side = 'me' | 'opp';
 export type DispositionId = (typeof missionsData.dispositions)[number]['id'];
@@ -66,6 +67,8 @@ type State = BattleData & {
   battles: SavedBattle[];
   selected: string | null;
   showLabels: boolean;
+  user: { id: string; email: string } | null; // joueur connecté (session gérée par Supabase)
+  syncError: string | null;
 
   go: (view: View) => void;
   newBattle: () => void;
@@ -87,6 +90,8 @@ type State = BattleData & {
   saveBattle: (name: string, asCopy?: boolean) => void;
   loadBattle: (id: string) => void;
   deleteBattle: (id: string) => void;
+  setUser: (user: State['user']) => void;
+  pullBattles: () => Promise<void>;
 };
 
 const EMPTY: BattleData = { mine: null, opp: null, layout: null, armies: {}, placed: {}, unitOpts: {}, splits: {}, colors: { me: 'red', opp: 'blue' }, modelDelta: {} };
@@ -206,6 +211,15 @@ export function formation(unit: Unit, x: number, y: number, opts: UnitOpts, angl
   return local.map((p) => ({ x: x + p.x * cos - p.y * sin, y: y + p.x * sin + p.y * cos, rot: angle }));
 }
 
+/** Enregistre (ou met à jour) une bataille dans le compte du joueur connecté */
+async function pushBattle(b: SavedBattle) {
+  if (!useStore.getState().user) return;
+  const { error } = await supabase.from('battles').upsert({
+    id: b.id, name: b.name, data: battleData(b), saved_at: new Date(b.savedAt).toISOString(),
+  });
+  useStore.setState({ syncError: error ? error.message : null });
+}
+
 const battleData = (s: BattleData): BattleData => ({
   mine: s.mine, opp: s.opp, layout: s.layout, armies: s.armies, placed: s.placed, unitOpts: s.unitOpts, splits: s.splits ?? {}, colors: s.colors ?? EMPTY.colors, modelDelta: s.modelDelta ?? {},
 });
@@ -223,6 +237,8 @@ export const useStore = create<State>()(
       battles: [],
       selected: null,
       showLabels: false,
+      user: null,
+      syncError: null,
 
       go: (view) => set({ view, selected: null }),
       newBattle: () => set({ ...EMPTY, currentId: null, currentName: '', view: 'setup', selected: null }),
@@ -335,6 +351,7 @@ export const useStore = create<State>()(
         const id = (!asCopy && s.currentId) || crypto.randomUUID();
         const saved: SavedBattle = { ...battleData(s), id, name, savedAt: Date.now() };
         set({ battles: [saved, ...s.battles.filter((b) => b.id !== id)], currentId: id, currentName: name });
+        void pushBattle(saved);
       },
       loadBattle: (id) => {
         const b = get().battles.find((x) => x.id === id);
@@ -344,6 +361,26 @@ export const useStore = create<State>()(
       deleteBattle: (id) => {
         const s = get();
         set({ battles: s.battles.filter((b) => b.id !== id), ...(s.currentId === id ? { currentId: null } : {}) });
+        void supabase.from('battles').delete().eq('id', id).then(({ error }) => error && set({ syncError: error.message }));
+      },
+      setUser: (user) => {
+        const prev = get().user;
+        if (prev && user?.id !== prev.id) {
+          // Changement de joueur sur cet appareil : on ne garde rien du précédent
+          set({ ...EMPTY, battles: [], currentId: null, currentName: '', view: 'home', selected: null });
+        }
+        set({ user });
+      },
+      pullBattles: async () => {
+        const { data, error } = await supabase.from('battles').select('id, name, data, saved_at');
+        if (error) { set({ syncError: error.message }); return; }
+        const remote: SavedBattle[] = data.map((r) => ({
+          ...EMPTY, ...(r.data as BattleData), id: r.id, name: r.name, savedAt: Date.parse(r.saved_at),
+        }));
+        // Les batailles créées sur cet appareil avant la connexion sont envoyées au compte
+        const local = get().battles.filter((b) => !remote.some((r) => r.id === b.id));
+        for (const b of local) void pushBattle(b);
+        set({ battles: [...remote, ...local].sort((a, b) => b.savedAt - a.savedAt), syncError: null });
       },
     }),
     {
