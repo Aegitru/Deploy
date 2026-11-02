@@ -22,7 +22,7 @@ export const HULLS: { match: RegExp; l: number; w: number }[] = [
   { match: /lord of skulls/i, l: 230, w: 160 },
   { match: /squiggoth/i, l: 230, w: 150 },
   { match: /stompa/i, l: 180, w: 180 },
-  { match: /hekaton/i, l: 230, w: 125 },
+  { match: /hekaton/i, l: 170, w: 105 }, // mesuré : 17 x 10.5 cm canons rabattus (r/LeaguesofVotann)
   { match: /acastus/i, l: 180, w: 150 },
 
   // Chars et transports lourds
