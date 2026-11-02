@@ -23,7 +23,8 @@ type Gesture =
   | { mode: 'none' }
   | { mode: 'pan'; moved: boolean; from?: Pt; line?: string; del?: string }
   | { mode: 'pinch'; dist: number }
-  | { mode: 'drag'; unitId: string; idx: number | null; start: Pt; orig: ModelPos[]; moved: boolean };
+  | { mode: 'drag'; unitId: string; idx: number | null; start: Pt; orig: ModelPos[]; moved: boolean }
+  | { mode: 'lineEnd'; id: string; end: 'a' | 'b' };
 
 export function Board({ image }: { image: string }) {
   const svgRef = useRef<SVGSVGElement>(null);
@@ -37,12 +38,13 @@ export function Board({ image }: { image: string }) {
   const [penStart, setPenStart] = useState<Pt | null>(null);
   const [penHover, setPenHover] = useState<Pt | null>(null);
   const [lineSel, setLineSel] = useState<string | null>(null);
+  const [lineDrag, setLineDrag] = useState<{ id: string; end: 'a' | 'b'; p: Pt } | null>(null); // extrémité en cours de déplacement
   const pointers = useRef(new Map<number, Pt>());
   const gesture = useRef<Gesture>({ mode: 'none' });
 
   const store = useStore();
-  const { placed, unitOpts, selected, showLabels, toggleLabels, move, remove, select, addLine, removeLine } = store;
-  const lines = store.lines ?? [];
+  const { placed, unitOpts, selected, showLabels, toggleLabels, move, remove, select, addLine, removeLine, moveLineEnd } = store;
+  const lines = (store.lines ?? []).map((l) => (lineDrag?.id === l.id ? { ...l, [lineDrag.end]: lineDrag.p } : l));
 
   // Un nouvel appui sur le crayon annule le tracé en cours et le désactive
   const togglePen = () => {
@@ -121,6 +123,13 @@ export function Board({ image }: { image: string }) {
     // Crayon actif : un appui pose un point (un glisser fait défiler la table), les unités ne bougent pas
     if (pen) { gesture.current = { mode: 'pan', moved: false, from }; return; }
     const target = e.target as Element;
+    // Extrémité d'une ligne sélectionnée : on la fait glisser
+    const end = target.closest('[data-line-end]')?.getAttribute('data-line-end');
+    if (end) {
+      const [id, which] = end.split('|');
+      gesture.current = { mode: 'lineEnd', id, end: which as 'a' | 'b' };
+      return;
+    }
     const del = target.closest('[data-line-del]')?.getAttribute('data-line-del');
     const line = target.closest('[data-line]')?.getAttribute('data-line');
     if (del || line) { gesture.current = { mode: 'pan', moved: false, from, del: del ?? undefined, line: line ?? undefined }; return; }
@@ -161,6 +170,8 @@ export function Board({ image }: { image: string }) {
       if (!g.moved) return;
       const a = toSvg(prev.x, prev.y), b = toSvg(cur.x, cur.y);
       setVb((v) => ({ ...v, x: v.x + a.x - b.x, y: v.y + a.y - b.y }));
+    } else if (g.mode === 'lineEnd') {
+      setLineDrag({ id: g.id, end: g.end, p: toSvg(cur.x, cur.y) });
     } else if (g.mode === 'drag') {
       const p = toSvg(cur.x, cur.y);
       const dx = p.x - g.start.x, dy = p.y - g.start.y;
@@ -181,6 +192,10 @@ export function Board({ image }: { image: string }) {
       if (g.idx === null && isOffBoard(centroid(preview.positions))) remove(g.unitId);
       else if (g.idx !== null && isOffBoard(preview.positions[g.idx])) move(g.unitId, g.orig);
       else move(g.unitId, preview.positions);
+    }
+    if (g.mode === 'lineEnd' && lineDrag) {
+      moveLineEnd(lineDrag.id, lineDrag.end, lineDrag.p);
+      setLineDrag(null);
     }
     if (g.mode === 'pan' && !g.moved) {
       if (pen) {
@@ -297,7 +312,7 @@ export function Board({ image }: { image: string }) {
         ))}
         {pen && penStart && (
           <g className="ruler drafting" pointerEvents="none">
-            <circle cx={penStart.x} cy={penStart.y} r={4 / pxPerIn} className="ruler-end" />
+            <circle cx={penStart.x} cy={penStart.y} r={END_R / pxPerIn} strokeWidth={END_STROKE / pxPerIn} className="ruler-end" />
             {penHover && <Ruler a={penStart} b={penHover} px={pxPerIn} />}
           </g>
         )}
@@ -339,19 +354,34 @@ export function Board({ image }: { image: string }) {
   );
 }
 
-/** Ligne mesurée : trait épais à liseré sombre, extrémités pointées et longueur en pouces. */
+// Extrémités des lignes, en pixels écran : point blanc bien visible, contour noir fin
+const END_R = 4.5;
+const END_STROKE = 1;
+
+/**
+ * Ligne mesurée : trait épais à liseré sombre, extrémités pointées et longueur en pouces.
+ * Sélectionnée, ses extrémités deviennent des poignées à faire glisser.
+ */
 function Ruler({ id, a, b, px, selected = false }: { id?: string; a: Pt; b: Pt; px: number; selected?: boolean }) {
   const len = Math.hypot(b.x - a.x, b.y - a.y);
   const mid = { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 };
   const font = 14 / px;
-  const del = { x: mid.x, y: mid.y - font * 1.9 };
+  const del = { x: mid.x + font * 2.4, y: mid.y - font * 1.15 }; // à droite de la longueur
+  const r = (selected ? END_R * 1.5 : END_R) / px;
   return (
     <g className={`ruler${selected ? ' selected' : ''}`} data-line={id}>
       <line className="ruler-hit" x1={a.x} y1={a.y} x2={b.x} y2={b.y} strokeWidth={16 / px} />
       <line className="ruler-halo" x1={a.x} y1={a.y} x2={b.x} y2={b.y} strokeWidth={5 / px} />
       <line className="ruler-line" x1={a.x} y1={a.y} x2={b.x} y2={b.y} strokeWidth={2.5 / px} />
-      <circle className="ruler-end" cx={a.x} cy={a.y} r={3.5 / px} strokeWidth={1.5 / px} />
-      <circle className="ruler-end" cx={b.x} cy={b.y} r={3.5 / px} strokeWidth={1.5 / px} />
+      {(['a', 'b'] as const).map((end) => {
+        const p = end === 'a' ? a : b;
+        return (
+          <g key={end} data-line-end={selected && id ? `${id}|${end}` : undefined} className={selected ? 'ruler-handle' : undefined}>
+            {selected && <circle className="ruler-end-hit" cx={p.x} cy={p.y} r={14 / px} />}
+            <circle className="ruler-end" cx={p.x} cy={p.y} r={r} strokeWidth={END_STROKE / px} />
+          </g>
+        );
+      })}
       <text className="ruler-label" x={mid.x} y={mid.y - font * 0.8} fontSize={font} strokeWidth={font * 0.35}>
         {len.toFixed(1)}"
       </text>

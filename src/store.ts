@@ -88,6 +88,7 @@ type State = BattleData & {
   addUnit: (side: Side, name: string, count: number, base: Base) => void;
   addLine: (a: RulerLine['a'], b: RulerLine['b']) => void;
   removeLine: (id: string) => void;
+  moveLineEnd: (id: string, end: 'a' | 'b', p: RulerLine['a']) => void;
   place: (unit: Unit, x: number, y: number) => void;
   move: (unitId: string, positions: ModelPos[]) => void;
   remove: (unitId: string) => void;
@@ -287,6 +288,7 @@ export const useStore = create<State>()(
       },
       addLine: (a, b) => set({ lines: [...(get().lines ?? []), { id: crypto.randomUUID(), a, b }] }),
       removeLine: (id) => set({ lines: (get().lines ?? []).filter((l) => l.id !== id) }),
+      moveLineEnd: (id, end, p) => set({ lines: (get().lines ?? []).map((l) => (l.id === id ? { ...l, [end]: p } : l)) }),
       addUnit: (side, name, count, base) => {
         // Unité créée à la main : ajoutée à la liste importée (ou à une liste vide s'il n'y en a pas)
         const slot = get().armies[side] ?? { text: '', army: { name: 'Liste manuelle', faction: null, units: [], warnings: [] } };

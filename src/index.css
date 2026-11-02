@@ -380,3 +380,6 @@ textarea:focus { outline: 1px solid var(--gold); }
 
 /* Zones : là où les zones de plusieurs unités se recouvrent, la couleur fonce (mélange multiplicatif) */
 .aura { mix-blend-mode: multiply; }
+.ruler.selected .ruler-end { fill: var(--gold-2); }
+.ruler-handle { cursor: grab; }
+.ruler-end-hit { fill: transparent; }
