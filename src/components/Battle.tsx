@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { ARMY_COLORS, asset, DISPO_ABBR, DISPOSITIONS, missionFor, useStore, type Side } from '../store';
+import { ARMY_COLORS, asset, deployableUnits, DISPO_ABBR, DISPOSITIONS, missionFor, useStore, type Side } from '../store';
 import { SaveModal } from './SaveModal';
 import { Board } from './Board';
 import { ArmyPanel, SIDE_TITLE } from './ArmyPanel';
@@ -20,7 +20,12 @@ function useWide() {
 }
 
 export function Battle() {
-  const { mine, opp, layout, armies, go, currentName, colors } = useStore();
+  const { mine, opp, layout, armies, go, currentName, colors, placed, splits, modelDelta } = useStore();
+  // Onglets repliés : unités restant à déployer / total
+  const remaining = (s: Side) => {
+    const units = deployableUnits(armies[s]?.army, splits, modelDelta);
+    return { left: units.filter((u) => !placed[u.id]).length, total: units.length };
+  };
   const [lists, setLists] = useState(false);
   const [mission, setMission] = useState(false);
   const [saving, setSaving] = useState(false);
@@ -83,7 +88,9 @@ export function Battle() {
             {(['me', 'opp'] as const).map((s) => (
               <button key={s} className={`${s} ${sheet === s ? 'on' : ''}`} onClick={() => setSheet(sheet === s ? null : s)}>
                 <span className="army-dot" /> {SIDE_TITLE[s]}
-                {armies[s] && <small>{armies[s]!.army.units.length}</small>}
+                {armies[s] && (
+                  <small title="Unités restant à déployer / total">{remaining(s).left}/{remaining(s).total}</small>
+                )}
                 <span className="chev">{sheet === s ? '▾' : '▴'}</span>
               </button>
             ))}

@@ -1,5 +1,5 @@
 import { Fragment, useRef, useState } from 'react';
-import { adjust, ARMY_COLORS, splitUnit, useStore, type ColorId, type Side } from '../store';
+import { adjust, ARMY_COLORS, deployableUnits, splitUnit, useStore, type ColorId, type Side } from '../store';
 import type { Unit } from '../lib/parseList';
 import { boardApi } from './Board';
 
@@ -57,9 +57,12 @@ export function ArmyPanel({ side, onPlaced }: { side: Side; onPlaced?: () => voi
   // (avec les socles ajoutés ou retirés à la main)
   const units = slot.army.units.map((u) => adjust(u, delta[u.id]));
   const halves = (u: Unit) => splitUnit(u).map((h) => adjust(h, delta[h.id]));
-  const deployable = units.flatMap((u) => (splits[u.id] ? halves(u) : [u]));
+  const deployable = deployableUnits(slot.army, splits, delta);
   const total = deployable.length;
   const done = deployable.filter((u) => placed[u.id]).length;
+  // Les unités déjà sur la table descendent en bas de la liste (une unité coupée : quand ses deux moitiés y sont)
+  const isDone = (u: Unit) => (splits[u.id] ? halves(u).every((h) => placed[h.id]) : !!placed[u.id]);
+  const ordered = [...units.filter((u) => !isDone(u)), ...units.filter(isDone)];
 
   const row = (u: Unit, child = false) => (
     <li
@@ -100,7 +103,7 @@ export function ArmyPanel({ side, onPlaced }: { side: Side; onPlaced?: () => voi
         </div>
       </div>
       <ul className="unit-list">
-        {units.map((u) =>
+        {ordered.map((u) =>
           splits[u.id] ? (
             <Fragment key={u.id}>
               <li className="split-parent">

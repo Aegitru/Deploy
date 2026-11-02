@@ -417,3 +417,13 @@ function findRaw(armies: BattleData['armies'], unitId: string, deltas: Record<st
 }
 
 export const asset = (p: string) => `${import.meta.env.BASE_URL}assets/${p}`;
+
+/** Unités à déployer d'une armée : une unité coupée compte pour ses deux moitiés (socles ajoutés/retirés compris). */
+export function deployableUnits(
+  army: Army | undefined, splits: Record<string, true>, deltas: Record<string, number>,
+): Unit[] {
+  return (army?.units ?? []).flatMap((raw) => {
+    const u = adjust(raw, deltas[raw.id]);
+    return splits[u.id] ? splitUnit(u).map((h) => adjust(h, deltas[h.id])) : [u];
+  });
+}
