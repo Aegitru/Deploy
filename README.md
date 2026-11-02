@@ -25,3 +25,11 @@ npm run build    # site statique dans dist/ (déployable tel quel sur Vercel)
 Sources : cartes et missions de [gdmissions.app](https://gdmissions.app/11th), socles du
 [Warhammer 40,000 Event Companion](https://assets.warhammer-community.com/eng_14-10_wh40k_event_companion-rdwnqprl4c-nj8oqogadv.pdf).
 Usage personnel : ces visuels appartiennent à leurs auteurs.
+
+## En ligne
+
+- App : https://deploy-five-kohl.vercel.app (Vercel, projet `deploy`, redéployé à chaque push sur `main`)
+- Code : https://github.com/Aegitru/Deploy
+- Comptes et batailles : Supabase, projet « Deploy » (organisation Aegitru's Org). Table `battles`
+  (une ligne par bataille, `data` = JSON de la bataille), protégée par RLS : chaque joueur ne voit que les siennes.
+  La clé publique et l'URL sont dans `src/lib/supabase.ts`.
