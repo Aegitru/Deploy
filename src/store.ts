@@ -21,13 +21,16 @@ export const DISPO_ABBR: Record<string, string> = {
   'priority-assets': 'PA',
 };
 
-/** Couleurs d'armée proposées ; rouge et bleu reprennent les zones attaquant / défenseur des cartes. */
+/**
+ * Couleurs d'armée proposées : vives et saturées, volontairement différentes des zones rouge / bleu
+ * des cartes (#9a4a48 / #375063) pour que les socles ressortent même dans leur zone de déploiement.
+ */
 export const ARMY_COLORS = {
-  red: { label: 'Rouge', fill: '#9a4a48', ink: '#fff4ef' },
-  blue: { label: 'Bleu', fill: '#375063', ink: '#eef5ff' },
-  yellow: { label: 'Jaune', fill: '#d4a52c', ink: '#1d1404' },
-  green: { label: 'Vert', fill: '#4f8a3c', ink: '#f2fbea' },
-  purple: { label: 'Violet', fill: '#8a4fc0', ink: '#f6eeff' },
+  red: { label: 'Rouge', fill: '#e8312a', ink: '#ffffff' },
+  blue: { label: 'Bleu', fill: '#1e8cff', ink: '#ffffff' },
+  yellow: { label: 'Jaune', fill: '#ffc21a', ink: '#1d1404' },
+  green: { label: 'Vert', fill: '#2fbf4a', ink: '#06210d' },
+  purple: { label: 'Violet', fill: '#a24dff', ink: '#ffffff' },
 } as const;
 export type ColorId = keyof typeof ARMY_COLORS;
 
