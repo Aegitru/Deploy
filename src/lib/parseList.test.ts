@@ -29,7 +29,7 @@ const EXPECTED = [
   'Hernkyn Pioneers (3) 3x90x52.5',
   'Hekaton Land Fortress (1) 1x170x105',
   'Kapricus Carrier (1) 1x105x70',
-  'Sagitaur (1) 1x130x80',
+  'Sagitaur (1) 1x105x68',
 ];
 
 describe('personnages à plusieurs figurines', () => {

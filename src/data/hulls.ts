@@ -26,24 +26,23 @@ export const HULLS: { match: RegExp; l: number; w: number }[] = [
   { match: /acastus/i, l: 180, w: 150 },
 
   // Chars et transports lourds
-  { match: /land raider/i, l: 165, w: 110 }, // mesuré : ~6.5" x 4"
-  { match: /rogal dorn/i, l: 165, w: 120 },
+  { match: /land raider/i, l: 178, w: 156 }, // mesuré : 7" x 6 1/8" sponsons compris
+  { match: /rogal dorn/i, l: 145, w: 136 }, // mesuré : 145 mm hors canon, 100 mm + 36 mm de sponsons
   { match: /battlewagon|gunwagon/i, l: 190, w: 120 },
-  { match: /leman russ/i, l: 140, w: 108 }, // mesuré : 5.5" x 4.25" lame comprise
+  { match: /leman russ/i, l: 127, w: 127 }, // mesuré : 5" x 5" sponsons compris (3" sans)
   { match: /castigator/i, l: 140, w: 105 },
-  { match: /predator/i, l: 117, w: 105 }, // châssis Rhino + sponsons
-  { match: /vindicator/i, l: 127, w: 76 }, // Rhino + lame de bulldozer
+  { match: /predator/i, l: 115, w: 105 }, // châssis Rhino + sponsons
+  { match: /vindicator/i, l: 125, w: 75 }, // châssis Rhino + lame de bulldozer
   { match: /exorcist/i, l: 125, w: 80 },
-  { match: /rhino|razorback|whirlwind|immolator/i, l: 117, w: 76 }, // mesuré : un Rhino modifié fait 5.75" x 3.25"
-  { match: /basilisk|deathstrike/i, l: 150, w: 86 }, // châssis Chimera, canon long
-  { match: /chimera|hellhound|hydra|wyvern|manticore/i, l: 125, w: 86 },
+  { match: /rhino|razorback|whirlwind|immolator/i, l: 115, w: 75 }, // mesuré : 11.5 x 7.5 cm
+  { match: /chimera|hellhound|hydra|wyvern|manticore|basilisk|deathstrike/i, l: 115, w: 87 }, // mesuré : 11.5 x 8.7 cm (nouveau kit)
   { match: /hippogriff/i, l: 130, w: 90 },
   { match: /skorpius/i, l: 150, w: 95 },
   { match: /plagueburst/i, l: 135, w: 95 },
-  { match: /sagitaur/i, l: 130, w: 80 },
+  { match: /sagitaur/i, l: 105, w: 68 }, // mesuré : 10.5 x 6.8 cm
   { match: /trukk/i, l: 135, w: 75 },
   { match: /goliath/i, l: 130, w: 80 },
-  { match: /taurox/i, l: 115, w: 75 },
+  { match: /taurox/i, l: 112, w: 71 }, // mesuré : 112 x 71 mm
   { match: /triarch stalker/i, l: 120, w: 120 },
   { match: /drop pod/i, l: 180, w: 180 }, // portes ouvertes
   { match: /hammerfall/i, l: 150, w: 150 },
