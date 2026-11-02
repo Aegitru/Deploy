@@ -59,7 +59,11 @@ type BattleData = {
   modelDelta: Record<string, number>; // socles ajoutés (+) ou retirés (-) à la main, par id d'unité
   detached: Record<string, number[]>; // composantes détachées d'une unité menée de la liste (indices)
   attached: Record<string, string>; // personnage attaché à la main → unité qu'il rejoint
+  lines: RulerLine[]; // lignes tracées au crayon (mesures)
 };
+
+/** Ligne droite tracée sur la table, extrémités en pouces */
+export type RulerLine = { id: string; a: { x: number; y: number }; b: { x: number; y: number } };
 
 export type SavedBattle = BattleData & { id: string; name: string; savedAt: number };
 
@@ -82,6 +86,8 @@ type State = BattleData & {
   importList: (side: Side, text: string) => Army;
   clearList: (side: Side) => void;
   addUnit: (side: Side, name: string, count: number, base: Base) => void;
+  addLine: (a: RulerLine['a'], b: RulerLine['b']) => void;
+  removeLine: (id: string) => void;
   place: (unit: Unit, x: number, y: number) => void;
   move: (unitId: string, positions: ModelPos[]) => void;
   remove: (unitId: string) => void;
@@ -102,7 +108,7 @@ type State = BattleData & {
   pullBattles: () => Promise<void>;
 };
 
-const EMPTY: BattleData = { mine: null, opp: null, layout: null, armies: {}, placed: {}, unitOpts: {}, splits: {}, colors: { me: 'red', opp: 'blue' }, modelDelta: {}, detached: {}, attached: {} };
+const EMPTY: BattleData = { mine: null, opp: null, layout: null, armies: {}, placed: {}, unitOpts: {}, splits: {}, colors: { me: 'red', opp: 'blue' }, modelDelta: {}, detached: {}, attached: {}, lines: [] };
 
 /** Applique les socles ajoutés/retirés à la main : on ajoute la taille de socle la plus courante, on retire les derniers. */
 export function adjust(unit: Unit, delta = 0): Unit {
@@ -237,7 +243,7 @@ async function pushBattle(b: SavedBattle) {
 
 const battleData = (s: BattleData): BattleData => ({
   mine: s.mine, opp: s.opp, layout: s.layout, armies: s.armies, placed: s.placed, unitOpts: s.unitOpts, splits: s.splits ?? {}, colors: s.colors ?? EMPTY.colors, modelDelta: s.modelDelta ?? {},
-  detached: s.detached ?? {}, attached: s.attached ?? {},
+  detached: s.detached ?? {}, attached: s.attached ?? {}, lines: s.lines ?? [],
 });
 
 const withoutSide = <T,>(rec: Record<string, T>, side: Side) =>
@@ -279,6 +285,8 @@ export const useStore = create<State>()(
         delete armies[side];
         set({ armies, placed: withoutSide(get().placed, side), unitOpts: withoutSide(get().unitOpts, side), splits: withoutSide(get().splits, side), modelDelta: withoutSide(get().modelDelta, side), detached: withoutSide(get().detached, side), attached: withoutSide(get().attached, side), selected: null });
       },
+      addLine: (a, b) => set({ lines: [...(get().lines ?? []), { id: crypto.randomUUID(), a, b }] }),
+      removeLine: (id) => set({ lines: (get().lines ?? []).filter((l) => l.id !== id) }),
       addUnit: (side, name, count, base) => {
         // Unité créée à la main : ajoutée à la liste importée (ou à une liste vide s'il n'y en a pas)
         const slot = get().armies[side] ?? { text: '', army: { name: 'Liste manuelle', faction: null, units: [], warnings: [] } };
@@ -449,7 +457,7 @@ export const useStore = create<State>()(
       // v1 : pas de vue ni de batailles sauvegardées ; on reprend la bataille en cours si elle existait.
       migrate: (old) => {
         const s = old as Partial<State>;
-        return { ...s, unitOpts: s.unitOpts ?? {}, splits: s.splits ?? {}, colors: s.colors ?? EMPTY.colors, modelDelta: s.modelDelta ?? {}, detached: s.detached ?? {}, attached: s.attached ?? {}, battles: s.battles ?? [], view: s.layout != null ? 'battle' : 'home' } as State;
+        return { ...s, unitOpts: s.unitOpts ?? {}, splits: s.splits ?? {}, colors: s.colors ?? EMPTY.colors, modelDelta: s.modelDelta ?? {}, detached: s.detached ?? {}, attached: s.attached ?? {}, lines: s.lines ?? [], battles: s.battles ?? [], view: s.layout != null ? 'battle' : 'home' } as State;
       },
     },
   ),

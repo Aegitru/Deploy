@@ -359,3 +359,24 @@ textarea:focus { outline: 1px solid var(--gold); }
   background: #2a2210; border-bottom: 1px solid var(--gold); font-size: 14px;
 }
 .attach-hint b { color: var(--gold-2); }
+
+/* Crayon : lignes mesurées */
+.zoom-ctrl .pen-btn { display: grid; place-items: center; }
+.zoom-ctrl .pen-btn.on { border-color: var(--gold); color: #1a1205; background: linear-gradient(180deg, #d8b85e, #a8852f); }
+.board.drawing { cursor: crosshair; }
+.ruler-hit { stroke: transparent; cursor: pointer; }
+.ruler-halo { stroke: #0b0a08; stroke-linecap: round; pointer-events: none; }
+.ruler-line { stroke: #fff; stroke-linecap: round; pointer-events: none; }
+.ruler.selected .ruler-line { stroke: var(--gold-2); }
+.ruler-end { fill: #fff; stroke: #0b0a08; pointer-events: none; }
+.ruler-label {
+  text-anchor: middle; font-family: var(--ui); font-weight: 700; fill: #fff; pointer-events: none;
+  paint-order: stroke; stroke: #0b0a08; stroke-linejoin: round;
+}
+.ruler.drafting .ruler-line { stroke-dasharray: 0.3 0.2; }
+.ruler-del { cursor: pointer; }
+.ruler-del circle { fill: var(--danger); stroke: #0b0a08; }
+.ruler-del path { stroke: #fff; stroke-linecap: round; }
+
+/* Zones : là où les zones de plusieurs unités se recouvrent, la couleur fonce (mélange multiplicatif) */
+.aura { mix-blend-mode: multiply; }

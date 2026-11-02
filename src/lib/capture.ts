@@ -9,6 +9,7 @@ const HEADER = 64;
 const STYLE_PROPS = [
   'fill', 'fill-opacity', 'stroke', 'stroke-width', 'stroke-dasharray', 'stroke-linejoin', 'opacity',
   'font-family', 'font-size', 'font-weight', 'letter-spacing', 'text-anchor', 'dominant-baseline', 'paint-order',
+  'mix-blend-mode', 'stroke-linecap',
 ];
 
 async function toDataUrl(url: string): Promise<string> {
@@ -38,7 +39,7 @@ export async function downloadBoardCapture(svg: SVGSVGElement, title: string, su
     (dst[i] as SVGElement).setAttribute('style', STYLE_PROPS.map((p) => `${p}:${cs.getPropertyValue(p)}`).join(';'));
   });
   // Ni sélection, ni trace de déplacement sur la capture
-  clone.querySelectorAll('.move-start, .move-distance').forEach((el) => el.remove());
+  clone.querySelectorAll('.move-start, .move-distance, .ruler-del, .ruler.drafting, .ruler-hit').forEach((el) => el.remove());
   clone.querySelectorAll('.unit.selected *').forEach((el) => (el as SVGElement).style.setProperty('stroke', '#0b0a08'));
 
   const w = 44 + 2 * MARGIN, h = 60 + 2 * MARGIN;

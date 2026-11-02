@@ -21,7 +21,7 @@ export const centroid = (ps: ModelPos[]): Pt => ({
 
 type Gesture =
   | { mode: 'none' }
-  | { mode: 'pan'; moved: boolean }
+  | { mode: 'pan'; moved: boolean; from?: Pt; line?: string; del?: string }
   | { mode: 'pinch'; dist: number }
   | { mode: 'drag'; unitId: string; idx: number | null; start: Pt; orig: ModelPos[]; moved: boolean };
 
@@ -32,11 +32,30 @@ export function Board({ image }: { image: string }) {
   const [preview, setPreview] = useState<{ unitId: string; positions: ModelPos[]; single: boolean } | null>(null);
   const [hovered, setHovered] = useState<string | null>(null);
   const [singleModel, setSingleModel] = useState(false);
+  // Crayon : actif, point de départ posé, position du curseur (aperçu à la souris), ligne sélectionnée
+  const [pen, setPen] = useState(false);
+  const [penStart, setPenStart] = useState<Pt | null>(null);
+  const [penHover, setPenHover] = useState<Pt | null>(null);
+  const [lineSel, setLineSel] = useState<string | null>(null);
   const pointers = useRef(new Map<number, Pt>());
   const gesture = useRef<Gesture>({ mode: 'none' });
 
   const store = useStore();
-  const { placed, unitOpts, selected, showLabels, toggleLabels, move, remove, select } = store;
+  const { placed, unitOpts, selected, showLabels, toggleLabels, move, remove, select, addLine, removeLine } = store;
+  const lines = store.lines ?? [];
+
+  // Un nouvel appui sur le crayon annule le tracé en cours et le désactive
+  const togglePen = () => {
+    setPen(!pen);
+    setPenStart(null);
+    setPenHover(null);
+    setLineSel(null);
+  };
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') { setPen(false); setPenStart(null); setLineSel(null); } };
+    addEventListener('keydown', onKey);
+    return () => removeEventListener('keydown', onKey);
+  }, []);
 
   const toSvg = (cx: number, cy: number): Pt => {
     const ctm = svgRef.current!.getScreenCTM()!.inverse();
@@ -98,7 +117,14 @@ export function Board({ image }: { image: string }) {
       return;
     }
     if (pointers.current.size > 2) return;
-    const el = (e.target as Element).closest('[data-unit]');
+    const from = { x: e.clientX, y: e.clientY };
+    // Crayon actif : un appui pose un point (un glisser fait défiler la table), les unités ne bougent pas
+    if (pen) { gesture.current = { mode: 'pan', moved: false, from }; return; }
+    const target = e.target as Element;
+    const del = target.closest('[data-line-del]')?.getAttribute('data-line-del');
+    const line = target.closest('[data-line]')?.getAttribute('data-line');
+    if (del || line) { gesture.current = { mode: 'pan', moved: false, from, del: del ?? undefined, line: line ?? undefined }; return; }
+    const el = target.closest('[data-unit]');
     const unitId = el?.getAttribute('data-unit');
     if (unitId && placed[unitId]) {
       const idx = Number((e.target as Element).getAttribute('data-idx'));
@@ -108,13 +134,14 @@ export function Board({ image }: { image: string }) {
         start: toSvg(e.clientX, e.clientY), orig: placed[unitId], moved: false,
       };
     } else {
-      gesture.current = { mode: 'pan', moved: false };
+      gesture.current = { mode: 'pan', moved: false, from };
     }
   };
 
   const onPointerMove = (e: React.PointerEvent) => {
     const prev = pointers.current.get(e.pointerId);
-    if (!prev) return;
+    // Souris au survol (bouton relâché) : aperçu de la ligne en cours de tracé
+    if (!prev) { if (pen && penStart) setPenHover(toSvg(e.clientX, e.clientY)); return; }
     const cur = { x: e.clientX, y: e.clientY };
     const g = gesture.current;
     if (g.mode === 'pinch') {
@@ -129,7 +156,9 @@ export function Board({ image }: { image: string }) {
     }
     pointers.current.set(e.pointerId, cur);
     if (g.mode === 'pan') {
-      if (Math.hypot(cur.x - prev.x, cur.y - prev.y) > 0) g.moved = true;
+      // Un léger tremblement du doigt reste un appui (utile pour poser les points du crayon)
+      if (!g.from || Math.hypot(cur.x - g.from.x, cur.y - g.from.y) > 6) g.moved = true;
+      if (!g.moved) return;
       const a = toSvg(prev.x, prev.y), b = toSvg(cur.x, cur.y);
       setVb((v) => ({ ...v, x: v.x + a.x - b.x, y: v.y + a.y - b.y }));
     } else if (g.mode === 'drag') {
@@ -153,7 +182,22 @@ export function Board({ image }: { image: string }) {
       else if (g.idx !== null && isOffBoard(preview.positions[g.idx])) move(g.unitId, g.orig);
       else move(g.unitId, preview.positions);
     }
-    if (g.mode === 'pan' && !g.moved) select(null);
+    if (g.mode === 'pan' && !g.moved) {
+      if (pen) {
+        // 1er appui : point de départ ; 2e appui : la ligne est tracée et le crayon se désactive
+        const p = toSvg(e.clientX, e.clientY);
+        if (!penStart) setPenStart(p);
+        else { addLine(penStart, p); setPen(false); setPenStart(null); setPenHover(null); }
+      } else if (g.del) {
+        removeLine(g.del);
+        setLineSel(null);
+      } else if (g.line) {
+        setLineSel(g.line === lineSel ? null : g.line);
+      } else {
+        select(null);
+        setLineSel(null);
+      }
+    }
     setPreview(null);
     gesture.current = pointers.current.size === 1 ? { mode: 'pan', moved: true } : { mode: 'none' };
   };
@@ -182,7 +226,7 @@ export function Board({ image }: { image: string }) {
     <div className="board-wrap">
       <svg
         ref={svgRef}
-        className="board"
+        className={`board${pen ? ' drawing' : ''}`}
         data-board
         viewBox={`${vb.x} ${vb.y} ${vb.w} ${vb.h}`}
         preserveAspectRatio="xMidYMid meet"
@@ -247,6 +291,17 @@ export function Board({ image }: { image: string }) {
             );
           })}
 
+        {/* Lignes du crayon : longueur au milieu ; une ligne touchée affiche une croix pour la supprimer */}
+        {lines.map((l) => (
+          <Ruler key={l.id} id={l.id} a={l.a} b={l.b} px={pxPerIn} selected={lineSel === l.id} />
+        ))}
+        {pen && penStart && (
+          <g className="ruler drafting" pointerEvents="none">
+            <circle cx={penStart.x} cy={penStart.y} r={4 / pxPerIn} className="ruler-end" />
+            {penHover && <Ruler a={penStart} b={penHover} px={pxPerIn} />}
+          </g>
+        )}
+
         {measure && (
           <text
             className={`move-distance ${dragging!.info!.side}`}
@@ -266,11 +321,50 @@ export function Board({ image }: { image: string }) {
 
       <div className="zoom-ctrl">
         <button className={`labels-btn ${showLabels ? 'on' : ''}`} onClick={toggleLabels} title="Afficher les noms des unités">Aa</button>
-        <button onClick={() => zoomAt({ x: vb.x + vb.w / 2, y: vb.y + vb.h / 2 }, 1.4)} aria-label="Zoomer">+</button>
-        <button onClick={() => zoomAt({ x: vb.x + vb.w / 2, y: vb.y + vb.h / 2 }, 1 / 1.4)} aria-label="Dézoomer">−</button>
-        <button onClick={() => setVb(FIT)} aria-label="Voir toute la table">⤢</button>
+        <button
+          className={`pen-btn ${pen ? 'on' : ''}`}
+          onClick={togglePen}
+          aria-pressed={pen}
+          aria-label="Crayon : tracer une ligne"
+          title={pen ? (penStart ? 'Touche le point d’arrivée (ou annule)' : 'Touche le point de départ (ou annule)') : 'Crayon : mesurer une ligne droite'}
+        >
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" aria-hidden>
+            <path d="M12.5 2.5l3 3L6 15H3v-3z" />
+            <path d="M10.5 4.5l3 3" />
+          </svg>
+        </button>
+        <button onClick={() => setVb(FIT)} aria-label="Voir toute la table" title="Voir toute la table">⤢</button>
       </div>
     </div>
+  );
+}
+
+/** Ligne mesurée : trait épais à liseré sombre, extrémités pointées et longueur en pouces. */
+function Ruler({ id, a, b, px, selected = false }: { id?: string; a: Pt; b: Pt; px: number; selected?: boolean }) {
+  const len = Math.hypot(b.x - a.x, b.y - a.y);
+  const mid = { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 };
+  const font = 14 / px;
+  const del = { x: mid.x, y: mid.y - font * 1.9 };
+  return (
+    <g className={`ruler${selected ? ' selected' : ''}`} data-line={id}>
+      <line className="ruler-hit" x1={a.x} y1={a.y} x2={b.x} y2={b.y} strokeWidth={16 / px} />
+      <line className="ruler-halo" x1={a.x} y1={a.y} x2={b.x} y2={b.y} strokeWidth={5 / px} />
+      <line className="ruler-line" x1={a.x} y1={a.y} x2={b.x} y2={b.y} strokeWidth={2.5 / px} />
+      <circle className="ruler-end" cx={a.x} cy={a.y} r={3.5 / px} strokeWidth={1.5 / px} />
+      <circle className="ruler-end" cx={b.x} cy={b.y} r={3.5 / px} strokeWidth={1.5 / px} />
+      <text className="ruler-label" x={mid.x} y={mid.y - font * 0.8} fontSize={font} strokeWidth={font * 0.35}>
+        {len.toFixed(1)}"
+      </text>
+      {selected && id && (
+        <g className="ruler-del" data-line-del={id}>
+          <circle cx={del.x} cy={del.y} r={11 / px} strokeWidth={1.5 / px} />
+          <path
+            d={`M${del.x - 4 / px} ${del.y - 4 / px}L${del.x + 4 / px} ${del.y + 4 / px}M${del.x + 4 / px} ${del.y - 4 / px}L${del.x - 4 / px} ${del.y + 4 / px}`}
+            strokeWidth={2 / px}
+          />
+        </g>
+      )}
+    </g>
   );
 }
 
