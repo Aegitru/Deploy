@@ -59,8 +59,6 @@ export function ArmyPanel({ side, onPlaced }: { side: Side; onPlaced?: () => voi
       setAttaching(null);
       return;
     }
-    // Unité menée : un appui la déplie (on la pose en la glissant)
-    if (isGroup(unit)) { toggle(unit.id); return; }
     if (placed[unit.id]) { select(unit.id); onPlaced?.(); return; }
     const c = boardApi.viewCenter?.();
     if (c) { place(unit, c.x, c.y); onPlaced?.(); }
@@ -96,7 +94,18 @@ export function ArmyPanel({ side, onPlaced }: { side: Side; onPlaced?: () => voi
       <span className="grip" aria-hidden>{child ? '↳' : '⠿'}</span>
       <span className="count">{u.models.length}</span>
       <span className="uname">{u.name}</span>
-      {isGroup(u) && <span className="chev" aria-hidden>{expanded.has(u.id) ? '▾' : '▸'}</span>}
+      {isGroup(u) && (
+        <button
+          className="chev-btn"
+          title={expanded.has(u.id) ? 'Replier' : 'Voir le personnage et l’escouade'}
+          aria-label={expanded.has(u.id) ? `Replier ${u.name}` : `Déplier ${u.name}`}
+          aria-expanded={expanded.has(u.id)}
+          onPointerDown={stop}
+          onClick={(e) => { stop(e); toggle(u.id); }}
+        >
+          {expanded.has(u.id) ? '▾' : '▸'}
+        </button>
+      )}
       {placed[u.id] && <span className="check">✓</span>}
       {u.models.some((m) => m.unknown) && <span className="warn" title="Socle inconnu : 32mm par défaut">?</span>}
       {!child && isLoneCharacter(u) && (

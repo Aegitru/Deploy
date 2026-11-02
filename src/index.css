@@ -343,7 +343,11 @@ textarea:focus { outline: 1px solid var(--gold); }
   background: none; border: 1px solid var(--line); color: var(--muted);
 }
 .chain-btn:hover, .chain-btn.on { border-color: var(--gold); color: var(--gold-2); }
-.unit-list .chev { color: var(--muted); font-size: 12px; }
+.chev-btn {
+  flex: none; width: 28px; height: 24px; padding: 0; background: none; border: 1px solid var(--line);
+  color: var(--muted); font-size: 13px; line-height: 1;
+}
+.chev-btn:hover, .chev-btn[aria-expanded="true"] { border-color: var(--gold); color: var(--gold-2); }
 .unit-list li.part-row { cursor: default; background: rgba(0, 0, 0, 0.18); }
 .unit-list li.attaching { background: #2a2210; }
 .unit-list li.attach-target { box-shadow: inset 2px 0 0 var(--gold); }
