@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useStore } from './store';
 import { supabase } from './lib/supabase';
-import { Auth } from './components/Auth';
+import { Auth, NewPassword } from './components/Auth';
 import { Home } from './components/Home';
 import { LoadBattles } from './components/LoadBattles';
 import { Setup } from './components/Setup';
@@ -10,10 +10,12 @@ import { Battle } from './components/Battle';
 export default function App() {
   const { view, mine, opp, layout, user, setUser, pullBattles } = useStore();
   const [ready, setReady] = useState(false);
+  const [recovery, setRecovery] = useState(false);
 
   // Session Supabase : à la connexion, on récupère les batailles du joueur
   useEffect(() => {
-    const { data } = supabase.auth.onAuthStateChange((_event, session) => {
+    const { data } = supabase.auth.onAuthStateChange((event, session) => {
+      if (event === 'PASSWORD_RECOVERY') setRecovery(true); // retour du lien « mot de passe oublié »
       const u = session?.user;
       setUser(u ? { id: u.id, email: u.email ?? '' } : null);
       setReady(true);
@@ -23,6 +25,7 @@ export default function App() {
   }, [setUser, pullBattles]);
 
   if (!ready) return null;
+  if (recovery) return <NewPassword onDone={() => setRecovery(false)} />;
   if (!user) return <Auth />;
   if (view === 'battle' && mine && opp && layout !== null) return <Battle />;
   if (view === 'setup') return <Setup />;

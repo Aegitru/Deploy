@@ -323,3 +323,5 @@ textarea:focus { outline: 1px solid var(--gold); }
 .auth-form { display: flex; flex-direction: column; gap: 14px; }
 .account { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 4px 10px; color: var(--muted); font-size: 14px; border-top: 1px solid var(--line); padding-top: 14px; }
 .account .warning { flex-basis: 100%; text-align: center; }
+.auth-title { font-family: var(--display); color: var(--gold-2); font-size: 18px; text-align: center; letter-spacing: 0.06em; }
+.auth-form .link-btn { align-self: center; }
