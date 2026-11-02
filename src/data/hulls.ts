@@ -74,3 +74,10 @@ export const FLYING = {
 };
 
 export const DEFAULT_BASE_MM = 32;
+
+// Chars antigrav : l'Event Companion leur donne un socle de vol, mais leur coque déborde largement.
+// On remplace ce socle par l'empreinte rectangulaire de la coque (sans les canons), mesurée à la main.
+export const BASED_HULLS: { match: RegExp; l: number; w: number }[] = [
+  { match: /repulsor/i, l: 150, w: 100 }, // mesuré : 15 x 10 cm sans les canons
+  { match: /impulsor|gladiator/i, l: 140, w: 95 }, // estimé (même châssis bas, plus court que le Repulsor)
+];

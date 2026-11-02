@@ -1,5 +1,5 @@
 import rawBases from '../data/bases.json';
-import { HULLS, DEFAULT_HULL, FLYING, DEFAULT_BASE_MM } from '../data/hulls';
+import { HULLS, DEFAULT_HULL, FLYING, DEFAULT_BASE_MM, BASED_HULLS } from '../data/hulls';
 
 /** Socle résolu, dimensions en mm. Les ovales et rectangles sont orientés grand axe horizontal. */
 export type Base =
@@ -91,6 +91,9 @@ function findEntry(faction: string | null, unit: string): RawEntry | null {
 }
 
 function resolve(raw: RawBase, unitName: string): Base {
+  // Char antigrav dont la coque déborde de son socle de vol : seule la coque compte sur la table
+  const overhang = BASED_HULLS.find((x) => x.match.test(unitName));
+  if (overhang) return { shape: 'rect', w: overhang.l, h: overhang.w };
   switch (raw.shape) {
     case 'circle':
     case 'oval':
