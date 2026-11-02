@@ -149,6 +149,9 @@ h1, h2, h3 { font-family: var(--display); font-weight: 600; margin: 0; letter-sp
 .army-panel { display: flex; flex-direction: column; }
 .army-head { display: flex; gap: 10px; align-items: center; padding: 12px 14px; border-bottom: 1px solid var(--line); }
 .army-head .army-dot { width: 14px; height: 14px; }
+.army-head .add-unit-btn { margin-left: auto; flex: none; font-size: 20px; }
+.army-head .panel-empty { padding: 0; }
+.field-row > span { color: var(--muted); }
 .army-name { font-family: var(--display); font-weight: 600; color: var(--gold-2); letter-spacing: 0.05em; }
 .army-sub { font-size: 13px; color: var(--muted); }
 .panel-empty { padding: 16px; color: var(--muted); font-size: 15px; }

@@ -2,6 +2,7 @@ import { Fragment, useRef, useState } from 'react';
 import { adjust, ARMY_COLORS, deployableUnits, partsOf, resolvedUnits, splitUnit, useStore, type ColorId, type Side } from '../store';
 import type { Unit } from '../lib/parseList';
 import { boardApi } from './Board';
+import { AddUnitModal } from './AddUnitModal';
 
 export const SIDE_TITLE: Record<Side, string> = { me: 'Mon armée', opp: 'Adversaire' };
 
@@ -21,8 +22,24 @@ export function ArmyPanel({ side, onPlaced }: { side: Side; onPlaced?: () => voi
   const justDragged = useRef(false);
   const [expanded, setExpanded] = useState<Set<string>>(new Set());
   const [attaching, setAttaching] = useState<string | null>(null); // personnage en attente d'une unité à rejoindre
+  const [adding, setAdding] = useState(false);
 
-  if (!slot) return <p className="panel-empty">Aucune liste. Ajoute-la avec le bouton « Listes ».</p>;
+  const addBtn = (
+    <button className="icon-btn add-unit-btn" onClick={() => setAdding(true)} title="Ajouter une unité" aria-label="Ajouter une unité">+</button>
+  );
+  const addModal = adding && <AddUnitModal side={side} onClose={() => setAdding(false)} />;
+
+  if (!slot) {
+    return (
+      <div className={`army-panel ${side}`}>
+        <div className="army-head">
+          <p className="panel-empty">Aucune liste. Ajoute-la avec le bouton « Listes ».</p>
+          {addBtn}
+        </div>
+        {addModal}
+      </div>
+    );
+  }
 
   const update = (d: Drag | null) => { dragRef.current = d; setDrag(d); };
 
@@ -159,7 +176,9 @@ export function ArmyPanel({ side, onPlaced }: { side: Side; onPlaced?: () => voi
           <div className="army-name">{slot.army.name}</div>
           <div className="army-sub">{slot.army.faction ?? 'Faction inconnue'} · {done}/{total} déployées</div>
         </div>
+        {addBtn}
       </div>
+      {addModal}
       {attaching && (
         <div className="attach-hint">
           <span>Touche l'unité que <b>{attachingName}</b> rejoint</span>

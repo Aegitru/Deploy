@@ -1,8 +1,8 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import missionsData from './data/missions.json';
-import { parseList, type Army, type Unit, type UnitPart } from './lib/parseList';
-import { baseSizeIn } from './lib/bases';
+import { initials, parseList, type Army, type Unit, type UnitPart } from './lib/parseList';
+import { baseSizeIn, type Base } from './lib/bases';
 import { supabase } from './lib/supabase';
 
 export type Side = 'me' | 'opp';
@@ -81,6 +81,7 @@ type State = BattleData & {
   setLayout: (i: number) => void;
   importList: (side: Side, text: string) => Army;
   clearList: (side: Side) => void;
+  addUnit: (side: Side, name: string, count: number, base: Base) => void;
   place: (unit: Unit, x: number, y: number) => void;
   move: (unitId: string, positions: ModelPos[]) => void;
   remove: (unitId: string) => void;
@@ -277,6 +278,17 @@ export const useStore = create<State>()(
         const armies = { ...get().armies };
         delete armies[side];
         set({ armies, placed: withoutSide(get().placed, side), unitOpts: withoutSide(get().unitOpts, side), splits: withoutSide(get().splits, side), modelDelta: withoutSide(get().modelDelta, side), detached: withoutSide(get().detached, side), attached: withoutSide(get().attached, side), selected: null });
+      },
+      addUnit: (side, name, count, base) => {
+        // Unité créée à la main : ajoutée à la liste importée (ou à une liste vide s'il n'y en a pas)
+        const slot = get().armies[side] ?? { text: '', army: { name: 'Liste manuelle', faction: null, units: [], warnings: [] } };
+        const id = `${side}-m${crypto.randomUUID().slice(0, 8)}`, label = initials(name);
+        const unit: Unit = {
+          id, name, label,
+          models: Array.from({ length: count }, () => ({ base, unknown: false })),
+          parts: [{ src: id, name, label, count, character: false }],
+        };
+        set({ armies: { ...get().armies, [side]: { ...slot, army: { ...slot.army, units: [...slot.army.units, unit] } } } });
       },
       place: (unit, x, y) => {
         const opts = get().unitOpts[unit.id] ?? defaultOpts(unit);

@@ -96,12 +96,6 @@ export function SelectionBar({ singleModel, setSingleModel, viewKey }: Props) {
         </span>
         <button onClick={() => move(selected, rotate(ps, -STEP))} aria-label="Pivoter à gauche" title="Pivoter de 45° à gauche">⟲</button>
         <button onClick={() => move(selected, rotate(ps, STEP))} aria-label="Pivoter à droite" title="Pivoter de 45° à droite">⟳</button>
-        <button className="model-btn" onClick={() => removeModel(selected)} disabled={ps.length <= 1} aria-label="Retirer un socle" title="Retirer un socle">
-          <ModelIcon sign="−" />
-        </button>
-        <button className="model-btn" onClick={() => addModel(selected)} aria-label="Ajouter un socle" title="Ajouter un socle">
-          <ModelIcon sign="+" />
-        </button>
         <button className={tools ? 'on' : ''} onClick={() => setTools(!tools)} title="Formation et zones">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><circle cx="3.5" cy="4" r="2" /><circle cx="8" cy="4" r="2" /><circle cx="12.5" cy="4" r="2" /><circle cx="5.7" cy="10" r="2" /><circle cx="10.3" cy="10" r="2" /><circle cx="8" cy="10" r="6" fill="none" stroke="currentColor" strokeWidth="1" strokeDasharray="2 1.5" opacity=".7" /></svg>
         </button>
@@ -109,6 +103,17 @@ export function SelectionBar({ singleModel, setSingleModel, viewKey }: Props) {
 
       {tools && (
         <div className="tools-panel">
+          <div className="tool-row">
+            <span>Figurines</span>
+            <div className="chips">
+              <button className="model-btn" onClick={() => removeModel(selected)} disabled={ps.length <= 1} aria-label="Retirer un socle" title="Retirer un socle">
+                <ModelIcon sign="−" />
+              </button>
+              <button className="model-btn" onClick={() => addModel(selected)} aria-label="Ajouter un socle" title="Ajouter un socle">
+                <ModelIcon sign="+" />
+              </button>
+            </div>
+          </div>
           {multi && (
             <>
               <div className="tool-row">
