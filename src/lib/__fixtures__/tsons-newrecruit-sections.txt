@@ -1,0 +1,62 @@
+Chaos - Thousand Sons - TS GC - [2000 pts]
+
+# ++ Army Roster ++ [2000 pts, 3 Detachment Points]
+## Configuration
+Battle Size: Strike Force (2000 Point limit)
+Detachment [3 Detachment Points]: Grand Coven [3 Detachment Points]
+Force Disposition: Priority Assets
+
+
+## Epic Hero [455 pts]
+Magnus the Red [455 pts]
+
+## Character [540 pts]
+Daemon Prince of Tzeentch with wings [205 pts]: Eldritch Vortex of E'taph [35 pts]
+Infernal Master [135 pts]: Umbralefic Crystal [30 pts]
+  • Leading: Rubric Marines[3]
+Sorcerer [100 pts]:
+  • Leading: Rubric Marines[1]
+Sorcerer [100 pts]:
+  • Leading: Rubric Marines[2]
+
+## Battleline [345 pts]
+Rubric Marines [115 pts]:
+• 1x Aspiring Sorcerer: Warpflame pistol
+• 1x Rubric Marine w/ soulreaper cannon: Icon of Flame
+• 3x Rubric Marine w/ warpflamer
+  • : Sorcerer[1]
+Rubric Marines [115 pts]:
+• 1x Aspiring Sorcerer: Warpflame pistol
+• 1x Rubric Marine w/ soulreaper cannon: Icon of Flame
+• 3x Rubric Marine w/ warpflamer
+  • : Sorcerer[2]
+Rubric Marines [115 pts]:
+• 1x Aspiring Sorcerer: Warpflame pistol
+• 1x Rubric Marine w/ soulreaper cannon: Icon of Flame
+• 3x Rubric Marine w/ warpflamer
+  • : Infernal Master
+
+## Infantry [75 pts]
+Tzaangors [75 pts]:
+• 1x Twistbray: Pistol and chainsword
+• 7x Tzaangor w/ pistol and chainsword
+• 1x Tzaangor w/ pistol and chainsword: Herd banner
+• 1x Tzaangor w/ pistol and chainsword: Brayhorn
+
+## Mounted [110 pts]
+Tzaangor Enlightened with Fatecaster greatbows [55 pts]:
+• 2x Enlightened
+Tzaangor Enlightened with Fatecaster greatbows [55 pts]:
+• 2x Enlightened
+
+## Beast [65 pts]
+Chaos Spawn [65 pts]
+
+
+## Dedicated Transport [80 pts]
+Chaos Rhino [80 pts]: Havoc launcher, 2x Inferno combi-bolter
+
+## Vehicle [330 pts]
+Defiler [330 pts]: Ectoplasma destructor, Two excruciator cannons, 2x Heavy reaper autocannon [15 pts]
+
+Created with newrecruit.eu v37.12

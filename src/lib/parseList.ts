@@ -123,7 +123,8 @@ function parseNewRecruit(lines: string[]): RawUnit[] {
   let first = true;
   for (const line of lines) {
     const t = line.trim();
-    if (!t) continue;
+    // Lignes vides et titres de section de l'export détaillé ("# ++ Army Roster ++", "## Epic Hero [455 pts]")
+    if (!t || t.startsWith('#')) continue;
     const u = line.match(/^(\S.*?)\s*\[(\d[\d,]*)\s*pts\]:?\s*(.*)$/i);
     if (u) {
       if (first) { first = false; continue; } // titre de la liste
@@ -137,10 +138,13 @@ function parseNewRecruit(lines: string[]): RawUnit[] {
     const text = b[2].trim();
     let m;
     if ((m = text.match(/^Leading:\s*(.+)$/i))) { cur.leading = cleanName(m[1]); continue; }
-    if ((m = text.match(/^Leaders?:\s*(.+)$/i))) { cur.leaders.push(...m[1].split(',').map(cleanName)); continue; }
+    // "Leader: Kâhl", ou sans libellé dans certains exports : "• : Sorcerer[1]"
+    if ((m = text.match(/^(?:Leaders?\s*)?:\s*(.+)$/i))) { cur.leaders.push(...m[1].split(',').map(cleanName)); continue; }
     const c = text.match(COUNT);
     if (!c) continue;
-    const [model, gear] = c[2].split(/\s+w\/\s+/);
+    // "Rubric Marine w/ soulreaper cannon: Icon of Flame" → figurine "Rubric Marine", équipement après "w/" ou ":"
+    const [model, ...gearParts] = c[2].split(/\s+w\/\s+|:\s*/);
+    const gear = gearParts.filter(Boolean).join(', ');
     const item = { count: +c[1], name: model.trim() };
     if (b[1].length > 0 && cur.lines.length) {
       cur.lines.at(-1)!.children.push(item); // équipement indenté sous une figurine

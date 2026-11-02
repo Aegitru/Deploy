@@ -430,3 +430,5 @@ export function deployableUnits(
     return splits[u.id] ? splitUnit(u).map((h) => adjust(h, deltas[h.id])) : [u];
   });
 }
+
+export const layoutLabel = (layout: number) => `Carte ${layout + 1}`;

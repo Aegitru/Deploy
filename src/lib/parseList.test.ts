@@ -32,6 +32,27 @@ const EXPECTED = [
   'Sagitaur (1) 1x105x68',
 ];
 
+describe('NewRecruit, export avec sections (## Epic Hero…)', () => {
+  it('ignore les titres de section et rattache les meneurs notés « • : Sorcerer[1] »', () => {
+    const a = parseList(fixture('tsons-newrecruit-sections.txt'), 'opp');
+    expect(a.faction).toBe('Thousand Sons');
+    expect(a.warnings).toEqual([]);
+    expect(a.units.map((u) => `${u.name} (${u.models.length})`)).toEqual([
+      'Magnus the Red (1)',
+      'Daemon Prince of Tzeentch with wings (1)',
+      'Sorcerer + Rubric Marines (6)',
+      'Sorcerer + Rubric Marines (6)',
+      'Infernal Master + Rubric Marines (6)',
+      'Tzaangors (10)',
+      'Tzaangor Enlightened with Fatecaster greatbows (2)',
+      'Tzaangor Enlightened with Fatecaster greatbows (2)',
+      'Chaos Spawn (1)',
+      'Chaos Rhino (1)',
+      'Defiler (1)',
+    ]);
+  });
+});
+
 describe('personnages à plusieurs figurines', () => {
   const ironMaster = (a: Army) => summary(a).find((s) => s.startsWith('Brôkhyr Iron-master'));
   it.each(['listhammer/188.txt', 'listhammer/191.txt'])('app officielle (%s) : Iron-master + assistant + E-COG', (f) => {
