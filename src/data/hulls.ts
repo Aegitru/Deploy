@@ -79,5 +79,6 @@ export const DEFAULT_BASE_MM = 32;
 // On remplace ce socle par l'empreinte rectangulaire de la coque (sans les canons), mesurée à la main.
 export const BASED_HULLS: { match: RegExp; l: number; w: number }[] = [
   { match: /repulsor/i, l: 150, w: 100 }, // mesuré : 15 x 10 cm sans les canons
-  { match: /impulsor|gladiator/i, l: 140, w: 95 }, // estimé (même châssis bas, plus court que le Repulsor)
+  { match: /impulsor|gladiator/i, l: 150, w: 100 }, // mesuré : 15 x 10 cm (même châssis que le Repulsor)
+  { match: /wave serpent|falcon|fire prism|night spinner/i, l: 191, w: 140 }, // mesuré : 7.5" x 5.5"
 ];
