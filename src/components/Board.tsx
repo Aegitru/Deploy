@@ -167,6 +167,16 @@ export function Board({ image }: { image: string }) {
   const dragging = preview && units.find((u) => u.id === preview.unitId);
   const removing = !!dragging && !preview.single && isOffBoard(centroid(dragging.ps));
 
+  // Pendant un déplacement : point de départ (positions encore dans le store) et distance parcourue
+  const start = dragging ? placed[dragging.id] : null;
+  let measure: { from: Pt; to: Pt; dist: number } | null = null;
+  if (dragging && start && !removing) {
+    const moved = preview.single ? dragging.ps.findIndex((p, i) => p.x !== start[i].x || p.y !== start[i].y) : -1;
+    const from = moved >= 0 ? start[moved] : centroid(start);
+    const to = moved >= 0 ? dragging.ps[moved] : centroid(dragging.ps);
+    measure = { from, to, dist: Math.hypot(to.x - from.x, to.y - from.y) };
+  }
+
   return (
     <div className="board-wrap">
       <svg
@@ -194,6 +204,16 @@ export function Board({ image }: { image: string }) {
             </g>
           );
         })}
+
+        {dragging && start && measure && (
+          <g className={`move-start ${dragging.info!.side}`} pointerEvents="none" strokeWidth={stroke}>
+            {start.map((p, i) => (
+              <Expanded key={i} base={dragging.info!.unit.models[i]?.base} pos={p} by={0} />
+            ))}
+            <line x1={measure.from.x} y1={measure.from.y} x2={measure.to.x} y2={measure.to.y} strokeWidth={stroke * 1.5} strokeDasharray={`${4 / pxPerIn} ${3 / pxPerIn}`} />
+            <circle cx={measure.from.x} cy={measure.from.y} r={3 / pxPerIn} />
+          </g>
+        )}
 
         {units.map(({ id, ps, info }) => {
           const { unit, side } = info!;
@@ -225,6 +245,18 @@ export function Board({ image }: { image: string }) {
               </text>
             );
           })}
+
+        {measure && (
+          <text
+            className={`move-distance ${dragging!.info!.side}`}
+            x={(measure.from.x + measure.to.x) / 2}
+            y={(measure.from.y + measure.to.y) / 2 - labelSize * 0.6}
+            fontSize={labelSize * 1.3}
+            strokeWidth={labelSize * 0.35}
+          >
+            {measure.dist.toFixed(1)}"
+          </text>
+        )}
       </svg>
 
       {removing && <div className="drop-hint">Relâcher pour retirer de la table</div>}

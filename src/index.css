@@ -325,3 +325,13 @@ textarea:focus { outline: 1px solid var(--gold); }
 .account .warning { flex-basis: 100%; text-align: center; }
 .auth-title { font-family: var(--display); color: var(--gold-2); font-size: 18px; text-align: center; letter-spacing: 0.06em; }
 .auth-form .link-btn { align-self: center; }
+
+/* Déplacement en cours : socles de départ estompés, trajet et distance en pouces */
+.move-start { fill: var(--me); fill-opacity: 0.35; stroke: #0b0a08; stroke-dasharray: 0.15 0.1; }
+.move-start.opp { fill: var(--opp); }
+.move-start line { stroke: #0b0a08; }
+.move-start > circle:last-child { fill: #0b0a08; fill-opacity: 1; stroke: #fff; stroke-dasharray: none; }
+.move-distance {
+  text-anchor: middle; font-family: var(--ui); font-weight: 700; fill: #fff; pointer-events: none;
+  paint-order: stroke; stroke: #0b0a08; stroke-linejoin: round;
+}

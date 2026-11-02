@@ -7,6 +7,9 @@ import { LoadBattles } from './components/LoadBattles';
 import { Setup } from './components/Setup';
 import { Battle } from './components/Battle';
 
+// En développement uniquement : VITE_SKIP_AUTH=1 permet de tester la table sans compte (batailles non synchronisées)
+const SKIP_AUTH = import.meta.env.DEV && import.meta.env.VITE_SKIP_AUTH === '1';
+
 export default function App() {
   const { view, mine, opp, layout, user, setUser, pullBattles } = useStore();
   const [ready, setReady] = useState(false);
@@ -26,7 +29,7 @@ export default function App() {
 
   if (!ready) return null;
   if (recovery) return <NewPassword onDone={() => setRecovery(false)} />;
-  if (!user) return <Auth />;
+  if (!user && !SKIP_AUTH) return <Auth />;
   if (view === 'battle' && mine && opp && layout !== null) return <Battle />;
   if (view === 'setup') return <Setup />;
   if (view === 'load') return <LoadBattles />;
