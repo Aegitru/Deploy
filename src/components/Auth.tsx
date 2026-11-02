@@ -1,10 +1,12 @@
 import { useState } from 'react';
 import { authErrorFr, supabase } from '../lib/supabase';
+import { useStore } from '../store';
 
 type Mode = 'login' | 'signup' | 'forgot';
 
 /** Connexion ou création de compte (e-mail + mot de passe) : les batailles sont stockées par joueur. */
 export function Auth() {
+  const setGuest = useStore((s) => s.setGuest);
   const [mode, setMode] = useState<Mode>('login');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -43,6 +45,9 @@ export function Auth() {
         <h1>Deploy5</h1>
       </header>
       <form className="auth-form" onSubmit={submit}>
+        {mode !== 'forgot' && (
+          <p className="auth-intro">Optionnel : crée un compte pour conserver tes déploiements d'un appareil à l'autre.</p>
+        )}
         {mode === 'forgot' ? (
           <div className="auth-title">Mot de passe oublié</div>
         ) : (
@@ -72,6 +77,11 @@ export function Auth() {
         </button>
         {mode === 'login' && <button type="button" className="link-btn" onClick={() => switchTo('forgot')}>Mot de passe oublié ?</button>}
         {mode === 'forgot' && <button type="button" className="link-btn" onClick={() => switchTo('login')}>‹ Retour à la connexion</button>}
+        {mode !== 'forgot' && (
+          <button type="button" className="btn wide guest-btn" onClick={() => setGuest(true)}>
+            Continuer sans compte
+          </button>
+        )}
       </form>
     </div>
   );

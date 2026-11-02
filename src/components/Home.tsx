@@ -2,7 +2,7 @@ import { useStore } from '../store';
 import { supabase } from '../lib/supabase';
 
 export function Home() {
-  const { newBattle, go, battles, layout, mine, opp, user, syncError } = useStore();
+  const { newBattle, go, battles, layout, mine, opp, user, syncError, setGuest } = useStore();
   const canResume = layout !== null && !!mine && !!opp;
 
   return (
@@ -18,11 +18,18 @@ export function Home() {
         </button>
         {canResume && <button className="link-btn" onClick={() => go('battle')}>Reprendre la bataille en cours ›</button>}
       </div>
-      <footer className="account">
-        <span>{user?.email}</span>
-        <button className="link-btn" onClick={() => supabase.auth.signOut()}>Se déconnecter</button>
-        {syncError && <p className="warning">Synchronisation impossible : {syncError}</p>}
-      </footer>
+      {user ? (
+        <footer className="account">
+          <span>{user.email}</span>
+          <button className="link-btn" onClick={() => supabase.auth.signOut()}>Se déconnecter</button>
+          {syncError && <p className="warning">Synchronisation impossible : {syncError}</p>}
+        </footer>
+      ) : (
+        <footer className="account">
+          <span className="guest-note">Sans compte : tes déploiements restent sur cet appareil.</span>
+          <button className="link-btn" onClick={() => setGuest(false)}>Se connecter / créer un compte</button>
+        </footer>
+      )}
     </div>
   );
 }

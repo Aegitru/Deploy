@@ -383,3 +383,8 @@ textarea:focus { outline: 1px solid var(--gold); }
 .ruler.selected .ruler-end { fill: var(--gold-2); }
 .ruler-handle { cursor: grab; }
 .ruler-end-hit { fill: transparent; }
+
+/* Connexion facultative */
+.auth-intro { margin: 0; text-align: center; color: var(--muted); font-size: 15px; }
+.auth-form .guest-btn { margin-top: 6px; }
+.account .guest-note { flex-basis: 100%; text-align: center; }

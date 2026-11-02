@@ -77,7 +77,9 @@ type State = BattleData & {
   selected: string | null;
   showLabels: boolean;
   user: { id: string; email: string } | null; // joueur connecté (session gérée par Supabase)
+  guest: boolean; // « Continuer sans compte » : batailles gardées sur cet appareil uniquement
   syncError: string | null;
+  setGuest: (guest: boolean) => void;
 
   go: (view: View) => void;
   newBattle: () => void;
@@ -261,7 +263,9 @@ export const useStore = create<State>()(
       selected: null,
       showLabels: false,
       user: null,
+      guest: false,
       syncError: null,
+      setGuest: (guest) => set({ guest }),
 
       go: (view) => set({ view, selected: null }),
       newBattle: () => set({ ...EMPTY, currentId: null, currentName: '', view: 'setup', selected: null }),
@@ -428,7 +432,7 @@ export const useStore = create<State>()(
       deleteBattle: (id) => {
         const s = get();
         set({ battles: s.battles.filter((b) => b.id !== id), ...(s.currentId === id ? { currentId: null } : {}) });
-        void supabase.from('battles').delete().eq('id', id).then(({ error }) => error && set({ syncError: error.message }));
+        if (s.user) void supabase.from('battles').delete().eq('id', id).then(({ error }) => error && set({ syncError: error.message }));
       },
       setUser: (user) => {
         const prev = get().user;
@@ -436,7 +440,8 @@ export const useStore = create<State>()(
           // Changement de joueur sur cet appareil : on ne garde rien du précédent
           set({ ...EMPTY, battles: [], currentId: null, currentName: '', view: 'home', selected: null });
         }
-        set({ user });
+        // Connexion depuis le mode sans compte : les batailles de l'appareil rejoignent le compte (cf. pullBattles)
+        set(user ? { user, guest: false } : { user });
       },
       pullBattles: async () => {
         const { data, error } = await supabase.from('battles').select('id, name, data, saved_at');
@@ -454,7 +459,7 @@ export const useStore = create<State>()(
       name: 'deploy40k-v1',
       version: 2,
       partialize: (s) => ({
-        ...battleData(s), view: s.view, currentId: s.currentId, currentName: s.currentName, battles: s.battles, showLabels: s.showLabels,
+        ...battleData(s), view: s.view, currentId: s.currentId, currentName: s.currentName, battles: s.battles, showLabels: s.showLabels, guest: s.guest,
       }),
       // v1 : pas de vue ni de batailles sauvegardées ; on reprend la bataille en cours si elle existait.
       migrate: (old) => {

@@ -5,7 +5,7 @@ import { downloadBoardCapture } from '../lib/capture';
 const slug = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/gi, '-').replace(/^-|-$/g, '').toLowerCase();
 
 export function SaveModal({ onClose }: { onClose: () => void }) {
-  const { currentId, currentName, mine, opp, layout, saveBattle } = useStore();
+  const { currentId, currentName, mine, opp, layout, saveBattle, user } = useStore();
   const [name, setName] = useState(currentName);
   const [capturing, setCapturing] = useState(false);
   const ok = name.trim().length > 0;
@@ -43,7 +43,7 @@ export function SaveModal({ onClose }: { onClose: () => void }) {
             <span className="bdispo">{DISPO_ABBR[mine!]} vs {DISPO_ABBR[opp!]}</span>
           </div>
         </label>
-        <p className="note left">Listes, carte et placements sont enregistrés dans ton compte.</p>
+        <p className="note left">Listes, carte et placements sont enregistrés {user ? 'dans ton compte' : 'sur cet appareil (sans compte)'}.</p>
         <div className="modal-actions">
           <button type="button" className="btn ghost capture-btn" disabled={capturing} onClick={capture} title="Image PNG de la table avec les unités placées">
             {capturing ? '…' : '⤓ Télécharger une capture'}

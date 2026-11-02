@@ -11,7 +11,7 @@ import { Battle } from './components/Battle';
 const SKIP_AUTH = import.meta.env.DEV && import.meta.env.VITE_SKIP_AUTH === '1';
 
 export default function App() {
-  const { view, mine, opp, layout, user, setUser, pullBattles } = useStore();
+  const { view, mine, opp, layout, user, guest, setUser, pullBattles } = useStore();
   const [ready, setReady] = useState(false);
   const [recovery, setRecovery] = useState(false);
 
@@ -29,7 +29,7 @@ export default function App() {
 
   if (!ready) return null;
   if (recovery) return <NewPassword onDone={() => setRecovery(false)} />;
-  if (!user && !SKIP_AUTH) return <Auth />;
+  if (!user && !guest && !SKIP_AUTH) return <Auth />;
   if (view === 'battle' && mine && opp && layout !== null) return <Battle />;
   if (view === 'setup') return <Setup />;
   if (view === 'load') return <LoadBattles />;
