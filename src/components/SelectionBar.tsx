@@ -59,14 +59,14 @@ function useAnchor(selected: string | null, deps: string) {
     const box = el.parentElement.getBoundingClientRect();
     const me = el.getBoundingClientRect();
     const u = unit.getBoundingClientRect();
-    // Surface masquée si le menu était placé à (left, top) ; en haut il est à gauche, en bas à droite (cf. CSS)
+    // Surface masquée si le menu était placé à (left, top) ; il est toujours aligné à gauche (cf. CSS)
     const overlap = (left: number, top: number) => {
       const h = Math.max(0, Math.min(top + me.height, u.bottom) - Math.max(top, u.top));
       const w = Math.max(0, Math.min(left + me.width, u.right) - Math.max(left, u.left));
       return h * w;
     };
     const atTop = overlap(box.left + 10, box.top + 10);
-    const atBottom = overlap(box.right - 58 - me.width, box.bottom - 10 - me.height);
+    const atBottom = overlap(box.left + 10, box.bottom - 10 - me.height);
     setAnchor(atTop === 0 ? 'top' : atBottom < atTop ? 'bottom' : 'top');
   }, [selected, deps]);
   return { ref, anchor };

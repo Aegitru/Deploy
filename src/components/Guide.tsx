@@ -32,7 +32,7 @@ const SECTIONS: Section[] = [
     points: [
       <><b>☰ Listes</b> : colle l'export texte de l'<b>app officielle</b> ou de <b>NewRecruit</b>, ou charge un fichier .txt.</>,
       <>Un onglet par camp : <b>Mon armée</b> et <b>Adversaire</b>. Les tailles de socle viennent de l'Event Companion.</>,
-      <>Dans la liste d'une armée : la <b>pastille</b> change sa couleur, le <b>+</b> ajoute une unité à la main (socle rond, ovale ou frame).</>,
+      <>Importer la liste adverse <b>n'est pas obligatoire</b> : tu peux t'entraîner avec ta seule armée.</>,
     ],
   },
   {
@@ -50,7 +50,7 @@ const SECTIONS: Section[] = [
     id: 'deployer',
     title: 'Poser et déplacer les unités',
     points: [
-      <><b>Glisse</b> une unité de la liste vers la carte (au doigt : <b>appui long</b> sur la ligne puis glisse), ou <b>touche-la</b> pour la poser au centre de la vue.</>,
+      <>Sur ordinateur, <b>glisse</b> une unité de la liste vers la carte. Sur téléphone, <b>touche-la</b> dans la liste : elle apparaît au centre de la vue.</>,
       <>Glisse une unité posée pour la déplacer : son point de départ et la <b>distance parcourue</b> s'affichent.</>,
       <>Relâche une unité <b>hors de la table</b> pour la retirer.</>,
       <>Les unités déjà posées descendent en bas de la liste avec un ✓.</>,
@@ -68,9 +68,11 @@ const SECTIONS: Section[] = [
   },
   {
     id: 'unites',
-    title: 'Personnages, unités menées et split',
+    title: 'Vue de la liste',
     image: { src: img('list-panel'), alt: 'Liste avec une unité menée dépliée' },
     points: [
+      <>Un clic sur la <b>pastille</b> permet de changer la couleur du joueur et de ses figurines.</>,
+      <>Le <b>+</b> ajoute une unité à la main : nom, nombre de socles, socle rond, ovale ou frame.</>,
       <>Le <b>chevron ▸</b> déplie une unité menée : une ligne par personnage ou escouade, et la <b>chaîne coupée</b> pour la détacher.</>,
       <>La <b>chaîne</b> d'un personnage seul l'attache : touche ensuite l'unité qu'il rejoint.</>,
       <><b>Split</b> coupe une unité en deux moitiés égales ; <b>Réunir</b> les rassemble.</>,
