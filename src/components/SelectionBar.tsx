@@ -24,6 +24,7 @@ const AURAS = [
   { v: 0, label: 'Aucune' },
   { v: 1, label: '1"' },
   { v: 2, label: '2"' },
+  { v: 3, label: '3"' },
   { v: 6, label: '6"' },
   { v: 8, label: '8"' },
   { v: 12, label: '12"' },
@@ -58,14 +59,14 @@ function useAnchor(selected: string | null, deps: string) {
     const box = el.parentElement.getBoundingClientRect();
     const me = el.getBoundingClientRect();
     const u = unit.getBoundingClientRect();
-    // Surface masquée si le menu était placé à (left, top) ; en haut il est centré, en bas aligné à gauche (cf. CSS)
+    // Surface masquée si le menu était placé à (left, top) ; en haut il est à gauche, en bas à droite (cf. CSS)
     const overlap = (left: number, top: number) => {
       const h = Math.max(0, Math.min(top + me.height, u.bottom) - Math.max(top, u.top));
       const w = Math.max(0, Math.min(left + me.width, u.right) - Math.max(left, u.left));
       return h * w;
     };
-    const atTop = overlap(box.left + (box.width - me.width) / 2, box.top + 10);
-    const atBottom = overlap(box.left + 10, box.bottom - 10 - me.height);
+    const atTop = overlap(box.left + 10, box.top + 10);
+    const atBottom = overlap(box.right - 58 - me.width, box.bottom - 10 - me.height);
     setAnchor(atTop === 0 ? 'top' : atBottom < atTop ? 'bottom' : 'top');
   }, [selected, deps]);
   return { ref, anchor };

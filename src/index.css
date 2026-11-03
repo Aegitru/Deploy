@@ -126,8 +126,8 @@ h1, h2, h3 { font-family: var(--display); font-weight: 600; margin: 0; letter-sp
 .zoom-ctrl button:hover { border-color: var(--gold); color: var(--gold-2); }
 
 .selection-wrap {
-  position: absolute; top: 10px; left: 50%; transform: translateX(-50%); max-width: calc(100% - 20px);
-  display: flex; flex-direction: column; align-items: center; gap: 6px; width: max-content;
+  position: absolute; top: 10px; left: 10px; max-width: calc(100% - 20px);
+  display: flex; flex-direction: column; align-items: flex-start; gap: 6px; width: max-content;
 }
 .selection-bar {
   max-width: 100%;
@@ -157,12 +157,12 @@ h1, h2, h3 { font-family: var(--display); font-weight: 600; margin: 0; letter-sp
 .panel-empty { padding: 16px; color: var(--muted); font-size: 15px; }
 .unit-list { list-style: none; margin: 0; padding: 4px 0; }
 .unit-list li {
-  display: flex; align-items: center; gap: 8px; padding: 8px 12px 8px 6px; cursor: grab; user-select: none;
+  display: flex; align-items: center; gap: 8px; padding: 8px 12px; cursor: grab; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none;
   border-bottom: 1px solid rgba(59, 51, 37, 0.45); touch-action: pan-y;
 }
 .unit-list li:hover { background: var(--panel); }
 .unit-list li.placed { opacity: 0.5; }
-.unit-list .grip { color: var(--line-2); font-size: 18px; padding: 0 4px; touch-action: none; }
+.unit-list .indent { color: var(--line-2); font-size: 14px; padding: 0 2px; }
 .unit-list .count {
   min-width: 28px; text-align: center; font-weight: 700; font-size: 14px; padding: 1px 4px;
   border: 1px solid var(--line-2); color: var(--gold);
@@ -277,9 +277,8 @@ textarea:focus { outline: 1px solid var(--gold); }
 }
 .chips button:hover { border-color: var(--line-2); }
 .chips button.on { border-color: var(--gold); color: var(--gold-2); background: #2a2210; }
-.aura { opacity: 0.22; }
-.aura.me { fill: var(--me); }
-.aura.opp { fill: var(--opp); }
+.aura.me { stroke: var(--me); }
+.aura.opp { stroke: var(--opp); }
 .zoom-ctrl .labels-btn { font-size: 15px; font-weight: 700; margin-bottom: 6px; }
 .zoom-ctrl .labels-btn.on { border-color: var(--gold); color: var(--gold-2); }
 
@@ -296,11 +295,11 @@ textarea:focus { outline: 1px solid var(--gold); }
 .unit-list li.split-parent { cursor: default; color: var(--muted); border-bottom-style: dashed; }
 .unit-list li.split-parent .count { color: var(--muted); border-color: var(--line); }
 .unit-list li.child { padding-left: 22px; }
-.unit-list li.child .grip { font-size: 14px; }
-/* Menu d'unité ancré en bas quand il masquerait l'unité ; aligné à gauche pour laisser la colonne de zoom libre */
+
+/* Menu d'unité : en haut à gauche ; en bas à droite (à côté de la colonne d'outils) quand il masquerait l'unité */
 .selection-wrap.bottom {
-  top: auto; bottom: 10px; left: 10px; transform: none; align-items: flex-start;
-  flex-direction: column-reverse; max-width: calc(100% - 72px);
+  top: auto; bottom: 10px; left: auto; right: 58px; align-items: flex-end;
+  flex-direction: column-reverse; max-width: calc(100% - 68px);
 }
 
 /* Couleur d'armée */
@@ -378,8 +377,6 @@ textarea:focus { outline: 1px solid var(--gold); }
 .ruler-del circle { fill: var(--danger); stroke: #0b0a08; }
 .ruler-del path { stroke: #fff; stroke-linecap: round; }
 
-/* Zones : là où les zones de plusieurs unités se recouvrent, la couleur fonce (mélange multiplicatif) */
-.aura { mix-blend-mode: multiply; }
 .ruler.selected .ruler-end { fill: var(--gold-2); }
 .ruler-handle { cursor: grab; }
 .ruler-end-hit { fill: transparent; }
@@ -402,3 +399,23 @@ textarea:focus { outline: 1px solid var(--gold); }
   border-top: 0; border-bottom-color: #e6c86f;
 }
 @keyframes hint-in { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
+
+/* ---------- Guide ---------- */
+.guide { gap: 18px; }
+.guide-link { margin-top: 4px; color: var(--gold); }
+.guide-intro { margin: 0; font-size: 17px; line-height: 1.45; }
+.guide-toc { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 4px 16px; padding: 12px 14px; background: var(--panel); border: 1px solid var(--line); }
+.guide-toc a { color: var(--muted); text-decoration: none; font-size: 15px; }
+.guide-toc a:hover { color: var(--gold-2); }
+.guide-section { scroll-margin-top: 12px; padding-top: 6px; border-top: 1px solid var(--line); }
+.guide-section h3 { display: flex; align-items: center; gap: 10px; color: var(--gold-2); font-size: 19px; margin-bottom: 8px; }
+.guide-section h3 span {
+  display: grid; place-items: center; width: 26px; height: 26px; flex: none; font-size: 14px;
+  color: #1a1205; background: linear-gradient(180deg, #d8b85e, #a8852f); clip-path: var(--cut);
+}
+.guide-section ul { margin: 0 0 10px; padding-left: 20px; display: flex; flex-direction: column; gap: 5px; font-size: 16px; line-height: 1.4; }
+.guide-section b { color: var(--gold-2); font-weight: 600; }
+.guide-section img { display: block; width: auto; max-width: 100%; max-height: 560px; margin: 4px auto 0; border: 1px solid var(--line-2); box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); }
+
+/* Le texte de la carte est mesuré en pouces : pas d'espacement hérité de la page (il serait énorme) */
+.board { letter-spacing: 0; }

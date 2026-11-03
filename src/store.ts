@@ -67,7 +67,7 @@ export type RulerLine = { id: string; a: { x: number; y: number }; b: { x: numbe
 
 export type SavedBattle = BattleData & { id: string; name: string; savedAt: number };
 
-export type View = 'home' | 'setup' | 'load' | 'battle';
+export type View = 'home' | 'setup' | 'load' | 'battle' | 'guide';
 
 type State = BattleData & {
   view: View;

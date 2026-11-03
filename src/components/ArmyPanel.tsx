@@ -1,4 +1,4 @@
-import { Fragment, useRef, useState } from 'react';
+import { Fragment, useEffect, useRef, useState } from 'react';
 import { adjust, ARMY_COLORS, deployableUnits, partsOf, resolvedUnits, splitUnit, useStore, type ColorId, type Side } from '../store';
 import type { Unit } from '../lib/parseList';
 import { boardApi } from './Board';
@@ -23,6 +23,14 @@ export function ArmyPanel({ side, onPlaced }: { side: Side; onPlaced?: () => voi
   const [expanded, setExpanded] = useState<Set<string>>(new Set());
   const [attaching, setAttaching] = useState<string | null>(null); // personnage en attente d'une unité à rejoindre
   const [adding, setAdding] = useState(false);
+  const holdTimer = useRef<number | undefined>(undefined);
+
+  // Pendant un glisser au doigt, la liste ne doit pas défiler
+  useEffect(() => {
+    const block = (e: TouchEvent) => { if (dragRef.current?.active) e.preventDefault(); };
+    document.addEventListener('touchmove', block, { passive: false });
+    return () => document.removeEventListener('touchmove', block);
+  }, []);
 
   const addBtn = (
     <button className="icon-btn add-unit-btn" onClick={() => setAdding(true)} title="Ajouter une unité" aria-label="Ajouter une unité">+</button>
@@ -44,19 +52,32 @@ export function ArmyPanel({ side, onPlaced }: { side: Side; onPlaced?: () => voi
   const update = (d: Drag | null) => { dragRef.current = d; setDrag(d); };
 
   const onDown = (e: React.PointerEvent, unit: Unit) => {
-    // Au doigt, seule la poignée déclenche le glisser : le reste de la ligne laisse défiler la liste.
-    const fromGrip = (e.target as Element).closest('.grip');
-    if (e.pointerType !== 'mouse' && !fromGrip) return;
-    (e.currentTarget as Element).setPointerCapture(e.pointerId);
-    update({ unit, x: e.clientX, y: e.clientY, startX: e.clientX, startY: e.clientY, active: false });
+    const el = e.currentTarget as Element, id = e.pointerId;
+    const d: Drag = { unit, x: e.clientX, y: e.clientY, startX: e.clientX, startY: e.clientY, active: false };
+    if (e.pointerType === 'mouse') { el.setPointerCapture(id); update(d); return; }
+    // Au doigt : un appui long saisit l'unité (un geste rapide fait simplement défiler la liste)
+    update(d);
+    window.clearTimeout(holdTimer.current);
+    holdTimer.current = window.setTimeout(() => {
+      const cur = dragRef.current;
+      if (!cur) return;
+      try { el.setPointerCapture(id); } catch { /* doigt déjà levé */ }
+      navigator.vibrate?.(15);
+      update({ ...cur, active: true });
+    }, 350);
   };
   const onMove = (e: React.PointerEvent) => {
     const d = dragRef.current;
     if (!d) return;
-    const active = d.active || Math.hypot(e.clientX - d.startX, e.clientY - d.startY) > 6;
-    update({ ...d, x: e.clientX, y: e.clientY, active });
+    const far = Math.hypot(e.clientX - d.startX, e.clientY - d.startY) > 8;
+    if (e.pointerType !== 'mouse' && !d.active) {
+      if (far) { window.clearTimeout(holdTimer.current); update(null); } // c'est un défilement
+      return;
+    }
+    update({ ...d, x: e.clientX, y: e.clientY, active: d.active || far });
   };
   const onUp = (e: React.PointerEvent) => {
+    window.clearTimeout(holdTimer.current);
     const d = dragRef.current;
     update(null);
     if (!d?.active) return;
@@ -108,7 +129,7 @@ export function ArmyPanel({ side, onPlaced }: { side: Side; onPlaced?: () => voi
       onPointerCancel={() => update(null)}
       onClick={() => onTap(u)}
     >
-      <span className="grip" aria-hidden>{child ? '↳' : '⠿'}</span>
+      {child && <span className="indent" aria-hidden>↳</span>}
       <span className="count">{u.models.length}</span>
       <span className="uname">{u.name}</span>
       {isGroup(u) && (
@@ -154,7 +175,7 @@ export function ArmyPanel({ side, onPlaced }: { side: Side; onPlaced?: () => voi
   const partRows = (u: Unit) =>
     partsOf(u).map((p, k) => (
       <li key={`${u.id}/${k}`} className="child part-row">
-        <span className="grip" aria-hidden>↳</span>
+        <span className="indent" aria-hidden>↳</span>
         <span className="count">{p.count}</span>
         <span className="uname">{p.name}</span>
         <button
@@ -190,7 +211,7 @@ export function ArmyPanel({ side, onPlaced }: { side: Side; onPlaced?: () => voi
           splits[u.id] ? (
             <Fragment key={u.id}>
               <li className="split-parent">
-                <span className="grip" aria-hidden>⠿</span>
+
                 <span className="count">{u.models.length}</span>
                 <span className="uname">{u.name}</span>
                 <button className="split-btn shown" title="Réunir les deux moitiés" onClick={() => merge(u)}>Réunir</button>

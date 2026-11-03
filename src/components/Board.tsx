@@ -229,12 +229,16 @@ export function Board({ image }: { image: string }) {
 
   // Pendant un déplacement : point de départ (positions encore dans le store) et distance parcourue
   const start = dragging ? placed[dragging.id] : null;
-  let measure: { from: Pt; to: Pt; dist: number } | null = null;
+  let measure: { from: Pt; to: Pt; dist: number; below: number } | null = null;
   if (dragging && start && !removing) {
     const moved = preview.single ? dragging.ps.findIndex((p, i) => p.x !== start[i].x || p.y !== start[i].y) : -1;
     const from = moved >= 0 ? start[moved] : centroid(start);
     const to = moved >= 0 ? dragging.ps[moved] : centroid(dragging.ps);
-    measure = { from, to, dist: Math.hypot(to.x - from.x, to.y - from.y) };
+    // La distance s'affiche juste sous l'emprise de départ (de la figurine déplacée, ou de toute l'unité)
+    const models = dragging.info!.unit.models;
+    const idx = moved >= 0 ? [moved] : start.map((_, i) => i);
+    const below = Math.max(...idx.map((i) => start[i].y + extent(models[i]?.base) / 2));
+    measure = { from, to, dist: Math.hypot(to.x - from.x, to.y - from.y), below };
   }
 
   return (
@@ -254,12 +258,19 @@ export function Board({ image }: { image: string }) {
         <image href={image} x={0} y={0} width={BOARD_W} height={BOARD_H} preserveAspectRatio="none" />
         <rect x={0} y={0} width={BOARD_W} height={BOARD_H} className="board-edge" strokeWidth={stroke * 1.5} />
 
-        {/* Zones : chaque socle grossi du rayon choisi ; l'opacité de groupe fusionne les bulles sans surcharge */}
+        {/* Zones : un contour pointillé à la couleur de l'armée autour de chaque socle (sans fond) */}
         {units.map(({ id, ps, info }) => {
           const aura = unitOpts[id]?.aura ?? 0;
           if (!aura) return null;
           return (
-            <g key={id} className={`aura ${info!.side}`} pointerEvents="none">
+            <g
+              key={id}
+              className={`aura ${info!.side}`}
+              pointerEvents="none"
+              fill="none"
+              strokeWidth={2 / pxPerIn}
+              strokeDasharray={`${7 / pxPerIn} ${5 / pxPerIn}`}
+            >
               {ps.map((p, i) => <Expanded key={i} base={info!.unit.models[i]?.base} pos={p} by={aura} />)}
             </g>
           );
@@ -320,8 +331,8 @@ export function Board({ image }: { image: string }) {
         {measure && (
           <text
             className={`move-distance ${dragging!.info!.side}`}
-            x={(measure.from.x + measure.to.x) / 2}
-            y={(measure.from.y + measure.to.y) / 2 - labelSize * 0.6}
+            x={measure.from.x}
+            y={measure.below + labelSize * 1.4}
             fontSize={labelSize * 1.3}
             strokeWidth={labelSize * 0.35}
           >
@@ -366,7 +377,9 @@ function Ruler({ id, a, b, px, selected = false }: { id?: string; a: Pt; b: Pt; 
   const len = Math.hypot(b.x - a.x, b.y - a.y);
   const mid = { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 };
   const font = 14 / px;
-  const del = { x: mid.x + font * 2.4, y: mid.y - font * 1.15 }; // à droite de la longueur
+  const text = `${len.toFixed(1)}"`;
+  const labelW = font * (0.62 * text.length + 0.8);
+  const del = { x: mid.x + labelW / 2 + 12 / px, y: mid.y - font * 1.15 }; // à droite de la longueur
   const r = (selected ? END_R * 1.5 : END_R) / px;
   return (
     <g className={`ruler${selected ? ' selected' : ''}`} data-line={id}>
@@ -383,7 +396,7 @@ function Ruler({ id, a, b, px, selected = false }: { id?: string; a: Pt; b: Pt; 
         );
       })}
       <text className="ruler-label" x={mid.x} y={mid.y - font * 0.8} fontSize={font} strokeWidth={font * 0.35}>
-        {len.toFixed(1)}"
+        {text}
       </text>
       {selected && id && (
         <g className="ruler-del" data-line-del={id}>

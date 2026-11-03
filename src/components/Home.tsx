@@ -17,6 +17,7 @@ export function Home() {
           Charger {battles.length > 0 && <small className="badge">{battles.length}</small>}
         </button>
         {canResume && <button className="link-btn" onClick={() => go('battle')}>Reprendre la bataille en cours ›</button>}
+        <button className="link-btn guide-link" onClick={() => go('guide')}>? Guide d'utilisation</button>
       </div>
       {user ? (
         <footer className="account">
