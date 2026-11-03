@@ -4,6 +4,7 @@ import missionsData from './data/missions.json';
 import { initials, parseList, type Army, type Unit, type UnitPart } from './lib/parseList';
 import { baseSizeIn, type Base } from './lib/bases';
 import { supabase } from './lib/supabase';
+import { track } from './lib/track';
 
 export type Side = 'me' | 'opp';
 export type DispositionId = (typeof missionsData.dispositions)[number]['id'];
@@ -267,12 +268,20 @@ export const useStore = create<State>()(
       syncError: null,
       setGuest: (guest) => set({ guest }),
 
-      go: (view) => set({ view, selected: null }),
+      go: (view) => {
+        if (view === 'guide') track('guide');
+        set({ view, selected: null });
+      },
       newBattle: () => set({ ...EMPTY, currentId: null, currentName: '', view: 'setup', selected: null }),
       setDispositions: (mine, opp) => set({ mine, opp }),
-      setLayout: (layout) => set({ layout, view: 'battle', selected: null }),
+      setLayout: (layout) => {
+        const { mine, opp } = get();
+        if (mine && opp) track('battle_start', `${DISPO_ABBR[mine]} vs ${DISPO_ABBR[opp]} #${layout + 1}`);
+        set({ layout, view: 'battle', selected: null });
+      },
       importList: (side, text) => {
         const army = parseList(text, side);
+        track('list_import', side);
         set({
           armies: { ...get().armies, [side]: { text, army } },
           placed: withoutSide(get().placed, side),
@@ -423,10 +432,12 @@ export const useStore = create<State>()(
         const saved: SavedBattle = { ...battleData(s), id, name, savedAt: Date.now() };
         set({ battles: [saved, ...s.battles.filter((b) => b.id !== id)], currentId: id, currentName: name });
         void pushBattle(saved);
+        track('battle_save');
       },
       loadBattle: (id) => {
         const b = get().battles.find((x) => x.id === id);
         if (!b) return;
+        track('battle_load');
         set({ ...battleData({ ...EMPTY, ...b }), currentId: b.id, currentName: b.name, view: 'battle', selected: null });
       },
       deleteBattle: (id) => {

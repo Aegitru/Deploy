@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { DISPO_ABBR, layoutLabel, missionFor, useStore } from '../store';
 import { downloadBoardCapture } from '../lib/capture';
+import { track } from '../lib/track';
 
 const slug = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/gi, '-').replace(/^-|-$/g, '').toLowerCase();
 
@@ -19,6 +20,7 @@ export function SaveModal({ onClose }: { onClose: () => void }) {
     const svg = document.querySelector<SVGSVGElement>('svg.board');
     if (!svg) return;
     setCapturing(true);
+    track('capture');
     const mission = missionFor(mine!, opp!).name;
     const title = name.trim() || mission;
     const subtitle = `${mission} · ${DISPO_ABBR[mine!]} vs ${DISPO_ABBR[opp!]} · ${layoutLabel(layout!)}`;
