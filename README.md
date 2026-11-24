@@ -26,6 +26,12 @@ Sources : cartes et missions de [gdmissions.app](https://gdmissions.app/11th), s
 [Warhammer 40,000 Event Companion](https://assets.warhammer-community.com/eng_14-10_wh40k_event_companion-rdwnqprl4c-nj8oqogadv.pdf).
 Usage personnel : ces visuels appartiennent à leurs auteurs.
 
+## Intégration Mago-stat
+
+Deploy5 s'ouvre depuis la matrice de [Mago-stat](https://mago-stats.vercel.app) sur une bataille prête
+(dispositions, carte, listes) et lui renvoie l'image du déploiement. Format du lien, API attendue côté
+Mago-stat et exemples : [docs/integration-mago-stat.md](docs/integration-mago-stat.md).
+
 ## En ligne
 
 - App : https://deployfive.vercel.app (Vercel, redéployé à chaque push sur `main`)

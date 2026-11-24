@@ -60,6 +60,8 @@ export function SaveModal({ onClose }: { onClose: () => void }) {
     setSent('sending');
     track('mago_send');
     const { title, subtitle, content } = captureInput();
+    // Joueur connecté : la bataille est aussi enregistrée dans son compte (mise à jour aux envois suivants)
+    if (user) saveBattle(name.trim() || `${DISPO_ABBR[mine!]} vs ${DISPO_ABBR[opp!]} · ${layoutLabel(layout!)}`);
     try {
       const image = await boardCaptureBlob(svg, title, subtitle, content, 'image/webp');
       const form = new FormData();
@@ -92,9 +94,9 @@ export function SaveModal({ onClose }: { onClose: () => void }) {
         </label>
         {magoToken ? (
           <p className={`note left${sent === 'error' ? ' mago-error' : ''}`}>
-            {sent === 'sent' ? <>Image envoyée à Mago-stat. <a href={`${MAGO_URL}/matrix`}>Retour à Mago-stat</a></>
+            {sent === 'sent' ? <>Image envoyée à Mago-stat{user ? ' et bataille enregistrée dans ton compte' : ''}. <a href={`${MAGO_URL}/matrix`}>Retour à Mago-stat</a></>
               : sent === 'error' ? "Échec de l'envoi à Mago-stat. Réessaie dans un instant."
-              : "L'image du déploiement (table, noms des unités et réserves) est envoyée à Mago-stat."}
+              : `L'image du déploiement (table, noms des unités et réserves) est envoyée à Mago-stat${user ? ', et la bataille est enregistrée dans ton compte' : ''}.`}
           </p>
         ) : (
           <p className="note left">Listes, carte et placements sont enregistrés {user ? 'dans ton compte' : 'sur cet appareil (sans compte)'}.</p>
