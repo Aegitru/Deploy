@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { DISPO_ABBR, layoutLabel, missionFor, useStore } from '../store';
+import { ARMY_COLORS, bodiesOf, deployableUnits, DISPO_ABBR, findUnit, layoutLabel, missionFor, useStore } from '../store';
 import { downloadBoardCapture } from '../lib/capture';
 import { track } from '../lib/track';
 
@@ -24,8 +24,22 @@ export function SaveModal({ onClose }: { onClose: () => void }) {
     const mission = missionFor(mine!, opp!).name;
     const title = name.trim() || mission;
     const subtitle = `${mission} · ${DISPO_ABBR[mine!]} vs ${DISPO_ABBR[opp!]} · ${layoutLabel(layout!)}`;
+    // Noms de toutes les unités posées et réserves (unités pas encore sur la table) de chaque camp
+    const s = useStore.getState();
+    const units = Object.entries(s.placed).flatMap(([id, ps]) => {
+      const info = findUnit(s, id);
+      if (!info) return [];
+      const bodies = bodiesOf(s, id, ps);
+      return [{ name: info.unit.name, color: ARMY_COLORS[s.colors[info.side]].fill, models: bodies.map((b) => ({ x: b.x, y: b.y, r: b.r })) }];
+    });
+    const reserves = (['me', 'opp'] as const)
+      .filter((side) => s.armies[side])
+      .map((side) => ({
+        color: ARMY_COLORS[s.colors[side]].fill,
+        units: deployableUnits(s.armies[side]!.army, s).filter((u) => !s.placed[u.id]).map((u) => ({ name: u.name, count: u.models.length })),
+      }));
     try {
-      await downloadBoardCapture(svg, title, subtitle, `deploy5-${slug(title)}.png`);
+      await downloadBoardCapture(svg, title, subtitle, `deploy5-${slug(title)}.png`, { units, reserves });
     } finally {
       setCapturing(false);
     }

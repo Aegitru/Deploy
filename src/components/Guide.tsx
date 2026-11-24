@@ -52,6 +52,7 @@ const SECTIONS: Section[] = [
     points: [
       <>Sur ordinateur, <b>glisse</b> une unité de la liste vers la carte. Sur téléphone, <b>touche-la</b> dans la liste : elle apparaît au centre de la vue.</>,
       <>Glisse une unité posée pour la déplacer : son point de départ et la <b>distance parcourue</b> s'affichent.</>,
+      <>Les socles ne se chevauchent jamais : une unité s'arrête au contact des autres, et passe de l'autre côté si tu la glisses au-delà.</>,
       <>Relâche une unité <b>hors de la table</b> pour la retirer.</>,
       <>Les unités déjà posées descendent en bas de la liste avec un ✓.</>,
     ],
@@ -101,7 +102,7 @@ const SECTIONS: Section[] = [
     title: 'Sauvegarder et capturer',
     points: [
       <>La <b>disquette</b> enregistre listes, carte, placements et lignes sous un nom. Ensuite : <b>Mettre à jour</b> ou <b>Nouvelle copie</b>.</>,
-      <><b>Télécharger une capture</b> enregistre une image PNG de toute la table.</>,
+      <><b>Télécharger une capture</b> enregistre une image PNG de toute la table, avec le nom de chaque unité et, en dessous, les <b>réserves</b> (unités pas encore posées) de chaque joueur.</>,
     ],
   },
 ];

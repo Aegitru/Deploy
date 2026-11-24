@@ -1,6 +1,8 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
-import { BOARD_H, BOARD_W, findUnit, useStore, type ModelPos } from '../store';
+import { BOARD_H, BOARD_W, bodiesOf, findUnit, useStore, type ModelPos } from '../store';
 import { MM_PER_INCH, type Base } from '../lib/bases';
+import { isFree, resolveDrag, type Body } from '../lib/collide';
+import { wrapName } from '../lib/wrapName';
 import { SelectionBar } from './SelectionBar';
 
 type Pt = { x: number; y: number };
@@ -23,7 +25,11 @@ type Gesture =
   | { mode: 'none' }
   | { mode: 'pan'; moved: boolean; from?: Pt; line?: string; del?: string }
   | { mode: 'pinch'; dist: number }
-  | { mode: 'drag'; unitId: string; idx: number | null; start: Pt; orig: ModelPos[]; moved: boolean }
+  | {
+      mode: 'drag'; unitId: string; idx: number | null; start: Pt; orig: ModelPos[]; moved: boolean;
+      // Collisions : socles déplacés, socles immobiles, dernier décalage sans chevauchement
+      moving?: Body[]; obstacles?: Body[]; last: Pt;
+    }
   | { mode: 'lineEnd'; id: string; end: 'a' | 'b' };
 
 export function Board({ image }: { image: string }) {
@@ -140,7 +146,7 @@ export function Board({ image }: { image: string }) {
       select(unitId);
       gesture.current = {
         mode: 'drag', unitId, idx: singleModel && !Number.isNaN(idx) ? idx : null,
-        start: toSvg(e.clientX, e.clientY), orig: placed[unitId], moved: false,
+        start: toSvg(e.clientX, e.clientY), orig: placed[unitId], moved: false, last: { x: 0, y: 0 },
       };
     } else {
       gesture.current = { mode: 'pan', moved: false, from };
@@ -174,9 +180,24 @@ export function Board({ image }: { image: string }) {
       setLineDrag({ id: g.id, end: g.end, p: toSvg(cur.x, cur.y) });
     } else if (g.mode === 'drag') {
       const p = toSvg(cur.x, cur.y);
-      const dx = p.x - g.start.x, dy = p.y - g.start.y;
-      if (Math.hypot(dx, dy) * pxPerIn > 3) g.moved = true;
+      const target = { x: p.x - g.start.x, y: p.y - g.start.y };
+      if (Math.hypot(target.x, target.y) * pxPerIn > 3) g.moved = true;
       if (!g.moved) return;
+      if (!g.moving) {
+        // Socles immobiles = toutes les autres unités (et les autres figurines de l'unité si on n'en déplace qu'une),
+        // sauf ceux qui chevauchaient déjà les socles déplacés au départ
+        const all = bodiesOf(store, g.unitId, g.orig);
+        g.moving = g.idx === null ? all : [all[g.idx]];
+        const own = g.idx === null ? [] : all.filter((_, i) => i !== g.idx);
+        const others = Object.entries(placed).filter(([id]) => id !== g.unitId).flatMap(([id, ps]) => bodiesOf(store, id, ps));
+        g.obstacles = [...own, ...others].filter((o) => isFree(g.moving!, [o], { x: 0, y: 0 }));
+      }
+      // Glissé hors de la table pour retirer l'unité : pas de collision
+      const shifted = g.orig.map((m) => ({ ...m, x: m.x + target.x, y: m.y + target.y }));
+      const offBoard = g.idx === null ? isOffBoard(centroid(shifted)) : isOffBoard(shifted[g.idx]);
+      const d = offBoard ? target : resolveDrag(g.moving, g.obstacles!, g.last, target);
+      g.last = d;
+      const dx = d.x, dy = d.y;
       setPreview({
         unitId: g.unitId, single: g.idx !== null,
         positions: g.orig.map((m, i) => (g.idx === null || g.idx === i ? { ...m, x: m.x + dx, y: m.y + dy } : m)),
@@ -310,9 +331,11 @@ export function Board({ image }: { image: string }) {
           .map(({ id, ps, info }) => {
             const c = centroid(ps);
             const top = Math.min(...ps.map((p, i) => p.y - extent(info!.unit.models[i]?.base) / 2));
+            const lines = wrapName(info!.unit.name);
+            const y0 = top - labelSize * 0.5 - (lines.length - 1) * labelSize * 1.1; // dernière ligne juste au-dessus de l'unité
             return (
-              <text key={id} className={`unit-label ${info!.side}`} x={c.x} y={top - labelSize * 0.5} fontSize={labelSize} strokeWidth={labelSize * 0.28}>
-                {info!.unit.name}
+              <text key={id} className={`unit-label ${info!.side}`} x={c.x} y={y0} fontSize={labelSize} strokeWidth={labelSize * 0.28}>
+                {lines.map((l, i) => <tspan key={i} x={c.x} dy={i ? labelSize * 1.1 : 0}>{l}</tspan>)}
               </text>
             );
           })}

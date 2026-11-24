@@ -5,6 +5,7 @@ import { initials, parseList, type Army, type Unit, type UnitPart } from './lib/
 import { baseSizeIn, type Base } from './lib/bases';
 import { supabase } from './lib/supabase';
 import { track } from './lib/track';
+import { bodyOf, nearestFree, type Body } from './lib/collide';
 
 export type Side = 'me' | 'opp';
 export type DispositionId = (typeof missionsData.dispositions)[number]['id'];
@@ -315,8 +316,12 @@ export const useStore = create<State>()(
       },
       place: (unit, x, y) => {
         const opts = get().unitOpts[unit.id] ?? defaultOpts(unit);
+        // L'unité posée ne chevauche pas les socles déjà sur la table : décalée au plus près si besoin
+        const ps = formation(unit, x, y, opts);
+        const others = Object.entries(get().placed).filter(([id]) => id !== unit.id).flatMap(([id, pos]) => bodiesOf(get(), id, pos));
+        const d = nearestFree(ps.map((p, i) => bodyOf(unit.models[i]?.base, p)), others, { w: BOARD_W, h: BOARD_H });
         set({
-          placed: { ...get().placed, [unit.id]: formation(unit, x, y, opts) },
+          placed: { ...get().placed, [unit.id]: ps.map((p) => ({ ...p, x: p.x + d.x, y: p.y + d.y })) },
           unitOpts: { ...get().unitOpts, [unit.id]: opts },
           selected: unit.id,
         });
@@ -541,6 +546,12 @@ export function resolvedUnits(army: Army | undefined, r: Roster): Unit[] {
 /** Unités à déployer d'une armée : une unité coupée compte pour ses deux moitiés. */
 export function deployableUnits(army: Army | undefined, r: Roster): Unit[] {
   return resolvedUnits(army, r).flatMap((u) => (r.splits?.[u.id] ? splitUnit(u).map((h) => adjust(h, r.modelDelta?.[h.id])) : [u]));
+}
+
+/** Silhouettes de collision des socles d'une unité posée. */
+export function bodiesOf(r: Roster, unitId: string, ps: ModelPos[]): Body[] {
+  const models = findUnit(r, unitId)?.unit.models ?? [];
+  return ps.map((p, i) => bodyOf(models[i]?.base, p));
 }
 
 export function findUnit(r: Roster, unitId: string): { unit: Unit; side: Side } | null {
