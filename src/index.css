@@ -262,6 +262,8 @@ textarea:focus { outline: 1px solid var(--gold); }
 }
 .field input:focus { outline: 1px solid var(--gold); }
 .note.left { text-align: left; }
+.note.mago-error { color: #e8746a; }
+.note a { color: var(--gold-2); }
 
 /* ---------- Outils de formation ---------- */
 .tools-panel {

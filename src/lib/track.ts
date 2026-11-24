@@ -2,7 +2,7 @@ import { supabase } from './supabase';
 
 // Statistiques d'usage anonymes : une ligne par action clé dans la table events (insertion seule,
 // aucune lecture possible depuis l'app). L'appareil est identifié par un id aléatoire local.
-export type EventName = 'app_open' | 'battle_start' | 'list_import' | 'battle_save' | 'battle_load' | 'capture' | 'guide';
+export type EventName = 'app_open' | 'battle_start' | 'list_import' | 'battle_save' | 'battle_load' | 'capture' | 'guide' | 'mago_open' | 'mago_send';
 
 const DEVICE_KEY = 'deploy5-device';
 const NOTRACK_KEY = 'deploy5-notrack';

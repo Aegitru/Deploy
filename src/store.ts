@@ -6,6 +6,7 @@ import { baseSizeIn, type Base } from './lib/bases';
 import { supabase } from './lib/supabase';
 import { track } from './lib/track';
 import { bodyOf, nearestFree, type Body } from './lib/collide';
+import type { MagoLink } from './lib/magoLink';
 
 export type Side = 'me' | 'opp';
 export type DispositionId = (typeof missionsData.dispositions)[number]['id'];
@@ -81,10 +82,12 @@ type State = BattleData & {
   user: { id: string; email: string } | null; // joueur connecté (session gérée par Supabase)
   guest: boolean; // « Continuer sans compte » : batailles gardées sur cet appareil uniquement
   syncError: string | null;
+  magoToken: string | null; // bataille ouverte depuis Mago-stat : jeton pour lui renvoyer l'image
   setGuest: (guest: boolean) => void;
 
   go: (view: View) => void;
   newBattle: () => void;
+  openFromLink: (link: MagoLink) => void;
   setDispositions: (mine: DispositionId | null, opp: DispositionId | null) => void;
   setLayout: (i: number) => void;
   importList: (side: Side, text: string) => Army;
@@ -267,13 +270,22 @@ export const useStore = create<State>()(
       user: null,
       guest: false,
       syncError: null,
+      magoToken: null,
       setGuest: (guest) => set({ guest }),
 
       go: (view) => {
         if (view === 'guide') track('guide');
         set({ view, selected: null });
       },
-      newBattle: () => set({ ...EMPTY, currentId: null, currentName: '', view: 'setup', selected: null }),
+      newBattle: () => set({ ...EMPTY, currentId: null, currentName: '', view: 'setup', selected: null, magoToken: null }),
+      // Lien Mago-stat : nouvelle bataille avec dispositions, carte et listes déjà choisies
+      openFromLink: (link) => {
+        set({ ...EMPTY, mine: link.player as DispositionId, opp: link.opponent as DispositionId, currentId: null, currentName: '', selected: null, magoToken: link.token });
+        if (link.lists.me) get().importList('me', link.lists.me);
+        if (link.lists.opp) get().importList('opp', link.lists.opp);
+        track('mago_open', `${DISPO_ABBR[link.player]} vs ${DISPO_ABBR[link.opponent]} #${link.layout + 1}`);
+        set({ layout: link.layout, view: 'battle' });
+      },
       setDispositions: (mine, opp) => set({ mine, opp }),
       setLayout: (layout) => {
         const { mine, opp } = get();
@@ -443,7 +455,7 @@ export const useStore = create<State>()(
         const b = get().battles.find((x) => x.id === id);
         if (!b) return;
         track('battle_load');
-        set({ ...battleData({ ...EMPTY, ...b }), currentId: b.id, currentName: b.name, view: 'battle', selected: null });
+        set({ ...battleData({ ...EMPTY, ...b }), currentId: b.id, currentName: b.name, view: 'battle', selected: null, magoToken: null });
       },
       deleteBattle: (id) => {
         const s = get();
@@ -475,7 +487,7 @@ export const useStore = create<State>()(
       name: 'deploy40k-v1',
       version: 2,
       partialize: (s) => ({
-        ...battleData(s), view: s.view, currentId: s.currentId, currentName: s.currentName, battles: s.battles, showLabels: s.showLabels, guest: s.guest,
+        ...battleData(s), view: s.view, currentId: s.currentId, currentName: s.currentName, battles: s.battles, showLabels: s.showLabels, guest: s.guest, magoToken: s.magoToken,
       }),
       // v1 : pas de vue ni de batailles sauvegardées ; on reprend la bataille en cours si elle existait.
       migrate: (old) => {

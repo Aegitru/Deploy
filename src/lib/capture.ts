@@ -159,10 +159,12 @@ function drawReserves(ctx: CanvasRenderingContext2D, blocks: ReserveBlock[], top
   });
 }
 
-export async function downloadBoardCapture(
-  svg: SVGSVGElement, title: string, subtitle: string, fileName: string,
-  { units, reserves }: { units: CaptureUnit[]; reserves: ReserveBlock[] },
-) {
+export type CaptureContent = { units: CaptureUnit[]; reserves: ReserveBlock[] };
+
+/** Image de la table (PNG par défaut ; WebP pour l'envoi à Mago-stat, plus léger). */
+export async function boardCaptureBlob(
+  svg: SVGSVGElement, title: string, subtitle: string, { units, reserves }: CaptureContent, type = 'image/png',
+): Promise<Blob> {
   const clone = svg.cloneNode(true) as SVGSVGElement;
   const src = [svg, ...svg.querySelectorAll('*')];
   const dst = [clone, ...clone.querySelectorAll('*')];
@@ -204,13 +206,17 @@ export async function downloadBoardCapture(
     ctx.fillText(subtitle.toUpperCase(), canvas.width / 2, 56);
     ctx.drawImage(img, 0, HEADER);
     drawReserves(ctx, reserves, HEADER + boardPx, canvas.width);
-    const png = await new Promise<Blob>((resolve) => canvas.toBlob((b) => resolve(b!), 'image/png'));
-    const a = document.createElement('a');
-    a.href = URL.createObjectURL(png);
-    a.download = fileName;
-    a.click();
-    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+    return await new Promise<Blob>((resolve) => canvas.toBlob((b) => resolve(b!), type, 0.9));
   } finally {
     URL.revokeObjectURL(svgUrl);
   }
+}
+
+export async function downloadBoardCapture(svg: SVGSVGElement, title: string, subtitle: string, fileName: string, content: CaptureContent) {
+  const png = await boardCaptureBlob(svg, title, subtitle, content);
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(png);
+  a.download = fileName;
+  a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
 }
